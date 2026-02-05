@@ -50,28 +50,52 @@ levels:
     lanes:
     - - 0
       - 1
-      - {is_bidirectional: false}
+      - {}
+    - - 1
+      - 0
+      - {}
     - - 1
       - 2
-      - {is_bidirectional: false}
+      - {}
+    - - 2
+      - 1
+      - {}
     - - 2
       - 3
-      - {is_bidirectional: false}
+      - {}
+    - - 3
+      - 2
+      - {}
     - - 3
       - 4
-      - {door_name: door1, is_bidirectional: false}
+      - {door_name: door1}
+    - - 4
+      - 3
+      - {door_name: door1}
     - - 4
       - 5
-      - {is_bidirectional: false}
+      - {}
+    - - 5
+      - 4
+      - {}
     - - 5
       - 6
-      - {is_bidirectional: false}
+      - {}
+    - - 6
+      - 5
+      - {}
     - - 6
       - 7
-      - {is_bidirectional: false}
+      - {}
+    - - 7
+      - 6
+      - {}
     - - 7
       - 8
-      - {is_bidirectional: false}
+      - {}
+    - - 8
+      - 7
+      - {}
     - - 8
       - 9
       - {}
@@ -255,7 +279,7 @@ levels:
     vertices:
     - - 14.941326530612251
       - -7.295000000000002
-      - {name: entrance_0}
+      - {name: entrance_0, spawn_robot_name: tinyRobot1, spawn_robot_type: TinyRobot}
     - - 13.972244897959188
       - -9.43714285714286
       - {name: ''}
