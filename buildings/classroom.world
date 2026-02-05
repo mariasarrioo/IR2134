@@ -2939,7 +2939,10 @@
       <pose>14.158163265306127 -29.33673469387756 0 0 0 0.0</pose>
     </model>
     <plugin name="register_component" filename="libregister_component.so">
-      <component name="Chargers" />
+      <component name="Chargers">
+        <rmf_charger name="tinyRobot2_charger" x="17.26053571428572" y="-6.7249234693877575" z="0.0" />
+        <rmf_charger name="tinyRobot1_charger" x="14.841607142857148" y="-6.900178571428574" z="0.0" />
+      </component>
     </plugin>
   </world>
 </sdf>
