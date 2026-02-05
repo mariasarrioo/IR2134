@@ -231,7 +231,7 @@ levels:
     vertices:
     - - 18.12630102040817
       - -6.7249234693877575
-      - {name: entrance_1, spawn_robot_name: tinyRobot2, spawn_robot_type: tinyRobot}
+      - {name: entrance_1, spawn_robot_name: tinyRobot2, spawn_robot_type: TinyRobot}
     - - 26.64956632653062
       - -6.7249234693877575
       - {name: ''}

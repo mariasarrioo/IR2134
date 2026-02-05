@@ -21,11 +21,11 @@ levels:
       - {ids: ["{0f9c180e-7983-4554-afd9-07bcddfb1abd}", "{2fe29a1e-e71b-4ed4-89cf-09c07dd85f65}"]}
       - {ids: ["{83931ae8-bed7-44fd-be0b-8892178dea06}", "{7f4b5a9d-d1a4-4dfe-86c6-e5c9960ee28c}"]}
     doors:
-      - [221, 134, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [91, 223, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [143, 224, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door3], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
-      - [120, 225, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door4], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [135, 222, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [221, 134, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door1"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [91, 223, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "door2"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [143, 224, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door3"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [120, 225, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "door4"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [135, 222, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door5"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
     drawing:
       filename: conference_room_b1.png
     elevation: 0
@@ -603,7 +603,7 @@ levels:
       - [386.86500000000001, 277.35500000000002, 0, ""]
       - [386.86500000000001, 52.341000000000001, 0, ""]
       - [56.085000000000001, 52.341000000000001, 0, left_side, {is_cleaning_zone: [4, false]}]
-      - [710.55100000000004, 263.61700000000002, 0, entrance_1, {spawn_robot_name: [1, tinyRobot2], spawn_robot_type: [1, tinyRobot]}]
+      - [710.55100000000004, 263.61700000000002, 0, entrance_1, {spawn_robot_name: [1, tinyRobot2], spawn_robot_type: [1, TinyRobot]}]
       - [1044.663, 263.61700000000002, 0, ""]
       - [1044.663, 1041.665, 0, ""]
       - [902.98299999999995, 1041.665, 0, ""]
@@ -852,10 +852,10 @@ levels:
       - [192, 271, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
   L2:
     doors:
-      - [76, 72, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door6], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [73, 77, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door7], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [48, 78, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door8], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
-      - [24, 79, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door9], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [76, 72, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door6"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [73, 77, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door7"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [48, 78, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door8"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [24, 79, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "door9"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
     drawing:
       filename: conference_room_b1_balcony.png
     elevation: 12
