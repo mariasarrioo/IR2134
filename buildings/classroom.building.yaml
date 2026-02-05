@@ -21,11 +21,11 @@ levels:
       - {ids: ["{0f9c180e-7983-4554-afd9-07bcddfb1abd}", "{2fe29a1e-e71b-4ed4-89cf-09c07dd85f65}"]}
       - {ids: ["{83931ae8-bed7-44fd-be0b-8892178dea06}", "{7f4b5a9d-d1a4-4dfe-86c6-e5c9960ee28c}"]}
     doors:
-      - [221, 134, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door1"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [91, 223, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "door2"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
-      - [143, 224, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door3"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
-      - [120, 225, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "door4"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [135, 222, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door5"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [221, 134, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [91, 223, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [143, 224, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door3], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [120, 225, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door4], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [135, 222, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
     drawing:
       filename: conference_room_b1.png
     elevation: 0
@@ -53,73 +53,73 @@ levels:
       - [247, 248, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [248, 249, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [249, 250, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [250, 251, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [250, 252, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [252, 253, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [252, 254, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [254, 255, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [254, 256, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [256, 257, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [256, 258, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [258, 259, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [249, 251, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [251, 252, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [251, 253, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [253, 254, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [253, 255, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [255, 256, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [255, 257, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [257, 258, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [259, 260, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [260, 261, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [261, 262, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [261, 263, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [260, 262, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [263, 264, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [264, 265, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [265, 266, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [266, 267, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [267, 268, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [268, 269, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [269, 270, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [263, 272, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [262, 271, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [271, 272, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [272, 273, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [273, 274, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [274, 275, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [276, 277, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [277, 278, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [275, 276, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [276, 277, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [277, 278, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [278, 279, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [279, 280, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [280, 281, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [281, 282, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [282, 283, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [282, 283, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [283, 284, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [284, 285, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [284, 285, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [285, 286, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [286, 287, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [287, 288, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [284, 289, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [282, 287, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [287, 288, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [288, 289, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [289, 290, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [290, 291, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [291, 292, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [292, 293, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [289, 293, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [293, 294, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [291, 295, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [294, 295, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [295, 296, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [296, 297, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [297, 298, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [296, 297, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [297, 298, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [298, 299, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [299, 300, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [300, 301, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [242, 302, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [241, 300, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [300, 301, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [302, 303, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [304, 305, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [306, 307, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [304, 305, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [305, 306, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [306, 307, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [307, 308, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [308, 309, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [309, 310, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [310, 311, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [310, 311, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [311, 312, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [312, 313, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [313, 314, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [314, 307, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [312, 305, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [313, 314, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [314, 315, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [315, 316, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [316, 317, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [317, 318, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [316, 317, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [317, 318, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [318, 319, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [319, 320, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [320, 321, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [321, 318, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [275, 264, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [319, 316, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [274, 263, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [238, 320, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [275, 321, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       sim_scan:
         color: [1, 0, 0, 0.5]
@@ -178,7 +178,7 @@ levels:
       - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 771.45699999999999, y: 443.51400000000001, yaw: 3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 834.46299999999997, y: 443.28100000000001, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 835.98699999999997, y: 723.95699999999999, yaw: -3.1415999999999999, z: 0}
-      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 832.54100000000005, y: 669.15700000000004, yaw: -3.113, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 837.08699999999999, y: 667.53700000000003, yaw: 3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 835.13300000000004, y: 608.45000000000005, yaw: 3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 832.97900000000004, y: 555.471, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 833.54200000000003, y: 500.59199999999998, yaw: 3.1415999999999999, z: 0}
@@ -202,7 +202,7 @@ levels:
       - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 979.45799999999997, y: 611.83199999999999, yaw: 3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 987.423, y: 554.38599999999997, yaw: 3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 984.803, y: 500.45100000000002, yaw: -3.1415999999999999, z: 0}
-      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 968.13199999999995, y: 342.291, yaw: -0.46529999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 966.36400000000003, y: 342.589, yaw: -0.56810000000000005, z: 0}
       - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 578.46799999999996, y: 1288.8969999999999, yaw: 271.57080000000002, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 610.65099999999995, y: 523.30799999999999, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 637.90999999999997, y: 521.65499999999997, yaw: -3.1415999999999999, z: 0}
@@ -232,8 +232,8 @@ levels:
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 644.99400000000003, y: 746.08100000000002, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 671.21600000000001, y: 743.12, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 693.76999999999998, y: 744.04300000000001, yaw: -3.1415999999999999, z: 0}
-      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 761.30100000000004, y: 691.10000000000002, yaw: -3.1415999999999999, z: 0}
-      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 787.14499999999998, y: 686.84699999999998, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 761.09100000000001, y: 689.375, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 787.29600000000005, y: 690.02999999999997, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 762.99300000000005, y: 634.00400000000002, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 789.31100000000004, y: 630.71100000000001, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 762.14700000000005, y: 579.44500000000005, yaw: 3.1415999999999999, z: 0}
@@ -278,7 +278,7 @@ levels:
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 606.50800000000004, y: 798.947, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 641.18799999999999, y: 797.67899999999997, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 671.21600000000001, y: 797.25599999999997, yaw: -3.1415999999999999, z: 0}
-      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 708.85699999999997, y: 799.37, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 696.81299999999999, y: 800.05799999999999, yaw: 3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 609.46799999999996, y: 855.62, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 635.78599999999994, y: 855.39800000000002, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 672.48500000000001, y: 855.197, yaw: 3.1415999999999999, z: 0}
@@ -305,7 +305,7 @@ levels:
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 850.91899999999998, y: 853.75099999999998, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 858.99800000000005, y: 802.33100000000002, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 820.51199999999994, y: 799.37, yaw: -3.1415999999999999, z: 0}
-      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 798.51900000000001, y: 798.947, yaw: -3.1400999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 788.553, y: 801.16999999999996, yaw: -3.1400999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 762.66800000000001, y: 798.70799999999997, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 768.91399999999999, y: 743.54300000000001, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 796.404, y: 741.851, yaw: -3.1415999999999999, z: 0}
@@ -323,8 +323,8 @@ levels:
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 636.44500000000005, y: 466.97300000000001, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 668.67899999999997, y: 466.94499999999999, yaw: -3.1415999999999999, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 694.48400000000004, y: 465.64999999999998, yaw: -3.1415999999999999, z: 0}
-      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 970.36500000000001, y: 318.47899999999998, yaw: -0.58799999999999997, z: 0}
-      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 993.43299999999999, y: 327.40899999999999, yaw: -0.3805, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 969.29999999999995, y: 319.101, yaw: -0.58799999999999997, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 992.57799999999997, y: 330.42500000000001, yaw: -0.57999999999999996, z: 0}
       - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 910.87199999999996, y: 967.73699999999997, yaw: -3.1415999999999999, z: 0}
     vertices:
       - [572.44000000000005, 372.04000000000002, 0, ""]
@@ -565,7 +565,6 @@ levels:
       - [663.54899999999998, 1397.6880000000001, 0, ""]
       - [630.15099999999995, 434.572, 0, ""]
       - [636.76800000000003, 441.18900000000002, 0, ""]
-      - [585.70000000000005, 285.964, 0, entrance_0, {spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
       - [547.71199999999999, 369.93599999999998, 0, ""]
       - [547.71199999999999, 1031.364, 0, ""]
       - [732.00599999999997, 1031.364, 0, ""]
@@ -603,7 +602,6 @@ levels:
       - [386.86500000000001, 277.35500000000002, 0, ""]
       - [386.86500000000001, 52.341000000000001, 0, ""]
       - [56.085000000000001, 52.341000000000001, 0, left_side, {is_cleaning_zone: [4, false]}]
-      - [710.55100000000004, 263.61700000000002, 0, entrance_1, {spawn_robot_name: [1, tinyRobot2], spawn_robot_type: [1, TinyRobot]}]
       - [1044.663, 263.61700000000002, 0, ""]
       - [1044.663, 1041.665, 0, ""]
       - [902.98299999999995, 1041.665, 0, ""]
@@ -649,6 +647,8 @@ levels:
       - [481.45600000000002, 160.08199999999999, 0, ""]
       - [481.45600000000002, 85.317999999999998, 0, room3, {is_cleaning_zone: [4, false]}]
       - [696.20399999999995, 85.317999999999998, 0, ""]
+      - [580.91499999999996, 279.58999999999997, 0, "", {spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
+      - [665.96600000000001, 263.61700000000002, 0, "", {spawn_robot_name: [1, tinyRobot2], spawn_robot_type: [1, TinyRobot]}]
     walls:
       - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -849,13 +849,13 @@ levels:
       - [232, 233, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [233, 100, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [234, 235, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-      - [192, 271, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [192, 270, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
   L2:
     doors:
-      - [76, 72, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door6"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [73, 77, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door7"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
-      - [48, 78, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, "door8"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
-      - [24, 79, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, "door9"], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [76, 72, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door6], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [73, 77, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door7], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [48, 78, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door8], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [24, 79, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door9], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
     drawing:
       filename: conference_room_b1_balcony.png
     elevation: 12

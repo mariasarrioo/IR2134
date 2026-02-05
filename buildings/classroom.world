@@ -656,7 +656,7 @@
     <include>
       <name>OpenRobotics/AdjTable_37</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/AdjTable</uri>
-      <pose>21.23829081632654 -17.07033163265307 0.0 0 0 -3.113</pose>
+      <pose>21.354260204081637 -17.029005102040824 0.0 0 0 3.1416</pose>
       <static>True</static>
     </include>
     <include>
@@ -800,7 +800,7 @@
     <include>
       <name>OpenRobotics/AdjTable_61</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/AdjTable</uri>
-      <pose>24.69724489795919 -8.731913265306124 0.0 0 0 -0.4653</pose>
+      <pose>24.652142857142866 -8.73951530612245 0.0 0 0 -0.5681</pose>
       <static>True</static>
     </include>
     <include>
@@ -980,13 +980,13 @@
     <include>
       <name>OpenRobotics/OfficeChairGrey_29</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/OfficeChairGrey</uri>
-      <pose>19.42094387755103 -17.630102040816332 0.0 0 0 -3.1416</pose>
+      <pose>19.415586734693882 -17.586096938775515 0.0 0 0 -3.1416</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/OfficeChairGrey_30</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/OfficeChairGrey</uri>
-      <pose>20.08022959183674 -17.521607142857146 0.0 0 0 -3.1416</pose>
+      <pose>20.084081632653067 -17.602806122448985 0.0 0 0 -3.1416</pose>
       <static>True</static>
     </include>
     <include>
@@ -1256,7 +1256,7 @@
     <include>
       <name>OpenRobotics/OfficeChairGrey_75</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/OfficeChairGrey</uri>
-      <pose>18.083086734693882 -20.3920918367347 0.0 0 0 3.1416</pose>
+      <pose>17.7758418367347 -20.409642857142863 0.0 0 0 3.1416</pose>
       <static>True</static>
     </include>
     <include>
@@ -1418,7 +1418,7 @@
     <include>
       <name>OpenRobotics/OfficeChairGrey_102</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/OfficeChairGrey</uri>
-      <pose>20.37038265306123 -20.38130102040817 0.0 0 0 -3.1401</pose>
+      <pose>20.116147959183678 -20.43801020408164 0.0 0 0 -3.1401</pose>
       <static>True</static>
     </include>
     <include>
@@ -1526,13 +1526,13 @@
     <include>
       <name>OpenRobotics/OfficeChairGrey_120</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/OfficeChairGrey</uri>
-      <pose>24.754209183673478 -8.124464285714287 0.0 0 0 -0.588</pose>
+      <pose>24.727040816326536 -8.140331632653064 0.0 0 0 -0.588</pose>
       <static>True</static>
     </include>
     <include>
       <name>OpenRobotics/OfficeChairGrey_121</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/OfficeChairGrey</uri>
-      <pose>25.34267857142858 -8.352270408163267 0.0 0 0 -0.3805</pose>
+      <pose>25.320867346938783 -8.429209183673471 0.0 0 0 -0.58</pose>
       <static>True</static>
     </include>
     <include>
@@ -1544,12 +1544,12 @@
     <include>
       <name>tinyRobot1</name>
       <uri>model://TinyRobot</uri>
-      <pose>14.941326530612251 -7.295000000000002 0.0 0 0 -1.995635080126696</pose>
+      <pose>14.819260204081637 -7.132397959183675 0.0 0 0 1.2186089167404501</pose>
     </include>
     <include>
       <name>tinyRobot2</name>
       <uri>model://TinyRobot</uri>
-      <pose>18.12630102040817 -6.7249234693877575 0.0 0 0 0.0</pose>
+      <pose>16.988928571428577 -6.7249234693877575 0.0 0 0 3.141592653589793</pose>
     </include>
     <model name="door1">
       <pose>18.859094387755107 -31.709056122448985 0.0 0 0 3.141592653589793</pose>
