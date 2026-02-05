@@ -72,7 +72,7 @@
           </contact>
         </surface>
       </collision>
-      <pose>9.63783157555749 -38.2598047412556 0 0 0 0</pose>
+      <pose>376.74899999999997 -1498.76 0 0 0 0</pose>
     </link>
   </model>
 </sdf>
