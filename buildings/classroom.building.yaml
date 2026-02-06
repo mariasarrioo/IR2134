@@ -646,7 +646,6 @@ levels:
       - [581.79100000000005, 270.48700000000002, 0, tinyRobot1_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
       - [541.19500000000005, 392.27800000000002, 0, ""]
       - [541.19500000000005, 1027.74, 0, ""]
-      - [555, 1150, 0, "", {lift_cabin: [1, lift]}]
     walls:
       - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -997,7 +996,6 @@ levels:
       - [612.52200000000005, 1138.8199999999999, 0, ""]
       - [612.52200000000005, 982.05799999999999, 0, ""]
       - [738.53800000000001, 982.05799999999999, 0, ""]
-      - [555, 1150, 0, "", {lift_cabin: [1, lift]}]
     walls:
       - [4, 5, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [5, 6, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -1055,26 +1053,5 @@ levels:
       - [69, 70, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [70, 67, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [86, 57, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-lifts:
-  lift:
-    depth: 2
-    doors:
-      name:
-        door_type: 2
-        motion_axis_orientation: 1.5707
-        width: 1
-        x: 1
-        y: 0
-    highest_floor: L2
-    initial_floor_name: L1
-    level_doors:
-      L1: [name]
-      L2: [name]
-    lowest_floor: L1
-    plugins: true
-    reference_floor_name: L1
-    width: 2
-    x: 555
-    y: 1150
-    yaw: 0
+lifts: {}
 name: classroom
