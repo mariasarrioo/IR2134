@@ -1,0 +1,15 @@
+[0.155s] Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --build /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_assets -- -j8 -l8
+[0.169s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.259s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/assert_file_exists.cmake:20 (message):
+[0.259s]   ament_environment_hooks() the passed hook file
+[0.259s]   '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets/hooks/project_assets.dsv.in'
+[0.259s]   does not exist
+[0.260s] Call Stack (most recent call first):
+[0.260s]   /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:35 (assert_file_exists)
+[0.260s]   CMakeLists.txt:7 (ament_environment_hooks)
+[0.260s] 
+[0.260s] [0m
+[0.260s] -- Configuring incomplete, errors occurred!
+[0.260s] See also "/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_assets/CMakeFiles/CMakeOutput.log".
+[0.262s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.263s] Invoked command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_assets' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --build /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_assets -- -j8 -l8

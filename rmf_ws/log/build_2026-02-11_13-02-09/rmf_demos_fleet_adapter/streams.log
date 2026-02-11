@@ -1,0 +1,38 @@
+[0.562s] Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_fleet_adapter': PYTHONPATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rmf_demos_fleet_adapter build --build-base /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/build install --record /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/install.log --single-version-externally-managed install_data
+[0.670s] /home/maria/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.670s]   warnings.warn(msg)
+[0.745s] running egg_info
+[0.757s] writing ../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/PKG-INFO
+[0.757s] writing dependency_links to ../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/dependency_links.txt
+[0.757s] writing entry points to ../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/entry_points.txt
+[0.757s] writing requirements to ../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/requires.txt
+[0.757s] writing top-level names to ../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/top_level.txt
+[0.783s] reading manifest file '../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/SOURCES.txt'
+[0.784s] writing manifest file '../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info/SOURCES.txt'
+[0.784s] running build
+[0.784s] running build_py
+[0.784s] copying test/test_copyright.py -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/build/lib/test
+[0.784s] copying test/test_pep257.py -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/build/lib/test
+[0.785s] copying test/test_flake8.py -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/build/lib/test
+[0.785s] copying test/__init__.py -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/build/lib/test
+[0.785s] copying rmf_demos_fleet_adapter/fleet_adapter.py -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/build/lib/rmf_demos_fleet_adapter
+[0.785s] copying rmf_demos_fleet_adapter/RobotClientAPI.py -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/build/lib/rmf_demos_fleet_adapter
+[0.785s] copying rmf_demos_fleet_adapter/manage_lane.py -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/build/lib/rmf_demos_fleet_adapter
+[0.785s] copying rmf_demos_fleet_adapter/fleet_manager.py -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/build/lib/rmf_demos_fleet_adapter
+[0.785s] copying rmf_demos_fleet_adapter/__init__.py -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/build/lib/rmf_demos_fleet_adapter
+[0.786s] running install
+[0.789s] running install_lib
+[0.802s] running install_data
+[0.802s] copying resource/rmf_demos_fleet_adapter -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/share/ament_index/resource_index/packages
+[0.802s] copying package.xml -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter
+[0.803s] copying config.yaml -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter
+[0.803s] copying launch/fleet_adapter.launch.xml -> /home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/share/rmf_demos_fleet_adapter/launch
+[0.803s] running install_egg_info
+[0.816s] removing '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages/rmf_demos_fleet_adapter-2.8.1-py3.10.egg-info' (and everything under it)
+[0.816s] Copying ../../../build/rmf_demos_fleet_adapter/rmf_demos_fleet_adapter.egg-info to /home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages/rmf_demos_fleet_adapter-2.8.1-py3.10.egg-info
+[0.817s] running install_scripts
+[0.843s] Installing fleet_adapter script to /home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/lib/rmf_demos_fleet_adapter
+[0.843s] Installing fleet_manager script to /home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/lib/rmf_demos_fleet_adapter
+[0.843s] Installing manage_lane script to /home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/lib/rmf_demos_fleet_adapter
+[0.844s] writing list of installed files to '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/install.log'
+[0.858s] Invoked command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_fleet_adapter' returned '0': PYTHONPATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rmf_demos_fleet_adapter build --build-base /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/build install --record /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_fleet_adapter/install.log --single-version-externally-managed install_data
