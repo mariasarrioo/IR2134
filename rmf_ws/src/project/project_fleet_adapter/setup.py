@@ -4,7 +4,7 @@ import os
 from setuptools import find_packages
 from setuptools import setup
 
-package_name = 'rmf_demos_fleet_adapter'
+package_name = 'project_fleet_adapter'
 
 setup(
     name=package_name,

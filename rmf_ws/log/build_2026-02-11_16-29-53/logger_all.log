@@ -1,0 +1,389 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76f202091d80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76f2020917b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76f2020917b0>>, mixin_verb=('build',))
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.106s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.107s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/maria/Documentos/GitHub/IR2134/rmf_ws'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'ros'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extensions ['cmake', 'python']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'cmake'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'python'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extensions ['python_setup_py']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project) by extension 'python_setup_py'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_assets) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_assets) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_assets) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_assets) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_assets) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_assets) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_assets) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_assets) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_assets) by extension 'ros'
+[0.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project/project_assets' with type 'ros.ament_cmake' and name 'project_assets'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_config) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_config) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_config) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_config) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_config) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_config) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_config) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_config) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_config) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project/project_config' with type 'ros.ament_cmake' and name 'project_config'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_fleet_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_fleet_adapter) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_fleet_adapter) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_fleet_adapter) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_fleet_adapter) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_fleet_adapter) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_fleet_adapter) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_fleet_adapter) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_fleet_adapter) by extension 'ros'
+[0.124s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project/project_fleet_adapter' with type 'ros.ament_python' and name 'project_fleet_adapter'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_maps) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_maps) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_maps) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_maps) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_maps) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_maps) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_maps) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_maps) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_maps) by extension 'ros'
+[0.125s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project/project_maps' with type 'ros.ament_cmake' and name 'project_maps'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_simulation) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_simulation) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_simulation) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_simulation) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_simulation) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_simulation) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_simulation) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/project/project_simulation) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project/project_simulation' with type 'ros.ament_cmake' and name 'project_simulation'
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.143s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/maria/Documentos/GitHub/IR2134/rmf_ws/install
+[0.144s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 301 installed packages in /opt/ros/humble
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'project_assets' build argument 'cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_assets' build argument 'cmake_target' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_assets' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_assets' build argument 'cmake_clean_cache' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_assets' build argument 'cmake_clean_first' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_assets' build argument 'cmake_force_configure' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_assets' build argument 'ament_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_assets' build argument 'catkin_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_assets' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.171s] DEBUG:colcon.colcon_core.verb:Building package 'project_assets' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_assets', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets', 'merge_install': False, 'path': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets', 'symlink_install': False, 'test_result_base': None}
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_fleet_adapter' build argument 'cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_fleet_adapter' build argument 'cmake_target' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_fleet_adapter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_fleet_adapter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_fleet_adapter' build argument 'cmake_clean_first' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_fleet_adapter' build argument 'cmake_force_configure' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_fleet_adapter' build argument 'ament_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_fleet_adapter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'project_fleet_adapter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.171s] DEBUG:colcon.colcon_core.verb:Building package 'project_fleet_adapter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_fleet_adapter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter', 'merge_install': False, 'path': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_fleet_adapter', 'symlink_install': False, 'test_result_base': None}
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_maps' build argument 'cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_maps' build argument 'cmake_target' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_maps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_maps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_maps' build argument 'cmake_clean_first' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_maps' build argument 'cmake_force_configure' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_maps' build argument 'ament_cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_maps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_maps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.172s] DEBUG:colcon.colcon_core.verb:Building package 'project_maps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps', 'merge_install': False, 'path': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_maps', 'symlink_install': False, 'test_result_base': None}
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_simulation' build argument 'cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_simulation' build argument 'cmake_target' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'project_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'project_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'project_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.173s] DEBUG:colcon.colcon_core.verb:Building package 'project_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation', 'merge_install': False, 'path': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'project_config' build argument 'cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'project_config' build argument 'cmake_target' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'project_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'project_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'project_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'project_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'project_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'project_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'project_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.173s] DEBUG:colcon.colcon_core.verb:Building package 'project_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config', 'merge_install': False, 'path': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_config', 'symlink_install': False, 'test_result_base': None}
+[0.173s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.174s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.174s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets' with build type 'ament_cmake'
+[0.174s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets'
+[0.176s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.180s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_fleet_adapter' with build type 'ament_python'
+[0.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_fleet_adapter', 'ament_prefix_path')
+[0.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/hook/ament_prefix_path.ps1'
+[0.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/hook/ament_prefix_path.dsv'
+[0.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/hook/ament_prefix_path.sh'
+[0.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.184s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_maps' with build type 'ament_cmake'
+[0.184s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_maps'
+[0.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.184s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.187s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_simulation' with build type 'ament_cmake'
+[0.187s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_simulation'
+[0.188s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.188s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --build /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_assets -- -j8 -l8
+[0.379s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_fleet_adapter'
+[0.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --build /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps -- -j8 -l8
+[0.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --build /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_simulation -- -j8 -l8
+[0.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --build /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_assets -- -j8 -l8
+[0.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --install /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_assets
+[0.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_assets)
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --install /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_assets
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets' for CMake module files
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets' for CMake config files
+[0.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_assets', 'cmake_prefix_path')
+[0.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/hook/cmake_prefix_path.ps1'
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/hook/cmake_prefix_path.dsv'
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/hook/cmake_prefix_path.sh'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/bin'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/lib/pkgconfig/project_assets.pc'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/lib/python3.10/site-packages'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/bin'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/package.ps1'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/package.dsv'
+[0.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/package.sh'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/package.bash'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/package.zsh'
+[0.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/colcon-core/packages/project_assets)
+[0.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_assets)
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets' for CMake module files
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets' for CMake config files
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_assets', 'cmake_prefix_path')
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/hook/cmake_prefix_path.ps1'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/hook/cmake_prefix_path.dsv'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/hook/cmake_prefix_path.sh'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/bin'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/lib/pkgconfig/project_assets.pc'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/lib/python3.10/site-packages'
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/bin'
+[0.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/package.ps1'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/package.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/package.sh'
+[0.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/package.bash'
+[0.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/project_assets/package.zsh'
+[0.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets/share/colcon-core/packages/project_assets)
+[0.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --build /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_simulation -- -j8 -l8
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --install /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_simulation
+[0.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --build /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps -- -j8 -l8
+[0.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --install /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps
+[0.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_simulation)
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation' for CMake module files
+[0.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --install /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_simulation
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation' for CMake config files
+[0.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_simulation', 'cmake_prefix_path')
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/hook/cmake_prefix_path.ps1'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/hook/cmake_prefix_path.dsv'
+[0.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/hook/cmake_prefix_path.sh'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/bin'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/lib/pkgconfig/project_simulation.pc'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/lib/python3.10/site-packages'
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/bin'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/package.ps1'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/package.dsv'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/package.sh'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/package.bash'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/package.zsh'
+[0.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/colcon-core/packages/project_simulation)
+[0.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_simulation)
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation' for CMake module files
+[0.462s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation' for CMake config files
+[0.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_simulation', 'cmake_prefix_path')
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/hook/cmake_prefix_path.ps1'
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/hook/cmake_prefix_path.dsv'
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/hook/cmake_prefix_path.sh'
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/bin'
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/lib/pkgconfig/project_simulation.pc'
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/lib/python3.10/site-packages'
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/bin'
+[0.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/package.ps1'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/package.dsv'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/package.sh'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/package.bash'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/project_simulation/package.zsh'
+[0.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation/share/colcon-core/packages/project_simulation)
+[0.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_maps)
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps' for CMake module files
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble /usr/bin/cmake --install /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps' for CMake config files
+[0.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_maps', 'cmake_prefix_path')
+[0.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/hook/cmake_prefix_path.ps1'
+[0.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/hook/cmake_prefix_path.dsv'
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/hook/cmake_prefix_path.sh'
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/bin'
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/lib/pkgconfig/project_maps.pc'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/lib/python3.10/site-packages'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/bin'
+[0.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/package.ps1'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/package.dsv'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/package.sh'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/package.bash'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/package.zsh'
+[0.473s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/colcon-core/packages/project_maps)
+[0.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_maps)
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps' for CMake module files
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps' for CMake config files
+[0.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_maps', 'cmake_prefix_path')
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/hook/cmake_prefix_path.ps1'
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/hook/cmake_prefix_path.dsv'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/hook/cmake_prefix_path.sh'
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/bin'
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/lib/pkgconfig/project_maps.pc'
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/lib/python3.10/site-packages'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/bin'
+[0.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/package.ps1'
+[0.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/package.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/package.sh'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/package.bash'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/project_maps/package.zsh'
+[0.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps/share/colcon-core/packages/project_maps)
+[0.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_fleet_adapter': PYTHONPATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/project_fleet_adapter build --build-base /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_fleet_adapter/build install --record /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_fleet_adapter/install.log --single-version-externally-managed install_data
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter' for CMake module files
+[1.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_fleet_adapter' returned '0': PYTHONPATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/project_fleet_adapter build --build-base /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_fleet_adapter/build install --record /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_fleet_adapter/install.log --single-version-externally-managed install_data
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter' for CMake config files
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/lib'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/bin'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/lib/pkgconfig/project_fleet_adapter.pc'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/lib/python3.10/site-packages'
+[1.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_fleet_adapter', 'pythonpath')
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/hook/pythonpath.ps1'
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/hook/pythonpath.dsv'
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/hook/pythonpath.sh'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/bin'
+[1.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_fleet_adapter)
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/package.ps1'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/package.dsv'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/package.sh'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/package.bash'
+[1.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/package.zsh'
+[1.206s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/share/colcon-core/packages/project_fleet_adapter)
+[1.206s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_config' with build type 'ament_cmake'
+[1.206s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_config'
+[1.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_config': AMENT_PREFIX_PATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_assets:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble PYTHONPATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/lib/python3.10/site-packages:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/spark/python:/opt/spark/python /usr/bin/cmake --build /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_config -- -j8 -l8
+[1.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_config' returned '0': AMENT_PREFIX_PATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_assets:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble PYTHONPATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/lib/python3.10/site-packages:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/spark/python:/opt/spark/python /usr/bin/cmake --build /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_config -- -j8 -l8
+[1.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_config': AMENT_PREFIX_PATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_assets:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble PYTHONPATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/lib/python3.10/site-packages:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/spark/python:/opt/spark/python /usr/bin/cmake --install /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_config
+[1.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_config)
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config' for CMake module files
+[1.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_config' returned '0': AMENT_PREFIX_PATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_assets:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_assets:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_simulation:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter:/opt/ros/humble PYTHONPATH=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_fleet_adapter/lib/python3.10/site-packages:/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_fleet_adapter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/spark/python:/opt/spark/python /usr/bin/cmake --install /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_config
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config' for CMake config files
+[1.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_config', 'cmake_prefix_path')
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/hook/cmake_prefix_path.ps1'
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/hook/cmake_prefix_path.dsv'
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/hook/cmake_prefix_path.sh'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/bin'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/lib/pkgconfig/project_config.pc'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/lib/python3.10/site-packages'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/bin'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/package.ps1'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/package.dsv'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/package.sh'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/package.bash'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/package.zsh'
+[1.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/colcon-core/packages/project_config)
+[1.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_config)
+[1.267s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config' for CMake module files
+[1.267s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config' for CMake config files
+[1.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_config', 'cmake_prefix_path')
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/hook/cmake_prefix_path.ps1'
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/hook/cmake_prefix_path.dsv'
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/hook/cmake_prefix_path.sh'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/bin'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/lib/pkgconfig/project_config.pc'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/lib/python3.10/site-packages'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/bin'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/package.ps1'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/package.dsv'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/package.sh'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/package.bash'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/project_config/package.zsh'
+[1.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_config/share/colcon-core/packages/project_config)
+[1.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.272s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.276s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.286s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/local_setup.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/_local_setup_util_ps1.py'
+[1.289s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/setup.ps1'
+[1.301s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/local_setup.sh'
+[1.301s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/_local_setup_util_sh.py'
+[1.302s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/setup.sh'
+[1.303s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/local_setup.bash'
+[1.304s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/setup.bash'
+[1.304s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/local_setup.zsh'
+[1.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/setup.zsh'
