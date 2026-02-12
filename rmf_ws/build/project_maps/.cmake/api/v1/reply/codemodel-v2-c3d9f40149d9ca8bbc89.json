@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-548661d542a5912957c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "project_maps",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_test1_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_test1_crowdsim-7d14b6f47c4e5a1d96c6.json",
+					"name" : "generate_test1_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_test1_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_test1_nav_graphs-fd1f5f005216ed9ff0d4.json",
+					"name" : "generate_test1_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_maps_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_maps_uninstall-500d4595393f452a8bdc.json",
+					"name" : "project_maps_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test1-731459b83584d0d69936.json",
+					"name" : "test1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-19beb74e7101498b0fb3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "update_model_cache::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-update_model_cache-e0352b326f79be7317a3.json",
+					"name" : "update_model_cache",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maria/rmf_ws/build/project_maps",
+		"source" : "/home/maria/rmf_ws/src/project/project_maps"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

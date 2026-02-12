@@ -1,0 +1,65 @@
+[0.664s] Invoking command in '/home/maria/rmf_ws/src/project/project_fleet_adapter': PYTHONPATH=/home/maria/rmf_ws/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/project_fleet_adapter build --build-base /home/maria/rmf_ws/build/project_fleet_adapter/build install --record /home/maria/rmf_ws/build/project_fleet_adapter/install.log --single-version-externally-managed install_data
+[0.887s] running egg_info
+[0.887s] creating ../../../build/project_fleet_adapter/project_fleet_adapter.egg-info
+[0.900s] writing ../../../build/project_fleet_adapter/project_fleet_adapter.egg-info/PKG-INFO
+[0.900s] writing dependency_links to ../../../build/project_fleet_adapter/project_fleet_adapter.egg-info/dependency_links.txt
+[0.901s] writing entry points to ../../../build/project_fleet_adapter/project_fleet_adapter.egg-info/entry_points.txt
+[0.901s] writing requirements to ../../../build/project_fleet_adapter/project_fleet_adapter.egg-info/requires.txt
+[0.901s] writing top-level names to ../../../build/project_fleet_adapter/project_fleet_adapter.egg-info/top_level.txt
+[0.901s] writing manifest file '../../../build/project_fleet_adapter/project_fleet_adapter.egg-info/SOURCES.txt'
+[0.929s] reading manifest file '../../../build/project_fleet_adapter/project_fleet_adapter.egg-info/SOURCES.txt'
+[0.929s] writing manifest file '../../../build/project_fleet_adapter/project_fleet_adapter.egg-info/SOURCES.txt'
+[0.929s] running build
+[0.929s] running build_py
+[0.930s] creating /home/maria/rmf_ws/build/project_fleet_adapter/build
+[0.930s] creating /home/maria/rmf_ws/build/project_fleet_adapter/build/lib
+[0.930s] creating /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/test
+[0.930s] copying test/test_copyright.py -> /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/test
+[0.930s] copying test/test_pep257.py -> /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/test
+[0.930s] copying test/test_flake8.py -> /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/test
+[0.930s] copying test/__init__.py -> /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/test
+[0.930s] creating /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/project_fleet_adapter
+[0.930s] copying project_fleet_adapter/fleet_adapter.py -> /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/project_fleet_adapter
+[0.930s] copying project_fleet_adapter/RobotClientAPI.py -> /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/project_fleet_adapter
+[0.930s] copying project_fleet_adapter/manage_lane.py -> /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/project_fleet_adapter
+[0.931s] copying project_fleet_adapter/fleet_manager.py -> /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/project_fleet_adapter
+[0.931s] copying project_fleet_adapter/__init__.py -> /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/project_fleet_adapter
+[0.931s] running install
+[0.936s] running install_lib
+[0.950s] creating /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/test
+[0.950s] copying /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/test/test_copyright.py -> /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/test
+[0.950s] copying /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/test/test_pep257.py -> /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/test
+[0.951s] copying /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/test/test_flake8.py -> /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/test
+[0.951s] copying /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/test/__init__.py -> /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/test
+[0.951s] creating /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter
+[0.951s] copying /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/project_fleet_adapter/fleet_adapter.py -> /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter
+[0.951s] copying /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/project_fleet_adapter/RobotClientAPI.py -> /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter
+[0.951s] copying /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/project_fleet_adapter/manage_lane.py -> /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter
+[0.951s] copying /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/project_fleet_adapter/fleet_manager.py -> /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter
+[0.951s] copying /home/maria/rmf_ws/build/project_fleet_adapter/build/lib/project_fleet_adapter/__init__.py -> /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter
+[0.952s] byte-compiling /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/test/test_copyright.py to test_copyright.cpython-312.pyc
+[0.952s] byte-compiling /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/test/test_pep257.py to test_pep257.cpython-312.pyc
+[0.953s] byte-compiling /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/test/test_flake8.py to test_flake8.cpython-312.pyc
+[0.953s] byte-compiling /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/test/__init__.py to __init__.cpython-312.pyc
+[0.954s] byte-compiling /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter/fleet_adapter.py to fleet_adapter.cpython-312.pyc
+[0.956s] byte-compiling /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter/RobotClientAPI.py to RobotClientAPI.cpython-312.pyc
+[0.958s] byte-compiling /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter/manage_lane.py to manage_lane.cpython-312.pyc
+[0.958s] byte-compiling /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter/fleet_manager.py to fleet_manager.cpython-312.pyc
+[0.962s] byte-compiling /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter/__init__.py to __init__.cpython-312.pyc
+[0.962s] running install_data
+[0.962s] creating /home/maria/rmf_ws/install/project_fleet_adapter/share/ament_index
+[0.962s] creating /home/maria/rmf_ws/install/project_fleet_adapter/share/ament_index/resource_index
+[0.962s] creating /home/maria/rmf_ws/install/project_fleet_adapter/share/ament_index/resource_index/packages
+[0.962s] copying resource/project_fleet_adapter -> /home/maria/rmf_ws/install/project_fleet_adapter/share/ament_index/resource_index/packages
+[0.962s] copying package.xml -> /home/maria/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter
+[0.962s] copying config.yaml -> /home/maria/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter
+[0.962s] creating /home/maria/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/launch
+[0.963s] copying launch/fleet_adapter.launch.xml -> /home/maria/rmf_ws/install/project_fleet_adapter/share/project_fleet_adapter/launch
+[0.963s] running install_egg_info
+[0.978s] Copying ../../../build/project_fleet_adapter/project_fleet_adapter.egg-info to /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project_fleet_adapter-2.8.1-py3.12.egg-info
+[0.978s] running install_scripts
+[1.080s] Installing fleet_adapter script to /home/maria/rmf_ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[1.080s] Installing fleet_manager script to /home/maria/rmf_ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[1.080s] Installing manage_lane script to /home/maria/rmf_ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[1.081s] writing list of installed files to '/home/maria/rmf_ws/build/project_fleet_adapter/install.log'
+[1.106s] Invoked command in '/home/maria/rmf_ws/src/project/project_fleet_adapter' returned '0': PYTHONPATH=/home/maria/rmf_ws/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/project_fleet_adapter build --build-base /home/maria/rmf_ws/build/project_fleet_adapter/build install --record /home/maria/rmf_ws/build/project_fleet_adapter/install.log --single-version-externally-managed install_data

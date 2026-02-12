@@ -1,2 +1,0 @@
-Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_assets': /usr/bin/cmake /home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets -DCMAKE_INSTALL_PREFIX=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_assets
-Invoked command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/rmf_demos_assets' returned '1': /usr/bin/cmake /home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets -DCMAKE_INSTALL_PREFIX=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_demos_assets
