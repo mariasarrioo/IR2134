@@ -28,6 +28,8 @@ levels:
       - [4, 5, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       {}
+    measurements:
+      - [1, 2, {distance: [3, 10]}]
     models:
       - {dispensable: false, model_name: OpenRobotics/Sofa, name: OpenRobotics/Sofa, static: true, x: 29.329999999999998, y: 69.198999999999998, yaw: 1.5708, z: 0}
     vertices:
@@ -35,7 +37,7 @@ levels:
       - [-0.192, 82.236000000000004, 0, ""]
       - [144.511, 82.236000000000004, 0, ""]
       - [144.511, -0.33900000000000002, 0, ""]
-      - [28.327000000000002, 30.218, 0, tinyRobot1_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TInyRobot]}]
+      - [28.327000000000002, 30.218, 0, tinyRobot1_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
       - [116.593, 30.218, 0, waypoint1]
       - [69.144999999999996, 23.111000000000001, 0, ""]
       - [69.144999999999996, 38.456000000000003, 0, ""]
@@ -45,11 +47,11 @@ levels:
       - [0, 1, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [2, 3, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [3, 0, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-      - [1, 2, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [6, 8, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [7, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-    x_meters: 13.821413515960277
-    y_meters: 13.821413515960277
+      - [1, 2, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+    x_meters: 13.800000000000001
+    y_meters: 13.800000000000001
   L2:
     elevation: 0
     fiducials:

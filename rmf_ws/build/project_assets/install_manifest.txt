@@ -1,6 +1,16 @@
 /home/maria/rmf_ws/install/project_assets/share/project_assets/environment/project_assets.dsv
 /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TeleportDispenser/model.sdf
 /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TeleportDispenser/model.config
+/home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/meshes/SofaDiffuse.png
+/home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/meshes/Sofa.mtl
+/home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/meshes/Sofa.obj
+/home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/model.sdf
+/home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/thumbnails/3.png
+/home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/thumbnails/2.png
+/home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/thumbnails/1.png
+/home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/thumbnails/5.png
+/home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/thumbnails/4.png
+/home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/model.config
 /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/meshes/FatWheel.mtl
 /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/meshes/HospitalRobot_Diffuse.png
 /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/meshes/SmallWheel.mtl
