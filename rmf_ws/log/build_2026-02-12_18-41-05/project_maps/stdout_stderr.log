@@ -12,7 +12,8 @@
 -- Detecting CXX compile features - done
 -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
 -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
--- Configuring done (0.7s)
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/maria/rmf_ws/src/project/project_maps/maps/test1/test1.building.yaml /home/maria/rmf_ws/build/project_maps/maps/test1/test1.world /home/maria/rmf_ws/build/project_maps/maps/test1/models[0m
+-- Configuring done (0.8s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/maria/rmf_ws/build/project_maps
 [ 50%] [34m[1mGenerating maps/test1/nav_graphs/phony[0m
@@ -85,7 +86,7 @@ lift vertices: {}
   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.obj
   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/blue_linoleum.png
   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.mtl
-Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x746ee0df3110>, 'texture_height': <building_map.param_value.ParamValue object at 0x746ee0df3260>, 'texture_name': <building_map.param_value.ParamValue object at 0x746ee0df31d0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x746ee0df32f0>, 'texture_width': <building_map.param_value.ParamValue object at 0x746ee0df3350>}]
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x761821c5b8f0>, 'texture_height': <building_map.param_value.ParamValue object at 0x761821c5ba10>, 'texture_name': <building_map.param_value.ParamValue object at 0x761821c5ba40>, 'texture_scale': <building_map.param_value.ParamValue object at 0x761821c5baa0>, 'texture_width': <building_map.param_value.ParamValue object at 0x761821c5bb00>}]
 generating wall: 1 on floor: test1_L1
   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/default.png
 generate_wall_visual_mesh(test1_L1, /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1)
@@ -101,7 +102,7 @@ lift vertices: {}
   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/floor_1.obj
   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/blue_linoleum.png
   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/floor_1.mtl
-Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x746ee0df3f50>, 'texture_height': <building_map.param_value.ParamValue object at 0x746ee0df3fb0>, 'texture_name': <building_map.param_value.ParamValue object at 0x746ee0df3fe0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x746ee0df30b0>, 'texture_width': <building_map.param_value.ParamValue object at 0x746ee0df2ed0>}]
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x761821a40560>, 'texture_height': <building_map.param_value.ParamValue object at 0x761821a405c0>, 'texture_name': <building_map.param_value.ParamValue object at 0x761821a405f0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x761821a40650>, 'texture_width': <building_map.param_value.ParamValue object at 0x761821a40680>}]
 generating wall: 1 on floor: test1_L2
   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/default.png
 generate_wall_visual_mesh(test1_L2, /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2)
