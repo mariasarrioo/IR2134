@@ -4,15 +4,6 @@
 ![](https://github.com/open-rmf/rmf_demos/workflows/style/badge.svg)
 
 The Open Robotics Middleware Framework (Open-RMF) enables interoperability among heterogeneous robot fleets while managing robot traffic that share resources such as space, building infrastructure systems (lifts, doors, etc) and other automation systems within the same facility. Open-RMF also handles task allocation and conflict resolution  among its participants (de-conflicting traffic lanes and other resources). These capabilities are provided by various libraries in [Open-RMF](https://github.com/open-rmf/rmf).
-For more details about Open RMF, refer to the comprehensive documentation provided [here](https://osrf.github.io/ros2multirobotbook/intro.html).
-
-This repository contains demonstrations of the above mentioned capabilities of RMF. It serves as a starting point for working and integrating with Open-RMF.
-
-You can also find a nice demonstration of Open-RMF using `Nav2` and `MoveIt!` built into the [Ionic Release Demo](https://github.com/gazebosim/ionic_demo).
-
-[![Robotics Middleware Framework](../media/thumbnail.png?raw=true)](https://vimeo.com/405803151)
-
-#### (Click to watch video)
 
 ## System Requirements
 
@@ -69,7 +60,7 @@ Now, Gazebo and Rviz should have opened. In Gazebo you should be ale to see the 
 
 ![Foto Gazebo y Rviz](/rmf_ws/src/project/project_assets/fotos_readme/foto1.png)
 
-![Foto Gazebo](/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets/fotos_readme/foto2.png)
+![Foto Gazebo](/rmf_ws/src/project/project_assets/fotos_readme/foto2.png)
 
 To execute tasks, you must open the RMF-WEB. To do so, execute this command in a new terminal (without closing the previous one) for the API Server
 ```
@@ -91,7 +82,7 @@ Now, online open the RMF-WEB:
 localhost::3000
 ```
 There, you cand add tasks 
-![Foto terminal y RMF-Web](/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets/fotos_readme/foto3.png)
+![Foto terminal y RMF-Web](/rmf_ws/src/project/project_assets/fotos_readme/foto3.png)
 
 
 
@@ -102,9 +93,9 @@ Once all of that is done, launch the simulation with this command:
 ```
 ros2 launch project_simulation classroom.launch.xml server_uri:="ws://localhost:8000/_internal"
 ```
-![Gazebo y Rviz](/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets/fotos_readme/foto4.png)
+![Gazebo y Rviz](/rmf_ws/src/project/project_assets/fotos_readme/foto4.png)
 
-![Gazebo](/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets/fotos_readme/foto5.png)
+![Gazebo](/rmf_ws/src/project/project_assets/fotos_readme/foto5.png)
 
 Now on a second terminal for the API Server: 
 ```
@@ -126,14 +117,14 @@ Now, online open the RMF-WEB:
 localhost::3000
 ```
 There, you cand add tasks 
-![Gazebo](/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets/fotos_readme/foto6.png)
+![Gazebo](/rmf_ws/src/project/project_assets/fotos_readme/foto6.png)
 
 
 ## NOTES 
 - I can't open Rviz for test1 and I don't know the reason why. 
 - I can't open RMF-Web. The command shown on the slides to open de dashboard is not working on my pc so I adjusted it. The one in the slides gives me this error: 
 
-![Foto error](/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets/fotos_readme/foto7.png)
+![Foto error](/rmf_ws/src/project/project_assets/fotos_readme/foto7.png)
 The only thing I had left to fully complete the proyect is to send tasks. 
 
 
