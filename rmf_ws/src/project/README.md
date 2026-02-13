@@ -126,7 +126,7 @@ There, you cand add tasks
 
 ![Foto error](/rmf_ws/src/project/project_assets/fotos_readme/foto7.png)
 
-- For the ICC Kyoto wolrd, in Rviz, only the graph 0 is shown.
+- For the ICC Kyoto world, in Rviz, only the graph 0 is shown.
 
 The only thing I had left to fully complete the project is to send tasks. 
 
