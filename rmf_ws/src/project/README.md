@@ -125,7 +125,10 @@ There, you cand add tasks
 - I can't open RMF-Web. The command shown on the slides to open de dashboard is not working on my pc so I adjusted it. The one in the slides gives me this error: 
 
 ![Foto error](/rmf_ws/src/project/project_assets/fotos_readme/foto7.png)
-The only thing I had left to fully complete the proyect is to send tasks. 
+
+- For the ICC Kyoto wolrd, in Rviz, only the graph 0 is shown.
+
+The only thing I had left to fully complete the project is to send tasks. 
 
 
 
