@@ -1,0 +1,1057 @@
+coordinate_system: reference_image
+crowd_sim:
+  agent_groups:
+    - {agents_name: [tinyRobot2, tinyRobot1], agents_number: 2, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+  agent_profiles:
+    - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
+  enable: 0
+  goal_sets: []
+  model_types: []
+  obstacle_set: {class: 1, file_name: L1_navmesh.nav, type: nav_mesh}
+  states:
+    - {final: 1, goal_set: -1, name: external_static, navmesh_file_name: ""}
+  transitions: []
+  update_time_step: 0.10000000000000001
+graphs:
+  {}
+levels:
+  L1:
+    constraints:
+      - {ids: ["{2d0d455a-0e6d-4ec8-8aca-0ec93b7c8b7a}", "{a8cc9419-42c1-44a5-9601-2bc46f465de4}"]}
+      - {ids: ["{0f9c180e-7983-4554-afd9-07bcddfb1abd}", "{2fe29a1e-e71b-4ed4-89cf-09c07dd85f65}"]}
+      - {ids: ["{83931ae8-bed7-44fd-be0b-8892178dea06}", "{7f4b5a9d-d1a4-4dfe-86c6-e5c9960ee28c}"]}
+    doors:
+      - [221, 134, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door1], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [91, 223, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door2], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+      - [143, 224, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door3], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [120, 225, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door4], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [135, 222, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+    drawing:
+      filename: conference_room_b1.png
+    elevation: 0
+    features:
+      - {id: "{a2886602-805d-4d30-8337-cdbdc5bf11f9}", name: "", x: 444.28899999999999, y: 32.700000000000003}
+      - {id: "{a8cc9419-42c1-44a5-9601-2bc46f465de4}", name: "", x: 1121.2180000000001, y: 1652.412}
+      - {id: "{2fe29a1e-e71b-4ed4-89cf-09c07dd85f65}", name: "", x: 453.82400000000001, y: 1205.027}
+      - {id: "{7f4b5a9d-d1a4-4dfe-86c6-e5c9960ee28c}", name: "", x: 928.88499999999999, y: 1204.4280000000001}
+    fiducials:
+      - [739, 1234, left_column1]
+      - [866, 1240, right_column1]
+    floors:
+      - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
+        vertices: [2, 6, 3, 4, 5, 7]
+    lanes:
+      - [238, 239, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [239, 240, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [240, 241, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [241, 242, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [242, 243, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [243, 244, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [244, 245, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [245, 246, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [246, 247, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [246, 248, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [248, 249, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [248, 250, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [250, 251, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [250, 252, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [252, 253, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [252, 254, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [254, 255, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [256, 257, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [257, 258, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [257, 259, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [260, 261, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [261, 262, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [262, 263, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [263, 264, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [264, 265, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [265, 266, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [259, 268, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [268, 269, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [269, 270, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [270, 271, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [272, 273, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [273, 274, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [274, 275, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [275, 276, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [276, 277, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [277, 278, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [279, 280, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [280, 281, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [281, 282, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [282, 283, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [279, 284, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [284, 285, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [285, 286, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [286, 287, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [287, 288, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [288, 289, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [286, 290, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [290, 291, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [291, 292, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [292, 293, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [293, 294, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [294, 295, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [295, 296, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [238, 297, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [297, 298, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [299, 300, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [301, 302, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [302, 303, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [303, 304, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [304, 305, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [305, 306, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [306, 307, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [307, 308, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [308, 309, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [309, 302, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [310, 311, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [311, 312, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [312, 313, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [313, 314, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [314, 315, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [315, 316, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [316, 313, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [271, 260, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [272, 317, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [318, 319, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [319, 320, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [320, 299, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+    layers:
+      sim_scan:
+        color: [1, 0, 0, 0.5]
+        features:
+          - {id: "{777a932e-4fda-4e59-af42-5a37f6f541f1}", name: "", x: 843.89300000000003, y: 995.71900000000005}
+          - {id: "{19c9a34e-3d75-4796-9299-4780d237ff33}", name: "", x: 264.721, y: 810.62800000000004}
+          - {id: "{cefa6b23-3c31-4c7e-b986-841278c0d5f6}", name: "", x: 232.309, y: 715.98199999999997}
+          - {id: "{42cf5ac9-74c3-4455-ba15-72a3fc2c3641}", name: "", x: 194.02600000000001, y: 177.79599999999999}
+          - {id: "{c3e088bd-f9e3-4a2e-ada1-467f28e2ce4a}", name: "", x: 117.291, y: 16.015000000000001}
+          - {id: "{2d0d455a-0e6d-4ec8-8aca-0ec93b7c8b7a}", name: "", x: 452.71100000000001, y: 746.98599999999999}
+          - {id: "{0f9c180e-7983-4554-afd9-07bcddfb1abd}", name: "", x: 115.29600000000001, y: 517.29899999999998}
+          - {id: "{83931ae8-bed7-44fd-be0b-8892178dea06}", name: "", x: 357.18599999999998, y: 516.21199999999999}
+        filename: sim_hall.png
+        transform:
+          scale: 0.050100257172049967
+          translation_x: 5.6540266386052966
+          translation_y: 4.9031924093558459
+          yaw: 0.0063020793730253089
+        visible: true
+    measurements:
+      - [0, 1, {distance: [3, 12]}]
+    models:
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 620.55499999999995, y: 442.91199999999998, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 682.99599999999998, y: 442.94600000000003, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 621.23699999999997, y: 500.88900000000001, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 682.72199999999998, y: 501.209, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 619.80999999999995, y: 557.83000000000004, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 681.64099999999996, y: 557.58799999999997, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 621.178, y: 610.34799999999996, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 684.09000000000003, y: 610.07399999999996, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 621.91899999999998, y: 663.81600000000003, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 683.404, y: 663.41800000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 620.78399999999999, y: 720.65700000000004, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 683.25300000000004, y: 721.77200000000005, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 619.66899999999998, y: 771.41300000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 682.69600000000003, y: 774.75999999999999, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 621.18600000000004, y: 833.36199999999997, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 681.40700000000004, y: 832.73900000000003, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 618.553, y: 881.85000000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 681.31899999999996, y: 882.33900000000006, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 622.09699999999998, y: 942.11000000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 684.50300000000004, y: 942.11000000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 771.50999999999999, y: 941.21900000000005, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 830.80700000000002, y: 940.40700000000004, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 770.82299999999998, y: 886.702, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 831.21299999999997, y: 885.17100000000005, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 774.41099999999994, y: 833.649, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 836.85900000000004, y: 834.15899999999999, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 771.54700000000003, y: 779.51900000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 833.12300000000005, y: 778.08699999999999, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 773.94600000000003, y: 723.92999999999995, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 774.35299999999995, y: 667.06899999999996, yaw: -3.1352000000000002, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 772.45899999999995, y: 608.40700000000004, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 773.12599999999998, y: 555.33399999999995, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 772.79200000000003, y: 500.59199999999998, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 771.45699999999999, y: 443.51400000000001, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 834.46299999999997, y: 443.28100000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 835.98699999999997, y: 723.95699999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 837.08699999999999, y: 667.53700000000003, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 835.13300000000004, y: 608.45000000000005, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 832.97900000000004, y: 555.471, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 833.54200000000003, y: 500.59199999999998, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 923.40899999999999, y: 444.49900000000002, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 985.54999999999995, y: 444.49900000000002, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 922.78800000000001, y: 499.79599999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 925.19000000000005, y: 554.16800000000001, yaw: 0, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 924.62800000000004, y: 613.05100000000004, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 925.03399999999999, y: 667.06899999999996, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 924.22199999999998, y: 722.71100000000001, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 920.19799999999998, y: 777.21299999999997, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 922.54399999999998, y: 833, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 922.78800000000001, y: 886.298, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 923.40899999999999, y: 944.875, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 983.51900000000001, y: 944.46799999999996, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 985.45799999999997, y: 886.95299999999997, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 984.84900000000005, y: 832.73900000000003, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 981.08199999999999, y: 777.947, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 980.26999999999998, y: 723.52300000000002, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 979.45799999999997, y: 668.28700000000003, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 979.45799999999997, y: 611.83199999999999, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 987.423, y: 554.38599999999997, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 984.803, y: 500.45100000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 966.36400000000003, y: 342.589, yaw: -0.56810000000000005, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/AdjTable, name: OpenRobotics/AdjTable, static: true, x: 578.46799999999996, y: 1288.8969999999999, yaw: 271.57080000000002, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 610.65099999999995, y: 523.30799999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 637.90999999999997, y: 521.65499999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 664.34400000000005, y: 523.30799999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 694.08100000000002, y: 523.30799999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 765.947, y: 521.65499999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 789.07600000000002, y: 520.82899999999995, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 819.85699999999997, y: 520.62, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 846.899, y: 516.69899999999996, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 913.80799999999999, y: 521.65499999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 937.76300000000003, y: 521.65499999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 969.73599999999999, y: 519.66700000000003, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 994.75999999999999, y: 516.69899999999996, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 612.69799999999998, y: 581.35299999999995, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 637.59000000000003, y: 581.08000000000004, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 664.34400000000005, y: 580.30399999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 698.21100000000001, y: 577.82600000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 612.72400000000005, y: 632.35799999999995, yaw: 3.1223000000000001, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 638.75099999999998, y: 631.03999999999996, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 668.67899999999997, y: 633.15800000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 699.976, y: 631.04300000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 609.90200000000004, y: 687.51499999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 637.27300000000002, y: 687.84900000000005, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 671.32000000000005, y: 687.18100000000004, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 694.68499999999995, y: 685.51199999999994, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 613.697, y: 744.38900000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 644.99400000000003, y: 746.08100000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 671.21600000000001, y: 743.12, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 693.76999999999998, y: 744.04300000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 761.09100000000001, y: 689.375, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 787.29600000000005, y: 690.02999999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 762.99300000000005, y: 634.00400000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 789.31100000000004, y: 630.71100000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 762.14700000000005, y: 579.44500000000005, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 790.48299999999995, y: 579.86800000000005, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 821.35699999999997, y: 578.17600000000004, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 848.56299999999999, y: 579.70100000000002, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 844.65899999999999, y: 629.72299999999996, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 819.95000000000005, y: 632.68799999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 826.85599999999999, y: 690.67700000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 855.61500000000001, y: 688.56200000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 911.48099999999999, y: 572.60199999999998, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 934.23199999999997, y: 575.48199999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 969.36500000000001, y: 575.48199999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 993.84199999999998, y: 574.61800000000005, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 911.44200000000001, y: 634.42700000000002, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 941.14300000000003, y: 633.94100000000003, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 971.49900000000002, y: 632.73500000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 998.98900000000003, y: 634.84900000000005, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 993.97699999999998, y: 692.19399999999996, yaw: -3.1233, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 967.26900000000001, y: 688.98500000000001, yaw: 3.1358999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 935.54899999999998, y: 690.67700000000002, yaw: -3.1230000000000002, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 911.01900000000001, y: 689.83100000000002, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 913.55700000000002, y: 745.65800000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 941.04700000000003, y: 743.96600000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 968.12900000000002, y: 745.83600000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 996.70000000000005, y: 744.52499999999998, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 910.72400000000005, y: 800.09500000000003, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 934.577, y: 798.78399999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 969.38400000000001, y: 798.947, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 993.81700000000001, y: 798.25999999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 993.29200000000003, y: 855.13999999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 969.70100000000002, y: 854.35400000000004, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 932.93899999999996, y: 854.07799999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 911.10900000000004, y: 853.60299999999995, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 909.327, y: 909.33299999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 937.21000000000004, y: 909.60199999999998, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 971.07600000000002, y: 908.48699999999997, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 995.34500000000003, y: 910.31399999999996, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 994.15899999999999, y: 966.07600000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 969.80700000000002, y: 964.73699999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 935.31200000000001, y: 967.26199999999994, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 606.50800000000004, y: 798.947, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 641.18799999999999, y: 797.67899999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 671.21600000000001, y: 797.25599999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 696.81299999999999, y: 800.05799999999999, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 609.46799999999996, y: 855.62, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 635.78599999999994, y: 855.39800000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 672.48500000000001, y: 855.197, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 697.39400000000001, y: 855.72699999999998, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 696.73500000000001, y: 906.13400000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 667.83299999999997, y: 908.90999999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 639.91899999999998, y: 906.79499999999996, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 612.06500000000005, y: 908.11000000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 615.69000000000005, y: 964.41499999999996, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 637.51999999999998, y: 964.41499999999996, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 671.21500000000003, y: 965.12699999999995, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 696.84100000000001, y: 963.70299999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 764.46699999999998, y: 963.70299999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 791.32899999999995, y: 964.31399999999996, yaw: 3.1269, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 821.88999999999999, y: 963.94000000000005, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 848.00199999999995, y: 964.73699999999997, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 847.27999999999997, y: 908.178, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 824.02599999999995, y: 907.46699999999998, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 786.77200000000005, y: 908.65300000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 758.76300000000003, y: 907.64099999999996, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 763.83900000000006, y: 856.88900000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 791.28800000000001, y: 854.08000000000004, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 825.16399999999999, y: 852.65999999999997, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 850.91899999999998, y: 853.75099999999998, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 858.99800000000005, y: 802.33100000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 820.51199999999994, y: 799.37, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 788.553, y: 801.16999999999996, yaw: -3.1400999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 762.66800000000001, y: 798.70799999999997, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 768.91399999999999, y: 743.54300000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 796.404, y: 741.851, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 823.89499999999998, y: 744.81200000000001, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 852.23099999999999, y: 743.12, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 762.779, y: 465.20999999999998, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 788.81399999999996, y: 463.20800000000003, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 819.85699999999997, y: 466.54500000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 845.31799999999998, y: 465.98399999999998, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 913.55700000000002, y: 466.52199999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 939.16499999999996, y: 467.25999999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 973.88499999999999, y: 467.91500000000002, yaw: 3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 995.721, y: 466.60500000000002, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 612.85199999999998, y: 467.36799999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 636.44500000000005, y: 466.97300000000001, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 668.67899999999997, y: 466.94499999999999, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 694.48400000000004, y: 465.64999999999998, yaw: -3.1415999999999999, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 969.29999999999995, y: 319.101, yaw: -0.58799999999999997, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 992.57799999999997, y: 330.42500000000001, yaw: -0.57999999999999996, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/OfficeChairGrey, name: OpenRobotics/OfficeChairGrey, static: true, x: 910.87199999999996, y: 967.73699999999997, yaw: -3.1415999999999999, z: 0}
+    vertices:
+      - [572.44000000000005, 372.04000000000002, 0, ""]
+      - [1042.8399999999999, 372.04000000000002, 0, ""]
+      - [20.667000000000002, 18.332999999999998, 0, ""]
+      - [1191.3040000000001, 1491.299, 0, ""]
+      - [1276.143, 1491.829, 0, ""]
+      - [1285.1569999999999, 1783.9929999999999, 0, ""]
+      - [1258.8, 19.305, 0, ""]
+      - [38.618000000000002, 1782.903, 0, ""]
+      - [454.44600000000003, 211.27199999999999, 0, ""]
+      - [676.904, 211.27199999999999, 0, ""]
+      - [676.904, 181.68899999999999, 0, ""]
+      - [751.66600000000005, 62.963000000000001, 0, ""]
+      - [751.66600000000005, 182.22800000000001, 0, ""]
+      - [844.95799999999997, 182.22800000000001, 0, ""]
+      - [894.25400000000002, 181.69800000000001, 0, ""]
+      - [894.25400000000002, 210.58699999999999, 0, ""]
+      - [1052.48, 210.58699999999999, 0, ""]
+      - [1052.48, 56.601999999999997, 0, ""]
+      - [1160.8789999999999, 210.58699999999999, 0, ""]
+      - [1160.8789999999999, 33.543999999999997, 0, ""]
+      - [1119.5329999999999, 33.543999999999997, 0, ""]
+      - [1119.5329999999999, 42.82, 0, ""]
+      - [873.31600000000003, 42.82, 0, ""]
+      - [873.31600000000003, 33.279000000000003, 0, ""]
+      - [827.20000000000005, 33.279000000000003, 0, ""]
+      - [827.20000000000005, 41.494999999999997, 0, ""]
+      - [780.024, 41.494999999999997, 0, ""]
+      - [780.024, 32.484000000000002, 0, ""]
+      - [733.11300000000006, 32.484000000000002, 0, ""]
+      - [733.11300000000006, 41.759999999999998, 0, ""]
+      - [492.46199999999999, 41.759999999999998, 0, ""]
+      - [492.46199999999999, 32.749000000000002, 0, ""]
+      - [443.69600000000003, 32.749000000000002, 0, ""]
+      - [443.69600000000003, 339.12900000000002, 0, ""]
+      - [451.11700000000002, 339.12900000000002, 0, ""]
+      - [451.11700000000002, 58.457000000000001, 0, ""]
+      - [489.81200000000001, 58.457000000000001, 0, ""]
+      - [489.81200000000001, 46.530999999999999, 0, ""]
+      - [731.52300000000002, 46.530999999999999, 0, ""]
+      - [731.52300000000002, 56.866999999999997, 0, ""]
+      - [750.87099999999998, 56.866999999999997, 0, ""]
+      - [1056.011, 53.906999999999996, 0, ""]
+      - [1161.252, 53.906999999999996, 0, ""]
+      - [928.26900000000001, 181.69800000000001, 0, ""]
+      - [928.26900000000001, 210.13300000000001, 0, ""]
+      - [433.95999999999998, 34.098999999999997, 0, ""]
+      - [433.95999999999998, 343.50599999999997, 0, ""]
+      - [375.298, 343.50599999999997, 0, ""]
+      - [375.298, 409.25999999999999, 0, ""]
+      - [380.00799999999998, 409.25999999999999, 0, ""]
+      - [380.00799999999998, 390.04199999999997, 0, ""]
+      - [466.11000000000001, 390.04199999999997, 0, ""]
+      - [466.11000000000001, 363.66500000000002, 0, ""]
+      - [504.733, 363.66500000000002, 0, ""]
+      - [505.11000000000001, 339.12900000000002, 0, ""]
+      - [475.25400000000002, 390.04199999999997, 0, ""]
+      - [475.25400000000002, 684.74400000000003, 0, ""]
+      - [505.62799999999999, 684.74400000000003, 0, ""]
+      - [377.05099999999999, 446.55399999999997, 0, ""]
+      - [377.05099999999999, 513.61699999999996, 0, ""]
+      - [378.43900000000002, 551.08000000000004, 0, ""]
+      - [378.43900000000002, 620.91800000000001, 0, ""]
+      - [377.51400000000001, 656.53099999999995, 0, ""]
+      - [377.51400000000001, 725.44500000000005, 0, ""]
+      - [377.51400000000001, 764.29499999999996, 0, ""]
+      - [377.51400000000001, 828.12099999999998, 0, ""]
+      - [377.976, 870.67200000000003, 0, ""]
+      - [377.976, 936.34799999999996, 0, ""]
+      - [378.43900000000002, 975.19799999999998, 0, ""]
+      - [378.43900000000002, 1039.0239999999999, 0, ""]
+      - [507.47800000000001, 1039.0239999999999, 0, ""]
+      - [507.47800000000001, 1020.986, 0, ""]
+      - [475.565, 1020.986, 0, ""]
+      - [382.35199999999998, 993.33500000000004, 0, ""]
+      - [474.93099999999998, 993.33500000000004, 0, ""]
+      - [380.81999999999999, 679.12, 0, ""]
+      - [474.93099999999998, 679.12, 0, ""]
+      - [381.12599999999998, 700.27200000000005, 0, ""]
+      - [505.892, 700.27200000000005, 0, ""]
+      - [380.20800000000003, 480.072, 0, ""]
+      - [475.02699999999999, 480.072, 0, ""]
+      - [383.36900000000003, 579.85799999999995, 0, ""]
+      - [476.83300000000003, 579.85799999999995, 0, ""]
+      - [434.05599999999998, 1043.3900000000001, 0, ""]
+      - [434.05599999999998, 1417.383, 0, ""]
+      - [447.755, 1044.075, 0, ""]
+      - [447.755, 1389.3, 0, ""]
+      - [489.53800000000001, 1389.3, 0, ""]
+      - [489.53800000000001, 1198.8779999999999, 0, ""]
+      - [450.495, 1198.8779999999999, 0, ""]
+      - [679.96000000000004, 1198.8779999999999, 0, ""]
+      - [679.96000000000004, 1356.421, 0, ""]
+      - [669.68499999999995, 1356.421, 0, ""]
+      - [669.68499999999995, 1205.7280000000001, 0, ""]
+      - [489.53800000000001, 1417.383, 0, ""]
+      - [338.16000000000003, 1122.162, 0, ""]
+      - [350.30599999999998, 1625.26, 0, ""]
+      - [449.43799999999999, 1625.26, 0, ""]
+      - [449.43799999999999, 1618.402, 0, ""]
+      - [350.92899999999997, 1618.402, 0, ""]
+      - [447.73099999999999, 1566.9359999999999, 0, ""]
+      - [414.27699999999999, 1566.9359999999999, 0, ""]
+      - [406.61599999999999, 1557.232, 0, ""]
+      - [396.98700000000002, 1124.9369999999999, 0, ""]
+      - [669.98199999999997, 1598.885, 0, ""]
+      - [941.36900000000003, 1598.885, 0, ""]
+      - [941.36900000000003, 1622.4090000000001, 0, ""]
+      - [929.89400000000001, 1622.4090000000001, 0, ""]
+      - [929.89400000000001, 1733.7180000000001, 0, ""]
+      - [941.94299999999998, 1733.7180000000001, 0, ""]
+      - [941.94299999999998, 1746.3409999999999, 0, ""]
+      - [664.81799999999998, 1746.3409999999999, 0, ""]
+      - [700.39099999999996, 1726.8330000000001, 0, ""]
+      - [700.39099999999996, 1735.4400000000001, 0, ""]
+      - [921.86099999999999, 1735.4400000000001, 0, ""]
+      - [921.86099999999999, 1607.492, 0, ""]
+      - [675.72000000000003, 1607.492, 0, ""]
+      - [675.72000000000003, 1660.8510000000001, 0, ""]
+      - [698.096, 1660.8510000000001, 0, ""]
+      - [698.096, 1673.4739999999999, 0, ""]
+      - [665.96600000000001, 1673.4739999999999, 0, ""]
+      - [665.96600000000001, 1598.885, 0, ""]
+      - [620.06500000000005, 1546.673, 0, ""]
+      - [630.39300000000003, 1546.673, 0, ""]
+      - [630.39300000000003, 1596.0170000000001, 0, ""]
+      - [618.91800000000001, 1596.0170000000001, 0, ""]
+      - [618.91800000000001, 1602.902, 0, ""]
+      - [644.16300000000001, 1602.902, 0, ""]
+      - [644.16300000000001, 1597.7380000000001, 0, ""]
+      - [634.40899999999999, 1597.7380000000001, 0, ""]
+      - [634.40899999999999, 1548.395, 0, ""]
+      - [646.45799999999997, 1548.395, 0, ""]
+      - [646.45799999999997, 1542.6569999999999, 0, ""]
+      - [620.63900000000001, 1542.6569999999999, 0, ""]
+      - [798.16499999999996, 1242.9949999999999, 0, ""]
+      - [808.19299999999998, 1242.9949999999999, 0, ""]
+      - [808.19299999999998, 1274.7470000000001, 0, ""]
+      - [797.60799999999995, 1274.7470000000001, 0, ""]
+      - [924.61900000000003, 1200.1010000000001, 0, ""]
+      - [1161.3699999999999, 1200.1010000000001, 0, ""]
+      - [1161.3699999999999, 1398.972, 0, ""]
+      - [927.404, 1398.972, 0, ""]
+      - [943.55899999999997, 1399.529, 0, ""]
+      - [924.61900000000003, 1355.521, 0, ""]
+      - [1115.4670000000001, 1398.7159999999999, 0, ""]
+      - [1118.4770000000001, 1417.913, 0, ""]
+      - [1174.183, 1417.913, 0, ""]
+      - [1174.183, 34.167999999999999, 0, ""]
+      - [1131.28, 1733.461, 0, ""]
+      - [1181.675, 1733.461, 0, ""]
+      - [1181.675, 1745.5930000000001, 0, ""]
+      - [1131.7460000000001, 1745.5930000000001, 0, ""]
+      - [1248.867, 1744.193, 0, ""]
+      - [1270.798, 1744.193, 0, ""]
+      - [1270.798, 1734.394, 0, ""]
+      - [1260.5329999999999, 1734.394, 0, ""]
+      - [1260.5329999999999, 1523.95, 0, ""]
+      - [1270.3320000000001, 1523.95, 0, ""]
+      - [1270.3320000000001, 1509.951, 0, ""]
+      - [1248.867, 1509.951, 0, ""]
+      - [1248.867, 1516.0170000000001, 0, ""]
+      - [1167.2090000000001, 1516.0170000000001, 0, ""]
+      - [1167.2090000000001, 1509.951, 0, ""]
+      - [1143.8779999999999, 1509.951, 0, ""]
+      - [1143.8779999999999, 1523.0170000000001, 0, ""]
+      - [1251.6669999999999, 1523.0170000000001, 0, ""]
+      - [1251.6669999999999, 1733.963, 0, ""]
+      - [1247.287, 1733.963, 0, ""]
+      - [103.20399999999999, 720.69799999999998, 0, ""]
+      - [135.76400000000001, 720.69799999999998, 0, ""]
+      - [135.76400000000001, 712.55799999999999, 0, ""]
+      - [222.25399999999999, 712.55799999999999, 0, ""]
+      - [222.25399999999999, 991.35900000000004, 0, ""]
+      - [200.886, 991.35900000000004, 0, ""]
+      - [200.886, 1160.2619999999999, 0, ""]
+      - [212.017, 1160.2619999999999, 0, ""]
+      - [212.017, 1201.0139999999999, 0, ""]
+      - [222.51400000000001, 1201.0139999999999, 0, ""]
+      - [222.51400000000001, 1161.4970000000001, 0, ""]
+      - [237.333, 1161.4970000000001, 0, ""]
+      - [237.333, 991.08100000000002, 0, ""]
+      - [217.57400000000001, 1201.6310000000001, 0, ""]
+      - [217.57400000000001, 1251.644, 0, ""]
+      - [201.52099999999999, 1251.644, 0, ""]
+      - [201.52099999999999, 1477.424, 0, ""]
+      - [238.01900000000001, 1477.424, 0, ""]
+      - [238.01900000000001, 1291.9159999999999, 0, ""]
+      - [228.13900000000001, 1291.9159999999999, 0, ""]
+      - [228.13900000000001, 1253.4970000000001, 0, ""]
+      - [221.553, 1187.636, 0, ""]
+      - [245.702, 1187.636, 0, ""]
+      - [245.702, 1291.9159999999999, 0, ""]
+      - [226.501, 1479.867, 0, ""]
+      - [103.20399999999999, 729.35500000000002, 0, ""]
+      - [138.07300000000001, 729.35500000000002, 0, ""]
+      - [138.07300000000001, 738.48400000000004, 0, ""]
+      - [222.34800000000001, 738.48400000000004, 0, ""]
+      - [1117.758, 213.17500000000001, 0, ""]
+      - [1117.758, 338.91000000000003, 0, ""]
+      - [1099.268, 338.91000000000003, 0, ""]
+      - [1099.268, 1114.5809999999999, 0, ""]
+      - [1116.8340000000001, 1114.5809999999999, 0, ""]
+      - [1116.8340000000001, 1097.0150000000001, 0, ""]
+      - [1137.173, 1097.0150000000001, 0, ""]
+      - [1137.173, 1197.788, 0, ""]
+      - [864.28399999999999, 1069.6759999999999, 0, ""]
+      - [864.28399999999999, 1140.921, 0, ""]
+      - [1025.076, 1140.921, 0, ""]
+      - [917.22699999999998, 1076.866, 0, ""]
+      - [1096.9739999999999, 1076.866, 0, ""]
+      - [1086.5160000000001, 1082.095, 0, ""]
+      - [1086.5160000000001, 1189.943, 0, ""]
+      - [488.47000000000003, 214.477, 0, ""]
+      - [488.47000000000003, 341.96300000000002, 0, ""]
+      - [504.733, 1017.75, 0, ""]
+      - [526.24199999999996, 263.666, 0, ""]
+      - [526.24199999999996, 357.53199999999998, 0, ""]
+      - [1077.883, 263.666, 0, ""]
+      - [1077.883, 355.36599999999999, 0, ""]
+      - [712.53300000000002, 182.22800000000001, 0, ""]
+      - [679.96000000000004, 1069.1389999999999, 0, ""]
+      - [680.38800000000003, 1242.9949999999999, 0, ""]
+      - [925.04499999999996, 1242.9949999999999, 0, ""]
+      - [679.96000000000004, 1392.105, 0, ""]
+      - [924.61900000000003, 1392.329, 0, ""]
+      - [665.96600000000001, 1726.528, 0, ""]
+      - [1145.655, 1421.8679999999999, 0, ""]
+      - [406.80799999999999, 1417.6659999999999, 0, ""]
+      - [450.96800000000002, 1417.383, 0, ""]
+      - [450.96800000000002, 1430.1980000000001, 0, ""]
+      - [408.59800000000001, 1430.1980000000001, 0, ""]
+      - [420.53399999999999, 1430.1980000000001, 0, ""]
+      - [420.53399999999999, 1552.8309999999999, 0, ""]
+      - [448.28300000000002, 1552.8309999999999, 0, ""]
+      - [490.459, 1397.6880000000001, 0, ""]
+      - [663.54899999999998, 1397.6880000000001, 0, ""]
+      - [630.15099999999995, 434.572, 0, ""]
+      - [636.76800000000003, 441.18900000000002, 0, ""]
+      - [732.00599999999997, 1378.5309999999999, 0, ""]
+      - [732.00599999999997, 1478.6099999999999, 0, ""]
+      - [551.17499999999995, 1478.6099999999999, 0, ""]
+      - [479.22800000000001, 1478.6099999999999, 0, ""]
+      - [479.22800000000001, 1595.124, 0, ""]
+      - [380.97800000000001, 1595.124, 0, ""]
+      - [367.32499999999999, 1078.575, 0, ""]
+      - [288.29500000000002, 1078.575, 0, ""]
+      - [288.29500000000002, 963.71900000000005, 0, ""]
+      - [431.81799999999998, 963.71900000000005, 0, ""]
+      - [288.29500000000002, 856.55999999999995, 0, ""]
+      - [429.29599999999999, 856.55999999999995, 0, ""]
+      - [288.29500000000002, 747.85699999999997, 0, ""]
+      - [442.96300000000002, 747.85699999999997, 0, ""]
+      - [288.29500000000002, 639.79999999999995, 0, ""]
+      - [435.31299999999999, 639.79999999999995, 0, ""]
+      - [288.29500000000002, 532.69799999999998, 0, ""]
+      - [439.13799999999998, 532.69799999999998, 0, ""]
+      - [292.82999999999998, 535.56700000000001, 0, ""]
+      - [292.82999999999998, 435.16000000000003, 0, ""]
+      - [442.96300000000002, 435.16000000000003, 0, ""]
+      - [292.82999999999998, 355.40699999999998, 0, ""]
+      - [64.560000000000002, 791.97299999999996, 0, ""]
+      - [182.881, 791.97299999999996, 0, ""]
+      - [182.881, 938.85500000000002, 0, ""]
+      - [68.640000000000001, 938.85500000000002, 0, ""]
+      - [68.640000000000001, 1399.9000000000001, 0, ""]
+      - [173.36099999999999, 1399.9000000000001, 0, ""]
+      - [173.36099999999999, 1745.4449999999999, 0, ""]
+      - [226.501, 1780.702, 0, ""]
+      - [292.82999999999998, 277.35500000000002, 0, ""]
+      - [386.86500000000001, 277.35500000000002, 0, ""]
+      - [386.86500000000001, 52.341000000000001, 0, ""]
+      - [56.085000000000001, 52.341000000000001, 0, left_side, {is_cleaning_zone: [4, false]}]
+      - [1044.663, 263.61700000000002, 0, ""]
+      - [1044.663, 1041.665, 0, ""]
+      - [902.98299999999995, 1041.665, 0, ""]
+      - [902.98299999999995, 1109.7850000000001, 0, ""]
+      - [1047.799, 1109.7850000000001, 0, ""]
+      - [1047.799, 1169.808, 0, ""]
+      - [877.73599999999999, 1169.808, 0, ""]
+      - [877.73599999999999, 1373.2159999999999, 0, ""]
+      - [1134.021, 1373.2159999999999, 0, ""]
+      - [1134.021, 1235.0699999999999, 0, room1]
+      - [965.38699999999994, 1235.0699999999999, 0, ""]
+      - [965.38699999999994, 1373.2159999999999, 0, ""]
+      - [877.73599999999999, 1561.3810000000001, 0, ""]
+      - [1006.831, 1561.3810000000001, 0, ""]
+      - [1006.831, 1748.117, 0, ""]
+      - [1094.9590000000001, 1748.117, 0, ""]
+      - [1094.9590000000001, 1474.2059999999999, 0, ""]
+      - [876.78300000000002, 1474.2059999999999, 0, ""]
+      - [940.24900000000002, 1767.9559999999999, 0, ""]
+      - [547.11900000000003, 1767.9559999999999, 0, ""]
+      - [547.11900000000003, 1697.655, 0, ""]
+      - [878.05200000000002, 1697.655, 0, ""]
+      - [878.05200000000002, 1643.1880000000001, 0, room2, {is_cleaning_zone: [4, false]}]
+      - [737.42200000000003, 1643.1880000000001, 0, ""]
+      - [737.42200000000003, 1696.8340000000001, 0, ""]
+      - [618.61199999999997, 1378.5309999999999, 0, ""]
+      - [519.27800000000002, 1353.8599999999999, 0, snack_dispensor, {pickup_dispenser: [1, ""]}]
+      - [616.14599999999996, 1039.8579999999999, 0, ""]
+      - [616.14599999999996, 1158.7080000000001, 0, snack_ingestor, {dropoff_ingestor: [1, ""]}]
+      - [864.96299999999997, 251.553, 0, ""]
+      - [864.96299999999997, 163.768, 0, ""]
+      - [788.88199999999995, 163.768, 0, ""]
+      - [788.88199999999995, 87.686999999999998, 0, ""]
+      - [1015.528, 87.686999999999998, 0, right_side, {is_cleaning_zone: [4, false]}]
+      - [1015.528, 188.773, 0, ""]
+      - [966.58100000000002, 188.773, 0, ""]
+      - [966.58100000000002, 145.14599999999999, 0, ""]
+      - [864.43100000000004, 145.14599999999999, 0, ""]
+      - [739.68399999999997, 253.405, 0, ""]
+      - [739.68399999999997, 214.697, 0, ""]
+      - [698.85500000000002, 214.697, 0, ""]
+      - [698.85500000000002, 160.08199999999999, 0, ""]
+      - [481.45600000000002, 160.08199999999999, 0, ""]
+      - [481.45600000000002, 85.317999999999998, 0, room3, {is_cleaning_zone: [4, false]}]
+      - [696.20399999999995, 85.317999999999998, 0, ""]
+      - [676.61300000000006, 263.61700000000002, 0, tinyRobot2_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot2], spawn_robot_type: [1, TinyRobot]}]
+      - [581.79100000000005, 270.48700000000002, 0, tinyRobot1_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
+      - [541.19500000000005, 392.27800000000002, 0, ""]
+      - [541.19500000000005, 1027.74, 0, ""]
+    walls:
+      - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [11, 12, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [12, 13, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [14, 15, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [15, 16, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [16, 17, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [16, 18, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [18, 19, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [19, 20, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [20, 21, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [21, 22, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [22, 23, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [23, 24, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [24, 25, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [25, 26, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [26, 27, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [27, 28, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [28, 29, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [29, 30, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [30, 31, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [31, 32, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [32, 33, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [33, 34, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [34, 35, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [35, 36, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [36, 37, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [37, 38, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [38, 39, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [39, 40, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [40, 11, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [40, 17, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [41, 42, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [14, 43, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [43, 44, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [45, 46, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [46, 47, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [47, 48, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [48, 49, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [49, 50, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [50, 51, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [51, 52, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [52, 53, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [34, 54, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [54, 53, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [51, 55, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [55, 56, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [56, 57, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [58, 59, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [60, 61, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [62, 63, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [64, 65, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [66, 67, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [68, 69, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [69, 70, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [70, 71, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [71, 72, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [72, 56, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [73, 74, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [75, 76, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [77, 78, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [78, 57, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [79, 80, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [81, 82, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [83, 84, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [86, 87, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [87, 88, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [88, 89, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [88, 90, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [90, 91, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [91, 92, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [92, 93, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [87, 94, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [94, 84, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [95, 96, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [96, 97, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [97, 98, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [98, 99, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [100, 101, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [101, 102, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [102, 103, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [104, 105, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [105, 106, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [106, 107, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [107, 108, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [108, 109, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [109, 110, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [110, 111, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [112, 113, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [113, 114, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [114, 115, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [115, 116, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [116, 117, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [117, 118, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [118, 119, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [119, 120, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [120, 121, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [122, 123, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [123, 124, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [124, 125, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [125, 126, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [126, 127, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [127, 128, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [128, 129, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [129, 130, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [130, 131, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [131, 132, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [132, 133, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [133, 122, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [134, 135, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [135, 136, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [136, 137, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [137, 134, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [138, 139, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [139, 140, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [140, 141, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [138, 143, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [144, 145, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [145, 146, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [146, 147, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [18, 139, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [148, 149, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [149, 150, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [150, 151, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [151, 148, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [152, 153, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [153, 154, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [154, 155, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [155, 156, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [156, 157, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [157, 158, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [158, 159, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [159, 160, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [160, 161, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [161, 162, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [162, 163, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [163, 164, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [164, 165, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [165, 166, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [166, 167, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [167, 152, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [168, 169, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [169, 170, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [170, 171, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [171, 172, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [172, 173, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [173, 174, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [174, 175, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [175, 176, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [176, 177, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [177, 178, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [178, 179, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [179, 180, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [180, 172, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [181, 182, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [182, 183, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [183, 184, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [184, 185, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [185, 186, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [186, 187, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [187, 188, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [188, 182, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [189, 190, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [190, 191, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [191, 186, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [168, 193, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [193, 194, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [194, 195, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [195, 196, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [197, 198, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [198, 199, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [199, 200, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [200, 201, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [201, 202, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [202, 203, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [203, 204, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [205, 206, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [206, 207, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [208, 209, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [210, 211, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [212, 213, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [53, 214, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [215, 216, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [217, 218, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [12, 219, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [90, 220, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [111, 225, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [225, 112, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [226, 163, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [227, 84, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [84, 228, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [228, 229, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [229, 230, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [230, 231, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [231, 232, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [232, 233, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [233, 100, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [234, 235, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [192, 267, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+  L2:
+    doors:
+      - [71, 67, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door6], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [68, 72, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door7], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
+      - [48, 73, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, door8], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, sliding]}]
+      - [24, 74, {motion_axis: [1, end], motion_degrees: [3, 90], motion_direction: [2, -1], name: [1, door9], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, hinged]}]
+    drawing:
+      filename: conference_room_b1_balcony.png
+    elevation: 12
+    fiducials:
+      - [739, 1234, left_column2]
+      - [866, 1240, right_column2]
+    floors:
+      - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
+        vertices: [0, 1, 2, 3]
+    lanes:
+      - [75, 76, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [77, 78, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [78, 79, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [79, 80, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [80, 81, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [78, 82, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [82, 83, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [83, 84, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [84, 85, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [87, 88, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [88, 89, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [89, 90, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [90, 91, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [91, 92, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [92, 93, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [93, 94, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [94, 95, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [95, 96, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [96, 97, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [97, 98, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [98, 99, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [95, 100, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [100, 101, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [102, 103, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [103, 104, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [104, 77, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+    layers:
+      {}
+    vertices:
+      - [367.06700000000001, 887.49000000000001, 0, ""]
+      - [1188.47, 889.32799999999997, 0, ""]
+      - [1180.7249999999999, 1498.039, 0, ""]
+      - [369.03500000000003, 1498.317, 0, ""]
+      - [404.61599999999999, 1490.837, 0, ""]
+      - [395.995, 1128.7550000000001, 0, ""]
+      - [395.995, 1041.587, 0, ""]
+      - [376.79899999999998, 1041.587, 0, ""]
+      - [376.79899999999998, 975.98299999999995, 0, ""]
+      - [378.26999999999998, 936.74800000000005, 0, ""]
+      - [378.26999999999998, 889.17600000000004, 0, ""]
+      - [378.26999999999998, 899.47500000000002, 0, ""]
+      - [475.37700000000001, 899.47500000000002, 0, ""]
+      - [475.37700000000001, 890.15700000000004, 0, ""]
+      - [475.37700000000001, 1005.9, 0, ""]
+      - [475.37700000000001, 1018.1609999999999, 0, ""]
+      - [509.70800000000003, 1018.1609999999999, 0, ""]
+      - [509.70800000000003, 1041.212, 0, ""]
+      - [449.38400000000001, 1041.212, 0, ""]
+      - [449.38400000000001, 1389.252, 0, ""]
+      - [490.22300000000001, 1389.252, 0, ""]
+      - [490.22300000000001, 1199.261, 0, ""]
+      - [451.65300000000002, 1199.261, 0, ""]
+      - [674.5, 1199.261, 0, ""]
+      - [674.5, 1355.444, 0, ""]
+      - [486.88999999999999, 1416.8699999999999, 0, ""]
+      - [434.51100000000002, 1416.8699999999999, 0, ""]
+      - [434.51100000000002, 1040.6959999999999, 0, ""]
+      - [473.08100000000002, 993.55600000000004, 0, ""]
+      - [377.37099999999998, 993.55600000000004, 0, ""]
+      - [488.84199999999998, 1401.528, 0, ""]
+      - [663.25, 1401.528, 0, ""]
+      - [663.25, 1393.2059999999999, 0, ""]
+      - [495.43000000000001, 1393.2059999999999, 0, ""]
+      - [407.06, 1416.8699999999999, 0, ""]
+      - [407.06, 1428.8679999999999, 0, ""]
+      - [418.09199999999998, 1428.8679999999999, 0, ""]
+      - [418.09199999999998, 1495.4690000000001, 0, ""]
+      - [449.495, 1428.8679999999999, 0, ""]
+      - [449.495, 1418.9100000000001, 0, ""]
+      - [935.74199999999996, 1397.366, 0, ""]
+      - [1115.71, 1397.366, 0, ""]
+      - [1115.71, 1418.23, 0, ""]
+      - [1174.26, 1418.23, 0, ""]
+      - [1174.26, 890.99000000000001, 0, ""]
+      - [1159.396, 890.149, 0, ""]
+      - [1159.396, 1198.048, 0, ""]
+      - [924.03899999999999, 1198.048, 0, ""]
+      - [924.03899999999999, 1357.0930000000001, 0, ""]
+      - [1164.893, 1397.366, 0, ""]
+      - [1164.893, 1198.7159999999999, 0, ""]
+      - [1145.9559999999999, 1422.3430000000001, 0, ""]
+      - [1145.9559999999999, 1498.71, 0, ""]
+      - [509.17399999999998, 887.14999999999998, 0, ""]
+      - [677.26300000000003, 1067.1179999999999, 0, ""]
+      - [677.26300000000003, 1193.6669999999999, 0, ""]
+      - [1024.9839999999999, 1141.4860000000001, 0, ""]
+      - [866.64800000000002, 1141.4860000000001, 0, ""]
+      - [916.12800000000004, 1079.471, 0, ""]
+      - [1082.3810000000001, 1079.471, 0, ""]
+      - [1082.3810000000001, 1197.5630000000001, 0, ""]
+      - [1137.1379999999999, 1192.2860000000001, 0, ""]
+      - [1137.1379999999999, 1093.9860000000001, 0, ""]
+      - [1118.6659999999999, 1093.9860000000001, 0, ""]
+      - [1118.6659999999999, 1114.4369999999999, 0, ""]
+      - [1097.5540000000001, 1114.4369999999999, 0, ""]
+      - [1097.5540000000001, 884.19100000000003, 0, ""]
+      - [795.89300000000003, 1243.0129999999999, 0, ""]
+      - [808.13699999999994, 1243.0129999999999, 0, ""]
+      - [808.13699999999994, 1276.683, 0, ""]
+      - [796.33000000000004, 1276.683, 0, ""]
+      - [672.58199999999999, 1243.0129999999999, 0, ""]
+      - [923.13900000000001, 1243.0129999999999, 0, ""]
+      - [924.03899999999999, 1393.624, 0, ""]
+      - [674.5, 1392.191, 0, ""]
+      - [590.01499999999999, 1150.9300000000001, 0, ""]
+      - [642.81100000000004, 1150.9300000000001, 0, ""]
+      - [741.803, 1033.4590000000001, 0, ""]
+      - [741.803, 1380.5920000000001, 0, ""]
+      - [797.23900000000003, 1380.5920000000001, 0, ""]
+      - [797.23900000000003, 1467.7049999999999, 0, ""]
+      - [459.34500000000003, 1467.7049999999999, 0, snack_ingestor2]
+      - [519.73599999999999, 1380.5920000000001, 0, ""]
+      - [519.73599999999999, 1235.3579999999999, 0, snack_bar2]
+      - [635.84000000000003, 1235.3579999999999, 0, ""]
+      - [635.84000000000003, 1373.759, 0, ""]
+      - [867.22299999999996, 1066.384, 0, ""]
+      - [546.76800000000003, 1133.7809999999999, 0, ""]
+      - [650.95799999999997, 1182.454, 0, ""]
+      - [650.95799999999997, 1013.62, 0, ""]
+      - [891.279, 1013.62, 0, ""]
+      - [891.279, 1102.5999999999999, 0, ""]
+      - [1043.3810000000001, 1102.5999999999999, 0, ""]
+      - [1043.3810000000001, 1173.327, 0, ""]
+      - [877.59000000000003, 1173.327, 0, ""]
+      - [877.59000000000003, 1374.1020000000001, 0, ""]
+      - [1140.7270000000001, 1374.1020000000001, 0, ""]
+      - [1140.7270000000001, 1222, 0, ""]
+      - [965.04899999999998, 1222, 0, ""]
+      - [965.04899999999998, 1371.8209999999999, 0, ""]
+      - [877.59000000000003, 1474.0219999999999, 0, ""]
+      - [1111.4159999999999, 1474.0219999999999, 0, ""]
+      - [612.52200000000005, 1138.8199999999999, 0, ""]
+      - [612.52200000000005, 982.05799999999999, 0, ""]
+      - [738.53800000000001, 982.05799999999999, 0, ""]
+    walls:
+      - [4, 5, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [5, 6, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [6, 7, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [7, 8, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [10, 11, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [11, 12, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [12, 13, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [13, 14, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [14, 15, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [15, 16, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [16, 17, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [17, 18, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [18, 19, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [19, 20, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [20, 21, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [21, 22, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [21, 23, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [23, 24, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [25, 26, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [26, 27, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [27, 6, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [28, 29, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [30, 31, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [31, 32, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [32, 33, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [26, 34, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [34, 35, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [35, 36, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [36, 37, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [36, 38, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [38, 39, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [40, 41, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [41, 42, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [42, 43, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [43, 44, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [45, 46, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [46, 47, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [47, 48, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [41, 49, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [49, 50, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [51, 52, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [54, 55, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [56, 57, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [58, 59, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [59, 60, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [61, 62, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [62, 63, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [63, 64, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [64, 65, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [65, 66, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [67, 68, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [68, 69, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [69, 70, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [70, 67, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [86, 57, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+lifts: {}
+name: classroom

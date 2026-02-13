@@ -15,7 +15,7 @@
 -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
 -- Added test 'lint_cmake' to check CMake code style
 -- Added test 'xmllint' to check XML markup files
--- Configuring done (0.8s)
+-- Configuring done (1.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/maria/rmf_ws/build/project_simulation
 -- Install configuration: ""

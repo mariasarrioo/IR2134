@@ -7,17 +7,18 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-install(
-  DIRECTORY
-    launch/
-    config/
+install(DIRECTORY
+  launch/
   DESTINATION share/${PROJECT_NAME}
 )
 
-ament_package()
+install(DIRECTORY
+  config/
+  DESTINATION share/${PROJECT_NAME}/config
+)
 
+ament_package()
