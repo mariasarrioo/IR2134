@@ -1,6 +1,9 @@
 /home/maria/rmf_ws/build/project_maps/CMakeFiles/uninstall.dir
 /home/maria/rmf_ws/build/project_maps/CMakeFiles/project_maps_uninstall.dir
 /home/maria/rmf_ws/build/project_maps/CMakeFiles/update_model_cache.dir
+/home/maria/rmf_ws/build/project_maps/CMakeFiles/classroom.dir
+/home/maria/rmf_ws/build/project_maps/CMakeFiles/generate_classroom_crowdsim.dir
+/home/maria/rmf_ws/build/project_maps/CMakeFiles/generate_classroom_nav_graphs.dir
 /home/maria/rmf_ws/build/project_maps/CMakeFiles/test1.dir
 /home/maria/rmf_ws/build/project_maps/CMakeFiles/generate_test1_crowdsim.dir
 /home/maria/rmf_ws/build/project_maps/CMakeFiles/generate_test1_nav_graphs.dir

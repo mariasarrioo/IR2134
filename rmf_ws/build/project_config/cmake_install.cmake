@@ -43,10 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/project_config" TYPE DIRECTORY FILES
-    "/home/maria/rmf_ws/src/project/project_config/launch/"
-    "/home/maria/rmf_ws/src/project/project_config/config/"
-    )
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/project_config" TYPE DIRECTORY FILES "/home/maria/rmf_ws/src/project/project_config/launch/")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/project_config/config" TYPE DIRECTORY FILES "/home/maria/rmf_ws/src/project/project_config/config/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -63,6 +63,8 @@ CMAKE_BINARY_DIR = /home/maria/rmf_ws/build/project_maps
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/generate_classroom_crowdsim.dir/all
+all: CMakeFiles/generate_classroom_nav_graphs.dir/all
 all: CMakeFiles/generate_test1_crowdsim.dir/all
 all: CMakeFiles/generate_test1_nav_graphs.dir/all
 .PHONY : all
@@ -75,6 +77,9 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/project_maps_uninstall.dir/clean
 clean: CMakeFiles/update_model_cache.dir/clean
+clean: CMakeFiles/classroom.dir/clean
+clean: CMakeFiles/generate_classroom_crowdsim.dir/clean
+clean: CMakeFiles/generate_classroom_nav_graphs.dir/clean
 clean: CMakeFiles/test1.dir/clean
 clean: CMakeFiles/generate_test1_crowdsim.dir/clean
 clean: CMakeFiles/generate_test1_nav_graphs.dir/clean
@@ -159,6 +164,84 @@ CMakeFiles/update_model_cache.dir/clean:
 .PHONY : CMakeFiles/update_model_cache.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/classroom.dir
+
+# All Build rule for target.
+CMakeFiles/classroom.dir/all: CMakeFiles/update_model_cache.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/classroom.dir/build.make CMakeFiles/classroom.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/classroom.dir/build.make CMakeFiles/classroom.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/maria/rmf_ws/build/project_maps/CMakeFiles --progress-num= "Built target classroom"
+.PHONY : CMakeFiles/classroom.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/classroom.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maria/rmf_ws/build/project_maps/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/classroom.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maria/rmf_ws/build/project_maps/CMakeFiles 0
+.PHONY : CMakeFiles/classroom.dir/rule
+
+# Convenience name for target.
+classroom: CMakeFiles/classroom.dir/rule
+.PHONY : classroom
+
+# clean rule for target.
+CMakeFiles/classroom.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/classroom.dir/build.make CMakeFiles/classroom.dir/clean
+.PHONY : CMakeFiles/classroom.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/generate_classroom_crowdsim.dir
+
+# All Build rule for target.
+CMakeFiles/generate_classroom_crowdsim.dir/all: CMakeFiles/classroom.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_classroom_crowdsim.dir/build.make CMakeFiles/generate_classroom_crowdsim.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_classroom_crowdsim.dir/build.make CMakeFiles/generate_classroom_crowdsim.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/maria/rmf_ws/build/project_maps/CMakeFiles --progress-num=1 "Built target generate_classroom_crowdsim"
+.PHONY : CMakeFiles/generate_classroom_crowdsim.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/generate_classroom_crowdsim.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maria/rmf_ws/build/project_maps/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/generate_classroom_crowdsim.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maria/rmf_ws/build/project_maps/CMakeFiles 0
+.PHONY : CMakeFiles/generate_classroom_crowdsim.dir/rule
+
+# Convenience name for target.
+generate_classroom_crowdsim: CMakeFiles/generate_classroom_crowdsim.dir/rule
+.PHONY : generate_classroom_crowdsim
+
+# clean rule for target.
+CMakeFiles/generate_classroom_crowdsim.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_classroom_crowdsim.dir/build.make CMakeFiles/generate_classroom_crowdsim.dir/clean
+.PHONY : CMakeFiles/generate_classroom_crowdsim.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/generate_classroom_nav_graphs.dir
+
+# All Build rule for target.
+CMakeFiles/generate_classroom_nav_graphs.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_classroom_nav_graphs.dir/build.make CMakeFiles/generate_classroom_nav_graphs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_classroom_nav_graphs.dir/build.make CMakeFiles/generate_classroom_nav_graphs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/maria/rmf_ws/build/project_maps/CMakeFiles --progress-num=2 "Built target generate_classroom_nav_graphs"
+.PHONY : CMakeFiles/generate_classroom_nav_graphs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/generate_classroom_nav_graphs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maria/rmf_ws/build/project_maps/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/generate_classroom_nav_graphs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maria/rmf_ws/build/project_maps/CMakeFiles 0
+.PHONY : CMakeFiles/generate_classroom_nav_graphs.dir/rule
+
+# Convenience name for target.
+generate_classroom_nav_graphs: CMakeFiles/generate_classroom_nav_graphs.dir/rule
+.PHONY : generate_classroom_nav_graphs
+
+# clean rule for target.
+CMakeFiles/generate_classroom_nav_graphs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_classroom_nav_graphs.dir/build.make CMakeFiles/generate_classroom_nav_graphs.dir/clean
+.PHONY : CMakeFiles/generate_classroom_nav_graphs.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/test1.dir
 
 # All Build rule for target.
@@ -191,7 +274,7 @@ CMakeFiles/test1.dir/clean:
 CMakeFiles/generate_test1_crowdsim.dir/all: CMakeFiles/test1.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_test1_crowdsim.dir/build.make CMakeFiles/generate_test1_crowdsim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_test1_crowdsim.dir/build.make CMakeFiles/generate_test1_crowdsim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/maria/rmf_ws/build/project_maps/CMakeFiles --progress-num=1 "Built target generate_test1_crowdsim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/maria/rmf_ws/build/project_maps/CMakeFiles --progress-num=3 "Built target generate_test1_crowdsim"
 .PHONY : CMakeFiles/generate_test1_crowdsim.dir/all
 
 # Build rule for subdir invocation for target.
@@ -217,7 +300,7 @@ CMakeFiles/generate_test1_crowdsim.dir/clean:
 CMakeFiles/generate_test1_nav_graphs.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_test1_nav_graphs.dir/build.make CMakeFiles/generate_test1_nav_graphs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_test1_nav_graphs.dir/build.make CMakeFiles/generate_test1_nav_graphs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/maria/rmf_ws/build/project_maps/CMakeFiles --progress-num=2 "Built target generate_test1_nav_graphs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/maria/rmf_ws/build/project_maps/CMakeFiles --progress-num=4 "Built target generate_test1_nav_graphs"
 .PHONY : CMakeFiles/generate_test1_nav_graphs.dir/all
 
 # Build rule for subdir invocation for target.

@@ -24,6 +24,8 @@ schematypens="http://www.w3.org/2001/XMLSchema"?>
   <exec_depend>project_fleet_adapter</exec_depend>
   <exec_depend>rviz2</exec_depend>
   <exec_depend>launch_xml</exec_depend>
+  <exec_depend>project_simulation</exec_depend>
+
 
   <export>
     <build_type>ament_cmake</build_type>

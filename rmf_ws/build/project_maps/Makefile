@@ -211,6 +211,45 @@ update_model_cache/fast:
 .PHONY : update_model_cache/fast
 
 #=============================================================================
+# Target rules for targets named classroom
+
+# Build rule for target.
+classroom: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 classroom
+.PHONY : classroom
+
+# fast build rule for target.
+classroom/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/classroom.dir/build.make CMakeFiles/classroom.dir/build
+.PHONY : classroom/fast
+
+#=============================================================================
+# Target rules for targets named generate_classroom_crowdsim
+
+# Build rule for target.
+generate_classroom_crowdsim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 generate_classroom_crowdsim
+.PHONY : generate_classroom_crowdsim
+
+# fast build rule for target.
+generate_classroom_crowdsim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_classroom_crowdsim.dir/build.make CMakeFiles/generate_classroom_crowdsim.dir/build
+.PHONY : generate_classroom_crowdsim/fast
+
+#=============================================================================
+# Target rules for targets named generate_classroom_nav_graphs
+
+# Build rule for target.
+generate_classroom_nav_graphs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 generate_classroom_nav_graphs
+.PHONY : generate_classroom_nav_graphs
+
+# fast build rule for target.
+generate_classroom_nav_graphs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_classroom_nav_graphs.dir/build.make CMakeFiles/generate_classroom_nav_graphs.dir/build
+.PHONY : generate_classroom_nav_graphs/fast
+
+#=============================================================================
 # Target rules for targets named test1
 
 # Build rule for target.
@@ -262,6 +301,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... classroom"
+	@echo "... generate_classroom_crowdsim"
+	@echo "... generate_classroom_nav_graphs"
 	@echo "... generate_test1_crowdsim"
 	@echo "... generate_test1_nav_graphs"
 	@echo "... project_maps_uninstall"
