@@ -67,7 +67,7 @@ ros2 launch project_simulation test1.launch.xml server_uri:="ws://localhost:8000
 ```
 Now, Gazebo and Rviz should have opened. In Gazebo you should be ale to see the world and the TinyRobot. In Rviz (which I have not been able to open in this simulation), should show where the robot is located and the graphs. 
 
-![Foto Gazebo y Rviz](/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets/fotos_readme/foto1.png)
+![Foto Gazebo y Rviz](/rmf_ws/src/project/project_assets/fotos_readme/foto1.png)
 
 ![Foto Gazebo](/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_assets/fotos_readme/foto2.png)
 
