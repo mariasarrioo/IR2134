@@ -1,0 +1,40 @@
+running egg_info
+writing ../../../build/project_tasks/project_tasks.egg-info/PKG-INFO
+writing dependency_links to ../../../build/project_tasks/project_tasks.egg-info/dependency_links.txt
+writing entry points to ../../../build/project_tasks/project_tasks.egg-info/entry_points.txt
+writing requirements to ../../../build/project_tasks/project_tasks.egg-info/requires.txt
+writing top-level names to ../../../build/project_tasks/project_tasks.egg-info/top_level.txt
+reading manifest file '../../../build/project_tasks/project_tasks.egg-info/SOURCES.txt'
+writing manifest file '../../../build/project_tasks/project_tasks.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying resource/project_tasks -> /home/maria/rmf_ws/install/project_tasks/share/ament_index/resource_index/packages
+copying package.xml -> /home/maria/rmf_ws/install/project_tasks/share/project_tasks
+running install_egg_info
+Copying ../../../build/project_tasks/project_tasks.egg-info to /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks-2.8.1-py3.12.egg-info
+running install_scripts
+Installing api_request script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing cancel_robot_task script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing cancel_task script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing dispatch_action script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing dispatch_cart_delivery script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing dispatch_clean script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing dispatch_delivery script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing dispatch_dynamic_event script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing dispatch_go_to_place script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing dispatch_json script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing dispatch_loop script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing dispatch_patrol script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing dispatch_teleop script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing dynamic_event_client script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing emergency_signal script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing get_robot_location script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing mock_docker script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing request_lift script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing request_loop script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing teleop_robot script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+Installing wait_for_task_complete script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+writing list of installed files to '/home/maria/rmf_ws/build/project_tasks/install.log'

@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_map_generator", line 33, in <module>
+    sys.exit(load_entry_point('rmf-building-map-tools==1.14.0', 'console_scripts', 'building_map_generator')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map_generator/building_map_generator.py", line 16, in main
+    g.generate_sdf(
+  File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/generator.py", line 38, in generate_sdf
+    sdf = building.generate_sdf_world(template_file, skip_camera_pose)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/building.py", line 430, in generate_sdf_world
+    level.generate_sdf_models(world, model_author_cache)
+  File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/level.py", line 258, in generate_sdf_models
+    self.generate_robot_at_vertex_idx(vertex_idx, world_ele)
+  File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/level.py", line 288, in generate_robot_at_vertex_idx
+    robot_name = vertex.params['spawn_robot_name'].value
+                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'spawn_robot_name'
+gmake[2]: *** [CMakeFiles/estce.dir/build.make:70: CMakeFiles/estce] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/estce.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

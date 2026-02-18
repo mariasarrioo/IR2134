@@ -1,0 +1,91 @@
+In file included from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Runtime/SimulatorDB.h:31[m[K,
+                 from [01m[K/home/maria/rmf_ws/src/rmf_simulation/rmf_building_sim_gz_plugins/src/crowd_simulator.hpp:30[m[K,
+                 from [01m[K/home/maria/rmf_ws/src/rmf_simulation/rmf_building_sim_gz_plugins/src/crowd_simulator.cpp:32[m[K:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/MengeException.h:33:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+   33 | #pragma warning(disable : 4275)
+      | 
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/MengeException.h:71:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+   71 | #pragma warning(default : 4275)
+      | 
+In file included from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Orca/ORCASimulator.h:27[m[K,
+                 from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:28[m[K,
+                 from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h:27[m[K,
+                 from [01m[K/home/maria/rmf_ws/src/rmf_simulation/rmf_building_sim_gz_plugins/src/crowd_simulator.hpp:31[m[K:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:190:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma omp parallel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+  190 | #pragma omp parallel for
+      | 
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:196:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma omp parallel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+  196 | #pragma omp parallel for
+      | 
+In file included from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:29[m[K,
+                 from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Orca/ORCAAgent.h:27[m[K,
+                 from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:27[m[K:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:[m[K In member function ‘[01m[Kvoid Menge::Agents::PrefVelocity::[01;32m[KsetSingle[m[K(const Menge::Math::Vector2&)[m[K’:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:138:83:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Menge::Math::Vector2d<float>& Menge::Math::Vector2d<float>::[01;32m[Koperator=[m[K(const Menge::Math::Vector2d<float>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  138 |   inline void setSingle(const Math::Vector2& dir) { _left = _preferred = _right = [01;35m[Kdir[m[K; }
+      |                                                                                   [01;35m[K^~~[m[K
+In file included from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/vector.h:32[m[K,
+                 from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/RandGenerator.h:39[m[K,
+                 from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/mengeCommon.h:36[m[K,
+                 from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:27[m[K:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h:76:10:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMenge::Math::Vector2d<float>[m[K’ has user-provided ‘[01m[KMenge::Math::Vector2d<Type>::[01;32m[KVector2d[m[K(const Menge::Math::Vector2d<Type>&) [35m[K[with Type = float][m[K[m[K’
+   76 |   inline [01;36m[KVector2d[m[K(const Vector2d& v) : _x(v._x), _y(v._y) {}
+      |          [01;36m[K^~~~~~~~[m[K
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:138:83:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Menge::Math::Vector2d<float>& Menge::Math::Vector2d<float>::[01;32m[Koperator=[m[K(const Menge::Math::Vector2d<float>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  138 |   inline void setSingle(const Math::Vector2& dir) { _left = _preferred = _right = [01;35m[Kdir[m[K; }
+      |                                                                                   [01;35m[K^~~[m[K
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h:76:10:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMenge::Math::Vector2d<float>[m[K’ has user-provided ‘[01m[KMenge::Math::Vector2d<Type>::[01;32m[KVector2d[m[K(const Menge::Math::Vector2d<Type>&) [35m[K[with Type = float][m[K[m[K’
+   76 |   inline [01;36m[KVector2d[m[K(const Vector2d& v) : _x(v._x), _y(v._y) {}
+      |          [01;36m[K^~~~~~~~[m[K
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:138:83:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Menge::Math::Vector2d<float>& Menge::Math::Vector2d<float>::[01;32m[Koperator=[m[K(const Menge::Math::Vector2d<float>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  138 |   inline void setSingle(const Math::Vector2& dir) { _left = _preferred = _right = [01;35m[Kdir[m[K; }
+      |                                                                                   [01;35m[K^~~[m[K
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h:76:10:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMenge::Math::Vector2d<float>[m[K’ has user-provided ‘[01m[KMenge::Math::Vector2d<Type>::[01;32m[KVector2d[m[K(const Menge::Math::Vector2d<Type>&) [35m[K[with Type = float][m[K[m[K’
+   76 |   inline [01;36m[KVector2d[m[K(const Vector2d& v) : _x(v._x), _y(v._y) {}
+      |          [01;36m[K^~~~~~~~[m[K
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:[m[K In member function ‘[01m[Kvoid Menge::Agents::PrefVelocity::[01;32m[KsetTarget[m[K(const Menge::Math::Vector2&)[m[K’:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:152:66:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Menge::Math::Vector2d<float>& Menge::Math::Vector2d<float>::[01;32m[Koperator=[m[K(const Menge::Math::Vector2d<float>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  152 |   inline void setTarget(const Math::Vector2& target) { _target = [01;35m[Ktarget[m[K; }
+      |                                                                  [01;35m[K^~~~~~[m[K
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h:76:10:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMenge::Math::Vector2d<float>[m[K’ has user-provided ‘[01m[KMenge::Math::Vector2d<Type>::[01;32m[KVector2d[m[K(const Menge::Math::Vector2d<Type>&) [35m[K[with Type = float][m[K[m[K’
+   76 |   inline [01;36m[KVector2d[m[K(const Vector2d& v) : _x(v._x), _y(v._y) {}
+      |          [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:33[m[K:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h:[m[K In member function ‘[01m[Kvirtual void Menge::BFSM::VelModifier::[01;32m[KregisterAgent[m[K(const Menge::Agents::BaseAgent*)[m[K’:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h:122:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kagent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  122 |   virtual void registerAgent([01;35m[Kconst Agents::BaseAgent* agent[m[K) {}
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h:[m[K In member function ‘[01m[Kvirtual void Menge::BFSM::VelModifier::[01;32m[KunregisterAgent[m[K(const Menge::Agents::BaseAgent*)[m[K’:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h:132:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kagent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  132 |   virtual void unregisterAgent([01;35m[Kconst Agents::BaseAgent* agent[m[K) {}
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:[m[K In member function ‘[01m[Kvirtual void Menge::Agents::BaseAgent::[01;32m[KsetStrideParameters[m[K(float, float)[m[K’:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:353:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstride[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  353 |   virtual void setStrideParameters([01;35m[Kfloat stride[m[K, float buffer) {}
+      |                                    [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:353:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  353 |   virtual void setStrideParameters(float stride, [01;35m[Kfloat buffer[m[K) {}
+      |                                                  [01;35m[K~~~~~~^~~~~~[m[K
+In file included from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:30[m[K:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/SpatialQuery.h:[m[K In member function ‘[01m[Kvirtual void Menge::Agents::SpatialQuery::[01;32m[KsetNeighborVisibleTest[m[K(bool)[m[K’:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/SpatialQuery.h:202:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  202 |   virtual void setNeighborVisibleTest([01;35m[Kbool state[m[K) {}
+      |                                       [01;35m[K~~~~~^~~~~[m[K
+/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h: In instantiation of ‘[01m[Kbool Menge::Agents::SimulatorBase<Agent>::[01;32m[KisExpTarget[m[K(const std::string&) [35m[K[with Agent = ORCA::Agent; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:136:16:[m[K   required from here
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:136:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtagName[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  136 |   virtual bool isExpTarget([01;35m[Kconst std::string& tagName[m[K) { return false; }
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h: In instantiation of ‘[01m[Kbool Menge::Agents::SimulatorBase<Agent>::[01;32m[KsetExpParam[m[K(const std::string&, const std::string&) [35m[K[with Agent = ORCA::Agent; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:273:6:[m[K   required from here
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:278:14:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass Menge::UtilException[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+  278 |     } catch ([01;35m[KUtilException[m[K) {
+      |              [01;35m[K^~~~~~~~~~~~~[m[K
+/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h: In instantiation of ‘[01m[KMenge::Agents::BaseAgent* Menge::Agents::SimulatorBase<Agent>::[01;32m[KaddAgent[m[K(const Menge::Math::Vector2&, Menge::Agents::AgentInitializer*) [35m[K[with Agent = ORCA::Agent; Menge::Math::Vector2 = Menge::Math::Vector2d<float>][m[K[m[K’:
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:237:12:[m[K   required from here
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:240:14:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Menge::Math::Vector2d<float>& Menge::Math::Vector2d<float>::[01;32m[Koperator=[m[K(const Menge::Math::Vector2d<float>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  240 |   [01;35m[Kagent._pos = pos[m[K;
+      |   [01;35m[K~~~~~~~~~~~^~~~~[m[K
+[01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h:76:10:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMenge::Math::Vector2d<float>[m[K’ has user-provided ‘[01m[KMenge::Math::Vector2d<Type>::[01;32m[KVector2d[m[K(const Menge::Math::Vector2d<Type>&) [35m[K[with Type = float][m[K[m[K’
+   76 |   inline [01;36m[KVector2d[m[K(const Vector2d& v) : _x(v._x), _y(v._y) {}
+      |          [01;36m[K^~~~~~~~[m[K

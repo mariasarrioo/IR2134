@@ -1,0 +1,16 @@
+[1.581s] Invoking command in '/home/maria/rmf_ws/src/project/project_tasks': PYTHONPATH=/home/maria/rmf_ws/build/project_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/project_tasks build --build-base /home/maria/rmf_ws/build/project_tasks/build install --record /home/maria/rmf_ws/build/project_tasks/install.log --single-version-externally-managed install_data
+[1.882s] running egg_info
+[1.900s] writing ../../../build/project_tasks/project_tasks.egg-info/PKG-INFO
+[1.900s] writing dependency_links to ../../../build/project_tasks/project_tasks.egg-info/dependency_links.txt
+[1.900s] writing entry points to ../../../build/project_tasks/project_tasks.egg-info/entry_points.txt
+[1.900s] writing requirements to ../../../build/project_tasks/project_tasks.egg-info/requires.txt
+[1.900s] writing top-level names to ../../../build/project_tasks/project_tasks.egg-info/top_level.txt
+[1.932s] reading manifest file '../../../build/project_tasks/project_tasks.egg-info/SOURCES.txt'
+[1.933s] writing manifest file '../../../build/project_tasks/project_tasks.egg-info/SOURCES.txt'
+[1.933s] running build
+[1.933s] running build_py
+[1.935s] running install
+[1.941s] running install_lib
+[1.959s] error: can't copy 'resource/project_tasks': doesn't exist or not a regular file
+[1.959s] running install_data
+[1.976s] Invoked command in '/home/maria/rmf_ws/src/project/project_tasks' returned '1': PYTHONPATH=/home/maria/rmf_ws/build/project_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/project_tasks build --build-base /home/maria/rmf_ws/build/project_tasks/build install --record /home/maria/rmf_ws/build/project_tasks/install.log --single-version-externally-managed install_data

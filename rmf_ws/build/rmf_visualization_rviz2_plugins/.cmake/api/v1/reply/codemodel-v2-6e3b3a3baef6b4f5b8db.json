@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0f537f4330e3194e44c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rmf_visualization_rviz2_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rmf_visualization_rviz2_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rmf_visualization_rviz2_plugins-3750b3c9a754c8494791.json",
+					"name" : "rmf_visualization_rviz2_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rmf_visualization_rviz2_plugins_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rmf_visualization_rviz2_plugins_autogen-cb109c508bad6bc6e3c5.json",
+					"name" : "rmf_visualization_rviz2_plugins_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rmf_visualization_rviz2_plugins_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rmf_visualization_rviz2_plugins_autogen_timestamp_deps-7e8fc1009b0a7c655a9a.json",
+					"name" : "rmf_visualization_rviz2_plugins_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rmf_visualization_rviz2_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rmf_visualization_rviz2_plugins_uninstall-49396ffa214d0c8eaf39.json",
+					"name" : "rmf_visualization_rviz2_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-24f1227e7b7c2585b446.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maria/rmf_ws/build/rmf_visualization_rviz2_plugins",
+		"source" : "/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_rviz2_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

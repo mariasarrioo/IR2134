@@ -1,0 +1,1392 @@
+[0.000000] (-) TimerEvent: {}
+[0.000176] (-) JobUnselected: {'identifier': 'project_assets'}
+[0.000223] (-) JobUnselected: {'identifier': 'project_config'}
+[0.000242] (-) JobUnselected: {'identifier': 'project_fleet_adapter'}
+[0.000256] (-) JobUnselected: {'identifier': 'project_simulation'}
+[0.000269] (-) JobUnselected: {'identifier': 'project_tasks'}
+[0.000281] (-) JobUnselected: {'identifier': 'rmf_building_sim_gz_plugins'}
+[0.000294] (-) JobUnselected: {'identifier': 'rmf_robot_sim_common'}
+[0.000305] (-) JobUnselected: {'identifier': 'rmf_robot_sim_gz_plugins'}
+[0.000317] (-) JobUnselected: {'identifier': 'rmf_visualization'}
+[0.000328] (-) JobUnselected: {'identifier': 'rmf_visualization_building_systems'}
+[0.000340] (-) JobUnselected: {'identifier': 'rmf_visualization_fleet_states'}
+[0.000351] (-) JobUnselected: {'identifier': 'rmf_visualization_floorplans'}
+[0.000372] (-) JobUnselected: {'identifier': 'rmf_visualization_navgraphs'}
+[0.000391] (-) JobUnselected: {'identifier': 'rmf_visualization_obstacles'}
+[0.000409] (-) JobUnselected: {'identifier': 'rmf_visualization_rviz2_plugins'}
+[0.000421] (-) JobUnselected: {'identifier': 'rmf_visualization_schedule'}
+[0.000434] (project_maps) JobQueued: {'identifier': 'project_maps', 'dependencies': OrderedDict()}
+[0.000451] (project_maps) JobStarted: {'identifier': 'project_maps'}
+[0.013934] (project_maps) JobProgress: {'identifier': 'project_maps', 'progress': 'cmake'}
+[0.014348] (project_maps) JobProgress: {'identifier': 'project_maps', 'progress': 'build'}
+[0.014770] (project_maps) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maria/rmf_ws/build/project_maps', '--', '-j8', '-l8'], 'cwd': '/home/maria/rmf_ws/build/project_maps', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/:/rmf_demos_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/', 'GZ_GUI_PLUGIN_PATH': '/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/:/rmf_demos_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/', 'GZ_SIM_RESOURCE_PATH': '/home/maria/rmf_ws/install/project_assets/share/project_assets/models:/rmf_demos_ws/install/rmf_demos_assets/share/rmf_demos_assets/models', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'maria', 'ROS_PACKAGE_PATH': '/rmf_demos_ws/install/menge_vendor/share', '__GLX_VENDOR_LIBRARY_NAME': 'nvidia', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maria/rmf_ws/install/rmf_visualization_schedule/lib:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins/lib:/home/maria/rmf_ws/install/rmf_visualization_obstacles/lib:/home/maria/rmf_ws/install/rmf_visualization_navgraphs/lib:/home/maria/rmf_ws/install/rmf_visualization_floorplans/lib:/home/maria/rmf_ws/install/rmf_visualization_fleet_states/lib:/home/maria/rmf_ws/install/rmf_robot_sim_common/lib:/rmf_demos_ws/install/rmf_workcell_msgs/lib:/rmf_demos_ws/install/rmf_fleet_adapter/lib:/rmf_demos_ws/install/rmf_task_ros2/lib:/rmf_demos_ws/install/rmf_websocket/lib:/rmf_demos_ws/install/rmf_visualization_schedule/lib:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins/lib:/rmf_demos_ws/install/rmf_visualization_obstacles/lib:/rmf_demos_ws/install/rmf_visualization_navgraphs/lib:/rmf_demos_ws/install/rmf_visualization_floorplans/lib:/rmf_demos_ws/install/rmf_visualization_fleet_states/lib:/rmf_demos_ws/install/rmf_visualization_msgs/lib:/rmf_demos_ws/install/rmf_traffic_ros2/lib:/rmf_demos_ws/install/rmf_task_sequence/lib:/rmf_demos_ws/install/rmf_task/lib:/rmf_demos_ws/install/rmf_battery/lib:/rmf_demos_ws/install/rmf_traffic/lib:/rmf_demos_ws/install/rmf_utils/lib:/rmf_demos_ws/install/rmf_traffic_msgs/lib:/rmf_demos_ws/install/rmf_task_msgs/lib:/rmf_demos_ws/install/rmf_site_map_msgs/lib:/rmf_demos_ws/install/rmf_scheduler_msgs/lib:/rmf_demos_ws/install/rmf_robot_sim_common/lib:/rmf_demos_ws/install/rmf_reservation_msgs/lib:/rmf_demos_ws/install/rmf_obstacle_msgs/lib:/rmf_demos_ws/install/rmf_lift_msgs/lib:/rmf_demos_ws/install/rmf_ingestor_msgs/lib:/rmf_demos_ws/install/rmf_fleet_msgs/lib:/rmf_demos_ws/install/rmf_door_msgs/lib:/rmf_demos_ws/install/rmf_dispenser_msgs/lib:/rmf_demos_ws/install/rmf_charger_msgs/lib:/rmf_demos_ws/install/rmf_building_map_msgs/lib:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor/lib:/rmf_demos_ws/install/menge_vendor/lib:/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/maria/rmf_ws/install:/rmf_demos_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/rmf_demos_ws/install/rmf_traffic_examples/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_traffic_examples/lib/pkgconfig:/rmf_demos_ws/install/rmf_task_sequence/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_task_sequence/lib/pkgconfig:/rmf_demos_ws/install/rmf_task/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_task/lib/pkgconfig:/rmf_demos_ws/install/rmf_battery/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_battery/lib/pkgconfig:/rmf_demos_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_traffic/lib/pkgconfig:/rmf_demos_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_utils/lib/pkgconfig:/rmf_demos_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/menge_vendor/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/rmf_demos_ws/install/rmf_traffic_editor/bin:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', '__NV_PRIME_RENDER_OFFLOAD': '1', 'XAUTHORITY': '/tmp/.dockerkfmq4wkv.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_demos_tasks:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_fleet_adapter:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_charging_schedule:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'PWD': '/home/maria/rmf_ws/build/project_maps', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/maria/rmf_ws/install/rmf_visualization_building_systems/lib/python3.12/site-packages:/home/maria/rmf_ws/install/rmf_demos_tasks/lib/python3.12/site-packages:/home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages:/home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_workcell_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_demos_fleet_adapter/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_fleet_adapter_python/lib/python/site-packages:/rmf_demos_ws/install/rmf_visualization_building_systems/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_visualization_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_demos_bridges/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_traffic_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_demos_tasks/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_task_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_site_map_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_scheduler_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_reservation_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_obstacle_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_lift_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_ingestor_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_charging_schedule/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_fleet_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_door_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_dispenser_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_charger_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_building_map_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_api_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/rmf_demos_tasks:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.084126] (project_maps) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating maps/classroom/nav_graphs/phony\x1b[0m\n'}
+[0.084412] (project_maps) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating maps/test1/nav_graphs/phony\x1b[0m\n'}
+[0.084536] (project_maps) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating maps/estce/nav_graphs/phony\x1b[0m\n'}
+[0.099191] (-) TimerEvent: {}
+[0.199505] (-) TimerEvent: {}
+[0.299818] (-) TimerEvent: {}
+[0.400143] (-) TimerEvent: {}
+[0.441872] (project_maps) StdoutLine: {'line': b'Load success!\n'}
+[0.442394] (project_maps) StdoutLine: {'line': b'\n'}
+[0.442565] (project_maps) StdoutLine: {'line': b'Cache found! Model count: 3238 \n'}
+[0.442718] (project_maps) StdoutLine: {'line': b'Updating cache...\n'}
+[0.442869] (project_maps) StdoutLine: {'line': b'Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models\n'}
+[0.443020] (project_maps) StdoutLine: {'line': b'Fetching page: 1\n'}
+[0.500248] (-) TimerEvent: {}
+[0.600533] (-) TimerEvent: {}
+[0.621876] (project_maps) StdoutLine: {'line': b'building name: test1\n'}
+[0.622172] (project_maps) StdoutLine: {'line': b'coordinate system: reference_image\n'}
+[0.622435] (project_maps) StdoutLine: {'line': b'parsing level L1\n'}
+[0.622579] (project_maps) StdoutLine: {'line': b'parsing level L2\n'}
+[0.622711] (project_maps) StdoutLine: {'line': b'calculating levels relative to L1\n'}
+[0.622845] (project_maps) StdoutLine: {'line': b'level L1 scale: 0.06666666666666667\n'}
+[0.622973] (project_maps) StdoutLine: {'line': b'calculating level L2 offset and scale...\n'}
+[0.623099] (project_maps) StdoutLine: {'line': b'  2 common fiducials:\n'}
+[0.623289] (project_maps) StdoutLine: {'line': b'Transform.set_from_fiducials()\n'}
+[0.623422] (project_maps) StdoutLine: {'line': b'  2 fiducial pairs:\n'}
+[0.623552] (project_maps) StdoutLine: {'line': b'    (1.5, -1.5) -> (2.0, -2.0)   columna1\n'}
+[0.623680] (project_maps) StdoutLine: {'line': b'    (148.5, -1.5) -> (148.5, -1.5)   columna2\n'}
+[0.623821] (project_maps) StdoutLine: {'line': b'    calc dist columna1 <=> columna2\n'}
+[0.623948] (project_maps) StdoutLine: {'line': b'Bearings:\n'}
+[0.624052] (project_maps) StdoutLine: {'line': b'[(0.0, 0.003412956031538204)]\n'}
+[0.624141] (project_maps) StdoutLine: {'line': b'  0.003412956031538204\n'}
+[0.624231] (project_maps) StdoutLine: {'line': b'  Circular mean: -0.0034129560315382034\n'}
+[0.624315] (project_maps) StdoutLine: {'line': b'Distances:\n'}
+[0.624414] (project_maps) StdoutLine: {'line': b'[(147.0, 146.50085323983612)]\n'}
+[0.624500] (project_maps) StdoutLine: {'line': b'mean relative scale: 0.996604443808409\n'}
+[0.624587] (project_maps) StdoutLine: {'line': b'translation: (-0.03333, 0.034243)\n'}
+[0.624680] (project_maps) StdoutLine: {'line': b'parsing lift lift1\n'}
+[0.624773] (project_maps) StdoutLine: {'line': b'generating nav data\n'}
+[0.624862] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.506, u=0.532\n'}
+[0.624955] (project_maps) StdoutLine: {'line': b'  (23.555,-48.923),(122.687,-48.923) and (73.7,-38.148),(73.7,-58.389)\n'}
+[0.625044] (project_maps) StdoutLine: {'line': b'found intersection with door door1!\n'}
+[0.625138] (project_maps) StdoutLine: {'line': b'writing /home/maria/rmf_ws/build/project_maps/maps/test1/nav_graphs/0.yaml\n'}
+[0.699966] (project_maps) StdoutLine: {'line': b'[ 50%] Built target generate_test1_nav_graphs\n'}
+[0.700602] (-) TimerEvent: {}
+[0.706836] (project_maps) StdoutLine: {'line': b'building name: classroom\n'}
+[0.707060] (project_maps) StdoutLine: {'line': b'coordinate system: reference_image\n'}
+[0.707187] (project_maps) StdoutLine: {'line': b'parsing level L1\n'}
+[0.708105] (project_maps) StdoutLine: {'line': b'parsing level L2\n'}
+[0.708569] (project_maps) StdoutLine: {'line': b'calculating levels relative to L1\n'}
+[0.708740] (project_maps) StdoutLine: {'line': b'level L1 scale: 0.02551020408163266\n'}
+[0.708879] (project_maps) StdoutLine: {'line': b'calculating level L2 offset and scale...\n'}
+[0.709017] (project_maps) StdoutLine: {'line': b'  0 common fiducials:\n'}
+[0.709165] (project_maps) StdoutLine: {'line': b'Transform.set_from_fiducials()\n'}
+[0.709316] (project_maps) StdoutLine: {'line': b'  0 fiducial pairs:\n'}
+[0.709451] (project_maps) StdoutLine: {'line': b'Bearings:\n'}
+[0.709582] (project_maps) StdoutLine: {'line': b'[]\n'}
+[0.714393] (project_maps) StdoutLine: {'line': b'generating nav data\n'}
+[0.714616] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.459, u=0.62\n'}
+[0.714836] (project_maps) StdoutLine: {'line': b'  (732.006,-1378.531),(618.612,-1378.531) and (679.96,-1356.421),(679.96,-1392.105)\n'}
+[0.714946] (project_maps) StdoutLine: {'line': b'found intersection with door door2!\n'}
+[0.715048] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.604, u=0.561\n'}
+[0.715191] (project_maps) StdoutLine: {'line': b'  (741.803,-1033.459),(741.803,-1380.592) and (672.582,-1243.013),(795.893,-1243.013)\n'}
+[0.715314] (project_maps) StdoutLine: {'line': b'found intersection with door door6!\n'}
+[0.715411] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.303, u=0.684\n'}
+[0.715503] (project_maps) StdoutLine: {'line': b'  (741.803,-1380.592),(519.736,-1380.592) and (674.5,-1355.444),(674.5,-1392.191)\n'}
+[0.715595] (project_maps) StdoutLine: {'line': b'found intersection with door door9!\n'}
+[0.715681] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.183, u=0.481\n'}
+[0.715770] (project_maps) StdoutLine: {'line': b'  (877.736,-1373.216),(1134.021,-1373.216) and (924.619,-1355.521),(924.619,-1392.329)\n'}
+[0.715859] (project_maps) StdoutLine: {'line': b'found intersection with door door3!\n'}
+[0.715950] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.359, u=0.456\n'}
+[0.716043] (project_maps) StdoutLine: {'line': b'  (547.119,-1697.655),(878.052,-1697.655) and (665.966,-1673.474),(665.966,-1726.528)\n'}
+[0.716131] (project_maps) StdoutLine: {'line': b'found intersection with door door4!\n'}
+[0.716245] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.347, u=0.604\n'}
+[0.716330] (project_maps) StdoutLine: {'line': b'  (877.59,-1173.327),(877.59,-1374.102) and (808.137,-1243.013),(923.139,-1243.013)\n'}
+[0.716410] (project_maps) StdoutLine: {'line': b'found intersection with door door7!\n'}
+[0.716491] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.177, u=0.466\n'}
+[0.716575] (project_maps) StdoutLine: {'line': b'  (877.59,-1374.102),(1140.727,-1374.102) and (924.039,-1357.093),(924.039,-1393.624)\n'}
+[0.716655] (project_maps) StdoutLine: {'line': b'found intersection with door door8!\n'}
+[0.716735] (project_maps) StdoutLine: {'line': b'writing /home/maria/rmf_ws/build/project_maps/maps/classroom/nav_graphs/0.yaml\n'}
+[0.718587] (project_maps) StdoutLine: {'line': b'writing /home/maria/rmf_ws/build/project_maps/maps/classroom/nav_graphs/1.yaml\n'}
+[0.794242] (project_maps) StdoutLine: {'line': b'[ 50%] Built target generate_classroom_nav_graphs\n'}
+[0.800686] (-) TimerEvent: {}
+[0.900949] (-) TimerEvent: {}
+[0.957027] (project_maps) StdoutLine: {'line': b'building name: estce\n'}
+[0.957237] (project_maps) StdoutLine: {'line': b'coordinate system: reference_image\n'}
+[0.957350] (project_maps) StdoutLine: {'line': b'parsing level L1\n'}
+[0.960383] (project_maps) StdoutLine: {'line': b'parsing level L2\n'}
+[0.962556] (project_maps) StdoutLine: {'line': b'calculating levels relative to L1\n'}
+[0.962809] (project_maps) StdoutLine: {'line': b'level L1 scale: 0.022444889534645907\n'}
+[0.962922] (project_maps) StdoutLine: {'line': b'calculating level L2 offset and scale...\n'}
+[0.963026] (project_maps) StdoutLine: {'line': b'  3 common fiducials:\n'}
+[0.963133] (project_maps) StdoutLine: {'line': b'Transform.set_from_fiducials()\n'}
+[0.963482] (project_maps) StdoutLine: {'line': b'  3 fiducial pairs:\n'}
+[0.963588] (project_maps) StdoutLine: {'line': b'    (3963.9, -2197.6) -> (3837.1, -2354.5)   c3\n'}
+[0.963693] (project_maps) StdoutLine: {'line': b'    (2516.2, -2123.7) -> (2388.7, -2279.7)   c4\n'}
+[0.963796] (project_maps) StdoutLine: {'line': b'    (2369.6, -2222.5) -> (2242.3, -2378.6)   c1\n'}
+[0.963895] (project_maps) StdoutLine: {'line': b'    calc dist c3 <=> c4\n'}
+[0.963995] (project_maps) StdoutLine: {'line': b'    calc dist c3 <=> c1\n'}
+[0.964109] (project_maps) StdoutLine: {'line': b'    calc dist c4 <=> c1\n'}
+[0.964211] (project_maps) StdoutLine: {'line': b'Bearings:\n'}
+[0.964300] (project_maps) StdoutLine: {'line': b'[(3.090626667763035, 3.090030514435309), (-3.1259350542154625, -3.1264943407908756), (-2.5484125455389486, -2.5477943015529716)]\n'}
+[0.964394] (project_maps) StdoutLine: {'line': b'  -0.0005961533277258901\n'}
+[0.964485] (project_maps) StdoutLine: {'line': b'  -0.0005592865754131537\n'}
+[0.964579] (project_maps) StdoutLine: {'line': b'  0.000618243985976985\n'}
+[0.964673] (project_maps) StdoutLine: {'line': b'  Circular mean: 0.00017906532679433574\n'}
+[0.964770] (project_maps) StdoutLine: {'line': b'Distances:\n'}
+[0.964868] (project_maps) StdoutLine: {'line': b'[(1449.6723774715445, 1450.2914846695473), (1594.5624578062157, 1594.9407871394474), (176.77616935831585, 176.63032569182434)]\n'}
+[0.964966] (project_maps) StdoutLine: {'line': b'mean relative scale: 0.999946436772245\n'}
+[0.965063] (project_maps) StdoutLine: {'line': b'translation: (2.8426, 3.5003)\n'}
+[0.995821] (project_maps) StdoutLine: {'line': b'parsing lift lift1td1\n'}
+[0.996024] (project_maps) StdoutLine: {'line': b'parsing lift lift2td0\n'}
+[0.996107] (project_maps) StdoutLine: {'line': b'parsing lift lift3td2\n'}
+[0.996196] (project_maps) StdoutLine: {'line': b'parsing lift lift4td2\n'}
+[0.997231] (project_maps) StdoutLine: {'line': b'generating nav data\n'}
+[1.001016] (-) TimerEvent: {}
+[1.007370] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.539, u=0.761\n'}
+[1.007552] (project_maps) StdoutLine: {'line': b'  (2445.248,-2169.012),(2467.795,-2086.239) and (2490.877,-2124.279),(2446.927,-2124.383)\n'}
+[1.007654] (project_maps) StdoutLine: {'line': b'found intersection with door bano06!\n'}
+[1.007749] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.132, u=0.619\n'}
+[1.007848] (project_maps) StdoutLine: {'line': b'  (2467.795,-2086.239),(2637.26,-2086.239) and (2491.186,-2062.14),(2489.601,-2101.067)\n'}
+[1.007945] (project_maps) StdoutLine: {'line': b'found intersection with door TD0008CW!\n'}
+[1.008104] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.781, u=0.548\n'}
+[1.008221] (project_maps) StdoutLine: {'line': b'  (2644.009,-2172.471),(2726.492,-2161.224) and (2708.389,-2150.226),(2708.413,-2174.781)\n'}
+[1.008317] (project_maps) StdoutLine: {'line': b'found intersection with door bano08!\n'}
+[1.008407] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.776, u=0.502\n'}
+[1.008499] (project_maps) StdoutLine: {'line': b'  (2638.01,-2212.963),(2728.741,-2203.215) and (2708.413,-2193.344),(2708.413,-2217.344)\n'}
+[1.008593] (project_maps) StdoutLine: {'line': b'found intersection with door bano09!\n'}
+[1.008684] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.715, u=0.57\n'}
+[1.008776] (project_maps) StdoutLine: {'line': b'  (2637.26,-2272.95),(2736.989,-2242.207) and (2708.413,-2236.658),(2708.601,-2261.784)\n'}
+[1.008867] (project_maps) StdoutLine: {'line': b'found intersection with door bano010!\n'}
+[1.008958] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.514, u=0.617\n'}
+[1.009048] (project_maps) StdoutLine: {'line': b'  (2467.795,-2086.239),(2137.114,-2086.239) and (2299.303,-2060.164),(2297.039,-2102.424)\n'}
+[1.009204] (project_maps) StdoutLine: {'line': b'found intersection with door TD0007CW!\n'}
+[1.009302] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.449, u=0.663\n'}
+[1.009393] (project_maps) StdoutLine: {'line': b'  (2137.114,-2086.239),(2068.128,-2059.245) and (2106.114,-2049.599),(2106.114,-2086.576)\n'}
+[1.009486] (project_maps) StdoutLine: {'line': b'found intersection with door bano01!\n'}
+[1.009585] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.668, u=0.527\n'}
+[1.009681] (project_maps) StdoutLine: {'line': b'  (2130.365,-2146.977),(2046.383,-2168.722) and (2073.969,-2146.952),(2074.55,-2174.577)\n'}
+[1.009780] (project_maps) StdoutLine: {'line': b'found intersection with door bano02!\n'}
+[1.009879] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.743, u=0.329\n'}
+[1.009976] (project_maps) StdoutLine: {'line': b'  (2131.115,-2200.965),(2055.381,-2203.215) and (2074.55,-2194.953),(2075.539,-2218.297)\n'}
+[1.010074] (project_maps) StdoutLine: {'line': b'found intersection with door bano03!\n'}
+[1.010219] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.715, u=0.45\n'}
+[1.010319] (project_maps) StdoutLine: {'line': b'  (2135.614,-2246.706),(2050.882,-2250.455) and (2075.539,-2238.079),(2074.352,-2263.203)\n'}
+[1.010410] (project_maps) StdoutLine: {'line': b'found intersection with door bano04!\n'}
+[1.010504] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.388, u=0.636\n'}
+[1.010633] (project_maps) StdoutLine: {'line': b'  (3920.014,-2154.451),(3920.014,-2081.472) and (3892.755,-2125.876),(3935.63,-2126.325)\n'}
+[1.010731] (project_maps) StdoutLine: {'line': b'found intersection with door bano015!\n'}
+[1.010829] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.375, u=0.489\n'}
+[1.010928] (project_maps) StdoutLine: {'line': b'  (3920.014,-2081.472),(3845.912,-2081.472) and (3892.66,-2062.712),(3891.817,-2101.048)\n'}
+[1.011027] (project_maps) StdoutLine: {'line': b'found intersection with door TD0009CW!\n'}
+[1.011130] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.449, u=0.449\n'}
+[1.011265] (project_maps) StdoutLine: {'line': b'  (3753.846,-2059.017),(3639.749,-2076.266) and (3702.398,-2049.41),(3702.805,-2088.103)\n'}
+[1.011361] (project_maps) StdoutLine: {'line': b'found intersection with door bano011!\n'}
+[1.011461] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.55, u=0.609\n'}
+[1.011555] (project_maps) StdoutLine: {'line': b'  (3701.076,-2169.047),(3650.045,-2159.717) and (3674.766,-2146.262),(3671.851,-2175.263)\n'}
+[1.011646] (project_maps) StdoutLine: {'line': b'found intersection with door bano012!\n'}
+[1.011728] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.574, u=0.537\n'}
+[1.011812] (project_maps) StdoutLine: {'line': b'  (3698.273,-2207.945),(3651.129,-2206.319) and (3671.851,-2195.628),(3670.629,-2216.807)\n'}
+[1.011897] (project_maps) StdoutLine: {'line': b'found intersection with door bano013!\n'}
+[1.011982] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.746, u=0.517\n'}
+[1.012071] (project_maps) StdoutLine: {'line': b'  (3920.014,-2081.472),(4143.019,-2081.472) and (4086.446,-2062.291),(4086.446,-2099.363)\n'}
+[1.012234] (project_maps) StdoutLine: {'line': b'found intersection with door TD0010CW!\n'}
+[1.012334] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.471, u=0.603\n'}
+[1.012481] (project_maps) StdoutLine: {'line': b'  (4202.88,-2079.54),(4350.68,-2065.108) and (4272.198,-2050.632),(4272.605,-2087.289)\n'}
+[1.012575] (project_maps) StdoutLine: {'line': b'found intersection with door bano017!\n'}
+[1.012710] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.732, u=0.612\n'}
+[1.012804] (project_maps) StdoutLine: {'line': b'  (4265.135,-2180.905),(4318.939,-2154.511) and (4304.088,-2143.244),(4304.781,-2173.227)\n'}
+[1.012899] (project_maps) StdoutLine: {'line': b'found intersection with door bano018!\n'}
+[1.012994] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.629, u=0.69\n'}
+[1.013087] (project_maps) StdoutLine: {'line': b'  (4266.396,-2221.591),(4325.154,-2202.689) and (4304.781,-2191.148),(4302.745,-2218.029)\n'}
+[1.013185] (project_maps) StdoutLine: {'line': b'found intersection with door bano019!\n'}
+[1.013274] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.472, u=0.53\n'}
+[1.013358] (project_maps) StdoutLine: {'line': b'  (4272.148,-2252.408),(4337.481,-2245.012) and (4302.745,-2235.542),(4303.152,-2260.794)\n'}
+[1.013444] (project_maps) StdoutLine: {'line': b'found intersection with door bano020!\n'}
+[1.017281] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.533, u=0.537\n'}
+[1.017423] (project_maps) StdoutLine: {'line': b'  (2191.773,-2333.949),(2202.468,-2238.956) and (2178.941,-2282.645),(2213.479,-2283.861)\n'}
+[1.017518] (project_maps) StdoutLine: {'line': b'found intersection with door bano5!\n'}
+[1.017629] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.32, u=0.498\n'}
+[1.017748] (project_maps) StdoutLine: {'line': b'  (2202.468,-2238.956),(2093.425,-2238.956) and (2166.915,-2219.974),(2168.236,-2258.064)\n'}
+[1.017860] (project_maps) StdoutLine: {'line': b'found intersection with door TD0114CW!\n'}
+[1.018115] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.464, u=0.434\n'}
+[1.018227] (project_maps) StdoutLine: {'line': b'  (2045.334,-2221.83),(1903.297,-2221.83) and (1979.331,-2205.396),(1979.539,-2243.253)\n'}
+[1.018325] (project_maps) StdoutLine: {'line': b'found intersection with door bano1!\n'}
+[1.018448] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.722, u=0.51\n'}
+[1.018559] (project_maps) StdoutLine: {'line': b'  (2202.468,-2238.956),(2424.469,-2238.956) and (2363.879,-2220.501),(2361.836,-2256.667)\n'}
+[1.018653] (project_maps) StdoutLine: {'line': b'found intersection with door TD0115CW!\n'}
+[1.018866] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.426, u=0.501\n'}
+[1.018968] (project_maps) StdoutLine: {'line': b'  (3793.468,-2314.561),(3793.468,-2239.389) and (3777.013,-2281.951),(3809.872,-2283.078)\n'}
+[1.019068] (project_maps) StdoutLine: {'line': b'found intersection with door bano15!\n'}
+[1.019195] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.342, u=0.544\n'}
+[1.019293] (project_maps) StdoutLine: {'line': b'  (3793.468,-2239.389),(3706.996,-2239.389) and (3763.517,-2219.277),(3764.209,-2256.22)\n'}
+[1.019388] (project_maps) StdoutLine: {'line': b'found intersection with door TD0116CW!\n'}
+[1.019755] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.784, u=0.549\n'}
+[1.019852] (project_maps) StdoutLine: {'line': b'  (3793.468,-2239.389),(4005.5,-2239.389) and (3960.322,-2217.639),(3959.184,-2257.234)\n'}
+[1.019940] (project_maps) StdoutLine: {'line': b'found intersection with door TD0117CW!\n'}
+[1.036941] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.245, u=0.751\n'}
+[1.037113] (project_maps) StdoutLine: {'line': b'  (1440.92,-570.091),(1852.513,-570.091) and (1542.627,-523.898),(1541.634,-585.427)\n'}
+[1.037222] (project_maps) StdoutLine: {'line': b'found intersection with door TD1021AA!\n'}
+[1.037316] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.329, u=0.231\n'}
+[1.037460] (project_maps) StdoutLine: {'line': b'  (1440.92,-570.091),(1110.062,-570.091) and (1331.889,-582.739),(1332.052,-528.089)\n'}
+[1.037554] (project_maps) StdoutLine: {'line': b'found intersection with door TD1007AA!\n'}
+[1.037650] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.304, u=0.549\n'}
+[1.037750] (project_maps) StdoutLine: {'line': b'  (1599.91,-1107.702),(1599.91,-799.15) and (1565.948,-1014.146),(1627.779,-1013.571)\n'}
+[1.037849] (project_maps) StdoutLine: {'line': b'found intersection with door TD1019AA!\n'}
+[1.037975] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.306, u=0.674\n'}
+[1.038070] (project_maps) StdoutLine: {'line': b'  (1284.956,-1107.702),(1284.956,-796.419) and (1245.117,-1012.508),(1304.259,-1012.508)\n'}
+[1.038171] (project_maps) StdoutLine: {'line': b'found intersection with door TD1022AA!\n'}
+[1.038300] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.635, u=0.551\n'}
+[1.038398] (project_maps) StdoutLine: {'line': b'  (1442.255,-1271.182),(1591.564,-1271.182) and (1536.87,-1230.708),(1537.163,-1304.196)\n'}
+[1.038490] (project_maps) StdoutLine: {'line': b'found intersection with door TD1016AA!\n'}
+[1.038682] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.572, u=0.534\n'}
+[1.038780] (project_maps) StdoutLine: {'line': b'  (1442.255,-1271.182),(1253.821,-1271.182) and (1333.679,-1303.11),(1335.273,-1243.345)\n'}
+[1.038869] (project_maps) StdoutLine: {'line': b'found intersection with door TD1017AA!\n'}
+[1.039056] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.721, u=0.412\n'}
+[1.039159] (project_maps) StdoutLine: {'line': b'  (1441.382,-1645.562),(1293.227,-1645.562) and (1335.25,-1668.863),(1333.679,-1612.293)\n'}
+[1.039248] (project_maps) StdoutLine: {'line': b'found intersection with door TD1018AA!\n'}
+[1.039601] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.656, u=0.617\n'}
+[1.039698] (project_maps) StdoutLine: {'line': b'  (1441.382,-1645.562),(1589.537,-1645.562) and (1537.163,-1608.181),(1539.473,-1668.813)\n'}
+[1.039786] (project_maps) StdoutLine: {'line': b'found intersection with door TD1015AA!\n'}
+[1.039970] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.877, u=0.496\n'}
+[1.040263] (project_maps) StdoutLine: {'line': b'  (1117.809,-1982.484),(562.03,-1961.511) and (631.461,-1933.536),(629.573,-1995.198)\n'}
+[1.040588] (project_maps) StdoutLine: {'line': b'found intersection with door TD1023CP2!\n'}
+[1.040697] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.166, u=0.651\n'}
+[1.040819] (project_maps) StdoutLine: {'line': b'  (1117.809,-1982.484),(562.03,-1961.511) and (1025.417,-1936.595),(1025.974,-2001.742)\n'}
+[1.040927] (project_maps) StdoutLine: {'line': b'found intersection with door TD1005CP2!\n'}
+[1.041122] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.769, u=0.581\n'}
+[1.041251] (project_maps) StdoutLine: {'line': b'  (562.03,-2286.59),(1164.998,-2286.59) and (1025.974,-2248.895),(1025.974,-2313.829)\n'}
+[1.041358] (project_maps) StdoutLine: {'line': b'found intersection with door TD1005CP1!\n'}
+[1.041488] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.113, u=0.594\n'}
+[1.041630] (project_maps) StdoutLine: {'line': b'  (562.03,-2286.59),(1164.998,-2286.59) and (629.573,-2253.802),(630.071,-2308.965)\n'}
+[1.041774] (project_maps) StdoutLine: {'line': b'found intersection with door TD1023CP1!\n'}
+[1.041923] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.476, u=0.556\n'}
+[1.042065] (project_maps) StdoutLine: {'line': b'  (1430.654,-2508.552),(1430.654,-2791.996) and (1473.142,-2643.664),(1396.722,-2643.094)\n'}
+[1.042248] (project_maps) StdoutLine: {'line': b'found intersection with door TD1002CP!\n'}
+[1.042389] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.259, u=0.719\n'}
+[1.042522] (project_maps) StdoutLine: {'line': b'  (1430.654,-2791.996),(1852.106,-2791.996) and (1540.591,-2748.633),(1539.748,-2808.928)\n'}
+[1.042658] (project_maps) StdoutLine: {'line': b'found intersection with door TD1008AL!\n'}
+[1.042790] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.691, u=0.284\n'}
+[1.042923] (project_maps) StdoutLine: {'line': b'  (1430.654,-2791.996),(1280.367,-2791.996) and (1327.145,-2809.622),(1326.005,-2747.459)\n'}
+[1.043053] (project_maps) StdoutLine: {'line': b'found intersection with door TD1014AL!\n'}
+[1.043233] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.666, u=0.722\n'}
+[1.043367] (project_maps) StdoutLine: {'line': b'  (1604.205,-3272.864),(1604.205,-3137.018) and (1561.556,-3182.148),(1620.592,-3182.497)\n'}
+[1.043494] (project_maps) StdoutLine: {'line': b'found intersection with door TD1010AL2!\n'}
+[1.044033] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.64, u=0.279\n'}
+[1.044182] (project_maps) StdoutLine: {'line': b'  (1261.535,-3272.864),(1261.535,-3131.935) and (1244.626,-3182.825),(1305.219,-3182.492)\n'}
+[1.044331] (project_maps) StdoutLine: {'line': b'found intersection with door TD1013AL2!\n'}
+[1.044867] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.67, u=0.42\n'}
+[1.044979] (project_maps) StdoutLine: {'line': b'  (1261.535,-3272.864),(1297.844,-3455.67) and (1312.127,-3395.906),(1249.646,-3394.709)\n'}
+[1.045084] (project_maps) StdoutLine: {'line': b'found intersection with door TD1012AL!\n'}
+[1.045465] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.543, u=0.267\n'}
+[1.045574] (project_maps) StdoutLine: {'line': b'  (1604.205,-3272.864),(1604.205,-3490.633) and (1620.048,-3390.7),(1560.608,-3392.515)\n'}
+[1.045675] (project_maps) StdoutLine: {'line': b'found intersection with door TD1011AL!\n'}
+[1.046365] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.761, u=0.535\n'}
+[1.046485] (project_maps) StdoutLine: {'line': b'  (4945.573,-1788.951),(4945.573,-1645.325) and (4906.11,-1679.0),(4979.838,-1680.17)\n'}
+[1.046592] (project_maps) StdoutLine: {'line': b'found intersection with door TD2014CP!\n'}
+[1.046723] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.289, u=0.394\n'}
+[1.046828] (project_maps) StdoutLine: {'line': b'  (4945.573,-1645.325),(4590.732,-1645.325) and (4843.501,-1669.053),(4842.33,-1608.783)\n'}
+[1.046933] (project_maps) StdoutLine: {'line': b'found intersection with door TD2022CE1!\n'}
+[1.047071] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.318, u=0.478\n'}
+[1.047184] (project_maps) StdoutLine: {'line': b'  (4590.732,-1337.797),(4409.932,-1337.797) and (4532.933,-1351.963),(4533.436,-1322.346)\n'}
+[1.047304] (project_maps) StdoutLine: {'line': b'found intersection with door TD2023CE!\n'}
+[1.047409] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.364, u=0.591\n'}
+[1.047542] (project_maps) StdoutLine: {'line': b'  (4580.888,-1384.976),(4448.696,-1384.976) and (4532.933,-1368.052),(4532.566,-1396.684)\n'}
+[1.047638] (project_maps) StdoutLine: {'line': b'found intersection with door TD2024CE!\n'}
+[1.047731] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.312, u=0.419\n'}
+[1.047826] (project_maps) StdoutLine: {'line': b'  (4588.502,-1530.319),(4412.014,-1530.319) and (4534.097,-1542.822),(4532.566,-1513.001)\n'}
+[1.047924] (project_maps) StdoutLine: {'line': b'found intersection with door TD2025CE!\n'}
+[1.048020] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.347, u=0.323\n'}
+[1.048112] (project_maps) StdoutLine: {'line': b'  (4587.117,-1570.461),(4433.469,-1570.461) and (4534.097,-1560.562),(4532.952,-1591.178)\n'}
+[1.048228] (project_maps) StdoutLine: {'line': b'found intersection with door TD2026CE!\n'}
+[1.048319] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.672, u=0.614\n'}
+[1.048408] (project_maps) StdoutLine: {'line': b'  (5112.567,-1093.102),(5112.567,-974.274) and (5077.806,-1013.288),(5134.377,-1013.288)\n'}
+[1.048496] (project_maps) StdoutLine: {'line': b'found intersection with door TD2046AA!\n'}
+[1.048681] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.833, u=0.459\n'}
+[1.048775] (project_maps) StdoutLine: {'line': b'  (4945.573,-1093.102),(4945.573,-557.393) and (4981.331,-646.227),(4903.499,-647.073)\n'}
+[1.048867] (project_maps) StdoutLine: {'line': b'found intersection with door TD2040CP1!\n'}
+[1.048989] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.363, u=0.595\n'}
+[1.049081] (project_maps) StdoutLine: {'line': b'  (4945.573,-557.393),(5241.15,-557.393) and (5052.395,-520.173),(5053.241,-582.777)\n'}
+[1.049185] (project_maps) StdoutLine: {'line': b'found intersection with door TD2040CP2!\n'}
+[1.049283] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.383, u=0.343\n'}
+[1.049375] (project_maps) StdoutLine: {'line': b'  (5241.15,-557.393),(5241.15,-427.771) and (5219.281,-507.566),(5283.082,-508.186)\n'}
+[1.049469] (project_maps) StdoutLine: {'line': b'found intersection with door TD2043AA!\n'}
+[1.049708] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.746, u=0.462\n'}
+[1.049836] (project_maps) StdoutLine: {'line': b'  (5264.117,-1987.349),(5385.303,-1964.728) and (5354.109,-1997.627),(5354.876,-1938.882)\n'}
+[1.049946] (project_maps) StdoutLine: {'line': b'found intersection with door TD2011CP2!\n'}
+[1.050044] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.214, u=0.487\n'}
+[1.050148] (project_maps) StdoutLine: {'line': b'  (5385.303,-1964.728),(5813.493,-1964.728) and (5477.326,-1996.042),(5476.103,-1931.729)\n'}
+[1.050251] (project_maps) StdoutLine: {'line': b'found intersection with door TD2011CP3!\n'}
+[1.050374] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.506, u=0.621\n'}
+[1.050477] (project_maps) StdoutLine: {'line': b'  (5448.32,-2274.964),(5262.501,-2274.964) and (5354.508,-2312.402),(5354.109,-2252.16)\n'}
+[1.050578] (project_maps) StdoutLine: {'line': b'found intersection with door TD2011CP1!\n'}
+[1.050922] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.127, u=0.585\n'}
+[1.051024] (project_maps) StdoutLine: {'line': b'  (4952.222,-2770.497),(5445.87,-2770.497) and (5013.672,-2730.433),(5015.54,-2798.956)\n'}
+[1.051116] (project_maps) StdoutLine: {'line': b'found intersection with door TD2002AA!\n'}
+[1.051470] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.148, u=0.428\n'}
+[1.051566] (project_maps) StdoutLine: {'line': b'  (4952.222,-2770.497),(4423.047,-2770.497) and (4873.617,-2797.592),(4874.23,-2734.224)\n'}
+[1.051657] (project_maps) StdoutLine: {'line': b'found intersection with door TD2003AA!\n'}
+[1.052116] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.871, u=0.425\n'}
+[1.052226] (project_maps) StdoutLine: {'line': b'  (4789.252,-3292.859),(4789.252,-3426.12) and (4813.887,-3409.422),(4755.98,-3408.264)\n'}
+[1.052327] (project_maps) StdoutLine: {'line': b'found intersection with door TD2006CI!\n'}
+[1.052707] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.827, u=0.596\n'}
+[1.052808] (project_maps) StdoutLine: {'line': b'  (5100.412,-3292.859),(5100.412,-3435.492) and (5136.994,-3412.139),(5075.585,-3409.865)\n'}
+[1.052901] (project_maps) StdoutLine: {'line': b'found intersection with door TD2010CP!\n'}
+[1.053012] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.157, u=0.281\n'}
+[1.053110] (project_maps) StdoutLine: {'line': b'  (5064.883,-3435.492),(5064.883,-3668.966) and (5053.751,-3472.184),(5093.326,-3471.729)\n'}
+[1.053236] (project_maps) StdoutLine: {'line': b'found intersection with door TD2007CI!\n'}
+[1.053335] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.13, u=0.45\n'}
+[1.053434] (project_maps) StdoutLine: {'line': b'  (4953.253,-2974.907),(5434.537,-2974.907) and (5015.54,-2947.703),(5015.995,-3008.203)\n'}
+[1.053535] (project_maps) StdoutLine: {'line': b'found intersection with door TD2047AA!\n'}
+[1.053783] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.15, u=0.587\n'}
+[1.053880] (project_maps) StdoutLine: {'line': b'  (4953.253,-2974.907),(4427.618,-2974.907) and (4875.268,-3014.884),(4873.617,-2946.794)\n'}
+[1.053972] (project_maps) StdoutLine: {'line': b'found intersection with door TD2048AA!\n'}
+[1.054260] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.296, u=0.634\n'}
+[1.054363] (project_maps) StdoutLine: {'line': b'  (4945.573,-1645.325),(5299.788,-1645.325) and (5050.055,-1608.198),(5050.64,-1666.712)\n'}
+[1.054453] (project_maps) StdoutLine: {'line': b'found intersection with door TD2016CE2!\n'}
+[1.054718] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.273, u=0.545\n'}
+[1.054815] (project_maps) StdoutLine: {'line': b'  (5306.467,-1343.123),(5475.817,-1317.438) and (5353.439,-1351.963),(5352.193,-1322.839)\n'}
+[1.054908] (project_maps) StdoutLine: {'line': b'found intersection with door TD2020CE!\n'}
+[1.055038] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.29, u=0.541\n'}
+[1.055135] (project_maps) StdoutLine: {'line': b'  (5299.502,-1377.08),(5485.395,-1401.46) and (5353.439,-1368.16),(5353.439,-1397.75)\n'}
+[1.055249] (project_maps) StdoutLine: {'line': b'found intersection with door TD2019CE!\n'}
+[1.055360] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.279, u=0.491\n'}
+[1.055492] (project_maps) StdoutLine: {'line': b'  (5307.007,-1533.752),(5472.185,-1524.005) and (5352.816,-1545.858),(5353.439,-1515.645)\n'}
+[1.055592] (project_maps) StdoutLine: {'line': b'found intersection with door TD2018CE!\n'}
+[1.055693] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.284, u=0.544\n'}
+[1.055786] (project_maps) StdoutLine: {'line': b'  (5300.338,-1575.303),(5482.958,-1579.92) and (5352.816,-1560.186),(5351.701,-1590.358)\n'}
+[1.055878] (project_maps) StdoutLine: {'line': b'found intersection with door TD2017CE!\n'}
+[1.056658] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.856, u=0.444\n'}
+[1.056754] (project_maps) StdoutLine: {'line': b'  (2401.75,-1931.732),(2841.734,-1932.631) and (2776.652,-1906.294),(2780.262,-1965.266)\n'}
+[1.056838] (project_maps) StdoutLine: {'line': b'found intersection with door TD0013CP1!\n'}
+[1.067568] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.795, u=0.543\n'}
+[1.067729] (project_maps) StdoutLine: {'line': b'  (1304.231,-3579.071),(1304.231,-2600.959) and (1345.431,-2801.484),(1269.572,-2801.422)\n'}
+[1.067842] (project_maps) StdoutLine: {'line': b'found intersection with door TD1118CP2!\n'}
+[1.067974] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.589, u=0.583\n'}
+[1.068068] (project_maps) StdoutLine: {'line': b'  (1342.156,-1967.187),(1289.209,-1746.761) and (1270.868,-1837.227),(1339.686,-1837.542)\n'}
+[1.068175] (project_maps) StdoutLine: {'line': b'found intersection with door TD118CP1!\n'}
+[1.068267] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.65, u=0.621\n'}
+[1.068355] (project_maps) StdoutLine: {'line': b'  (1293.494,-715.088),(1476.752,-715.088) and (1413.231,-677.612),(1412.225,-737.942)\n'}
+[1.068448] (project_maps) StdoutLine: {'line': b'found intersection with door TD1103!\n'}
+[1.068563] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.186, u=0.623\n'}
+[1.068657] (project_maps) StdoutLine: {'line': b'  (1293.494,-715.088),(801.383,-715.088) and (1202.746,-675.601),(1201.741,-738.947)\n'}
+[1.068749] (project_maps) StdoutLine: {'line': b'found intersection with door TD1104!\n'}
+[1.068997] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.474, u=0.267\n'}
+[1.069104] (project_maps) StdoutLine: {'line': b'  (1455.659,-1267.289),(1455.659,-1060.566) and (1439.709,-1168.631),(1499.369,-1171.312)\n'}
+[1.069199] (project_maps) StdoutLine: {'line': b'found intersection with door TD1102!\n'}
+[1.069315] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.414, u=0.479\n'}
+[1.069404] (project_maps) StdoutLine: {'line': b'  (1146.523,-1267.289),(1146.523,-1039.704) and (1118.284,-1172.318),(1177.273,-1173.659)\n'}
+[1.069491] (project_maps) StdoutLine: {'line': b'found intersection with door TD1105!\n'}
+[1.069834] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.764, u=0.417\n'}
+[1.069934] (project_maps) StdoutLine: {'line': b'  (1604.797,-2145.3),(1957.508,-2081.472) and (1874.169,-2121.927),(1874.653,-2060.943)\n'}
+[1.070030] (project_maps) StdoutLine: {'line': b'found intersection with door TD1118CP3!\n'}
+[1.070213] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.822, u=0.318\n'}
+[1.070320] (project_maps) StdoutLine: {'line': b'  (2260.144,-2081.472),(2742.159,-2081.472) and (2656.486,-2062.649),(2655.492,-2121.842)\n'}
+[1.070416] (project_maps) StdoutLine: {'line': b'found intersection with door TD0119CP1!\n'}
+[1.070540] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.55, u=0.314\n'}
+[1.070641] (project_maps) StdoutLine: {'line': b'  (2742.159,-1658.43),(2700.802,-1546.116) and (2735.005,-1596.635),(2685.264,-1596.635)\n'}
+[1.070739] (project_maps) StdoutLine: {'line': b'found intersection with door TD0113ER!\n'}
+[1.071191] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.213, u=0.354\n'}
+[1.071299] (project_maps) StdoutLine: {'line': b'  (3341.182,-1655.652),(3012.227,-1655.652) and (3270.907,-1680.562),(3271.603,-1610.236)\n'}
+[1.071393] (project_maps) StdoutLine: {'line': b'found intersection with door TD0112FR!\n'}
+[1.071515] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.116, u=0.634\n'}
+[1.071611] (project_maps) StdoutLine: {'line': b'  (3017.809,-2085.243),(3017.809,-3374.879) and (3055.56,-2234.626),(2995.984,-2235.638)\n'}
+[1.071708] (project_maps) StdoutLine: {'line': b'found intersection with door TD0118CP1!\n'}
+[1.071846] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.709, u=0.665\n'}
+[1.071946] (project_maps) StdoutLine: {'line': b'  (3341.182,-2100.99),(4623.858,-2100.99) and (4250.94,-2061.953),(4251.066,-2120.647)\n'}
+[1.072060] (project_maps) StdoutLine: {'line': b'found intersection with door TD0123CP3!\n'}
+[1.072180] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.101, u=0.352\n'}
+[1.072279] (project_maps) StdoutLine: {'line': b'  (3341.182,-2100.99),(4623.858,-2100.99) and (3470.994,-2121.992),(3471.614,-2062.297)\n'}
+[1.072376] (project_maps) StdoutLine: {'line': b'found intersection with door TD0123CP1!\n'}
+[1.072485] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.074, u=0.498\n'}
+[1.072586] (project_maps) StdoutLine: {'line': b'  (4816.684,-1925.605),(4816.684,-714.493) and (4779.059,-1836.677),(4854.558,-1835.459)\n'}
+[1.072701] (project_maps) StdoutLine: {'line': b'found intersection with door TD2116CP!\n'}
+[1.072799] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.216, u=0.461\n'}
+[1.072896] (project_maps) StdoutLine: {'line': b'  (5190.508,-2249.525),(5357.491,-2249.525) and (5227.167,-2277.818),(5225.973,-2216.431)\n'}
+[1.073004] (project_maps) StdoutLine: {'line': b'found intersection with door TD2112CP1!\n'}
+[1.073130] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.724, u=0.351\n'}
+[1.073233] (project_maps) StdoutLine: {'line': b'  (4902.428,-2565.654),(4799.099,-2888.811) and (4854.321,-2799.459),(4778.232,-2799.771)\n'}
+[1.073329] (project_maps) StdoutLine: {'line': b'found intersection with door TD2113CP!\n'}
+[1.073469] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.281, u=0.606\n'}
+[1.073569] (project_maps) StdoutLine: {'line': b'  (4984.765,-3462.131),(4984.765,-3020.409) and (4949.433,-3337.384),(5007.747,-3338.32)\n'}
+[1.073681] (project_maps) StdoutLine: {'line': b'found intersection with door TD2107AL2!\n'}
+[1.073784] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.193, u=0.461\n'}
+[1.073910] (project_maps) StdoutLine: {'line': b'  (4799.364,-2938.284),(4317.34,-2938.284) and (4705.553,-2966.367),(4707.598,-2905.426)\n'}
+[1.074009] (project_maps) StdoutLine: {'line': b'found intersection with door TD2110AL1!\n'}
+[1.074131] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.39, u=0.561\n'}
+[1.074249] (project_maps) StdoutLine: {'line': b'  (4650.795,-3390.594),(4650.795,-3803.286) and (4684.368,-3551.619),(4624.495,-3551.307)\n'}
+[1.074346] (project_maps) StdoutLine: {'line': b'found intersection with door TD2109AL!\n'}
+[1.074438] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.347, u=0.378\n'}
+[1.074530] (project_maps) StdoutLine: {'line': b'  (4984.765,-3462.131),(4984.765,-3722.327) and (5006.811,-3552.866),(4948.497,-3551.619)\n'}
+[1.074628] (project_maps) StdoutLine: {'line': b'found intersection with door TD2108AL!\n'}
+[1.074747] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.233, u=0.547\n'}
+[1.074854] (project_maps) StdoutLine: {'line': b'  (3017.047,-2725.149),(2803.517,-2725.149) and (2967.233,-2756.71),(2967.394,-2698.96)\n'}
+[1.074951] (project_maps) StdoutLine: {'line': b'found intersection with door TD0120AI!\n'}
+[1.075093] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.109, u=0.546\n'}
+[1.075224] (project_maps) StdoutLine: {'line': b'  (3015.032,-2817.813),(2567.828,-2817.813) and (2965.993,-2850.767),(2966.912,-2790.397)\n'}
+[1.075335] (project_maps) StdoutLine: {'line': b'found intersection with door TD0108AI!\n'}
+[1.075453] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.309, u=0.639\n'}
+[1.075554] (project_maps) StdoutLine: {'line': b'  (3015.032,-3144.151),(3480.367,-3144.151) and (3158.638,-3102.929),(3159.255,-3167.423)\n'}
+[1.075653] (project_maps) StdoutLine: {'line': b'found intersection with door TD0104AI!\n'}
+[1.075774] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.272, u=0.464\n'}
+[1.075879] (project_maps) StdoutLine: {'line': b'  (3017.047,-2725.149),(3538.785,-2725.149) and (3158.569,-2697.011),(3158.928,-2757.591)\n'}
+[1.075982] (project_maps) StdoutLine: {'line': b'found intersection with door TD0102AI!\n'}
+[1.076105] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.288, u=0.471\n'}
+[1.076235] (project_maps) StdoutLine: {'line': b'  (3015.032,-2817.813),(3514.612,-2817.813) and (3158.928,-2788.871),(3159.05,-2850.3)\n'}
+[1.076338] (project_maps) StdoutLine: {'line': b'found intersection with door TD0103AI!\n'}
+[1.076432] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.349, u=0.455\n'}
+[1.076526] (project_maps) StdoutLine: {'line': b'  (1145.077,-3390.171),(1145.077,-3224.609) and (1117.028,-3332.602),(1178.659,-3332.262)\n'}
+[1.076628] (project_maps) StdoutLine: {'line': b'found intersection with door TD1111AL2!\n'}
+[1.076727] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.292, u=0.447\n'}
+[1.076836] (project_maps) StdoutLine: {'line': b'  (1151.753,-3480.221),(1151.753,-3722.332) and (1179.599,-3552.278),(1117.369,-3549.501)\n'}
+[1.076942] (project_maps) StdoutLine: {'line': b'found intersection with door TD1109AL1!\n'}
+[1.077066] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.366, u=0.559\n'}
+[1.077203] (project_maps) StdoutLine: {'line': b'  (1466.688,-3480.221),(1466.688,-3674.859) and (1500.494,-3552.278),(1439.997,-3550.963)\n'}
+[1.077300] (project_maps) StdoutLine: {'line': b'found intersection with door TD1108AL2!\n'}
+[1.077391] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.217, u=0.482\n'}
+[1.077479] (project_maps) StdoutLine: {'line': b'  (1302.541,-2934.124),(820.307,-2934.124) and (1198.093,-2960.385),(1197.386,-2905.956)\n'}
+[1.077576] (project_maps) StdoutLine: {'line': b'found intersection with door door!\n'}
+[1.077685] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.284, u=0.73\n'}
+[1.077788] (project_maps) StdoutLine: {'line': b'  (4817.2,-1780.809),(4446.666,-1780.809) and (4713.438,-1825.213),(4711.478,-1764.359)\n'}
+[1.077893] (project_maps) StdoutLine: {'line': b'found intersection with door TD2106AA2!\n'}
+[1.081112] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.59, u=0.352\n'}
+[1.081256] (project_maps) StdoutLine: {'line': b'  (2973.126,-1995.406),(2645.816,-1995.406) and (2780.112,-1972.337),(2780.195,-2037.924)\n'}
+[1.081354] (project_maps) StdoutLine: {'line': b'found intersection with door TD0013CP2!\n'}
+[1.081464] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.781, u=0.643\n'}
+[1.081578] (project_maps) StdoutLine: {'line': b'  (2645.816,-1995.406),(1819.967,-1995.406) and (2002.62,-2036.541),(2000.32,-1972.523)\n'}
+[1.081658] (project_maps) StdoutLine: {'line': b'found intersection with door TD1001CP2!\n'}
+[1.081802] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.535, u=0.61\n'}
+[1.081896] (project_maps) StdoutLine: {'line': b'  (1426.502,-2571.467),(1426.502,-2705.795) and (1473.142,-2643.664),(1396.722,-2643.094)\n'}
+[1.081987] (project_maps) StdoutLine: {'line': b'found intersection with door TD1002CP!\n'}
+[1.082190] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.698, u=0.526\n'}
+[1.082300] (project_maps) StdoutLine: {'line': b'  (3278.902,-2049.203),(3374.282,-2135.202) and (3376.752,-2107.869),(3317.26,-2110.412)\n'}
+[1.082388] (project_maps) StdoutLine: {'line': b'found intersection with door TD0001EC2!\n'}
+[1.082594] (project_maps) StdoutLine: {'line': b'hooray, we found an intersection: t=0.307, u=0.326\n'}
+[1.082686] (project_maps) StdoutLine: {'line': b'  (4280.96,-1982.531),(4597.109,-2020.523) and (4378.527,-1973.027),(4376.943,-2038.006)\n'}
+[1.082778] (project_maps) StdoutLine: {'line': b'found intersection with door TD0014CP2!\n'}
+[1.085196] (project_maps) StdoutLine: {'line': b'writing /home/maria/rmf_ws/build/project_maps/maps/estce/nav_graphs/0.yaml\n'}
+[1.097453] (project_maps) StdoutLine: {'line': b'writing /home/maria/rmf_ws/build/project_maps/maps/estce/nav_graphs/1.yaml\n'}
+[1.101090] (-) TimerEvent: {}
+[1.116294] (project_maps) StdoutLine: {'line': b'writing /home/maria/rmf_ws/build/project_maps/maps/estce/nav_graphs/2.yaml\n'}
+[1.189398] (project_maps) StdoutLine: {'line': b'[ 50%] Built target generate_estce_nav_graphs\n'}
+[1.201317] (-) TimerEvent: {}
+[1.301819] (-) TimerEvent: {}
+[1.367819] (project_maps) StdoutLine: {'line': b'Cached model found! Halting Fuel traversal...\n'}
+[1.368325] (project_maps) StdoutLine: {'line': b'Writing to cache: /home/maria/.pit_crew/model_cache.json\n'}
+[1.402014] (-) TimerEvent: {}
+[1.407166] (project_maps) StdoutLine: {'line': b'New models cached: 0\n'}
+[1.407423] (project_maps) StdoutLine: {'line': b'\n'}
+[1.452603] (project_maps) StdoutLine: {'line': b'[ 50%] Built target update_model_cache\n'}
+[1.502132] (-) TimerEvent: {}
+[1.602416] (-) TimerEvent: {}
+[1.702764] (-) TimerEvent: {}
+[1.803058] (-) TimerEvent: {}
+[1.903359] (-) TimerEvent: {}
+[1.959463] (project_maps) StdoutLine: {'line': b'generating /home/maria/rmf_ws/build/project_maps/maps/estce/estce.world from /home/maria/rmf_ws/src/project/project_maps/maps/estce/estce.building.yaml\n'}
+[1.966559] (project_maps) StdoutLine: {'line': b'generating /home/maria/rmf_ws/build/project_maps/maps/test1/test1.world from /home/maria/rmf_ws/src/project/project_maps/maps/test1/test1.building.yaml\n'}
+[1.966770] (project_maps) StdoutLine: {'line': b'generating /home/maria/rmf_ws/build/project_maps/maps/classroom/classroom.world from /home/maria/rmf_ws/src/project/project_maps/maps/classroom/classroom.building.yaml\n'}
+[1.972134] (project_maps) StdoutLine: {'line': b'building name: test1\n'}
+[1.972500] (project_maps) StdoutLine: {'line': b'coordinate system: reference_image\n'}
+[1.972606] (project_maps) StdoutLine: {'line': b'parsing level L1\n'}
+[1.972714] (project_maps) StdoutLine: {'line': b'parsing level L2\n'}
+[1.972835] (project_maps) StdoutLine: {'line': b'calculating levels relative to L1\n'}
+[1.972928] (project_maps) StdoutLine: {'line': b'level L1 scale: 0.06666666666666667\n'}
+[1.973037] (project_maps) StdoutLine: {'line': b'calculating level L2 offset and scale...\n'}
+[1.973193] (project_maps) StdoutLine: {'line': b'  2 common fiducials:\n'}
+[1.973328] (project_maps) StdoutLine: {'line': b'Transform.set_from_fiducials()\n'}
+[1.973430] (project_maps) StdoutLine: {'line': b'  2 fiducial pairs:\n'}
+[1.973538] (project_maps) StdoutLine: {'line': b'    (1.5, -1.5) -> (2.0, -2.0)   columna1\n'}
+[1.973652] (project_maps) StdoutLine: {'line': b'    (148.5, -1.5) -> (148.5, -1.5)   columna2\n'}
+[1.973767] (project_maps) StdoutLine: {'line': b'    calc dist columna1 <=> columna2\n'}
+[1.973882] (project_maps) StdoutLine: {'line': b'Bearings:\n'}
+[1.974003] (project_maps) StdoutLine: {'line': b'[(0.0, 0.003412956031538204)]\n'}
+[1.974119] (project_maps) StdoutLine: {'line': b'  0.003412956031538204\n'}
+[1.974288] (project_maps) StdoutLine: {'line': b'  Circular mean: -0.0034129560315382034\n'}
+[1.974398] (project_maps) StdoutLine: {'line': b'Distances:\n'}
+[1.974509] (project_maps) StdoutLine: {'line': b'[(147.0, 146.50085323983612)]\n'}
+[1.974601] (project_maps) StdoutLine: {'line': b'mean relative scale: 0.996604443808409\n'}
+[1.974702] (project_maps) StdoutLine: {'line': b'translation: (-0.03333, 0.034243)\n'}
+[1.974793] (project_maps) StdoutLine: {'line': b'parsing lift lift1\n'}
+[1.974891] (project_maps) StdoutLine: {'line': b'generating model of level L1 in /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1\n'}
+[1.975001] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/model.config\n'}
+[1.975111] (project_maps) StdoutLine: {'line': b'generating floor polygon 1 on floor test1_L1\n'}
+[1.975233] (project_maps) StdoutLine: {'line': b'hole vertices: []\n'}
+[1.975343] (project_maps) StdoutLine: {'line': b"lift vertices: {'lift1': [(5.616666666666667, -1.2833333333333337), (5.616666666666667, -5.383333333333333), (9.716666666666667, -5.383333333333333), (9.716666666666667, -1.2833333333333337)]}\n"}
+[1.979046] (project_maps) StdoutLine: {'line': b'[[0, 3, 4], [0, 4, 5], [0, 5, 1], [1, 5, 6], [1, 6, 7], [1, 7, 2], [2, 7, 4], [2, 4, 3]]\n'}
+[1.979497] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.obj\n'}
+[1.980730] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/blue_linoleum.png\n'}
+[1.980913] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.mtl\n'}
+[1.981014] (project_maps) StdoutLine: {'line': b"Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x78c864150050>, 'texture_height': <building_map.param_value.ParamValue object at 0x78c864153c20>, 'texture_name': <building_map.param_value.ParamValue object at 0x78c864153bf0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x78c864153bc0>, 'texture_width': <building_map.param_value.ParamValue object at 0x78c864153b90>}]\n"}
+[1.981130] (project_maps) StdoutLine: {'line': b'generating wall: 1 on floor: test1_L1\n'}
+[1.981532] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/default.png\n'}
+[1.981663] (project_maps) StdoutLine: {'line': b'generate_wall_visual_mesh(test1_L1, /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1)\n'}
+[1.981784] (project_maps) StdoutLine: {'line': b'  generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/wall_1.obj\n'}
+[1.982156] (project_maps) StdoutLine: {'line': b'  generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/wall_1.mtl\n'}
+[1.982493] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/model.sdf\n'}
+[1.982654] (project_maps) StdoutLine: {'line': b'generating model of level L2 in /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2\n'}
+[1.982769] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/model.config\n'}
+[1.982873] (project_maps) StdoutLine: {'line': b'generating floor polygon 1 on floor test1_L2\n'}
+[1.983002] (project_maps) StdoutLine: {'line': b'hole vertices: []\n'}
+[1.983103] (project_maps) StdoutLine: {'line': b"lift vertices: {'lift1': [(5.616666666666667, -1.2833333333333337), (5.616666666666667, -5.383333333333333), (9.716666666666667, -5.383333333333333), (9.716666666666667, -1.2833333333333337)]}\n"}
+[1.988103] (project_maps) StdoutLine: {'line': b'[[0, 3, 4], [0, 4, 1], [1, 4, 5], [1, 5, 6], [1, 6, 2], [2, 6, 7], [2, 7, 3], [3, 7, 4]]\n'}
+[1.988578] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/floor_1.obj\n'}
+[1.989459] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/blue_linoleum.png\n'}
+[1.989741] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/floor_1.mtl\n'}
+[1.989921] (project_maps) StdoutLine: {'line': b"Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x78c863f14890>, 'texture_height': <building_map.param_value.ParamValue object at 0x78c863f148c0>, 'texture_name': <building_map.param_value.ParamValue object at 0x78c863f14920>, 'texture_scale': <building_map.param_value.ParamValue object at 0x78c863f14950>, 'texture_width': <building_map.param_value.ParamValue object at 0x78c863f14980>}]\n"}
+[1.990087] (project_maps) StdoutLine: {'line': b'generating wall: 1 on floor: test1_L2\n'}
+[1.990334] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/default.png\n'}
+[1.990501] (project_maps) StdoutLine: {'line': b'generate_wall_visual_mesh(test1_L2, /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2)\n'}
+[1.990682] (project_maps) StdoutLine: {'line': b'  generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/wall_1.obj\n'}
+[1.990860] (project_maps) StdoutLine: {'line': b'  generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/wall_1.mtl\n'}
+[1.991054] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/model.sdf\n'}
+[2.003454] (-) TimerEvent: {}
+[2.011864] (project_maps) StdoutLine: {'line': b'spawning robot name tinyRobot1_charger of type TinyRobot\n'}
+[2.012138] (project_maps) StdoutLine: {'line': b'generate door name=door1 type=sliding\n'}
+[2.012265] (project_maps) StdoutLine: {'line': b'Door(door1)\n'}
+[2.012388] (project_maps) StdoutLine: {'line': b'generate door name=door2 type=sliding\n'}
+[2.012521] (project_maps) StdoutLine: {'line': b'Door(door2)\n'}
+[2.015355] (project_maps) StdoutLine: {'line': b'33015 bytes written to /home/maria/rmf_ws/build/project_maps/maps/test1/test1.world\n'}
+[2.050014] (project_maps) StdoutLine: {'line': b'building name: classroom\n'}
+[2.050282] (project_maps) StdoutLine: {'line': b'coordinate system: reference_image\n'}
+[2.050396] (project_maps) StdoutLine: {'line': b'parsing level L1\n'}
+[2.051492] (project_maps) StdoutLine: {'line': b'parsing level L2\n'}
+[2.051973] (project_maps) StdoutLine: {'line': b'calculating levels relative to L1\n'}
+[2.052172] (project_maps) StdoutLine: {'line': b'level L1 scale: 0.02551020408163266\n'}
+[2.052305] (project_maps) StdoutLine: {'line': b'calculating level L2 offset and scale...\n'}
+[2.052425] (project_maps) StdoutLine: {'line': b'  0 common fiducials:\n'}
+[2.052552] (project_maps) StdoutLine: {'line': b'Transform.set_from_fiducials()\n'}
+[2.052659] (project_maps) StdoutLine: {'line': b'  0 fiducial pairs:\n'}
+[2.052763] (project_maps) StdoutLine: {'line': b'Bearings:\n'}
+[2.052850] (project_maps) StdoutLine: {'line': b'[]\n'}
+[2.058416] (project_maps) StdoutLine: {'line': b'generating model of level L1 in /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1\n'}
+[2.058651] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/model.config\n'}
+[2.058773] (project_maps) StdoutLine: {'line': b'generating floor polygon 1 on floor classroom_L1\n'}
+[2.058923] (project_maps) StdoutLine: {'line': b'hole vertices: []\n'}
+[2.059040] (project_maps) StdoutLine: {'line': b'lift vertices: {}\n'}
+[2.063188] (project_maps) StdoutLine: {'line': b'[[0, 5, 2], [0, 2, 1], [4, 3, 2], [4, 2, 5]]\n'}
+[2.063721] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.obj\n'}
+[2.065488] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/blue_linoleum.png\n'}
+[2.065699] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.mtl\n'}
+[2.066069] (project_maps) StdoutLine: {'line': b"Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x736665a03fe0>, 'texture_height': <building_map.param_value.ParamValue object at 0x736665bb4e00>, 'texture_name': <building_map.param_value.ParamValue object at 0x736665a18050>, 'texture_scale': <building_map.param_value.ParamValue object at 0x736665a180b0>, 'texture_width': <building_map.param_value.ParamValue object at 0x736665a18080>}]\n"}
+[2.066438] (project_maps) StdoutLine: {'line': b'generating wall: 1 on floor: classroom_L1\n'}
+[2.067668] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/default.png\n'}
+[2.067867] (project_maps) StdoutLine: {'line': b'generate_wall_visual_mesh(classroom_L1, /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1)\n'}
+[2.068007] (project_maps) StdoutLine: {'line': b'  generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.obj\n'}
+[2.084147] (project_maps) StdoutLine: {'line': b'  generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.mtl\n'}
+[2.084468] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/model.sdf\n'}
+[2.084636] (project_maps) StdoutLine: {'line': b'generating model of level L2 in /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2\n'}
+[2.084805] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/model.config\n'}
+[2.084979] (project_maps) StdoutLine: {'line': b'generating floor polygon 1 on floor classroom_L2\n'}
+[2.085105] (project_maps) StdoutLine: {'line': b'hole vertices: []\n'}
+[2.085227] (project_maps) StdoutLine: {'line': b'lift vertices: {}\n'}
+[2.086074] (project_maps) StdoutLine: {'line': b'[[0, 3, 2], [0, 2, 1]]\n'}
+[2.086310] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.obj\n'}
+[2.087182] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/blue_linoleum.png\n'}
+[2.087293] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.mtl\n'}
+[2.087385] (project_maps) StdoutLine: {'line': b"Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x736665a99190>, 'texture_height': <building_map.param_value.ParamValue object at 0x736665a99160>, 'texture_name': <building_map.param_value.ParamValue object at 0x736665a991f0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x736665a991c0>, 'texture_width': <building_map.param_value.ParamValue object at 0x736665a99220>}]\n"}
+[2.087483] (project_maps) StdoutLine: {'line': b'generating wall: 1 on floor: classroom_L2\n'}
+[2.088135] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/default.png\n'}
+[2.088237] (project_maps) StdoutLine: {'line': b'generate_wall_visual_mesh(classroom_L2, /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2)\n'}
+[2.088350] (project_maps) StdoutLine: {'line': b'  generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.obj\n'}
+[2.091189] (project_maps) StdoutLine: {'line': b'  generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.mtl\n'}
+[2.091460] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/model.sdf\n'}
+[2.095524] (project_maps) StdoutLine: {'line': b'[ 50%] Built target test1\n'}
+[2.103551] (-) TimerEvent: {}
+[2.112269] (project_maps) StdoutLine: {'line': b'spawning robot name tinyRobot2 of type TinyRobot\n'}
+[2.112594] (project_maps) StdoutLine: {'line': b'spawning robot name tinyRobot1 of type TinyRobot\n'}
+[2.112718] (project_maps) StdoutLine: {'line': b'generate door name=door1 type=double_hinged\n'}
+[2.112881] (project_maps) StdoutLine: {'line': b'Door(door1)\n'}
+[2.113012] (project_maps) StdoutLine: {'line': b'generate door name=door2 type=hinged\n'}
+[2.113143] (project_maps) StdoutLine: {'line': b'Door(door2)\n'}
+[2.113276] (project_maps) StdoutLine: {'line': b'generate door name=door3 type=sliding\n'}
+[2.113398] (project_maps) StdoutLine: {'line': b'Door(door3)\n'}
+[2.113520] (project_maps) StdoutLine: {'line': b'generate door name=door4 type=double_hinged\n'}
+[2.113641] (project_maps) StdoutLine: {'line': b'Door(door4)\n'}
+[2.113756] (project_maps) StdoutLine: {'line': b'generate door name=door5 type=double_hinged\n'}
+[2.113876] (project_maps) StdoutLine: {'line': b'Door(door5)\n'}
+[2.113998] (project_maps) StdoutLine: {'line': b'generate door name=door6 type=double_hinged\n'}
+[2.114119] (project_maps) StdoutLine: {'line': b'Door(door6)\n'}
+[2.114255] (project_maps) StdoutLine: {'line': b'generate door name=door7 type=double_hinged\n'}
+[2.114377] (project_maps) StdoutLine: {'line': b'Door(door7)\n'}
+[2.114564] (project_maps) StdoutLine: {'line': b'generate door name=door8 type=sliding\n'}
+[2.114685] (project_maps) StdoutLine: {'line': b'Door(door8)\n'}
+[2.114798] (project_maps) StdoutLine: {'line': b'generate door name=door9 type=hinged\n'}
+[2.114915] (project_maps) StdoutLine: {'line': b'Door(door9)\n'}
+[2.119042] (project_maps) StdoutLine: {'line': b'96466 bytes written to /home/maria/rmf_ws/build/project_maps/maps/classroom/classroom.world\n'}
+[2.123903] (project_maps) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating test1_crowdsim\x1b[0m\n'}
+[2.196382] (project_maps) StdoutLine: {'line': b'[ 66%] Built target classroom\n'}
+[2.203676] (-) TimerEvent: {}
+[2.223778] (project_maps) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating classroom_crowdsim\x1b[0m\n'}
+[2.303869] (-) TimerEvent: {}
+[2.370347] (project_maps) StdoutLine: {'line': b'building name: estce\n'}
+[2.370592] (project_maps) StdoutLine: {'line': b'coordinate system: reference_image\n'}
+[2.370729] (project_maps) StdoutLine: {'line': b'parsing level L1\n'}
+[2.374552] (project_maps) StdoutLine: {'line': b'parsing level L2\n'}
+[2.377770] (project_maps) StdoutLine: {'line': b'calculating levels relative to L1\n'}
+[2.377978] (project_maps) StdoutLine: {'line': b'level L1 scale: 0.022444889534645907\n'}
+[2.378105] (project_maps) StdoutLine: {'line': b'calculating level L2 offset and scale...\n'}
+[2.378242] (project_maps) StdoutLine: {'line': b'  3 common fiducials:\n'}
+[2.378365] (project_maps) StdoutLine: {'line': b'Transform.set_from_fiducials()\n'}
+[2.378485] (project_maps) StdoutLine: {'line': b'  3 fiducial pairs:\n'}
+[2.378602] (project_maps) StdoutLine: {'line': b'    (3963.9, -2197.6) -> (3837.1, -2354.5)   c3\n'}
+[2.378719] (project_maps) StdoutLine: {'line': b'    (2516.2, -2123.7) -> (2388.7, -2279.7)   c4\n'}
+[2.378834] (project_maps) StdoutLine: {'line': b'    (2369.6, -2222.5) -> (2242.3, -2378.6)   c1\n'}
+[2.378949] (project_maps) StdoutLine: {'line': b'    calc dist c3 <=> c4\n'}
+[2.379063] (project_maps) StdoutLine: {'line': b'    calc dist c3 <=> c1\n'}
+[2.379193] (project_maps) StdoutLine: {'line': b'    calc dist c4 <=> c1\n'}
+[2.379312] (project_maps) StdoutLine: {'line': b'Bearings:\n'}
+[2.379427] (project_maps) StdoutLine: {'line': b'[(3.090626667763035, 3.090030514435309), (-3.1259350542154625, -3.1264943407908756), (-2.5484125455389486, -2.5477943015529716)]\n'}
+[2.379544] (project_maps) StdoutLine: {'line': b'  -0.0005961533277258901\n'}
+[2.379659] (project_maps) StdoutLine: {'line': b'  -0.0005592865754131537\n'}
+[2.379774] (project_maps) StdoutLine: {'line': b'  0.000618243985976985\n'}
+[2.379889] (project_maps) StdoutLine: {'line': b'  Circular mean: 0.00017906532679433574\n'}
+[2.380003] (project_maps) StdoutLine: {'line': b'Distances:\n'}
+[2.380118] (project_maps) StdoutLine: {'line': b'[(1449.6723774715445, 1450.2914846695473), (1594.5624578062157, 1594.9407871394474), (176.77616935831585, 176.63032569182434)]\n'}
+[2.380245] (project_maps) StdoutLine: {'line': b'mean relative scale: 0.999946436772245\n'}
+[2.380359] (project_maps) StdoutLine: {'line': b'translation: (2.8426, 3.5003)\n'}
+[2.403963] (-) TimerEvent: {}
+[2.415990] (project_maps) StdoutLine: {'line': b'parsing lift lift1td1\n'}
+[2.416269] (project_maps) StdoutLine: {'line': b'parsing lift lift2td0\n'}
+[2.416398] (project_maps) StdoutLine: {'line': b'parsing lift lift3td2\n'}
+[2.416480] (project_maps) StdoutLine: {'line': b'parsing lift lift4td2\n'}
+[2.417373] (project_maps) StdoutLine: {'line': b'generating model of level L1 in /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1\n'}
+[2.417559] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/model.config\n'}
+[2.417658] (project_maps) StdoutLine: {'line': b'generating floor polygon 1 on floor estce_L1\n'}
+[2.418280] (project_maps) StdoutLine: {'line': b'hole vertices: []\n'}
+[2.418395] (project_maps) StdoutLine: {'line': b"lift vertices: {'lift1td1': [(31.270640929890103, -76.33376668522129), (31.270640929890103, -79.43376668522129), (33.3706409298901, -79.43376668522129), (33.3706409298901, -76.33376668522129)], 'lift2td0': [(53.205510435476945, -47.68096139483516), (53.205510435476945, -49.28096139483515), (54.30551043547694, -49.28096139483515), (54.30551043547694, -47.68096139483516)], 'lift3td2': [(89.00510924323717, -47.879859185528076), (89.00510924323717, -49.97985918552807), (90.10510924323717, -49.97985918552807), (90.10510924323717, -47.879859185528076)], 'lift4td2': [(123.64138525089626, -48.633173343512695), (127.7413852508686, -48.63315828337177), (127.74137753713788, -46.533158283385944), (123.64137753716554, -46.53317334352687)]}\n"}
+[2.504080] (-) TimerEvent: {}
+[2.604450] (-) TimerEvent: {}
+[2.646724] (project_maps) StdoutLine: {'line': b'crowdsim unable to parse, not attempting to proceed\n'}
+[2.666112] (project_maps) StdoutLine: {'line': b'crowdsim unable to parse, not attempting to proceed\n'}
+[2.704538] (-) TimerEvent: {}
+[2.741411] (project_maps) StdoutLine: {'line': b'[ 83%] Built target generate_test1_crowdsim\n'}
+[2.804634] (-) TimerEvent: {}
+[2.904863] (-) TimerEvent: {}
+[3.005110] (-) TimerEvent: {}
+[3.104791] (project_maps) StdoutLine: {'line': b'crowdsim unable to parse, not attempting to proceed\n'}
+[3.105139] (-) TimerEvent: {}
+[3.167065] (project_maps) StdoutLine: {'line': b'[[95, 96, 94], [93, 94, 92], [50, 51, 49], [49, 51, 48], [47, 48, 46], [45, 46, 100], [45, 100, 101], [45, 101, 44], [42, 43, 40], [42, 40, 41], [102, 103, 35], [102, 35, 36], [103, 34, 35], [4, 5, 3], [1, 2, 0], [0, 2, 104], [0, 104, 105], [0, 105, 99], [98, 99, 96], [98, 96, 97], [96, 99, 6], [96, 6, 89], [96, 89, 91], [96, 91, 94], [94, 91, 92], [91, 106, 90], [52, 107, 51], [51, 107, 53], [51, 53, 48], [48, 53, 46], [46, 53, 108], [46, 108, 100], [101, 109, 43], [101, 43, 44], [43, 109, 33], [33, 110, 43], [110, 111, 43], [111, 112, 43], [43, 112, 40], [112, 113, 40], [40, 113, 39], [38, 39, 37], [37, 39, 36], [114, 102, 36], [114, 36, 39], [113, 114, 39], [21, 22, 23], [21, 23, 20], [115, 20, 23], [13, 14, 12], [5, 6, 116], [5, 116, 117], [5, 117, 3], [3, 117, 104], [3, 104, 2], [105, 116, 99], [99, 116, 6], [6, 7, 8], [6, 8, 89], [89, 8, 118], [89, 118, 88], [91, 89, 106], [87, 88, 85], [87, 85, 86], [79, 80, 78], [76, 77, 75], [75, 77, 70], [75, 70, 72], [75, 72, 73], [75, 73, 74], [72, 70, 71], [67, 68, 66], [59, 60, 58], [53, 54, 33], [53, 33, 108], [108, 33, 109], [33, 54, 55], [55, 119, 33], [25, 26, 24], [120, 121, 24], [24, 121, 23], [121, 122, 23], [122, 123, 23], [123, 124, 23], [124, 115, 23], [14, 15, 27], [14, 27, 11], [14, 11, 12], [125, 126, 127], [8, 126, 125], [8, 125, 118], [118, 128, 85], [118, 85, 88], [85, 128, 84], [80, 81, 11], [80, 11, 66], [80, 66, 78], [78, 66, 68], [78, 68, 70], [78, 70, 77], [70, 68, 69], [66, 11, 28], [66, 28, 65], [60, 61, 58], [58, 61, 129], [58, 129, 130], [58, 130, 57], [57, 130, 56], [56, 130, 31], [56, 31, 55], [55, 31, 131], [55, 131, 119], [31, 32, 131], [132, 24, 26], [19, 24, 132], [19, 132, 133], [19, 120, 24], [134, 18, 19], [134, 19, 135], [136, 17, 18], [136, 18, 134], [27, 17, 136], [17, 27, 16], [16, 27, 15], [27, 28, 11], [28, 29, 30], [28, 30, 129], [28, 129, 63], [28, 63, 64], [28, 64, 65], [63, 129, 62], [62, 129, 61], [129, 30, 137], [130, 138, 31], [138, 139, 31], [137, 140, 138], [138, 140, 139], [137, 141, 140], [135, 19, 133], [30, 141, 137], [11, 81, 82], [11, 82, 83], [11, 83, 128], [11, 128, 9], [11, 9, 10], [142, 9, 143], [125, 127, 143], [143, 127, 142], [143, 9, 128], [128, 83, 84]]\n'}
+[3.172205] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/floor_1.obj\n'}
+[3.173466] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/blue_linoleum.png\n'}
+[3.173606] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/floor_1.mtl\n'}
+[3.174283] (project_maps) StdoutLine: {'line': b"Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x73e786c05f10>, 'texture_height': <building_map.param_value.ParamValue object at 0x73e786c05f70>, 'texture_name': <building_map.param_value.ParamValue object at 0x73e786c05f40>, 'texture_scale': <building_map.param_value.ParamValue object at 0x73e786c05fa0>, 'texture_width': <building_map.param_value.ParamValue object at 0x73e786c05fd0>}]\n"}
+[3.174907] (project_maps) StdoutLine: {'line': b'generating wall: 1 on floor: estce_L1\n'}
+[3.175569] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/default.png\n'}
+[3.175734] (project_maps) StdoutLine: {'line': b'generate_wall_visual_mesh(estce_L1, /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1)\n'}
+[3.175838] (project_maps) StdoutLine: {'line': b'  generating /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/wall_1.obj\n'}
+[3.204744] (project_maps) StdoutLine: {'line': b'  generating /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/wall_1.mtl\n'}
+[3.205117] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/model.sdf\n'}
+[3.205254] (-) TimerEvent: {}
+[3.205388] (project_maps) StdoutLine: {'line': b'generating model of level L2 in /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2\n'}
+[3.205497] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/model.config\n'}
+[3.205600] (project_maps) StdoutLine: {'line': b'generating floor polygon 1 on floor estce_L2\n'}
+[3.206090] (project_maps) StdoutLine: {'line': b'hole vertices: [[(32.038756741414744, -42.76915216128614), (31.11673500280745, -42.874342528720355), (29.881747866515727, -43.35818717420026), (29.14116076436808, -43.85547828335986), (28.446281434405638, -44.52016416331792), (28.18828671567239, -44.89993090262992), (27.902443415164427, -45.318893505603), (27.659816875330964, -45.78271810821972), (27.49702381768832, -46.33130730559018), (27.35746824671091, -46.786830843755695), (27.30272430051249, -47.42516261590286), (27.306182355823804, -48.18484998650477), (27.520795314795677, -49.22045180384088), (27.979793576379052, -50.21277868670446), (28.568030152623294, -51.04466020665891), (29.157538206306413, -51.581442725050174), (29.951253484935357, -52.077336789240654), (30.593241501695815, -52.36899858368847), (31.36939239777892, -52.54975265884881), (32.27394380183291, -52.65463839645499), (33.114261763506796, -52.54944021324229), (33.86116482227765, -52.35090546002476), (34.61973930420733, -52.0239769695925), (35.255761762454966, -51.592022712577965), (35.88589653422498, -50.99668440486839), (36.387631298646134, -50.35465877132251), (36.807655483657385, -49.54928511042502), (37.08176230477987, -48.64470340474208), (37.13997793752946, -47.839372085119734), (37.098954679464335, -46.88234539869987), (36.877069716975065, -46.100408171249505), (36.53846716893895, -45.330163811805384), (36.03646125516407, -44.58329264810546), (35.48198214906801, -43.99400244763602), (34.85166137537696, -43.55060298085515), (34.01124518964044, -43.10726358097049), (33.00747106670977, -42.81564412377851)], [(110.09102272666154, -42.75955269459609), (111.44045567773574, -42.7390871288873), (112.83541074658372, -43.10273338721559), (113.86148077122128, -43.68376876454881), (114.89267627942866, -44.68427579473863), (115.61563246114594, -45.881937155334136), (115.88875829247449, -47.14540122285116), (115.82331198059556, -48.560526823481574), (115.34848752224677, -49.9403731343614), (114.49963822914278, -51.1635902506152), (113.35253107123509, -52.0431886571492), (111.88190966988071, -52.553898576710914), (110.27473277632299, -52.59968459521777), (108.93534156104337, -52.16527830477956), (107.77784496651485, -51.43264310871486), (106.82750824825862, -50.3512707754882), (106.22077593676646, -49.01711636277498), (106.03352686402847, -47.61718712334794), (106.22531950767716, -46.18686534015669), (106.83411373287781, -44.99652984230133), (107.61732055938776, -44.09300172515975), (108.54587957595648, -43.39157464055808)]]\n'}
+[3.206268] (project_maps) StdoutLine: {'line': b"lift vertices: {'lift1td1': [(31.270640929890103, -76.33376668522129), (31.270640929890103, -79.43376668522129), (33.3706409298901, -79.43376668522129), (33.3706409298901, -76.33376668522129)], 'lift2td0': [(53.205510435476945, -47.68096139483516), (53.205510435476945, -49.28096139483515), (54.30551043547694, -49.28096139483515), (54.30551043547694, -47.68096139483516)], 'lift3td2': [(89.00510924323717, -47.879859185528076), (89.00510924323717, -49.97985918552807), (90.10510924323717, -49.97985918552807), (90.10510924323717, -47.879859185528076)], 'lift4td2': [(123.64138525089626, -48.633173343512695), (127.7413852508686, -48.63315828337177), (127.74137753713788, -46.533158283385944), (123.64137753716554, -46.53317334352687)]}\n"}
+[3.305367] (-) TimerEvent: {}
+[3.405635] (-) TimerEvent: {}
+[3.483642] (project_maps) StdoutLine: {'line': b'crowdsim unable to parse, not attempting to proceed\n'}
+[3.505726] (-) TimerEvent: {}
+[3.551029] (project_maps) StdoutLine: {'line': b'[ 83%] Built target generate_classroom_crowdsim\n'}
+[3.606000] (-) TimerEvent: {}
+[3.706642] (-) TimerEvent: {}
+[3.807119] (-) TimerEvent: {}
+[3.907582] (-) TimerEvent: {}
+[4.008136] (-) TimerEvent: {}
+[4.069634] (project_maps) StdoutLine: {'line': b'[[5, 6, 4], [3, 4, 2], [54, 55, 53], [52, 53, 51], [50, 51, 89], [50, 89, 90], [50, 90, 49], [47, 48, 45], [47, 45, 46], [29, 30, 31], [29, 31, 26], [29, 26, 28], [28, 26, 27], [10, 11, 12], [10, 12, 91], [10, 91, 92], [10, 92, 9], [8, 9, 7], [7, 9, 6], [6, 9, 93], [6, 93, 94], [6, 94, 95], [6, 95, 96], [6, 96, 97], [6, 97, 98], [6, 98, 99], [6, 99, 100], [6, 100, 101], [6, 101, 102], [6, 102, 4], [4, 102, 103], [4, 103, 1], [4, 1, 2], [55, 56, 53], [53, 56, 104], [53, 104, 51], [51, 104, 105], [51, 105, 106], [51, 106, 107], [51, 107, 108], [51, 108, 109], [51, 109, 89], [90, 110, 48], [90, 48, 49], [48, 110, 111], [48, 111, 112], [48, 112, 113], [48, 113, 114], [48, 114, 45], [45, 114, 115], [45, 115, 44], [43, 44, 42], [42, 44, 41], [35, 36, 34], [31, 32, 25], [31, 25, 26], [22, 23, 21], [15, 16, 116], [15, 116, 117], [15, 117, 13], [15, 13, 14], [12, 13, 91], [91, 13, 117], [92, 116, 118], [92, 118, 119], [92, 119, 120], [92, 120, 9], [9, 120, 121], [9, 121, 122], [9, 122, 123], [9, 123, 124], [9, 124, 125], [9, 125, 126], [9, 126, 93], [103, 127, 1], [1, 127, 128], [128, 127, 129], [128, 0, 1], [130, 56, 57], [130, 131, 56], [132, 131, 130], [56, 131, 104], [108, 133, 109], [109, 133, 110], [110, 133, 134], [110, 134, 111], [115, 135, 44], [44, 135, 41], [41, 135, 136], [41, 136, 137], [41, 137, 138], [41, 138, 139], [41, 139, 58], [41, 58, 140], [41, 140, 39], [41, 39, 40], [141, 39, 142], [143, 142, 144], [141, 142, 143], [144, 145, 143], [38, 145, 144], [37, 38, 36], [36, 38, 146], [36, 146, 67], [36, 67, 79], [36, 79, 21], [36, 21, 34], [34, 21, 23], [34, 23, 32], [34, 32, 33], [32, 23, 25], [25, 23, 24], [21, 79, 147], [21, 147, 19], [21, 19, 20], [148, 149, 19], [150, 149, 148], [150, 148, 18], [17, 18, 16], [16, 18, 88], [16, 88, 151], [16, 151, 152], [16, 152, 153], [16, 153, 154], [16, 154, 155], [16, 155, 156], [16, 156, 157], [16, 157, 158], [16, 158, 116], [116, 158, 159], [116, 159, 160], [116, 160, 118], [161, 162, 88], [161, 88, 163], [163, 88, 164], [127, 163, 129], [129, 163, 164], [84, 85, 86], [84, 86, 81], [84, 81, 83], [78, 79, 77], [74, 75, 77], [74, 77, 73], [73, 77, 72], [72, 77, 69], [72, 69, 71], [71, 69, 70], [68, 69, 67], [62, 63, 60], [62, 60, 61], [132, 58, 131], [131, 58, 165], [165, 58, 166], [166, 58, 167], [139, 168, 58], [58, 168, 167], [58, 59, 140], [140, 59, 146], [140, 142, 39], [144, 146, 38], [146, 59, 66], [146, 66, 67], [63, 64, 65], [63, 65, 60], [60, 65, 59], [59, 65, 66], [67, 69, 77], [67, 77, 79], [77, 75, 76], [79, 80, 147], [147, 80, 169], [147, 170, 19], [19, 170, 148], [148, 169, 18], [18, 169, 88], [88, 169, 87], [86, 87, 80], [86, 80, 81], [81, 82, 83], [80, 87, 169], [88, 162, 171], [88, 171, 172], [88, 172, 173], [88, 173, 151]]\n'}
+[4.077642] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/floor_1.obj\n'}
+[4.078398] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/blue_linoleum.png\n'}
+[4.078509] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/floor_1.mtl\n'}
+[4.078996] (project_maps) StdoutLine: {'line': b"Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x73e786a017c0>, 'texture_height': <building_map.param_value.ParamValue object at 0x73e786a017f0>, 'texture_name': <building_map.param_value.ParamValue object at 0x73e786a01820>, 'texture_scale': <building_map.param_value.ParamValue object at 0x73e786a01850>, 'texture_width': <building_map.param_value.ParamValue object at 0x73e786a018b0>}]\n"}
+[4.079362] (project_maps) StdoutLine: {'line': b'generating wall: 1 on floor: estce_L2\n'}
+[4.080006] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/default.png\n'}
+[4.080069] (project_maps) StdoutLine: {'line': b'generate_wall_visual_mesh(estce_L2, /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2)\n'}
+[4.080120] (project_maps) StdoutLine: {'line': b'  generating /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/wall_1.obj\n'}
+[4.103806] (project_maps) StdoutLine: {'line': b'  generating /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/wall_1.mtl\n'}
+[4.103991] (project_maps) StdoutLine: {'line': b'  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/model.sdf\n'}
+[4.108261] (-) TimerEvent: {}
+[4.122263] (project_maps) StdoutLine: {'line': b'spawning robot name cleaner_robot1 of type CleanerBotA\n'}
+[4.122650] (project_maps) StdoutLine: {'line': b'spawning robot name patrol_robot1 of type TinyRobot\n'}
+[4.122757] (project_maps) StdoutLine: {'line': b'spawning robot name patrol_robot2 of type TinyRobot\n'}
+[4.122824] (project_maps) StdoutLine: {'line': b'spawning robot name tinyRobot4 of type TinyRobot\n'}
+[4.122900] (project_maps) StdoutLine: {'line': b'spawning robot name cleaner_robot2 of type CleanerBotA\n'}
+[4.122967] (project_maps) StdoutLine: {'line': b'spawning robot name cleaner_robot3 of type CleanerBotA\n'}
+[4.123032] (project_maps) StdoutLine: {'line': b'spawning robot name delivery_robot1 of type DeliveryRobot\n'}
+[4.123097] (project_maps) StdoutLine: {'line': b'generate door name=TD1013AL2 type=double_hinged\n'}
+[4.123350] (project_maps) StdoutLine: {'line': b'Door(TD1013AL2)\n'}
+[4.123467] (project_maps) StdoutLine: {'line': b'generate door name=TD1012AL type=double_hinged\n'}
+[4.123539] (project_maps) StdoutLine: {'line': b'Door(TD1012AL)\n'}
+[4.123608] (project_maps) StdoutLine: {'line': b'generate door name=TD1011AL type=double_hinged\n'}
+[4.123676] (project_maps) StdoutLine: {'line': b'Door(TD1011AL)\n'}
+[4.123738] (project_maps) StdoutLine: {'line': b'generate door name=TD1010AL2 type=double_hinged\n'}
+[4.123800] (project_maps) StdoutLine: {'line': b'Door(TD1010AL2)\n'}
+[4.123862] (project_maps) StdoutLine: {'line': b'generate door name=TN4 type=hinged\n'}
+[4.123927] (project_maps) StdoutLine: {'line': b'Door(TN4)\n'}
+[4.123988] (project_maps) StdoutLine: {'line': b'generate door name=TN3 type=hinged\n'}
+[4.124050] (project_maps) StdoutLine: {'line': b'Door(TN3)\n'}
+[4.124112] (project_maps) StdoutLine: {'line': b'generate door name=TD1013AL1 type=hinged\n'}
+[4.124317] (project_maps) StdoutLine: {'line': b'Door(TD1013AL1)\n'}
+[4.124384] (project_maps) StdoutLine: {'line': b'generate door name=TD1020CA type=hinged\n'}
+[4.124447] (project_maps) StdoutLine: {'line': b'Door(TD1020CA)\n'}
+[4.124509] (project_maps) StdoutLine: {'line': b'generate door name=TD1009CA type=hinged\n'}
+[4.124571] (project_maps) StdoutLine: {'line': b'Door(TD1009CA)\n'}
+[4.124633] (project_maps) StdoutLine: {'line': b'generate door name=TD1010AL1 type=hinged\n'}
+[4.124694] (project_maps) StdoutLine: {'line': b'Door(TD1010AL1)\n'}
+[4.124756] (project_maps) StdoutLine: {'line': b'generate door name=TD1008AL type=double_hinged\n'}
+[4.124819] (project_maps) StdoutLine: {'line': b'Door(TD1008AL)\n'}
+[4.124879] (project_maps) StdoutLine: {'line': b'generate door name=TD1014AL type=double_hinged\n'}
+[4.124940] (project_maps) StdoutLine: {'line': b'Door(TD1014AL)\n'}
+[4.125004] (project_maps) StdoutLine: {'line': b'generate door name=TN1 type=hinged\n'}
+[4.125065] (project_maps) StdoutLine: {'line': b'Door(TN1)\n'}
+[4.125133] (project_maps) StdoutLine: {'line': b'generate door name=TD1002CP type=double_hinged\n'}
+[4.125333] (project_maps) StdoutLine: {'line': b'Door(TD1002CP)\n'}
+[4.125409] (project_maps) StdoutLine: {'line': b'generate door name=TN2 type=hinged\n'}
+[4.125468] (project_maps) StdoutLine: {'line': b'Door(TN2)\n'}
+[4.125525] (project_maps) StdoutLine: {'line': b'generate door name=TD1005CP1 type=double_hinged\n'}
+[4.125584] (project_maps) StdoutLine: {'line': b'Door(TD1005CP1)\n'}
+[4.125643] (project_maps) StdoutLine: {'line': b'generate door name=TD1004CA type=hinged\n'}
+[4.125702] (project_maps) StdoutLine: {'line': b'Door(TD1004CA)\n'}
+[4.125759] (project_maps) StdoutLine: {'line': b'generate door name=TD1003CI type=hinged\n'}
+[4.126055] (project_maps) StdoutLine: {'line': b'Door(TD1003CI)\n'}
+[4.126119] (project_maps) StdoutLine: {'line': b'generate door name=TD1023CP1 type=double_hinged\n'}
+[4.126210] (project_maps) StdoutLine: {'line': b'Door(TD1023CP1)\n'}
+[4.126270] (project_maps) StdoutLine: {'line': b'generate door name=TD1023CP2 type=double_hinged\n'}
+[4.126331] (project_maps) StdoutLine: {'line': b'Door(TD1023CP2)\n'}
+[4.126389] (project_maps) StdoutLine: {'line': b'generate door name=TD1018AA type=double_hinged\n'}
+[4.126448] (project_maps) StdoutLine: {'line': b'Door(TD1018AA)\n'}
+[4.126508] (project_maps) StdoutLine: {'line': b'generate door name=TD1015AA type=double_hinged\n'}
+[4.126567] (project_maps) StdoutLine: {'line': b'Door(TD1015AA)\n'}
+[4.126626] (project_maps) StdoutLine: {'line': b'generate door name=TD1016AA type=double_hinged\n'}
+[4.126686] (project_maps) StdoutLine: {'line': b'Door(TD1016AA)\n'}
+[4.126746] (project_maps) StdoutLine: {'line': b'generate door name=TD1017AA type=double_hinged\n'}
+[4.126804] (project_maps) StdoutLine: {'line': b'Door(TD1017AA)\n'}
+[4.126862] (project_maps) StdoutLine: {'line': b'generate door name=TD1022AA type=double_hinged\n'}
+[4.126919] (project_maps) StdoutLine: {'line': b'Door(TD1022AA)\n'}
+[4.126978] (project_maps) StdoutLine: {'line': b'generate door name=TD1019AA type=double_hinged\n'}
+[4.127039] (project_maps) StdoutLine: {'line': b'Door(TD1019AA)\n'}
+[4.127097] (project_maps) StdoutLine: {'line': b'generate door name=TD1007AA type=double_hinged\n'}
+[4.127163] (project_maps) StdoutLine: {'line': b'Door(TD1007AA)\n'}
+[4.127223] (project_maps) StdoutLine: {'line': b'generate door name=TD1021AA type=double_hinged\n'}
+[4.127281] (project_maps) StdoutLine: {'line': b'Door(TD1021AA)\n'}
+[4.127338] (project_maps) StdoutLine: {'line': b'generate door name=em2 type=hinged\n'}
+[4.127395] (project_maps) StdoutLine: {'line': b'Door(em2)\n'}
+[4.127452] (project_maps) StdoutLine: {'line': b'generate door name=em1 type=hinged\n'}
+[4.127509] (project_maps) StdoutLine: {'line': b'Door(em1)\n'}
+[4.127565] (project_maps) StdoutLine: {'line': b'generate door name=bano01 type=hinged\n'}
+[4.127623] (project_maps) StdoutLine: {'line': b'Door(bano01)\n'}
+[4.127680] (project_maps) StdoutLine: {'line': b'generate door name=bano02 type=hinged\n'}
+[4.127737] (project_maps) StdoutLine: {'line': b'Door(bano02)\n'}
+[4.127794] (project_maps) StdoutLine: {'line': b'generate door name=bano03 type=hinged\n'}
+[4.127851] (project_maps) StdoutLine: {'line': b'Door(bano03)\n'}
+[4.127907] (project_maps) StdoutLine: {'line': b'generate door name=bano04 type=hinged\n'}
+[4.127965] (project_maps) StdoutLine: {'line': b'Door(bano04)\n'}
+[4.128021] (project_maps) StdoutLine: {'line': b'generate door name=bano05 type=hinged\n'}
+[4.128078] (project_maps) StdoutLine: {'line': b'Door(bano05)\n'}
+[4.128138] (project_maps) StdoutLine: {'line': b'generate door name=bano06 type=hinged\n'}
+[4.128199] (project_maps) StdoutLine: {'line': b'Door(bano06)\n'}
+[4.128256] (project_maps) StdoutLine: {'line': b'generate door name=TD0008CW type=hinged\n'}
+[4.128312] (project_maps) StdoutLine: {'line': b'Door(TD0008CW)\n'}
+[4.128370] (project_maps) StdoutLine: {'line': b'generate door name=TD0007CW type=hinged\n'}
+[4.128426] (project_maps) StdoutLine: {'line': b'Door(TD0007CW)\n'}
+[4.128481] (project_maps) StdoutLine: {'line': b'generate door name=TD1001CP3 type=double_hinged\n'}
+[4.128537] (project_maps) StdoutLine: {'line': b'Door(TD1001CP3)\n'}
+[4.128595] (project_maps) StdoutLine: {'line': b'generate door name=TD1001CP2 type=double_hinged\n'}
+[4.128747] (project_maps) StdoutLine: {'line': b'Door(TD1001CP2)\n'}
+[4.128802] (project_maps) StdoutLine: {'line': b'generate door name=TD0013CP1 type=double_hinged\n'}
+[4.128857] (project_maps) StdoutLine: {'line': b'Door(TD0013CP1)\n'}
+[4.128909] (project_maps) StdoutLine: {'line': b'generate door name=TD0013CP2 type=double_hinged\n'}
+[4.128964] (project_maps) StdoutLine: {'line': b'Door(TD0013CP2)\n'}
+[4.129018] (project_maps) StdoutLine: {'line': b'generate door name=bano07 type=hinged\n'}
+[4.129072] (project_maps) StdoutLine: {'line': b'Door(bano07)\n'}
+[4.129128] (project_maps) StdoutLine: {'line': b'generate door name=bano08 type=hinged\n'}
+[4.129187] (project_maps) StdoutLine: {'line': b'Door(bano08)\n'}
+[4.129240] (project_maps) StdoutLine: {'line': b'generate door name=bano09 type=hinged\n'}
+[4.129293] (project_maps) StdoutLine: {'line': b'Door(bano09)\n'}
+[4.129347] (project_maps) StdoutLine: {'line': b'generate door name=bano010 type=hinged\n'}
+[4.129400] (project_maps) StdoutLine: {'line': b'Door(bano010)\n'}
+[4.129454] (project_maps) StdoutLine: {'line': b'generate door name=TD0001EC1 type=double_hinged\n'}
+[4.129507] (project_maps) StdoutLine: {'line': b'Door(TD0001EC1)\n'}
+[4.129560] (project_maps) StdoutLine: {'line': b'generate door name=TD0005AO type=hinged\n'}
+[4.129612] (project_maps) StdoutLine: {'line': b'Door(TD0005AO)\n'}
+[4.129665] (project_maps) StdoutLine: {'line': b'generate door name=TD0006ET type=hinged\n'}
+[4.129719] (project_maps) StdoutLine: {'line': b'Door(TD0006ET)\n'}
+[4.129772] (project_maps) StdoutLine: {'line': b'generate door name=TD0004SD type=hinged\n'}
+[4.129824] (project_maps) StdoutLine: {'line': b'Door(TD0004SD)\n'}
+[4.129881] (project_maps) StdoutLine: {'line': b'generate door name=TD0003SC type=hinged\n'}
+[4.129933] (project_maps) StdoutLine: {'line': b'Door(TD0003SC)\n'}
+[4.129986] (project_maps) StdoutLine: {'line': b'generate door name=TD0001EC2 type=double_hinged\n'}
+[4.130040] (project_maps) StdoutLine: {'line': b'Door(TD0001EC2)\n'}
+[4.130094] (project_maps) StdoutLine: {'line': b'generate door name=cancan6 type=hinged\n'}
+[4.130154] (project_maps) StdoutLine: {'line': b'Door(cancan6)\n'}
+[4.130211] (project_maps) StdoutLine: {'line': b'generate door name=cancan5 type=hinged\n'}
+[4.130265] (project_maps) StdoutLine: {'line': b'Door(cancan5)\n'}
+[4.130320] (project_maps) StdoutLine: {'line': b'generate door name=bancan4 type=hinged\n'}
+[4.130374] (project_maps) StdoutLine: {'line': b'Door(bancan4)\n'}
+[4.130428] (project_maps) StdoutLine: {'line': b'generate door name=cancan3 type=hinged\n'}
+[4.130483] (project_maps) StdoutLine: {'line': b'Door(cancan3)\n'}
+[4.130537] (project_maps) StdoutLine: {'line': b'generate door name=bancan1 type=hinged\n'}
+[4.130591] (project_maps) StdoutLine: {'line': b'Door(bancan1)\n'}
+[4.130645] (project_maps) StdoutLine: {'line': b'generate door name=cancan2 type=hinged\n'}
+[4.130698] (project_maps) StdoutLine: {'line': b'Door(cancan2)\n'}
+[4.130752] (project_maps) StdoutLine: {'line': b'generate door name=can7 type=hinged\n'}
+[4.130806] (project_maps) StdoutLine: {'line': b'Door(can7)\n'}
+[4.130859] (project_maps) StdoutLine: {'line': b'generate door name=can8 type=hinged\n'}
+[4.130915] (project_maps) StdoutLine: {'line': b'Door(can8)\n'}
+[4.130970] (project_maps) StdoutLine: {'line': b'generate door name=can6 type=hinged\n'}
+[4.131025] (project_maps) StdoutLine: {'line': b'Door(can6)\n'}
+[4.131081] (project_maps) StdoutLine: {'line': b'generate door name=can2 type=hinged\n'}
+[4.131139] (project_maps) StdoutLine: {'line': b'Door(can2)\n'}
+[4.131198] (project_maps) StdoutLine: {'line': b'generate door name=can1 type=hinged\n'}
+[4.131254] (project_maps) StdoutLine: {'line': b'Door(can1)\n'}
+[4.131309] (project_maps) StdoutLine: {'line': b'generate door name=can3 type=hinged\n'}
+[4.131365] (project_maps) StdoutLine: {'line': b'Door(can3)\n'}
+[4.131420] (project_maps) StdoutLine: {'line': b'generate door name=can4 type=double_hinged\n'}
+[4.131476] (project_maps) StdoutLine: {'line': b'Door(can4)\n'}
+[4.131549] (project_maps) StdoutLine: {'line': b'generate door name=can5 type=hinged\n'}
+[4.131605] (project_maps) StdoutLine: {'line': b'Door(can5)\n'}
+[4.131662] (project_maps) StdoutLine: {'line': b'generate door name=bano012 type=hinged\n'}
+[4.131719] (project_maps) StdoutLine: {'line': b'Door(bano012)\n'}
+[4.131775] (project_maps) StdoutLine: {'line': b'generate door name=bano013 type=hinged\n'}
+[4.131829] (project_maps) StdoutLine: {'line': b'Door(bano013)\n'}
+[4.131889] (project_maps) StdoutLine: {'line': b'generate door name=bano014 type=hinged\n'}
+[4.131947] (project_maps) StdoutLine: {'line': b'Door(bano014)\n'}
+[4.132003] (project_maps) StdoutLine: {'line': b'generate door name=bano011 type=hinged\n'}
+[4.132060] (project_maps) StdoutLine: {'line': b'Door(bano011)\n'}
+[4.132116] (project_maps) StdoutLine: {'line': b'generate door name=TD0009CW type=hinged\n'}
+[4.132388] (project_maps) StdoutLine: {'line': b'Door(TD0009CW)\n'}
+[4.132448] (project_maps) StdoutLine: {'line': b'generate door name=bano015 type=hinged\n'}
+[4.132506] (project_maps) StdoutLine: {'line': b'Door(bano015)\n'}
+[4.132562] (project_maps) StdoutLine: {'line': b'generate door name=bano016 type=hinged\n'}
+[4.132619] (project_maps) StdoutLine: {'line': b'Door(bano016)\n'}
+[4.132675] (project_maps) StdoutLine: {'line': b'generate door name=TD0010CW type=hinged\n'}
+[4.132772] (project_maps) StdoutLine: {'line': b'Door(TD0010CW)\n'}
+[4.132833] (project_maps) StdoutLine: {'line': b'generate door name=bano017 type=hinged\n'}
+[4.132890] (project_maps) StdoutLine: {'line': b'Door(bano017)\n'}
+[4.132946] (project_maps) StdoutLine: {'line': b'generate door name=bano018 type=hinged\n'}
+[4.133003] (project_maps) StdoutLine: {'line': b'Door(bano018)\n'}
+[4.133060] (project_maps) StdoutLine: {'line': b'generate door name=bano019 type=hinged\n'}
+[4.133115] (project_maps) StdoutLine: {'line': b'Door(bano019)\n'}
+[4.133179] (project_maps) StdoutLine: {'line': b'generate door name=bano020 type=hinged\n'}
+[4.133237] (project_maps) StdoutLine: {'line': b'Door(bano020)\n'}
+[4.133295] (project_maps) StdoutLine: {'line': b'generate door name=TD2012CI type=hinged\n'}
+[4.133351] (project_maps) StdoutLine: {'line': b'Door(TD2012CI)\n'}
+[4.133409] (project_maps) StdoutLine: {'line': b'generate door name=TD2013CA type=hinged\n'}
+[4.133467] (project_maps) StdoutLine: {'line': b'Door(TD2013CA)\n'}
+[4.133523] (project_maps) StdoutLine: {'line': b'generate door name=TD0014CP1 type=double_hinged\n'}
+[4.133580] (project_maps) StdoutLine: {'line': b'Door(TD0014CP1)\n'}
+[4.133637] (project_maps) StdoutLine: {'line': b'generate door name=TD0014CP2 type=double_hinged\n'}
+[4.133694] (project_maps) StdoutLine: {'line': b'Door(TD0014CP2)\n'}
+[4.133751] (project_maps) StdoutLine: {'line': b'generate door name=TD2034EA type=double_hinged\n'}
+[4.133807] (project_maps) StdoutLine: {'line': b'Door(TD2034EA)\n'}
+[4.133868] (project_maps) StdoutLine: {'line': b'generate door name=TD2049SD type=hinged\n'}
+[4.133927] (project_maps) StdoutLine: {'line': b'Door(TD2049SD)\n'}
+[4.133982] (project_maps) StdoutLine: {'line': b'generate door name=TD2029SD type=hinged\n'}
+[4.134037] (project_maps) StdoutLine: {'line': b'Door(TD2029SD)\n'}
+[4.134091] (project_maps) StdoutLine: {'line': b'generate door name=TD2030SD type=hinged\n'}
+[4.134166] (project_maps) StdoutLine: {'line': b'Door(TD2030SD)\n'}
+[4.134223] (project_maps) StdoutLine: {'line': b'generate door name=TD2040CP1 type=double_hinged\n'}
+[4.134278] (project_maps) StdoutLine: {'line': b'Door(TD2040CP1)\n'}
+[4.134332] (project_maps) StdoutLine: {'line': b'generate door name=TD2037EA type=double_hinged\n'}
+[4.134387] (project_maps) StdoutLine: {'line': b'Door(TD2037EA)\n'}
+[4.134443] (project_maps) StdoutLine: {'line': b'generate door name=TD2040CP2 type=double_hinged\n'}
+[4.134497] (project_maps) StdoutLine: {'line': b'Door(TD2040CP2)\n'}
+[4.134553] (project_maps) StdoutLine: {'line': b'generate door name=EM5 type=hinged\n'}
+[4.134608] (project_maps) StdoutLine: {'line': b'Door(EM5)\n'}
+[4.134665] (project_maps) StdoutLine: {'line': b'generate door name=EM4 type=hinged\n'}
+[4.134840] (project_maps) StdoutLine: {'line': b'Door(EM4)\n'}
+[4.134894] (project_maps) StdoutLine: {'line': b'generate door name=TD2043AA type=double_hinged\n'}
+[4.134947] (project_maps) StdoutLine: {'line': b'Door(TD2043AA)\n'}
+[4.135019] (project_maps) StdoutLine: {'line': b'generate door name=TD2021CP1 type=double_hinged\n'}
+[4.135117] (project_maps) StdoutLine: {'line': b'Door(TD2021CP1)\n'}
+[4.135257] (project_maps) StdoutLine: {'line': b'generate door name=TD2021CP2 type=double_hinged\n'}
+[4.135390] (project_maps) StdoutLine: {'line': b'Door(TD2021CP2)\n'}
+[4.135526] (project_maps) StdoutLine: {'line': b'generate door name=TD2046AA type=double_hinged\n'}
+[4.135674] (project_maps) StdoutLine: {'line': b'Door(TD2046AA)\n'}
+[4.135831] (project_maps) StdoutLine: {'line': b'generate door name=TD2016CE1 type=double_hinged\n'}
+[4.135976] (project_maps) StdoutLine: {'line': b'Door(TD2016CE1)\n'}
+[4.136074] (project_maps) StdoutLine: {'line': b'generate door name=TD2020CE type=hinged\n'}
+[4.136197] (project_maps) StdoutLine: {'line': b'Door(TD2020CE)\n'}
+[4.136335] (project_maps) StdoutLine: {'line': b'generate door name=TD2019CE type=hinged\n'}
+[4.136660] (project_maps) StdoutLine: {'line': b'Door(TD2019CE)\n'}
+[4.136775] (project_maps) StdoutLine: {'line': b'generate door name=TD2018CE type=hinged\n'}
+[4.136892] (project_maps) StdoutLine: {'line': b'Door(TD2018CE)\n'}
+[4.136997] (project_maps) StdoutLine: {'line': b'generate door name=TD2017CE type=hinged\n'}
+[4.137084] (project_maps) StdoutLine: {'line': b'Door(TD2017CE)\n'}
+[4.137187] (project_maps) StdoutLine: {'line': b'generate door name=TD2016CE2 type=double_hinged\n'}
+[4.137277] (project_maps) StdoutLine: {'line': b'Door(TD2016CE2)\n'}
+[4.137359] (project_maps) StdoutLine: {'line': b'generate door name=TD2022CE1 type=double_hinged\n'}
+[4.137447] (project_maps) StdoutLine: {'line': b'Door(TD2022CE1)\n'}
+[4.137530] (project_maps) StdoutLine: {'line': b'generate door name=TD2014CP type=double_hinged\n'}
+[4.137621] (project_maps) StdoutLine: {'line': b'Door(TD2014CP)\n'}
+[4.137708] (project_maps) StdoutLine: {'line': b'generate door name=TD2026CE type=hinged\n'}
+[4.137795] (project_maps) StdoutLine: {'line': b'Door(TD2026CE)\n'}
+[4.137882] (project_maps) StdoutLine: {'line': b'generate door name=TD2025CE type=hinged\n'}
+[4.137975] (project_maps) StdoutLine: {'line': b'Door(TD2025CE)\n'}
+[4.138060] (project_maps) StdoutLine: {'line': b'generate door name=TD2024CE type=hinged\n'}
+[4.138151] (project_maps) StdoutLine: {'line': b'Door(TD2024CE)\n'}
+[4.138240] (project_maps) StdoutLine: {'line': b'generate door name=TD2023CE type=hinged\n'}
+[4.138325] (project_maps) StdoutLine: {'line': b'Door(TD2023CE)\n'}
+[4.138409] (project_maps) StdoutLine: {'line': b'generate door name=TD2022CE2 type=double_hinged\n'}
+[4.138493] (project_maps) StdoutLine: {'line': b'Door(TD2022CE2)\n'}
+[4.138581] (project_maps) StdoutLine: {'line': b'generate door name=TD2011CP2 type=double_hinged\n'}
+[4.138668] (project_maps) StdoutLine: {'line': b'Door(TD2011CP2)\n'}
+[4.138755] (project_maps) StdoutLine: {'line': b'generate door name=TD2011CP3 type=double_hinged\n'}
+[4.138841] (project_maps) StdoutLine: {'line': b'Door(TD2011CP3)\n'}
+[4.138907] (project_maps) StdoutLine: {'line': b'generate door name=TD2011CP1 type=double_hinged\n'}
+[4.138960] (project_maps) StdoutLine: {'line': b'Door(TD2011CP1)\n'}
+[4.139013] (project_maps) StdoutLine: {'line': b'generate door name=TD2003AA type=double_hinged\n'}
+[4.139064] (project_maps) StdoutLine: {'line': b'Door(TD2003AA)\n'}
+[4.139116] (project_maps) StdoutLine: {'line': b'generate door name=TD2002AA type=double_hinged\n'}
+[4.139177] (project_maps) StdoutLine: {'line': b'Door(TD2002AA)\n'}
+[4.139231] (project_maps) StdoutLine: {'line': b'generate door name=TD2048AA type=double_hinged\n'}
+[4.139283] (project_maps) StdoutLine: {'line': b'Door(TD2048AA)\n'}
+[4.139336] (project_maps) StdoutLine: {'line': b'generate door name=TD2047AA type=double_hinged\n'}
+[4.139389] (project_maps) StdoutLine: {'line': b'Door(TD2047AA)\n'}
+[4.139456] (project_maps) StdoutLine: {'line': b'generate door name=TD2006CI type=double_hinged\n'}
+[4.139516] (project_maps) StdoutLine: {'line': b'Door(TD2006CI)\n'}
+[4.139578] (project_maps) StdoutLine: {'line': b'generate door name=TD2004CI type=hinged\n'}
+[4.139639] (project_maps) StdoutLine: {'line': b'Door(TD2004CI)\n'}
+[4.139699] (project_maps) StdoutLine: {'line': b'generate door name=TD2007CI type=hinged\n'}
+[4.139760] (project_maps) StdoutLine: {'line': b'Door(TD2007CI)\n'}
+[4.139818] (project_maps) StdoutLine: {'line': b'generate door name=TD2010CP type=double_hinged\n'}
+[4.139876] (project_maps) StdoutLine: {'line': b'Door(TD2010CP)\n'}
+[4.139958] (project_maps) StdoutLine: {'line': b'generate door name=TD1005CP2 type=double_hinged\n'}
+[4.140016] (project_maps) StdoutLine: {'line': b'Door(TD1005CP2)\n'}
+[4.140073] (project_maps) StdoutLine: {'line': b'spawning robot name cleaner_robot4 of type CleanerBotA\n'}
+[4.140136] (project_maps) StdoutLine: {'line': b'spawning robot name cleaner_robot5 of type CleanerBotA\n'}
+[4.140199] (project_maps) StdoutLine: {'line': b'generate door name=TD1104 type=double_hinged\n'}
+[4.140267] (project_maps) StdoutLine: {'line': b'Door(TD1104)\n'}
+[4.140325] (project_maps) StdoutLine: {'line': b'generate door name=d2 type=hinged\n'}
+[4.140382] (project_maps) StdoutLine: {'line': b'Door(d2)\n'}
+[4.140438] (project_maps) StdoutLine: {'line': b'generate door name=d1 type=hinged\n'}
+[4.140493] (project_maps) StdoutLine: {'line': b'Door(d1)\n'}
+[4.140548] (project_maps) StdoutLine: {'line': b'generate door name=TD1103 type=double_hinged\n'}
+[4.140603] (project_maps) StdoutLine: {'line': b'Door(TD1103)\n'}
+[4.140659] (project_maps) StdoutLine: {'line': b'generate door name=TD1105 type=double_hinged\n'}
+[4.140713] (project_maps) StdoutLine: {'line': b'Door(TD1105)\n'}
+[4.140766] (project_maps) StdoutLine: {'line': b'generate door name=TD1102 type=double_hinged\n'}
+[4.140820] (project_maps) StdoutLine: {'line': b'Door(TD1102)\n'}
+[4.140876] (project_maps) StdoutLine: {'line': b'generate door name=TD11011 type=double_hinged\n'}
+[4.140931] (project_maps) StdoutLine: {'line': b'Door(TD11011)\n'}
+[4.140991] (project_maps) StdoutLine: {'line': b'generate door name=TD11061 type=double_hinged\n'}
+[4.141043] (project_maps) StdoutLine: {'line': b'Door(TD11061)\n'}
+[4.141095] (project_maps) StdoutLine: {'line': b'generate door name=TD11062 type=double_hinged\n'}
+[4.141153] (project_maps) StdoutLine: {'line': b'Door(TD11062)\n'}
+[4.141208] (project_maps) StdoutLine: {'line': b'generate door name=TD118CP1 type=double_hinged\n'}
+[4.141262] (project_maps) StdoutLine: {'line': b'Door(TD118CP1)\n'}
+[4.141313] (project_maps) StdoutLine: {'line': b'generate door name=TD11012 type=double_hinged\n'}
+[4.141364] (project_maps) StdoutLine: {'line': b'Door(TD11012)\n'}
+[4.141420] (project_maps) StdoutLine: {'line': b'generate door name=TD1114CP1 type=double_hinged\n'}
+[4.141472] (project_maps) StdoutLine: {'line': b'Door(TD1114CP1)\n'}
+[4.141524] (project_maps) StdoutLine: {'line': b'generate door name=TD1114CP2 type=double_hinged\n'}
+[4.141578] (project_maps) StdoutLine: {'line': b'Door(TD1114CP2)\n'}
+[4.141631] (project_maps) StdoutLine: {'line': b'generate door name=TC1114CP3 type=double_hinged\n'}
+[4.141684] (project_maps) StdoutLine: {'line': b'Door(TC1114CP3)\n'}
+[4.141737] (project_maps) StdoutLine: {'line': b'generate door name=door type=double_hinged\n'}
+[4.141787] (project_maps) StdoutLine: {'line': b'Door(door)\n'}
+[4.141838] (project_maps) StdoutLine: {'line': b'generate door name=d4 type=hinged\n'}
+[4.141888] (project_maps) StdoutLine: {'line': b'Door(d4)\n'}
+[4.141939] (project_maps) StdoutLine: {'line': b'generate door name=d5 type=hinged\n'}
+[4.141989] (project_maps) StdoutLine: {'line': b'Door(d5)\n'}
+[4.142039] (project_maps) StdoutLine: {'line': b'generate door name=TD1111AL2 type=double_hinged\n'}
+[4.142089] (project_maps) StdoutLine: {'line': b'Door(TD1111AL2)\n'}
+[4.142145] (project_maps) StdoutLine: {'line': b'generate door name=TD1109AL1 type=double_hinged\n'}
+[4.142205] (project_maps) StdoutLine: {'line': b'Door(TD1109AL1)\n'}
+[4.142256] (project_maps) StdoutLine: {'line': b'generate door name=TD1108AL2 type=double_hinged\n'}
+[4.142307] (project_maps) StdoutLine: {'line': b'Door(TD1108AL2)\n'}
+[4.142359] (project_maps) StdoutLine: {'line': b'generate door name=TD1107AL2 type=double_hinged\n'}
+[4.142409] (project_maps) StdoutLine: {'line': b'Door(TD1107AL2)\n'}
+[4.142461] (project_maps) StdoutLine: {'line': b'generate door name=TD1107AL1 type=double_hinged\n'}
+[4.142511] (project_maps) StdoutLine: {'line': b'Door(TD1107AL1)\n'}
+[4.142562] (project_maps) StdoutLine: {'line': b'generate door name=TD1118CP2 type=double_hinged\n'}
+[4.142612] (project_maps) StdoutLine: {'line': b'Door(TD1118CP2)\n'}
+[4.142661] (project_maps) StdoutLine: {'line': b'generate door name=TD1116CT type=hinged\n'}
+[4.142710] (project_maps) StdoutLine: {'line': b'Door(TD1116CT)\n'}
+[4.142758] (project_maps) StdoutLine: {'line': b'generate door name=TD1118CP4 type=double_hinged\n'}
+[4.142807] (project_maps) StdoutLine: {'line': b'Door(TD1118CP4)\n'}
+[4.142857] (project_maps) StdoutLine: {'line': b'generate door name=TD1118CP3 type=double_hinged\n'}
+[4.142905] (project_maps) StdoutLine: {'line': b'Door(TD1118CP3)\n'}
+[4.142951] (project_maps) StdoutLine: {'line': b'generate door name=TD0114CW type=hinged\n'}
+[4.142999] (project_maps) StdoutLine: {'line': b'Door(TD0114CW)\n'}
+[4.143047] (project_maps) StdoutLine: {'line': b'generate door name=bano1 type=hinged\n'}
+[4.143094] (project_maps) StdoutLine: {'line': b'Door(bano1)\n'}
+[4.143148] (project_maps) StdoutLine: {'line': b'generate door name=bano2 type=hinged\n'}
+[4.143198] (project_maps) StdoutLine: {'line': b'Door(bano2)\n'}
+[4.143246] (project_maps) StdoutLine: {'line': b'generate door name=bano3 type=hinged\n'}
+[4.143294] (project_maps) StdoutLine: {'line': b'Door(bano3)\n'}
+[4.143342] (project_maps) StdoutLine: {'line': b'generate door name=bano4 type=hinged\n'}
+[4.143391] (project_maps) StdoutLine: {'line': b'Door(bano4)\n'}
+[4.143442] (project_maps) StdoutLine: {'line': b'generate door name=bano5 type=hinged\n'}
+[4.143493] (project_maps) StdoutLine: {'line': b'Door(bano5)\n'}
+[4.143544] (project_maps) StdoutLine: {'line': b'generate door name=bano6 type=hinged\n'}
+[4.143595] (project_maps) StdoutLine: {'line': b'Door(bano6)\n'}
+[4.143646] (project_maps) StdoutLine: {'line': b'generate door name=TD0115CW type=hinged\n'}
+[4.143697] (project_maps) StdoutLine: {'line': b'Door(TD0115CW)\n'}
+[4.143748] (project_maps) StdoutLine: {'line': b'generate door name=bano7 type=hinged\n'}
+[4.143799] (project_maps) StdoutLine: {'line': b'Door(bano7)\n'}
+[4.143850] (project_maps) StdoutLine: {'line': b'generate door name=bano8 type=hinged\n'}
+[4.143900] (project_maps) StdoutLine: {'line': b'Door(bano8)\n'}
+[4.143951] (project_maps) StdoutLine: {'line': b'generate door name=bano9 type=hinged\n'}
+[4.144000] (project_maps) StdoutLine: {'line': b'Door(bano9)\n'}
+[4.144051] (project_maps) StdoutLine: {'line': b'generate door name=bano10 type=hinged\n'}
+[4.144102] (project_maps) StdoutLine: {'line': b'Door(bano10)\n'}
+[4.144159] (project_maps) StdoutLine: {'line': b'generate door name=TD0121CI type=hinged\n'}
+[4.144211] (project_maps) StdoutLine: {'line': b'Door(TD0121CI)\n'}
+[4.144262] (project_maps) StdoutLine: {'line': b'generate door name=TD0118CP2 type=double_hinged\n'}
+[4.144313] (project_maps) StdoutLine: {'line': b'Door(TD0118CP2)\n'}
+[4.144364] (project_maps) StdoutLine: {'line': b'generate door name=TD0118CP1 type=double_hinged\n'}
+[4.144419] (project_maps) StdoutLine: {'line': b'Door(TD0118CP1)\n'}
+[4.144471] (project_maps) StdoutLine: {'line': b'generate door name=TD0112FR type=double_hinged\n'}
+[4.144524] (project_maps) StdoutLine: {'line': b'Door(TD0112FR)\n'}
+[4.144577] (project_maps) StdoutLine: {'line': b'generate door name=TD0125DP type=double_hinged\n'}
+[4.144628] (project_maps) StdoutLine: {'line': b'Door(TD0125DP)\n'}
+[4.144686] (project_maps) StdoutLine: {'line': b'generate door name=TD0120AI type=double_hinged\n'}
+[4.144737] (project_maps) StdoutLine: {'line': b'Door(TD0120AI)\n'}
+[4.144791] (project_maps) StdoutLine: {'line': b'generate door name=TD0108AI type=double_hinged\n'}
+[4.144841] (project_maps) StdoutLine: {'line': b'Door(TD0108AI)\n'}
+[4.144891] (project_maps) StdoutLine: {'line': b'generate door name=TD0107AI type=double_hinged\n'}
+[4.144942] (project_maps) StdoutLine: {'line': b'Door(TD0107AI)\n'}
+[4.144992] (project_maps) StdoutLine: {'line': b'generate door name=TD0104AI type=double_hinged\n'}
+[4.145042] (project_maps) StdoutLine: {'line': b'Door(TD0104AI)\n'}
+[4.145093] (project_maps) StdoutLine: {'line': b'generate door name=TD0106AI type=double_hinged\n'}
+[4.145148] (project_maps) StdoutLine: {'line': b'Door(TD0106AI)\n'}
+[4.145200] (project_maps) StdoutLine: {'line': b'generate door name=TD0105AI type=double_hinged\n'}
+[4.145251] (project_maps) StdoutLine: {'line': b'Door(TD0105AI)\n'}
+[4.145302] (project_maps) StdoutLine: {'line': b'generate door name=TD0118CP3 type=hinged\n'}
+[4.145353] (project_maps) StdoutLine: {'line': b'Door(TD0118CP3)\n'}
+[4.145406] (project_maps) StdoutLine: {'line': b'generate door name=TD0118CP4 type=hinged\n'}
+[4.145458] (project_maps) StdoutLine: {'line': b'Door(TD0118CP4)\n'}
+[4.145511] (project_maps) StdoutLine: {'line': b'generate door name=TD0103AI type=double_hinged\n'}
+[4.145563] (project_maps) StdoutLine: {'line': b'Door(TD0103AI)\n'}
+[4.145615] (project_maps) StdoutLine: {'line': b'generate door name=TD0102AI type=double_hinged\n'}
+[4.145666] (project_maps) StdoutLine: {'line': b'Door(TD0102AI)\n'}
+[4.145718] (project_maps) StdoutLine: {'line': b'generate door name=TD0101AO1 type=double_hinged\n'}
+[4.145771] (project_maps) StdoutLine: {'line': b'Door(TD0101AO1)\n'}
+[4.145821] (project_maps) StdoutLine: {'line': b'generate door name=TD0111AO type=double_hinged\n'}
+[4.145872] (project_maps) StdoutLine: {'line': b'Door(TD0111AO)\n'}
+[4.145923] (project_maps) StdoutLine: {'line': b'generate door name=TD0101AO2 type=hinged\n'}
+[4.145973] (project_maps) StdoutLine: {'line': b'Door(TD0101AO2)\n'}
+[4.146024] (project_maps) StdoutLine: {'line': b'generate door name=bano12 type=hinged\n'}
+[4.146075] (project_maps) StdoutLine: {'line': b'Door(bano12)\n'}
+[4.146129] (project_maps) StdoutLine: {'line': b'generate door name=bano13 type=hinged\n'}
+[4.146188] (project_maps) StdoutLine: {'line': b'Door(bano13)\n'}
+[4.146237] (project_maps) StdoutLine: {'line': b'generate door name=bano14 type=hinged\n'}
+[4.146285] (project_maps) StdoutLine: {'line': b'Door(bano14)\n'}
+[4.146334] (project_maps) StdoutLine: {'line': b'generate door name=bano11 type=hinged\n'}
+[4.146383] (project_maps) StdoutLine: {'line': b'Door(bano11)\n'}
+[4.146435] (project_maps) StdoutLine: {'line': b'generate door name=TD0116CW type=hinged\n'}
+[4.146484] (project_maps) StdoutLine: {'line': b'Door(TD0116CW)\n'}
+[4.146534] (project_maps) StdoutLine: {'line': b'generate door name=bano15 type=hinged\n'}
+[4.146583] (project_maps) StdoutLine: {'line': b'Door(bano15)\n'}
+[4.146631] (project_maps) StdoutLine: {'line': b'generate door name=bano16 type=hinged\n'}
+[4.146681] (project_maps) StdoutLine: {'line': b'Door(bano16)\n'}
+[4.146730] (project_maps) StdoutLine: {'line': b'generate door name=bano17 type=hinged\n'}
+[4.146780] (project_maps) StdoutLine: {'line': b'Door(bano17)\n'}
+[4.146830] (project_maps) StdoutLine: {'line': b'generate door name=bano18 type=hinged\n'}
+[4.146880] (project_maps) StdoutLine: {'line': b'Door(bano18)\n'}
+[4.146928] (project_maps) StdoutLine: {'line': b'generate door name=bano19 type=hinged\n'}
+[4.146978] (project_maps) StdoutLine: {'line': b'Door(bano19)\n'}
+[4.147027] (project_maps) StdoutLine: {'line': b'generate door name=bano20 type=hinged\n'}
+[4.147076] (project_maps) StdoutLine: {'line': b'Door(bano20)\n'}
+[4.147127] (project_maps) StdoutLine: {'line': b'generate door name=TD0117CW type=hinged\n'}
+[4.147194] (project_maps) StdoutLine: {'line': b'Door(TD0117CW)\n'}
+[4.147242] (project_maps) StdoutLine: {'line': b'generate door name=TD0123CP4 type=double_hinged\n'}
+[4.147290] (project_maps) StdoutLine: {'line': b'Door(TD0123CP4)\n'}
+[4.147339] (project_maps) StdoutLine: {'line': b'generate door name=TD0123CP3 type=double_hinged\n'}
+[4.147387] (project_maps) StdoutLine: {'line': b'Door(TD0123CP3)\n'}
+[4.147435] (project_maps) StdoutLine: {'line': b'generate door name=TD2106AA2 type=double_hinged\n'}
+[4.147483] (project_maps) StdoutLine: {'line': b'Door(TD2106AA2)\n'}
+[4.147531] (project_maps) StdoutLine: {'line': b'generate door name=TD2106AA1 type=double_hinged\n'}
+[4.147580] (project_maps) StdoutLine: {'line': b'Door(TD2106AA1)\n'}
+[4.147628] (project_maps) StdoutLine: {'line': b'generate door name=TD2105AA type=double_hinged\n'}
+[4.147679] (project_maps) StdoutLine: {'line': b'Door(TD2105AA)\n'}
+[4.147727] (project_maps) StdoutLine: {'line': b'generate door name=TD2104AA type=double_hinged\n'}
+[4.147775] (project_maps) StdoutLine: {'line': b'Door(TD2104AA)\n'}
+[4.147823] (project_maps) StdoutLine: {'line': b'generate door name=TD2111CP1 type=hinged\n'}
+[4.147870] (project_maps) StdoutLine: {'line': b'Door(TD2111CP1)\n'}
+[4.147918] (project_maps) StdoutLine: {'line': b'generate door name=TD2111CP2 type=hinged\n'}
+[4.147965] (project_maps) StdoutLine: {'line': b'Door(TD2111CP2)\n'}
+[4.148013] (project_maps) StdoutLine: {'line': b'generate door name=TD2103AA type=double_hinged\n'}
+[4.148061] (project_maps) StdoutLine: {'line': b'Door(TD2103AA)\n'}
+[4.148108] (project_maps) StdoutLine: {'line': b'generate door name=TD2102AA type=double_hinged\n'}
+[4.148159] (project_maps) StdoutLine: {'line': b'Door(TD2102AA)\n'}
+[4.148207] (project_maps) StdoutLine: {'line': b'generate door name=TD2101AA1 type=double_hinged\n'}
+[4.148253] (project_maps) StdoutLine: {'line': b'Door(TD2101AA1)\n'}
+[4.148306] (project_maps) StdoutLine: {'line': b'generate door name=TD2101AA2 type=double_hinged\n'}
+[4.148373] (project_maps) StdoutLine: {'line': b'Door(TD2101AA2)\n'}
+[4.148431] (project_maps) StdoutLine: {'line': b'generate door name=TD2116CP type=double_hinged\n'}
+[4.148478] (project_maps) StdoutLine: {'line': b'Door(TD2116CP)\n'}
+[4.148526] (project_maps) StdoutLine: {'line': b'generate door name=TD2112CP1 type=double_hinged\n'}
+[4.148573] (project_maps) StdoutLine: {'line': b'Door(TD2112CP1)\n'}
+[4.148620] (project_maps) StdoutLine: {'line': b'generate door name=TD2112CP2 type=double_hinged\n'}
+[4.148669] (project_maps) StdoutLine: {'line': b'Door(TD2112CP2)\n'}
+[4.148716] (project_maps) StdoutLine: {'line': b'generate door name=TD2107AL1 type=double_hinged\n'}
+[4.148764] (project_maps) StdoutLine: {'line': b'Door(TD2107AL1)\n'}
+[4.148811] (project_maps) StdoutLine: {'line': b'generate door name=TD2107AL2 type=double_hinged\n'}
+[4.148858] (project_maps) StdoutLine: {'line': b'Door(TD2107AL2)\n'}
+[4.148906] (project_maps) StdoutLine: {'line': b'generate door name=TD2110AL2 type=double_hinged\n'}
+[4.148953] (project_maps) StdoutLine: {'line': b'Door(TD2110AL2)\n'}
+[4.149001] (project_maps) StdoutLine: {'line': b'generate door name=TD2109AL type=double_hinged\n'}
+[4.149049] (project_maps) StdoutLine: {'line': b'Door(TD2109AL)\n'}
+[4.149097] (project_maps) StdoutLine: {'line': b'generate door name=TD2108AL type=double_hinged\n'}
+[4.149163] (project_maps) StdoutLine: {'line': b'Door(TD2108AL)\n'}
+[4.149214] (project_maps) StdoutLine: {'line': b'generate door name=TD2110AL1 type=double_hinged\n'}
+[4.149263] (project_maps) StdoutLine: {'line': b'Door(TD2110AL1)\n'}
+[4.149311] (project_maps) StdoutLine: {'line': b'generate door name=d3 type=hinged\n'}
+[4.149358] (project_maps) StdoutLine: {'line': b'Door(d3)\n'}
+[4.149405] (project_maps) StdoutLine: {'line': b'generate door name=TD1111AL1 type=hinged\n'}
+[4.149454] (project_maps) StdoutLine: {'line': b'Door(TD1111AL1)\n'}
+[4.149501] (project_maps) StdoutLine: {'line': b'generate door name=TD2114CI type=hinged\n'}
+[4.149550] (project_maps) StdoutLine: {'line': b'Door(TD2114CI)\n'}
+[4.149597] (project_maps) StdoutLine: {'line': b'generate door name=TD2115CI type=hinged\n'}
+[4.149644] (project_maps) StdoutLine: {'line': b'Door(TD2115CI)\n'}
+[4.149692] (project_maps) StdoutLine: {'line': b'generate door name=TD1117CI type=hinged\n'}
+[4.149745] (project_maps) StdoutLine: {'line': b'Door(TD1117CI)\n'}
+[4.149793] (project_maps) StdoutLine: {'line': b'generate door name=TD0113ER type=double_hinged\n'}
+[4.149841] (project_maps) StdoutLine: {'line': b'Door(TD0113ER)\n'}
+[4.149889] (project_maps) StdoutLine: {'line': b'generate door name=TD2113CP type=double_hinged\n'}
+[4.149937] (project_maps) StdoutLine: {'line': b'Door(TD2113CP)\n'}
+[4.149982] (project_maps) StdoutLine: {'line': b'generate door name=TD0119CP2 type=double_hinged\n'}
+[4.150029] (project_maps) StdoutLine: {'line': b'Door(TD0119CP2)\n'}
+[4.150075] (project_maps) StdoutLine: {'line': b'generate door name=TD0119CP1 type=double_hinged\n'}
+[4.150121] (project_maps) StdoutLine: {'line': b'Door(TD0119CP1)\n'}
+[4.150174] (project_maps) StdoutLine: {'line': b'generate door name=TD0123CP1 type=double_hinged\n'}
+[4.150221] (project_maps) StdoutLine: {'line': b'Door(TD0123CP1)\n'}
+[4.150268] (project_maps) StdoutLine: {'line': b'generate door name=TD0123CP2 type=double_hinged\n'}
+[4.150315] (project_maps) StdoutLine: {'line': b'Door(TD0123CP2)\n'}
+[4.180033] (project_maps) StdoutLine: {'line': b'952097 bytes written to /home/maria/rmf_ws/build/project_maps/maps/estce/estce.world\n'}
+[4.208562] (-) TimerEvent: {}
+[4.243257] (project_maps) StdoutLine: {'line': b'[ 83%] Built target estce\n'}
+[4.269386] (project_maps) StdoutLine: {'line': b'[100%] \x1b[34m\x1b[1mGenerating estce_crowdsim\x1b[0m\n'}
+[4.308823] (-) TimerEvent: {}
+[4.409328] (-) TimerEvent: {}
+[4.509854] (-) TimerEvent: {}
+[4.610231] (-) TimerEvent: {}
+[4.710703] (-) TimerEvent: {}
+[4.811186] (-) TimerEvent: {}
+[4.911617] (-) TimerEvent: {}
+[5.012000] (-) TimerEvent: {}
+[5.112392] (-) TimerEvent: {}
+[5.212874] (-) TimerEvent: {}
+[5.313380] (-) TimerEvent: {}
+[5.413916] (-) TimerEvent: {}
+[5.514344] (-) TimerEvent: {}
+[5.614846] (-) TimerEvent: {}
+[5.715291] (-) TimerEvent: {}
+[5.815790] (-) TimerEvent: {}
+[5.916068] (-) TimerEvent: {}
+[6.016517] (-) TimerEvent: {}
+[6.117047] (-) TimerEvent: {}
+[6.151119] (project_maps) StdoutLine: {'line': b'crowdsim unable to parse, not attempting to proceed\n'}
+[6.217285] (-) TimerEvent: {}
+[6.317869] (-) TimerEvent: {}
+[6.418334] (-) TimerEvent: {}
+[6.518634] (-) TimerEvent: {}
+[6.619063] (-) TimerEvent: {}
+[6.719742] (-) TimerEvent: {}
+[6.820279] (-) TimerEvent: {}
+[6.920772] (-) TimerEvent: {}
+[7.021292] (-) TimerEvent: {}
+[7.121847] (-) TimerEvent: {}
+[7.222614] (-) TimerEvent: {}
+[7.322997] (-) TimerEvent: {}
+[7.423557] (-) TimerEvent: {}
+[7.523970] (-) TimerEvent: {}
+[7.624454] (-) TimerEvent: {}
+[7.641367] (project_maps) StdoutLine: {'line': b'crowdsim unable to parse, not attempting to proceed\n'}
+[7.706428] (project_maps) StdoutLine: {'line': b'[100%] Built target generate_estce_crowdsim\n'}
+[7.719611] (project_maps) CommandEnded: {'returncode': 0}
+[7.720289] (project_maps) JobProgress: {'identifier': 'project_maps', 'progress': 'install'}
+[7.724511] (-) TimerEvent: {}
+[7.734729] (project_maps) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maria/rmf_ws/build/project_maps'], 'cwd': '/home/maria/rmf_ws/build/project_maps', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/:/rmf_demos_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/', 'GZ_GUI_PLUGIN_PATH': '/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins/lib/rmf_robot_sim_gz_plugins/:/rmf_demos_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/', 'GZ_SIM_RESOURCE_PATH': '/home/maria/rmf_ws/install/project_assets/share/project_assets/models:/rmf_demos_ws/install/rmf_demos_assets/share/rmf_demos_assets/models', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'maria', 'ROS_PACKAGE_PATH': '/rmf_demos_ws/install/menge_vendor/share', '__GLX_VENDOR_LIBRARY_NAME': 'nvidia', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/maria/rmf_ws/install/rmf_visualization_schedule/lib:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins/lib:/home/maria/rmf_ws/install/rmf_visualization_obstacles/lib:/home/maria/rmf_ws/install/rmf_visualization_navgraphs/lib:/home/maria/rmf_ws/install/rmf_visualization_floorplans/lib:/home/maria/rmf_ws/install/rmf_visualization_fleet_states/lib:/home/maria/rmf_ws/install/rmf_robot_sim_common/lib:/rmf_demos_ws/install/rmf_workcell_msgs/lib:/rmf_demos_ws/install/rmf_fleet_adapter/lib:/rmf_demos_ws/install/rmf_task_ros2/lib:/rmf_demos_ws/install/rmf_websocket/lib:/rmf_demos_ws/install/rmf_visualization_schedule/lib:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins/lib:/rmf_demos_ws/install/rmf_visualization_obstacles/lib:/rmf_demos_ws/install/rmf_visualization_navgraphs/lib:/rmf_demos_ws/install/rmf_visualization_floorplans/lib:/rmf_demos_ws/install/rmf_visualization_fleet_states/lib:/rmf_demos_ws/install/rmf_visualization_msgs/lib:/rmf_demos_ws/install/rmf_traffic_ros2/lib:/rmf_demos_ws/install/rmf_task_sequence/lib:/rmf_demos_ws/install/rmf_task/lib:/rmf_demos_ws/install/rmf_battery/lib:/rmf_demos_ws/install/rmf_traffic/lib:/rmf_demos_ws/install/rmf_utils/lib:/rmf_demos_ws/install/rmf_traffic_msgs/lib:/rmf_demos_ws/install/rmf_task_msgs/lib:/rmf_demos_ws/install/rmf_site_map_msgs/lib:/rmf_demos_ws/install/rmf_scheduler_msgs/lib:/rmf_demos_ws/install/rmf_robot_sim_common/lib:/rmf_demos_ws/install/rmf_reservation_msgs/lib:/rmf_demos_ws/install/rmf_obstacle_msgs/lib:/rmf_demos_ws/install/rmf_lift_msgs/lib:/rmf_demos_ws/install/rmf_ingestor_msgs/lib:/rmf_demos_ws/install/rmf_fleet_msgs/lib:/rmf_demos_ws/install/rmf_door_msgs/lib:/rmf_demos_ws/install/rmf_dispenser_msgs/lib:/rmf_demos_ws/install/rmf_charger_msgs/lib:/rmf_demos_ws/install/rmf_building_map_msgs/lib:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor/lib:/rmf_demos_ws/install/menge_vendor/lib:/opt/ros/jazzy/opt/zenoh_cpp_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/maria', 'OLDPWD': '/home/maria', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/maria/rmf_ws/install:/rmf_demos_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/rmf_demos_ws/install/rmf_traffic_examples/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_traffic_examples/lib/pkgconfig:/rmf_demos_ws/install/rmf_task_sequence/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_task_sequence/lib/pkgconfig:/rmf_demos_ws/install/rmf_task/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_task/lib/pkgconfig:/rmf_demos_ws/install/rmf_battery/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_battery/lib/pkgconfig:/rmf_demos_ws/install/rmf_traffic/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_traffic/lib/pkgconfig:/rmf_demos_ws/install/rmf_utils/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/rmf_utils/lib/pkgconfig:/rmf_demos_ws/install/menge_vendor/lib/x86_64-linux-gnu/pkgconfig:/rmf_demos_ws/install/menge_vendor/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/rmf_demos_ws/install/rmf_traffic_editor/bin:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', '__NV_PRIME_RENDER_OFFLOAD': '1', 'XAUTHORITY': '/tmp/.dockerkfmq4wkv.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_demos_tasks:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_fleet_adapter:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_charging_schedule:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'PWD': '/home/maria/rmf_ws/build/project_maps', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/maria/rmf_ws/install/rmf_visualization_building_systems/lib/python3.12/site-packages:/home/maria/rmf_ws/install/rmf_demos_tasks/lib/python3.12/site-packages:/home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages:/home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_workcell_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_demos_fleet_adapter/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_fleet_adapter_python/lib/python/site-packages:/rmf_demos_ws/install/rmf_visualization_building_systems/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_visualization_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_demos_bridges/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_traffic_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_demos_tasks/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_task_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_site_map_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_scheduler_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_reservation_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_obstacle_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_lift_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_ingestor_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_charging_schedule/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_fleet_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_door_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_dispenser_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_charger_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_building_map_msgs/lib/python3.12/site-packages:/rmf_demos_ws/install/rmf_api_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/rmf_demos_tasks:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[7.744271] (project_maps) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.744454] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps\n'}
+[7.744523] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce\n'}
+[7.744588] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/Nivel 0 - TD_n0-1.png\n'}
+[7.744730] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce.building.yaml\n'}
+[7.745181] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/Nivel 1 - TD_n1-1.png\n'}
+[7.745784] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom\n'}
+[7.745846] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world\n'}
+[7.745905] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1\n'}
+[7.745964] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes\n'}
+[7.746037] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/floor_1.obj\n'}
+[7.746107] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/floor_1.mtl\n'}
+[7.746230] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/model.material\n'}
+[7.746302] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/wall_1.obj\n'}
+[7.746370] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/wall_1.mtl\n'}
+[7.746435] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/default.png\n'}
+[7.746501] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/blue_linoleum.png\n'}
+[7.746567] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/model.sdf\n'}
+[7.746634] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/model.config\n'}
+[7.746701] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2\n'}
+[7.746838] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes\n'}
+[7.746907] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/floor_1.obj\n'}
+[7.746974] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/floor_1.mtl\n'}
+[7.747039] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/model.material\n'}
+[7.747108] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/wall_1.obj\n'}
+[7.747192] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/wall_1.mtl\n'}
+[7.747258] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/default.png\n'}
+[7.747321] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/blue_linoleum.png\n'}
+[7.747441] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/model.sdf\n'}
+[7.747506] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/model.config\n'}
+[7.747571] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom.building.yaml\n'}
+[7.747636] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models\n'}
+[7.747701] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable\n'}
+[7.747765] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes\n'}
+[7.747828] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable.obj\n'}
+[7.747892] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable_Diffuse.png\n'}
+[7.747956] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable_Col.mtl\n'}
+[7.748020] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable_Col.obj\n'}
+[7.748085] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable.mtl\n'}
+[7.748175] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/model.sdf\n'}
+[7.748244] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails\n'}
+[7.748374] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/3.png\n'}
+[7.748442] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/2.png\n'}
+[7.748507] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/1.png\n'}
+[7.748570] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/5.png\n'}
+[7.748634] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/4.png\n'}
+[7.748698] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/model.config\n'}
+[7.748762] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot\n'}
+[7.748825] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes\n'}
+[7.748889] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/front_wheel.obj\n'}
+[7.748953] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/caster_wheel.mtl\n'}
+[7.749017] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/front_wheel.mtl\n'}
+[7.749122] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/caster_wheel.obj\n'}
+[7.749221] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/tinyRobot_body.mtl\n'}
+[7.749312] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/tinyRobot_body.obj\n'}
+[7.749378] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/model.sdf\n'}
+[7.749443] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/model.config\n'}
+[7.749507] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey\n'}
+[7.749572] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes\n'}
+[7.749635] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.mtl\n'}
+[7.749699] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey.obj\n'}
+[7.749763] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey.png\n'}
+[7.749828] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey.mtl\n'}
+[7.749891] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.obj\n'}
+[7.749955] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/model.sdf\n'}
+[7.750018] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails\n'}
+[7.750081] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/3.png\n'}
+[7.750178] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/2.png\n'}
+[7.750245] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta\n'}
+[7.750305] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/3.png\n'}
+[7.750366] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/2.png\n'}
+[7.750431] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/1.png\n'}
+[7.750513] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/5.png\n'}
+[7.750576] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/4.png\n'}
+[7.750641] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/1.png\n'}
+[7.750725] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/5.png\n'}
+[7.750790] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/4.png\n'}
+[7.750855] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/model.config\n'}
+[7.750918] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom.world\n'}
+[7.750981] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1\n'}
+[7.751045] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/test1.building.yaml\n'}
+[7.751109] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models\n'}
+[7.751388] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa\n'}
+[7.751553] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/meshes\n'}
+[7.751676] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/meshes/SofaDiffuse.png\n'}
+[7.751811] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/meshes/Sofa.mtl\n'}
+[7.751939] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/meshes/Sofa.obj\n'}
+[7.752075] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/model.sdf\n'}
+[7.752461] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails\n'}
+[7.752608] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/3.png\n'}
+[7.752725] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/2.png\n'}
+[7.752832] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/1.png\n'}
+[7.752939] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/5.png\n'}
+[7.753036] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/4.png\n'}
+[7.753145] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/model.config\n'}
+[7.753300] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/ament_index/resource_index/package_run_dependencies/project_maps\n'}
+[7.753407] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/ament_index/resource_index/parent_prefix_path/project_maps\n'}
+[7.753514] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/environment/ament_prefix_path.sh\n'}
+[7.753620] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/environment/ament_prefix_path.dsv\n'}
+[7.753726] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/environment/path.sh\n'}
+[7.753831] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/environment/path.dsv\n'}
+[7.753955] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/local_setup.bash\n'}
+[7.754057] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/local_setup.sh\n'}
+[7.754181] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/local_setup.zsh\n'}
+[7.754286] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/local_setup.dsv\n'}
+[7.754387] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/package.dsv\n'}
+[7.754475] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/ament_index/resource_index/packages/project_maps\n'}
+[7.754549] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/cmake/project_mapsConfig.cmake\n'}
+[7.754637] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/cmake/project_mapsConfig-version.cmake\n'}
+[7.754705] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/package.xml\n'}
+[7.754772] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom\n'}
+[7.754838] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/nav_graphs\n'}
+[7.754904] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/nav_graphs/0.yaml\n'}
+[7.754968] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/nav_graphs/1.yaml\n'}
+[7.755034] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/config_resource\n'}
+[7.755100] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models\n'}
+[7.755218] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1\n'}
+[7.755284] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes\n'}
+[7.755347] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.obj\n'}
+[7.755413] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.mtl\n'}
+[7.755480] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/model.material\n'}
+[7.755547] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.obj\n'}
+[7.755618] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.mtl\n'}
+[7.755683] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/default.png\n'}
+[7.755754] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/blue_linoleum.png\n'}
+[7.755816] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/model.sdf\n'}
+[7.755897] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/model.config\n'}
+[7.755975] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2\n'}
+[7.756037] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes\n'}
+[7.756099] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.obj\n'}
+[7.756174] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.mtl\n'}
+[7.756238] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/model.material\n'}
+[7.756302] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.obj\n'}
+[7.756365] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.mtl\n'}
+[7.756427] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/default.png\n'}
+[7.756495] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/blue_linoleum.png\n'}
+[7.756560] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/model.sdf\n'}
+[7.756624] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/model.config\n'}
+[7.756688] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/classroom.world\n'}
+[7.756751] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce\n'}
+[7.756839] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/nav_graphs\n'}
+[7.756902] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/nav_graphs/2.yaml\n'}
+[7.756962] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/nav_graphs/0.yaml\n'}
+[7.757022] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/nav_graphs/1.yaml\n'}
+[7.757080] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/config_resource\n'}
+[7.757147] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models\n'}
+[7.757209] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1\n'}
+[7.757266] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes\n'}
+[7.757326] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/floor_1.obj\n'}
+[7.757387] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/floor_1.mtl\n'}
+[7.757448] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/model.material\n'}
+[7.757530] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/wall_1.obj\n'}
+[7.757593] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/wall_1.mtl\n'}
+[7.757664] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/default.png\n'}
+[7.757727] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/blue_linoleum.png\n'}
+[7.757790] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/model.sdf\n'}
+[7.757853] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/model.config\n'}
+[7.757915] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2\n'}
+[7.757979] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes\n'}
+[7.758042] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/floor_1.obj\n'}
+[7.758106] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/floor_1.mtl\n'}
+[7.758179] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/model.material\n'}
+[7.758291] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/wall_1.obj\n'}
+[7.758354] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/wall_1.mtl\n'}
+[7.758420] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/default.png\n'}
+[7.758484] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/blue_linoleum.png\n'}
+[7.758548] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/model.sdf\n'}
+[7.758612] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/model.config\n'}
+[7.758675] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/estce.world\n'}
+[7.758737] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1\n'}
+[7.758800] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/nav_graphs\n'}
+[7.758864] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/nav_graphs/0.yaml\n'}
+[7.758927] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/config_resource\n'}
+[7.758989] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/test1.world\n'}
+[7.759053] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models\n'}
+[7.759153] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2\n'}
+[7.759228] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes\n'}
+[7.759291] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/floor_1.obj\n'}
+[7.759354] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/floor_1.mtl\n'}
+[7.759417] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/model.material\n'}
+[7.759481] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/wall_1.obj\n'}
+[7.759543] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/wall_1.mtl\n'}
+[7.759604] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/default.png\n'}
+[7.759665] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/blue_linoleum.png\n'}
+[7.759726] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/model.sdf\n'}
+[7.759788] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/model.config\n'}
+[7.759853] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1\n'}
+[7.759912] (project_maps) StdoutLine: {'line': b'-- Up-to-date: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes\n'}
+[7.759973] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/floor_1.obj\n'}
+[7.760033] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/floor_1.mtl\n'}
+[7.760124] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/model.material\n'}
+[7.760221] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/wall_1.obj\n'}
+[7.760284] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/wall_1.mtl\n'}
+[7.760343] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/default.png\n'}
+[7.760400] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/blue_linoleum.png\n'}
+[7.760466] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/model.sdf\n'}
+[7.760526] (project_maps) StdoutLine: {'line': b'-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/model.config\n'}
+[7.762006] (project_maps) CommandEnded: {'returncode': 0}
+[7.777161] (project_maps) JobEnded: {'identifier': 'project_maps', 'rc': 0}
+[7.778253] (-) EventReactorShutdown: {}
