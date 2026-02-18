@@ -1,0 +1,623 @@
+[0.015s] Invoking command in '/home/maria/rmf_ws/build/project_maps': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/rmf_demos_tasks:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/maria/rmf_ws/build/project_maps -- -j8 -l8
+[0.084s] [ 50%] [34m[1mGenerating maps/estce/nav_graphs/phony[0m
+[0.084s] [ 50%] [34m[1mGenerating maps/classroom/nav_graphs/phony[0m
+[0.084s] [ 50%] [34m[1mGenerating maps/test1/nav_graphs/phony[0m
+[0.448s] Load success!
+[0.448s] 
+[0.448s] Cache found! Model count: 3238 
+[0.449s] Updating cache...
+[0.449s] Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+[0.449s] Fetching page: 1
+[0.607s] building name: test1
+[0.607s] coordinate system: reference_image
+[0.607s] parsing level L1
+[0.607s] parsing level L2
+[0.607s] calculating levels relative to L1
+[0.607s] level L1 scale: 0.06666666666666667
+[0.607s] calculating level L2 offset and scale...
+[0.607s]   2 common fiducials:
+[0.608s] Transform.set_from_fiducials()
+[0.608s]   2 fiducial pairs:
+[0.608s]     (1.5, -1.5) -> (2.0, -2.0)   columna1
+[0.608s]     (148.5, -1.5) -> (148.5, -1.5)   columna2
+[0.608s]     calc dist columna1 <=> columna2
+[0.608s] Bearings:
+[0.608s] [(0.0, 0.003412956031538204)]
+[0.608s]   0.003412956031538204
+[0.608s]   Circular mean: -0.0034129560315382034
+[0.608s] Distances:
+[0.608s] [(147.0, 146.50085323983612)]
+[0.608s] mean relative scale: 0.996604443808409
+[0.608s] translation: (-0.03333, 0.034243)
+[0.608s] parsing lift lift1
+[0.609s] generating nav data
+[0.609s] hooray, we found an intersection: t=0.506, u=0.532
+[0.609s]   (23.555,-48.923),(122.687,-48.923) and (73.7,-38.148),(73.7,-58.389)
+[0.609s] found intersection with door door1!
+[0.609s] writing /home/maria/rmf_ws/build/project_maps/maps/test1/nav_graphs/0.yaml
+[0.683s] [ 50%] Built target generate_test1_nav_graphs
+[0.686s] building name: classroom
+[0.687s] coordinate system: reference_image
+[0.687s] parsing level L1
+[0.687s] parsing level L2
+[0.688s] calculating levels relative to L1
+[0.688s] level L1 scale: 0.02551020408163266
+[0.688s] calculating level L2 offset and scale...
+[0.688s]   0 common fiducials:
+[0.688s] Transform.set_from_fiducials()
+[0.688s]   0 fiducial pairs:
+[0.688s] Bearings:
+[0.688s] []
+[0.693s] generating nav data
+[0.693s] hooray, we found an intersection: t=0.459, u=0.62
+[0.694s]   (732.006,-1378.531),(618.612,-1378.531) and (679.96,-1356.421),(679.96,-1392.105)
+[0.694s] found intersection with door door2!
+[0.694s] hooray, we found an intersection: t=0.604, u=0.561
+[0.694s]   (741.803,-1033.459),(741.803,-1380.592) and (672.582,-1243.013),(795.893,-1243.013)
+[0.694s] found intersection with door door6!
+[0.694s] hooray, we found an intersection: t=0.303, u=0.684
+[0.694s]   (741.803,-1380.592),(519.736,-1380.592) and (674.5,-1355.444),(674.5,-1392.191)
+[0.694s] found intersection with door door9!
+[0.694s] hooray, we found an intersection: t=0.183, u=0.481
+[0.694s]   (877.736,-1373.216),(1134.021,-1373.216) and (924.619,-1355.521),(924.619,-1392.329)
+[0.694s] found intersection with door door3!
+[0.694s] hooray, we found an intersection: t=0.359, u=0.456
+[0.694s]   (547.119,-1697.655),(878.052,-1697.655) and (665.966,-1673.474),(665.966,-1726.528)
+[0.695s] found intersection with door door4!
+[0.695s] hooray, we found an intersection: t=0.347, u=0.604
+[0.695s]   (877.59,-1173.327),(877.59,-1374.102) and (808.137,-1243.013),(923.139,-1243.013)
+[0.695s] found intersection with door door7!
+[0.695s] hooray, we found an intersection: t=0.177, u=0.466
+[0.695s]   (877.59,-1374.102),(1140.727,-1374.102) and (924.039,-1357.093),(924.039,-1393.624)
+[0.695s] found intersection with door door8!
+[0.695s] writing /home/maria/rmf_ws/build/project_maps/maps/classroom/nav_graphs/0.yaml
+[0.698s] writing /home/maria/rmf_ws/build/project_maps/maps/classroom/nav_graphs/1.yaml
+[0.771s] [ 50%] Built target generate_classroom_nav_graphs
+[0.948s] building name: estce
+[0.948s] coordinate system: reference_image
+[0.948s] parsing level L1
+[0.952s] parsing level L2
+[0.954s] calculating levels relative to L1
+[0.954s] level L1 scale: 0.022444889534645907
+[0.954s] calculating level L2 offset and scale...
+[0.954s]   3 common fiducials:
+[0.955s] Transform.set_from_fiducials()
+[0.955s]   3 fiducial pairs:
+[0.955s]     (3963.9, -2197.6) -> (3837.1, -2354.5)   c3
+[0.955s]     (2516.2, -2123.7) -> (2388.7, -2279.7)   c4
+[0.955s]     (2369.6, -2222.5) -> (2242.3, -2378.6)   c1
+[0.955s]     calc dist c3 <=> c4
+[0.955s]     calc dist c3 <=> c1
+[0.955s]     calc dist c4 <=> c1
+[0.955s] Bearings:
+[0.955s] [(3.090626667763035, 3.090030514435309), (-3.1259350542154625, -3.1264943407908756), (-2.5484125455389486, -2.5477943015529716)]
+[0.955s]   -0.0005961533277258901
+[0.955s]   -0.0005592865754131537
+[0.955s]   0.000618243985976985
+[0.955s]   Circular mean: 0.00017906532679433574
+[0.955s] Distances:
+[0.955s] [(1449.6723774715445, 1450.2914846695473), (1594.5624578062157, 1594.9407871394474), (176.77616935831585, 176.63032569182434)]
+[0.955s] mean relative scale: 0.999946436772245
+[0.955s] translation: (2.8426, 3.5003)
+[0.986s] parsing lift lift1td1
+[0.986s] parsing lift lift2td0
+[0.986s] parsing lift lift3td2
+[0.986s] parsing lift lift4td2
+[0.987s] generating nav data
+[0.996s] hooray, we found an intersection: t=0.539, u=0.761
+[0.996s]   (2445.248,-2169.012),(2467.795,-2086.239) and (2490.877,-2124.279),(2446.927,-2124.383)
+[0.996s] found intersection with door bano06!
+[0.996s] hooray, we found an intersection: t=0.132, u=0.619
+[0.996s]   (2467.795,-2086.239),(2637.26,-2086.239) and (2491.186,-2062.14),(2489.601,-2101.067)
+[0.996s] found intersection with door TD0008CW!
+[0.996s] hooray, we found an intersection: t=0.781, u=0.548
+[0.996s]   (2644.009,-2172.471),(2726.492,-2161.224) and (2708.389,-2150.226),(2708.413,-2174.781)
+[0.996s] found intersection with door bano08!
+[0.996s] hooray, we found an intersection: t=0.776, u=0.502
+[0.996s]   (2638.01,-2212.963),(2728.741,-2203.215) and (2708.413,-2193.344),(2708.413,-2217.344)
+[0.996s] found intersection with door bano09!
+[0.996s] hooray, we found an intersection: t=0.715, u=0.57
+[0.996s]   (2637.26,-2272.95),(2736.989,-2242.207) and (2708.413,-2236.658),(2708.601,-2261.784)
+[0.997s] found intersection with door bano010!
+[0.997s] hooray, we found an intersection: t=0.514, u=0.617
+[0.997s]   (2467.795,-2086.239),(2137.114,-2086.239) and (2299.303,-2060.164),(2297.039,-2102.424)
+[0.997s] found intersection with door TD0007CW!
+[0.997s] hooray, we found an intersection: t=0.449, u=0.663
+[0.997s]   (2137.114,-2086.239),(2068.128,-2059.245) and (2106.114,-2049.599),(2106.114,-2086.576)
+[0.997s] found intersection with door bano01!
+[0.997s] hooray, we found an intersection: t=0.668, u=0.527
+[0.997s]   (2130.365,-2146.977),(2046.383,-2168.722) and (2073.969,-2146.952),(2074.55,-2174.577)
+[0.997s] found intersection with door bano02!
+[0.997s] hooray, we found an intersection: t=0.743, u=0.329
+[0.997s]   (2131.115,-2200.965),(2055.381,-2203.215) and (2074.55,-2194.953),(2075.539,-2218.297)
+[0.997s] found intersection with door bano03!
+[0.998s] hooray, we found an intersection: t=0.715, u=0.45
+[0.998s]   (2135.614,-2246.706),(2050.882,-2250.455) and (2075.539,-2238.079),(2074.352,-2263.203)
+[0.998s] found intersection with door bano04!
+[0.998s] hooray, we found an intersection: t=0.388, u=0.636
+[0.998s]   (3920.014,-2154.451),(3920.014,-2081.472) and (3892.755,-2125.876),(3935.63,-2126.325)
+[0.998s] found intersection with door bano015!
+[0.998s] hooray, we found an intersection: t=0.375, u=0.489
+[0.998s]   (3920.014,-2081.472),(3845.912,-2081.472) and (3892.66,-2062.712),(3891.817,-2101.048)
+[0.998s] found intersection with door TD0009CW!
+[0.998s] hooray, we found an intersection: t=0.449, u=0.449
+[0.998s]   (3753.846,-2059.017),(3639.749,-2076.266) and (3702.398,-2049.41),(3702.805,-2088.103)
+[0.998s] found intersection with door bano011!
+[0.998s] hooray, we found an intersection: t=0.55, u=0.609
+[0.999s]   (3701.076,-2169.047),(3650.045,-2159.717) and (3674.766,-2146.262),(3671.851,-2175.263)
+[0.999s] found intersection with door bano012!
+[0.999s] hooray, we found an intersection: t=0.574, u=0.537
+[0.999s]   (3698.273,-2207.945),(3651.129,-2206.319) and (3671.851,-2195.628),(3670.629,-2216.807)
+[0.999s] found intersection with door bano013!
+[0.999s] hooray, we found an intersection: t=0.746, u=0.517
+[0.999s]   (3920.014,-2081.472),(4143.019,-2081.472) and (4086.446,-2062.291),(4086.446,-2099.363)
+[0.999s] found intersection with door TD0010CW!
+[0.999s] hooray, we found an intersection: t=0.471, u=0.603
+[0.999s]   (4202.88,-2079.54),(4350.68,-2065.108) and (4272.198,-2050.632),(4272.605,-2087.289)
+[0.999s] found intersection with door bano017!
+[0.999s] hooray, we found an intersection: t=0.732, u=0.612
+[0.999s]   (4265.135,-2180.905),(4318.939,-2154.511) and (4304.088,-2143.244),(4304.781,-2173.227)
+[0.999s] found intersection with door bano018!
+[0.999s] hooray, we found an intersection: t=0.629, u=0.69
+[0.999s]   (4266.396,-2221.591),(4325.154,-2202.689) and (4304.781,-2191.148),(4302.745,-2218.029)
+[0.999s] found intersection with door bano019!
+[1.000s] hooray, we found an intersection: t=0.472, u=0.53
+[1.000s]   (4272.148,-2252.408),(4337.481,-2245.012) and (4302.745,-2235.542),(4303.152,-2260.794)
+[1.000s] found intersection with door bano020!
+[1.003s] hooray, we found an intersection: t=0.533, u=0.537
+[1.003s]   (2191.773,-2333.949),(2202.468,-2238.956) and (2178.941,-2282.645),(2213.479,-2283.861)
+[1.003s] found intersection with door bano5!
+[1.004s] hooray, we found an intersection: t=0.32, u=0.498
+[1.004s]   (2202.468,-2238.956),(2093.425,-2238.956) and (2166.915,-2219.974),(2168.236,-2258.064)
+[1.004s] found intersection with door TD0114CW!
+[1.004s] hooray, we found an intersection: t=0.464, u=0.434
+[1.004s]   (2045.334,-2221.83),(1903.297,-2221.83) and (1979.331,-2205.396),(1979.539,-2243.253)
+[1.004s] found intersection with door bano1!
+[1.004s] hooray, we found an intersection: t=0.722, u=0.51
+[1.004s]   (2202.468,-2238.956),(2424.469,-2238.956) and (2363.879,-2220.501),(2361.836,-2256.667)
+[1.004s] found intersection with door TD0115CW!
+[1.004s] hooray, we found an intersection: t=0.426, u=0.501
+[1.004s]   (3793.468,-2314.561),(3793.468,-2239.389) and (3777.013,-2281.951),(3809.872,-2283.078)
+[1.004s] found intersection with door bano15!
+[1.004s] hooray, we found an intersection: t=0.342, u=0.544
+[1.004s]   (3793.468,-2239.389),(3706.996,-2239.389) and (3763.517,-2219.277),(3764.209,-2256.22)
+[1.005s] found intersection with door TD0116CW!
+[1.005s] hooray, we found an intersection: t=0.784, u=0.549
+[1.005s]   (3793.468,-2239.389),(4005.5,-2239.389) and (3960.322,-2217.639),(3959.184,-2257.234)
+[1.005s] found intersection with door TD0117CW!
+[1.021s] hooray, we found an intersection: t=0.245, u=0.751
+[1.021s]   (1440.92,-570.091),(1852.513,-570.091) and (1542.627,-523.898),(1541.634,-585.427)
+[1.022s] found intersection with door TD1021AA!
+[1.022s] hooray, we found an intersection: t=0.329, u=0.231
+[1.022s]   (1440.92,-570.091),(1110.062,-570.091) and (1331.889,-582.739),(1332.052,-528.089)
+[1.022s] found intersection with door TD1007AA!
+[1.022s] hooray, we found an intersection: t=0.304, u=0.549
+[1.022s]   (1599.91,-1107.702),(1599.91,-799.15) and (1565.948,-1014.146),(1627.779,-1013.571)
+[1.022s] found intersection with door TD1019AA!
+[1.022s] hooray, we found an intersection: t=0.306, u=0.674
+[1.022s]   (1284.956,-1107.702),(1284.956,-796.419) and (1245.117,-1012.508),(1304.259,-1012.508)
+[1.022s] found intersection with door TD1022AA!
+[1.022s] hooray, we found an intersection: t=0.635, u=0.551
+[1.022s]   (1442.255,-1271.182),(1591.564,-1271.182) and (1536.87,-1230.708),(1537.163,-1304.196)
+[1.022s] found intersection with door TD1016AA!
+[1.022s] hooray, we found an intersection: t=0.572, u=0.534
+[1.022s]   (1442.255,-1271.182),(1253.821,-1271.182) and (1333.679,-1303.11),(1335.273,-1243.345)
+[1.022s] found intersection with door TD1017AA!
+[1.022s] hooray, we found an intersection: t=0.721, u=0.412
+[1.023s]   (1441.382,-1645.562),(1293.227,-1645.562) and (1335.25,-1668.863),(1333.679,-1612.293)
+[1.023s] found intersection with door TD1018AA!
+[1.023s] hooray, we found an intersection: t=0.656, u=0.617
+[1.023s]   (1441.382,-1645.562),(1589.537,-1645.562) and (1537.163,-1608.181),(1539.473,-1668.813)
+[1.023s] found intersection with door TD1015AA!
+[1.023s] hooray, we found an intersection: t=0.877, u=0.496
+[1.023s]   (1117.809,-1982.484),(562.03,-1961.511) and (631.461,-1933.536),(629.573,-1995.198)
+[1.023s] found intersection with door TD1023CP2!
+[1.024s] hooray, we found an intersection: t=0.166, u=0.651
+[1.024s]   (1117.809,-1982.484),(562.03,-1961.511) and (1025.417,-1936.595),(1025.974,-2001.742)
+[1.024s] found intersection with door TD1005CP2!
+[1.024s] hooray, we found an intersection: t=0.769, u=0.581
+[1.024s]   (562.03,-2286.59),(1164.998,-2286.59) and (1025.974,-2248.895),(1025.974,-2313.829)
+[1.024s] found intersection with door TD1005CP1!
+[1.024s] hooray, we found an intersection: t=0.113, u=0.594
+[1.024s]   (562.03,-2286.59),(1164.998,-2286.59) and (629.573,-2253.802),(630.071,-2308.965)
+[1.024s] found intersection with door TD1023CP1!
+[1.024s] hooray, we found an intersection: t=0.476, u=0.556
+[1.024s]   (1430.654,-2508.552),(1430.654,-2791.996) and (1473.142,-2643.664),(1396.722,-2643.094)
+[1.024s] found intersection with door TD1002CP!
+[1.024s] hooray, we found an intersection: t=0.259, u=0.719
+[1.024s]   (1430.654,-2791.996),(1852.106,-2791.996) and (1540.591,-2748.633),(1539.748,-2808.928)
+[1.024s] found intersection with door TD1008AL!
+[1.024s] hooray, we found an intersection: t=0.691, u=0.284
+[1.025s]   (1430.654,-2791.996),(1280.367,-2791.996) and (1327.145,-2809.622),(1326.005,-2747.459)
+[1.025s] found intersection with door TD1014AL!
+[1.025s] hooray, we found an intersection: t=0.666, u=0.722
+[1.025s]   (1604.205,-3272.864),(1604.205,-3137.018) and (1561.556,-3182.148),(1620.592,-3182.497)
+[1.025s] found intersection with door TD1010AL2!
+[1.025s] hooray, we found an intersection: t=0.64, u=0.279
+[1.025s]   (1261.535,-3272.864),(1261.535,-3131.935) and (1244.626,-3182.825),(1305.219,-3182.492)
+[1.025s] found intersection with door TD1013AL2!
+[1.025s] hooray, we found an intersection: t=0.67, u=0.42
+[1.025s]   (1261.535,-3272.864),(1297.844,-3455.67) and (1312.127,-3395.906),(1249.646,-3394.709)
+[1.025s] found intersection with door TD1012AL!
+[1.026s] hooray, we found an intersection: t=0.543, u=0.267
+[1.026s]   (1604.205,-3272.864),(1604.205,-3490.633) and (1620.048,-3390.7),(1560.608,-3392.515)
+[1.026s] found intersection with door TD1011AL!
+[1.027s] hooray, we found an intersection: t=0.761, u=0.535
+[1.027s]   (4945.573,-1788.951),(4945.573,-1645.325) and (4906.11,-1679.0),(4979.838,-1680.17)
+[1.027s] found intersection with door TD2014CP!
+[1.027s] hooray, we found an intersection: t=0.289, u=0.394
+[1.027s]   (4945.573,-1645.325),(4590.732,-1645.325) and (4843.501,-1669.053),(4842.33,-1608.783)
+[1.027s] found intersection with door TD2022CE1!
+[1.027s] hooray, we found an intersection: t=0.318, u=0.478
+[1.027s]   (4590.732,-1337.797),(4409.932,-1337.797) and (4532.933,-1351.963),(4533.436,-1322.346)
+[1.027s] found intersection with door TD2023CE!
+[1.027s] hooray, we found an intersection: t=0.364, u=0.591
+[1.027s]   (4580.888,-1384.976),(4448.696,-1384.976) and (4532.933,-1368.052),(4532.566,-1396.684)
+[1.027s] found intersection with door TD2024CE!
+[1.028s] hooray, we found an intersection: t=0.312, u=0.419
+[1.028s]   (4588.502,-1530.319),(4412.014,-1530.319) and (4534.097,-1542.822),(4532.566,-1513.001)
+[1.028s] found intersection with door TD2025CE!
+[1.028s] hooray, we found an intersection: t=0.347, u=0.323
+[1.028s]   (4587.117,-1570.461),(4433.469,-1570.461) and (4534.097,-1560.562),(4532.952,-1591.178)
+[1.028s] found intersection with door TD2026CE!
+[1.028s] hooray, we found an intersection: t=0.672, u=0.614
+[1.028s]   (5112.567,-1093.102),(5112.567,-974.274) and (5077.806,-1013.288),(5134.377,-1013.288)
+[1.029s] found intersection with door TD2046AA!
+[1.029s] hooray, we found an intersection: t=0.833, u=0.459
+[1.029s]   (4945.573,-1093.102),(4945.573,-557.393) and (4981.331,-646.227),(4903.499,-647.073)
+[1.029s] found intersection with door TD2040CP1!
+[1.029s] hooray, we found an intersection: t=0.363, u=0.595
+[1.029s]   (4945.573,-557.393),(5241.15,-557.393) and (5052.395,-520.173),(5053.241,-582.777)
+[1.029s] found intersection with door TD2040CP2!
+[1.029s] hooray, we found an intersection: t=0.383, u=0.343
+[1.029s]   (5241.15,-557.393),(5241.15,-427.771) and (5219.281,-507.566),(5283.082,-508.186)
+[1.029s] found intersection with door TD2043AA!
+[1.030s] hooray, we found an intersection: t=0.746, u=0.462
+[1.030s]   (5264.117,-1987.349),(5385.303,-1964.728) and (5354.109,-1997.627),(5354.876,-1938.882)
+[1.030s] found intersection with door TD2011CP2!
+[1.030s] hooray, we found an intersection: t=0.214, u=0.487
+[1.030s]   (5385.303,-1964.728),(5813.493,-1964.728) and (5477.326,-1996.042),(5476.103,-1931.729)
+[1.030s] found intersection with door TD2011CP3!
+[1.030s] hooray, we found an intersection: t=0.506, u=0.621
+[1.030s]   (5448.32,-2274.964),(5262.501,-2274.964) and (5354.508,-2312.402),(5354.109,-2252.16)
+[1.030s] found intersection with door TD2011CP1!
+[1.030s] hooray, we found an intersection: t=0.127, u=0.585
+[1.030s]   (4952.222,-2770.497),(5445.87,-2770.497) and (5013.672,-2730.433),(5015.54,-2798.956)
+[1.030s] found intersection with door TD2002AA!
+[1.031s] hooray, we found an intersection: t=0.148, u=0.428
+[1.031s]   (4952.222,-2770.497),(4423.047,-2770.497) and (4873.617,-2797.592),(4874.23,-2734.224)
+[1.031s] found intersection with door TD2003AA!
+[1.031s] hooray, we found an intersection: t=0.871, u=0.425
+[1.031s]   (4789.252,-3292.859),(4789.252,-3426.12) and (4813.887,-3409.422),(4755.98,-3408.264)
+[1.031s] found intersection with door TD2006CI!
+[1.031s] hooray, we found an intersection: t=0.827, u=0.596
+[1.031s]   (5100.412,-3292.859),(5100.412,-3435.492) and (5136.994,-3412.139),(5075.585,-3409.865)
+[1.031s] found intersection with door TD2010CP!
+[1.032s] hooray, we found an intersection: t=0.157, u=0.281
+[1.032s]   (5064.883,-3435.492),(5064.883,-3668.966) and (5053.751,-3472.184),(5093.326,-3471.729)
+[1.032s] found intersection with door TD2007CI!
+[1.032s] hooray, we found an intersection: t=0.13, u=0.45
+[1.032s]   (4953.253,-2974.907),(5434.537,-2974.907) and (5015.54,-2947.703),(5015.995,-3008.203)
+[1.032s] found intersection with door TD2047AA!
+[1.032s] hooray, we found an intersection: t=0.15, u=0.587
+[1.032s]   (4953.253,-2974.907),(4427.618,-2974.907) and (4875.268,-3014.884),(4873.617,-2946.794)
+[1.032s] found intersection with door TD2048AA!
+[1.032s] hooray, we found an intersection: t=0.296, u=0.634
+[1.032s]   (4945.573,-1645.325),(5299.788,-1645.325) and (5050.055,-1608.198),(5050.64,-1666.712)
+[1.033s] found intersection with door TD2016CE2!
+[1.033s] hooray, we found an intersection: t=0.273, u=0.545
+[1.033s]   (5306.467,-1343.123),(5475.817,-1317.438) and (5353.439,-1351.963),(5352.193,-1322.839)
+[1.033s] found intersection with door TD2020CE!
+[1.033s] hooray, we found an intersection: t=0.29, u=0.541
+[1.033s]   (5299.502,-1377.08),(5485.395,-1401.46) and (5353.439,-1368.16),(5353.439,-1397.75)
+[1.033s] found intersection with door TD2019CE!
+[1.033s] hooray, we found an intersection: t=0.279, u=0.491
+[1.033s]   (5307.007,-1533.752),(5472.185,-1524.005) and (5352.816,-1545.858),(5353.439,-1515.645)
+[1.033s] found intersection with door TD2018CE!
+[1.033s] hooray, we found an intersection: t=0.284, u=0.544
+[1.033s]   (5300.338,-1575.303),(5482.958,-1579.92) and (5352.816,-1560.186),(5351.701,-1590.358)
+[1.033s] found intersection with door TD2017CE!
+[1.034s] hooray, we found an intersection: t=0.856, u=0.444
+[1.034s]   (2401.75,-1931.732),(2841.734,-1932.631) and (2776.652,-1906.294),(2780.262,-1965.266)
+[1.034s] found intersection with door TD0013CP1!
+[1.045s] hooray, we found an intersection: t=0.589, u=0.583
+[1.045s]   (1342.156,-1967.187),(1289.209,-1746.761) and (1270.868,-1837.227),(1339.686,-1837.542)
+[1.045s] found intersection with door TD118CP1!
+[1.045s] hooray, we found an intersection: t=0.65, u=0.621
+[1.045s]   (1293.494,-715.088),(1476.752,-715.088) and (1413.231,-677.612),(1412.225,-737.942)
+[1.045s] found intersection with door TD1103!
+[1.045s] hooray, we found an intersection: t=0.186, u=0.623
+[1.045s]   (1293.494,-715.088),(801.383,-715.088) and (1202.746,-675.601),(1201.741,-738.947)
+[1.045s] found intersection with door TD1104!
+[1.045s] hooray, we found an intersection: t=0.474, u=0.267
+[1.046s]   (1455.659,-1267.289),(1455.659,-1060.566) and (1439.709,-1168.631),(1499.369,-1171.312)
+[1.046s] found intersection with door TD1102!
+[1.046s] hooray, we found an intersection: t=0.414, u=0.479
+[1.046s]   (1146.523,-1267.289),(1146.523,-1039.704) and (1118.284,-1172.318),(1177.273,-1173.659)
+[1.046s] found intersection with door TD1105!
+[1.046s] hooray, we found an intersection: t=0.764, u=0.417
+[1.046s]   (1604.797,-2145.3),(1957.508,-2081.472) and (1874.169,-2121.927),(1874.653,-2060.943)
+[1.046s] found intersection with door TD1118CP3!
+[1.046s] hooray, we found an intersection: t=0.822, u=0.318
+[1.046s]   (2260.144,-2081.472),(2742.159,-2081.472) and (2656.486,-2062.649),(2655.492,-2121.842)
+[1.046s] found intersection with door TD0119CP1!
+[1.046s] hooray, we found an intersection: t=0.55, u=0.314
+[1.046s]   (2742.159,-1658.43),(2700.802,-1546.116) and (2735.005,-1596.635),(2685.264,-1596.635)
+[1.046s] found intersection with door TD0113ER!
+[1.047s] hooray, we found an intersection: t=0.213, u=0.354
+[1.047s]   (3341.182,-1655.652),(3012.227,-1655.652) and (3270.907,-1680.562),(3271.603,-1610.236)
+[1.047s] found intersection with door TD0112FR!
+[1.047s] hooray, we found an intersection: t=0.116, u=0.634
+[1.047s]   (3017.809,-2085.243),(3017.809,-3374.879) and (3055.56,-2234.626),(2995.984,-2235.638)
+[1.047s] found intersection with door TD0118CP1!
+[1.047s] hooray, we found an intersection: t=0.709, u=0.665
+[1.047s]   (3341.182,-2100.99),(4623.858,-2100.99) and (4250.94,-2061.953),(4251.066,-2120.647)
+[1.047s] found intersection with door TD0123CP3!
+[1.047s] hooray, we found an intersection: t=0.101, u=0.352
+[1.048s]   (3341.182,-2100.99),(4623.858,-2100.99) and (3470.994,-2121.992),(3471.614,-2062.297)
+[1.048s] found intersection with door TD0123CP1!
+[1.048s] hooray, we found an intersection: t=0.074, u=0.498
+[1.048s]   (4816.684,-1925.605),(4816.684,-714.493) and (4779.059,-1836.677),(4854.558,-1835.459)
+[1.048s] found intersection with door TD2116CP!
+[1.048s] hooray, we found an intersection: t=0.216, u=0.461
+[1.048s]   (5190.508,-2249.525),(5357.491,-2249.525) and (5227.167,-2277.818),(5225.973,-2216.431)
+[1.048s] found intersection with door TD2112CP1!
+[1.048s] hooray, we found an intersection: t=0.724, u=0.351
+[1.049s]   (4902.428,-2565.654),(4799.099,-2888.811) and (4854.321,-2799.459),(4778.232,-2799.771)
+[1.049s] found intersection with door TD2113CP!
+[1.049s] hooray, we found an intersection: t=0.281, u=0.606
+[1.049s]   (4984.765,-3462.131),(4984.765,-3020.409) and (4949.433,-3337.384),(5007.747,-3338.32)
+[1.049s] found intersection with door TD2107AL2!
+[1.049s] hooray, we found an intersection: t=0.193, u=0.461
+[1.049s]   (4799.364,-2938.284),(4317.34,-2938.284) and (4705.553,-2966.367),(4707.598,-2905.426)
+[1.049s] found intersection with door TD2110AL1!
+[1.049s] hooray, we found an intersection: t=0.39, u=0.561
+[1.049s]   (4650.795,-3390.594),(4650.795,-3803.286) and (4684.368,-3551.619),(4624.495,-3551.307)
+[1.049s] found intersection with door TD2109AL!
+[1.049s] hooray, we found an intersection: t=0.347, u=0.378
+[1.050s]   (4984.765,-3462.131),(4984.765,-3722.327) and (5006.811,-3552.866),(4948.497,-3551.619)
+[1.050s] found intersection with door TD2108AL!
+[1.050s] hooray, we found an intersection: t=0.233, u=0.547
+[1.050s]   (3017.047,-2725.149),(2803.517,-2725.149) and (2967.233,-2756.71),(2967.394,-2698.96)
+[1.050s] found intersection with door TD0120AI!
+[1.050s] hooray, we found an intersection: t=0.109, u=0.546
+[1.050s]   (3015.032,-2817.813),(2567.828,-2817.813) and (2965.993,-2850.767),(2966.912,-2790.397)
+[1.050s] found intersection with door TD0108AI!
+[1.050s] hooray, we found an intersection: t=0.309, u=0.639
+[1.050s]   (3015.032,-3144.151),(3480.367,-3144.151) and (3158.638,-3102.929),(3159.255,-3167.423)
+[1.050s] found intersection with door TD0104AI!
+[1.050s] hooray, we found an intersection: t=0.272, u=0.464
+[1.050s]   (3017.047,-2725.149),(3538.785,-2725.149) and (3158.569,-2697.011),(3158.928,-2757.591)
+[1.051s] found intersection with door TD0102AI!
+[1.051s] hooray, we found an intersection: t=0.288, u=0.471
+[1.051s]   (3015.032,-2817.813),(3514.612,-2817.813) and (3158.928,-2788.871),(3159.05,-2850.3)
+[1.051s] found intersection with door TD0103AI!
+[1.051s] hooray, we found an intersection: t=0.349, u=0.455
+[1.051s]   (1145.077,-3390.171),(1145.077,-3224.609) and (1117.028,-3332.602),(1178.659,-3332.262)
+[1.051s] found intersection with door TD1111AL2!
+[1.051s] hooray, we found an intersection: t=0.292, u=0.447
+[1.051s]   (1151.753,-3480.221),(1151.753,-3722.332) and (1179.599,-3552.278),(1117.369,-3549.501)
+[1.052s] found intersection with door TD1109AL1!
+[1.052s] hooray, we found an intersection: t=0.366, u=0.559
+[1.052s]   (1466.688,-3480.221),(1466.688,-3674.859) and (1500.494,-3552.278),(1439.997,-3550.963)
+[1.052s] found intersection with door TD1108AL2!
+[1.052s] hooray, we found an intersection: t=0.217, u=0.482
+[1.052s]   (1302.541,-2934.124),(820.307,-2934.124) and (1198.093,-2960.385),(1197.386,-2905.956)
+[1.052s] found intersection with door door!
+[1.052s] hooray, we found an intersection: t=0.284, u=0.73
+[1.052s]   (4817.2,-1780.809),(4446.666,-1780.809) and (4713.438,-1825.213),(4711.478,-1764.359)
+[1.052s] found intersection with door TD2106AA2!
+[1.052s] hooray, we found an intersection: t=0.196, u=0.516
+[1.052s]   (1304.231,-2600.959),(1314.557,-3625.722) and (1345.431,-2801.484),(1269.572,-2801.422)
+[1.052s] found intersection with door TD1118CP2!
+[1.056s] hooray, we found an intersection: t=0.59, u=0.352
+[1.056s]   (2973.126,-1995.406),(2645.816,-1995.406) and (2780.112,-1972.337),(2780.195,-2037.924)
+[1.056s] found intersection with door TD0013CP2!
+[1.056s] hooray, we found an intersection: t=0.781, u=0.643
+[1.056s]   (2645.816,-1995.406),(1819.967,-1995.406) and (2002.62,-2036.541),(2000.32,-1972.523)
+[1.056s] found intersection with door TD1001CP2!
+[1.056s] hooray, we found an intersection: t=0.535, u=0.61
+[1.056s]   (1426.502,-2571.467),(1426.502,-2705.795) and (1473.142,-2643.664),(1396.722,-2643.094)
+[1.056s] found intersection with door TD1002CP!
+[1.056s] hooray, we found an intersection: t=0.698, u=0.526
+[1.056s]   (3278.902,-2049.203),(3374.282,-2135.202) and (3376.752,-2107.869),(3317.26,-2110.412)
+[1.056s] found intersection with door TD0001EC2!
+[1.056s] hooray, we found an intersection: t=0.307, u=0.326
+[1.057s]   (4280.96,-1982.531),(4597.109,-2020.523) and (4378.527,-1973.027),(4376.943,-2038.006)
+[1.057s] found intersection with door TD0014CP2!
+[1.059s] writing /home/maria/rmf_ws/build/project_maps/maps/estce/nav_graphs/0.yaml
+[1.072s] writing /home/maria/rmf_ws/build/project_maps/maps/estce/nav_graphs/1.yaml
+[1.090s] writing /home/maria/rmf_ws/build/project_maps/maps/estce/nav_graphs/2.yaml
+[1.166s] [ 50%] Built target generate_estce_nav_graphs
+[1.337s] Cached model found! Halting Fuel traversal...
+[1.338s] Writing to cache: /home/maria/.pit_crew/model_cache.json
+[1.384s] New models cached: 0
+[1.384s] 
+[1.427s] [ 50%] Built target update_model_cache
+[1.953s] generating /home/maria/rmf_ws/build/project_maps/maps/estce/estce.world from /home/maria/rmf_ws/src/project/project_maps/maps/estce/estce.building.yaml
+[1.960s] generating /home/maria/rmf_ws/build/project_maps/maps/test1/test1.world from /home/maria/rmf_ws/src/project/project_maps/maps/test1/test1.building.yaml
+[1.964s] building name: test1
+[1.964s] coordinate system: reference_image
+[1.964s] parsing level L1
+[1.964s] parsing level L2
+[1.964s] calculating levels relative to L1
+[1.964s] level L1 scale: 0.06666666666666667
+[1.964s] calculating level L2 offset and scale...
+[1.964s]   2 common fiducials:
+[1.964s] Transform.set_from_fiducials()
+[1.964s]   2 fiducial pairs:
+[1.965s]     (1.5, -1.5) -> (2.0, -2.0)   columna1
+[1.965s]     (148.5, -1.5) -> (148.5, -1.5)   columna2
+[1.965s]     calc dist columna1 <=> columna2
+[1.965s] Bearings:
+[1.965s] [(0.0, 0.003412956031538204)]
+[1.965s]   0.003412956031538204
+[1.965s]   Circular mean: -0.0034129560315382034
+[1.965s] Distances:
+[1.965s] [(147.0, 146.50085323983612)]
+[1.965s] mean relative scale: 0.996604443808409
+[1.965s] translation: (-0.03333, 0.034243)
+[1.965s] parsing lift lift1
+[1.965s] generating model of level L1 in /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1
+[1.965s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/model.config
+[1.966s] generating floor polygon 1 on floor test1_L1
+[1.966s] hole vertices: []
+[1.966s] lift vertices: {'lift1': [(5.616666666666667, -1.2833333333333337), (5.616666666666667, -5.383333333333333), (9.716666666666667, -5.383333333333333), (9.716666666666667, -1.2833333333333337)]}
+[1.970s] generating /home/maria/rmf_ws/build/project_maps/maps/classroom/classroom.world from /home/maria/rmf_ws/src/project/project_maps/maps/classroom/classroom.building.yaml
+[1.971s] [[0, 3, 4], [0, 4, 5], [0, 5, 1], [1, 5, 6], [1, 6, 7], [1, 7, 2], [2, 7, 4], [2, 4, 3]]
+[1.971s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.obj
+[1.972s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/blue_linoleum.png
+[1.973s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.mtl
+[1.973s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7868034d3d40>, 'texture_height': <building_map.param_value.ParamValue object at 0x7868034d0530>, 'texture_name': <building_map.param_value.ParamValue object at 0x7868034d00e0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7868034d3ce0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7868034d3d10>}]
+[1.973s] generating wall: 1 on floor: test1_L1
+[1.973s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/default.png
+[1.973s] generate_wall_visual_mesh(test1_L1, /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1)
+[1.973s]   generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/wall_1.obj
+[1.974s]   generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/wall_1.mtl
+[1.974s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/model.sdf
+[1.974s] generating model of level L2 in /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2
+[1.974s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/model.config
+[1.974s] generating floor polygon 1 on floor test1_L2
+[1.975s] hole vertices: []
+[1.975s] lift vertices: {'lift1': [(5.616666666666667, -1.2833333333333337), (5.616666666666667, -5.383333333333333), (9.716666666666667, -5.383333333333333), (9.716666666666667, -1.2833333333333337)]}
+[1.980s] [[0, 3, 4], [0, 4, 1], [1, 4, 5], [1, 5, 6], [1, 6, 2], [2, 6, 7], [2, 7, 3], [3, 7, 4]]
+[1.980s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/floor_1.obj
+[1.981s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/blue_linoleum.png
+[1.982s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/floor_1.mtl
+[1.982s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x786803290890>, 'texture_height': <building_map.param_value.ParamValue object at 0x7868032908f0>, 'texture_name': <building_map.param_value.ParamValue object at 0x786803290920>, 'texture_scale': <building_map.param_value.ParamValue object at 0x786803290980>, 'texture_width': <building_map.param_value.ParamValue object at 0x7868032909b0>}]
+[1.982s] generating wall: 1 on floor: test1_L2
+[1.982s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/default.png
+[1.982s] generate_wall_visual_mesh(test1_L2, /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2)
+[1.983s]   generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/wall_1.obj
+[1.983s]   generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/wall_1.mtl
+[1.983s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/model.sdf
+[2.004s] spawning robot name tinyRobot1_charger of type TinyRobot
+[2.004s] generate door name=door1 type=sliding
+[2.004s] Door(door1)
+[2.004s] generate door name=door2 type=sliding
+[2.005s] Door(door2)
+[2.008s] 33015 bytes written to /home/maria/rmf_ws/build/project_maps/maps/test1/test1.world
+[2.050s] building name: classroom
+[2.050s] coordinate system: reference_image
+[2.050s] parsing level L1
+[2.051s] parsing level L2
+[2.052s] calculating levels relative to L1
+[2.052s] level L1 scale: 0.02551020408163266
+[2.052s] calculating level L2 offset and scale...
+[2.053s]   0 common fiducials:
+[2.053s] Transform.set_from_fiducials()
+[2.053s]   0 fiducial pairs:
+[2.053s] Bearings:
+[2.053s] []
+[2.059s] generating model of level L1 in /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1
+[2.059s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/model.config
+[2.059s] generating floor polygon 1 on floor classroom_L1
+[2.059s] hole vertices: []
+[2.059s] lift vertices: {}
+[2.061s] [[0, 5, 2], [0, 2, 1], [4, 3, 2], [4, 2, 5]]
+[2.062s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.obj
+[2.063s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/blue_linoleum.png
+[2.063s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.mtl
+[2.064s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7ab93b6c3dd0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7ab93b6c3da0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7ab93b6c3f20>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7ab93b6c3e60>, 'texture_width': <building_map.param_value.ParamValue object at 0x7ab93b6c3ec0>}]
+[2.064s] generating wall: 1 on floor: classroom_L1
+[2.066s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/default.png
+[2.066s] generate_wall_visual_mesh(classroom_L1, /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1)
+[2.066s]   generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.obj
+[2.077s]   generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.mtl
+[2.077s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/model.sdf
+[2.077s] generating model of level L2 in /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2
+[2.077s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/model.config
+[2.077s] generating floor polygon 1 on floor classroom_L2
+[2.078s] hole vertices: []
+[2.078s] lift vertices: {}
+[2.078s] [[0, 3, 2], [0, 2, 1]]
+[2.078s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.obj
+[2.079s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/blue_linoleum.png
+[2.079s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.mtl
+[2.080s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7ab93b54ce30>, 'texture_height': <building_map.param_value.ParamValue object at 0x7ab93b54ce60>, 'texture_name': <building_map.param_value.ParamValue object at 0x7ab93b54ce90>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7ab93b54cec0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7ab93b54cef0>}]
+[2.080s] generating wall: 1 on floor: classroom_L2
+[2.080s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/default.png
+[2.080s] generate_wall_visual_mesh(classroom_L2, /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2)
+[2.080s]   generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.obj
+[2.084s]   generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.mtl
+[2.084s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/model.sdf
+[2.091s] [ 50%] Built target test1
+[2.103s] spawning robot name tinyRobot2 of type TinyRobot
+[2.103s] spawning robot name tinyRobot1 of type TinyRobot
+[2.104s] generate door name=door1 type=double_hinged
+[2.104s] Door(door1)
+[2.104s] generate door name=door2 type=hinged
+[2.104s] Door(door2)
+[2.104s] generate door name=door3 type=sliding
+[2.104s] Door(door3)
+[2.104s] generate door name=door4 type=double_hinged
+[2.104s] Door(door4)
+[2.104s] generate door name=door5 type=double_hinged
+[2.104s] Door(door5)
+[2.105s] generate door name=door6 type=double_hinged
+[2.105s] Door(door6)
+[2.105s] generate door name=door7 type=double_hinged
+[2.105s] Door(door7)
+[2.105s] generate door name=door8 type=sliding
+[2.105s] Door(door8)
+[2.105s] generate door name=door9 type=hinged
+[2.105s] Door(door9)
+[2.110s] 96466 bytes written to /home/maria/rmf_ws/build/project_maps/maps/classroom/classroom.world
+[2.120s] [ 66%] [34m[1mGenerating test1_crowdsim[0m
+[2.137s] Traceback (most recent call last):
+[2.137s]   File "/opt/ros/jazzy/bin/ros2", line 3, in <module>
+[2.137s]     import re
+[2.137s]   File "/usr/lib/python3.12/re/__init__.py", line 124, in <module>
+[2.138s]     import enum
+[2.138s]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[2.138s]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[2.138s]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[2.138s]   File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+[2.138s]   File "<frozen importlib._bootstrap_external>", line 1124, in get_code
+[2.138s]   File "<frozen importlib._bootstrap_external>", line 753, in _compile_bytecode
+[2.139s] KeyboardInterrupt
+[2.141s] gmake[2]: *** [CMakeFiles/generate_test1_crowdsim.dir/build.make:73: test1_crowdsim] Interrupt
+[2.141s] gmake[1]: *** [CMakeFiles/Makefile2:359: CMakeFiles/generate_test1_crowdsim.dir/all] Interrupt
+[2.144s] Traceback (most recent call last):
+[2.144s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/rmf_building_map_tools/building_map_generator", line 33, in <module>
+[2.144s] [ros2run]: Interrupt
+[2.144s]     sys.exit(load_entry_point('rmf-building-map-tools==1.14.0', 'console_scripts', 'building_map_generator')())
+[2.144s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.144s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map_generator/building_map_generator.py", line 16, in main
+[2.144s]     g.generate_sdf(
+[2.144s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/generator.py", line 30, in generate_sdf
+[2.144s]     building = self.parse_editor_yaml(input_filename)
+[2.144s]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.145s]   File "/rmf_demos_ws/install/rmf_building_map_tools/lib/python3.12/site-packages/building_map/generator.py", line 17, in parse_editor_yaml
+[2.145s]     y = yaml.load(f, Loader=yaml.CLoader)
+[2.145s]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.145s]   File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 81, in load
+[2.145s]     return loader.get_single_data()
+[2.145s]            ^^^^^^^^^^^^^^^^^^^^^^^^
+[2.145s]   File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 49, in get_single_data
+[2.145s]     node = self.get_single_node()
+[2.145s]            ^^^^^^^^^^^^^^^^^^^^^^
+[2.145s]   File "yaml/_yaml.pyx", line 673, in yaml._yaml.CParser.get_single_node
+[2.145s]   File "yaml/_yaml.pyx", line 687, in yaml._yaml.CParser._compose_document
+[2.145s]   File "yaml/_yaml.pyx", line 731, in yaml._yaml.CParser._compose_node
+[2.145s]   File "yaml/_yaml.pyx", line 845, in yaml._yaml.CParser._compose_mapping_node
+[2.145s]   File "yaml/_yaml.pyx", line 731, in yaml._yaml.CParser._compose_node
+[2.146s]   File "yaml/_yaml.pyx", line 845, in yaml._yaml.CParser._compose_mapping_node
+[2.146s]   File "yaml/_yaml.pyx", line 731, in yaml._yaml.CParser._compose_node
+[2.146s]   File "yaml/_yaml.pyx", line 845, in yaml._yaml.CParser._compose_mapping_node
+[2.146s]   File "yaml/_yaml.pyx", line 729, in yaml._yaml.CParser._compose_node
+[2.146s]   File "yaml/_yaml.pyx", line 806, in yaml._yaml.CParser._compose_sequence_node
+[2.146s]   File "yaml/_yaml.pyx", line 731, in yaml._yaml.CParser._compose_node
+[2.146s]   File "yaml/_yaml.pyx", line 845, in yaml._yaml.CParser._compose_mapping_node
+[2.146s]   File "yaml/_yaml.pyx", line 732, in yaml._yaml.CParser._compose_node
+[2.146s]   File "/usr/lib/python3/dist-packages/yaml/resolver.py", line 114, in ascend_resolver
+[2.146s]     def ascend_resolver(self):
+[2.147s] 
+[2.147s] KeyboardInterrupt
+[2.167s] gmake[2]: *** [CMakeFiles/classroom.dir/build.make:70: CMakeFiles/classroom] Error 254
+[2.167s] gmake[1]: *** [CMakeFiles/Makefile2:177: CMakeFiles/classroom.dir/all] Interrupt
+[2.200s] [ros2run]: Interrupt
+[2.216s] gmake[2]: *** [CMakeFiles/estce.dir/build.make:70: CMakeFiles/estce] Error 254
+[2.217s] gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/estce.dir/all] Interrupt
+[2.217s] gmake: *** [Makefile:146: all] Interrupt
+[2.218s] Invoked command in '/home/maria/rmf_ws/build/project_maps' returned '-2': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/rmf_demos_tasks:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/maria/rmf_ws/build/project_maps -- -j8 -l8
