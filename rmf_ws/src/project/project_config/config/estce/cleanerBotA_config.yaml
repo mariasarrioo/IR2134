@@ -1,0 +1,98 @@
+# FLEET CONFIG =================================================================
+# RMF Fleet parameters
+
+rmf_fleet:
+  name: "cleanerBotA"
+  limits:
+    linear: [0.7, 0.5] # velocity, acceleration
+    angular: [0.4, 1.0] # velocity, acceleration
+  profile: # Robot profile is modelled as a circle
+    footprint: 1.0 # radius in m
+    vicinity: 1.2 # radius in m
+  reversible: False # whether robots in this fleet can reverse
+  # TODO Update battery parameters with actual specs
+  battery_system:
+    voltage: 24.0 # V
+    capacity: 20.0 # Ahr
+    charging_current: 10.0 # A
+  mechanical_system:
+    mass: 70.0 # kg
+    moment_of_inertia: 40.0 #kgm^2
+    friction_coefficient: 0.22
+  ambient_system:
+    power: 100.0 # W
+  tool_system:
+    power: 0.0 # W
+  recharge_threshold: 0.20 # Battery level below which robots in this fleet will not operate
+  recharge_soc: 1.0 # Battery level to which robots in this fleet should be charged up to during recharging tasks
+  max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+  publish_fleet_state: 10.0 # Publish frequency for fleet state, ensure that it is same as robot_state_update_frequency
+  account_for_battery_drain: True
+  task_capabilities: # Specify the types of RMF Tasks that robots in this fleet are capable of performing
+    loop: False
+    delivery: False
+  actions: ["clean"]
+  finishing_request: "park" # [park, charge, nothing]
+  robots:
+    CleanerBotA1:
+      charger: "CleanerBotA1_charger"
+    CleanerBotA2:
+      charger: "CleanerBotA2_charger"
+
+fleet_manager:
+  ip: "127.0.0.1"
+  port: 22013
+  user: "some_user"
+  password: "some_password"
+  robot_state_update_frequency: 10.0
+  action_paths:
+    clean:
+      TD0217CW:
+        map_name: "L2"
+        path: [ [136.12, -82.61, 0.0],
+                [136.32, -87.8, 1.57],
+                [136.12, -82.61, 0.0] ]
+        finish_waypoint: "TD0217CW"
+      TD0218CW:
+        map_name: "L2"
+        path: [ [148.36, -82.6, 1.57],
+                [148.25, -87.4, 0.0],
+                [148.36, -82.6, 0.0]]
+        finish_waypoint: "TD0218CW"
+      TD0216CW:
+        map_name: "L2"
+        path: [ [89.79, -82.22, 0.0],
+                [89.52, -88.40, 1.57],
+                [89.79, -82.22, 0.0] ]
+        finish_waypoint: "TD0216CW"
+      TD0215CW:
+        map_name: "L2"
+        path: [ [77.25, -82.55, 1.57],
+                [77.44, -88.22, 0.0],
+                [77.25, -82.55, 0.0]]
+        finish_waypoint: "TD0215CW"
+      TD0117CW:
+        map_name: "L1"
+        path: [ [148.60, -82.6197, 0.0],
+                [148.22, -87.80, 1.57],
+                [148.60, 82.62, 0.0] ]
+        finish_waypoint: "TD0117CW"
+      TD0116CW:
+        map_name: "L1"
+        path: [ [136.13, -82.48, 1.57],
+                [136.30, -87.82, 0.0],
+                [136.13, -82.48, 0.0]]
+        finish_waypoint: "TD0116CW"
+      TD0115CW:
+        map_name: "L1"
+        path: [ [89.72, -82.46, 0.0],
+                [89.61, -87.87, 1.57],
+                [89.72, -82.46, 0.0] ]
+        finish_waypoint: "TD0115CW"
+      TD0114CW:
+        map_name: "L1"
+        path: [ [77.11, -88.44, 1.57],
+                [77.61, -87.75, 0.0],
+                [77.11, -88.44, 0.0]]
+        finish_waypoint: "TD0114CW"
+
