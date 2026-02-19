@@ -338,7 +338,7 @@ Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
 Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
 
 //Name of the computer/site where compile is being run
-SITE:STRING=803e66cb9ddf
+SITE:STRING=maria
 
 //The directory containing a CMake configuration file for TinyXML2.
 TinyXML2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/tinyxml2
