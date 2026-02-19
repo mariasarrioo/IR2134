@@ -1148,7 +1148,8 @@ levels:
     vertices:
     - - 90.10577216308018
       - -47.20254537672079
-      - {name: cleanerRobotA}
+      - {is_charger: true, name: CleanerBotA1_charger, spawn_robot_name: CleanerBotA1,
+        spawn_robot_type: CleanerBotA}
     - - 92.87935449754497
       - -46.50266883125147
       - {name: ''}

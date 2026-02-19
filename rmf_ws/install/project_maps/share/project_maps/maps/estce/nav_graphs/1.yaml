@@ -1127,6 +1127,12 @@ levels:
     - - 5
       - 2
       - {}
+    - - 6
+      - 7
+      - {}
+    - - 7
+      - 6
+      - {}
     vertices:
     - - 63.723442992039935
       - -44.66573418195698
@@ -1146,6 +1152,13 @@ levels:
     - - 78.77476146507814
       - -46.10323957709291
       - {name: ''}
+    - - 69.48147739814753
+      - -44.73183438163651
+      - {name: ''}
+    - - 69.62467579337857
+      - -46.93906481847358
+      - {is_charger: true, name: charger_deliveryRobot_1, spawn_robot_name: deliveryRobot_1,
+        spawn_robot_type: DeliveryRobot}
   L2:
     lanes: []
     vertices: []

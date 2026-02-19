@@ -4302,6 +4302,16 @@
       <uri>model://TinyRobot</uri>
       <pose>37.7007931757924 -43.947767055522725 0.0 0 0 2.6325568458537587</pose>
     </include>
+    <include>
+      <name>CleanerBotA1</name>
+      <uri>model://CleanerBotA</uri>
+      <pose>90.10577216308018 -47.20254537672079 0.0 0 0 0.24717667509313632</pose>
+    </include>
+    <include>
+      <name>deliveryRobot_1</name>
+      <uri>model://DeliveryRobot</uri>
+      <pose>69.62467579337857 -46.93906481847358 0.0 0 0 -1.506010162914812</pose>
+    </include>
     <model name="TD1013AL2">
       <pose>28.615494677734596 -71.43441845900185 0.0 0 0 -3.1360970245967152</pose>
       <link name="right">
@@ -25905,6 +25915,8 @@
     <plugin name="register_component" filename="libregister_component.so">
       <component name="Chargers">
         <rmf_charger name="charger_tinyRobot1" x="37.7007931757924" y="-43.947767055522725" z="0.0" />
+        <rmf_charger name="CleanerBotA1_charger" x="90.10577216308018" y="-47.20254537672079" z="0.0" />
+        <rmf_charger name="charger_deliveryRobot_1" x="69.62467579337857" y="-46.93906481847358" z="0.0" />
       </component>
     </plugin>
   </world>

@@ -1,7 +1,7 @@
 coordinate_system: reference_image
 crowd_sim:
   agent_groups:
-    - {agents_name: [], agents_number: 0, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+    - {agents_name: [tinyRobot1, deliveryRobot_1], agents_number: 2, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
   agent_profiles:
     - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
   enable: 0
@@ -167,6 +167,7 @@ levels:
       - [861, 862, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 2], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [862, 863, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 2], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [863, 864, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 2], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [865, 866, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       {}
     measurements:
@@ -1538,7 +1539,7 @@ levels:
       - [3197.0059999999999, 2053.1219999999998, 0, ""]
       - [3509.6970000000001, 2054.0639999999999, 0, ""]
       - [1452.8969999999999, 2460.1619999999998, 0, ""]
-      - [4014.5340000000001, 2103.0419999999999, 0, cleanerRobotA]
+      - [4014.5340000000001, 2103.0419999999999, 0, CleanerBotA1_charger, {is_charger: [4, true], spawn_robot_name: [1, CleanerBotA1], spawn_robot_type: [1, CleanerBotA]}]
       - [4138.107, 2071.8600000000001, 0, ""]
       - [4138.107, 2284.3600000000001, 0, ""]
       - [4266.6850000000004, 2284.3600000000001, 0, ""]
@@ -1546,6 +1547,8 @@ levels:
       - [4191.6170000000002, 2173.1060000000002, 0, ""]
       - [4191.6170000000002, 2106.8919999999998, 0, ""]
       - [4140.4170000000004, 2106.8919999999998, 0, ""]
+      - [3095.6480000000001, 1992.963, 0, ""]
+      - [3102.0279999999998, 2091.3029999999999, 0, charger_deliveryRobot_1, {is_charger: [4, true], spawn_robot_name: [1, deliveryRobot_1], spawn_robot_type: [1, DeliveryRobot]}]
     walls:
       - [2, 3, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [3, 4, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
