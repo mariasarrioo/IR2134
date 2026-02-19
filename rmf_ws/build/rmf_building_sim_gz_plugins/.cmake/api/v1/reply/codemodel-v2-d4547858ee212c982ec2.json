@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-47903598f3a2b39c38c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rmf_building_sim_gz_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "crowd_simulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crowd_simulator-4e01e6588a103949a57a.json",
+					"name" : "crowd_simulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crowd_simulator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crowd_simulator_autogen-ba2099d289354c2ccb32.json",
+					"name" : "crowd_simulator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crowd_simulator_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crowd_simulator_autogen_timestamp_deps-90f612cc918ba382fa0a.json",
+					"name" : "crowd_simulator_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "door::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-door-c3cc5f27f2ed77de0827.json",
+					"name" : "door",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "door_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-door_autogen-39d6662ee55c2ecfa6e7.json",
+					"name" : "door_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "door_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-door_autogen_timestamp_deps-17c14aba819673ae1ef0.json",
+					"name" : "door_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lift::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lift-c67dc7e752ddeac438b1.json",
+					"name" : "lift",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lift_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lift_autogen-fa25513ab19395a84b84.json",
+					"name" : "lift_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lift_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lift_autogen_timestamp_deps-f63aed98f1e0f0f9bedf.json",
+					"name" : "lift_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "register_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-register_component-59bf0000bc39067ef027.json",
+					"name" : "register_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "register_component_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-register_component_autogen-4142456146c817e28b79.json",
+					"name" : "register_component_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "register_component_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-register_component_autogen_timestamp_deps-76d8acbf2f7e995172a0.json",
+					"name" : "register_component_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rmf_building_sim_gz_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rmf_building_sim_gz_plugins_uninstall-2e09e113d42998b687b7.json",
+					"name" : "rmf_building_sim_gz_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toggle_charging::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toggle_charging-d8a3f83b884d726d1d0c.json",
+					"name" : "toggle_charging",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toggle_charging_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toggle_charging_autogen-cac1df62f43139d07d86.json",
+					"name" : "toggle_charging_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toggle_charging_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toggle_charging_autogen_timestamp_deps-fff52e5f76f080c582e9.json",
+					"name" : "toggle_charging_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toggle_floors::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toggle_floors-8295155d45d7d1ec2998.json",
+					"name" : "toggle_floors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toggle_floors_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toggle_floors_autogen-895fe1dfd8727602a444.json",
+					"name" : "toggle_floors_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toggle_floors_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toggle_floors_autogen_timestamp_deps-66c33f3fe64401cfb09d.json",
+					"name" : "toggle_floors_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ef74c55000553c0a7064.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maria/rmf_ws/build/rmf_building_sim_gz_plugins",
+		"source" : "/home/maria/rmf_ws/src/rmf_simulation/rmf_building_sim_gz_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

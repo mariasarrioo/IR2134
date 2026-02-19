@@ -1324,7 +1324,7 @@
     <include>
       <name>OpenRobotics/VendingMachine_5</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/VendingMachine</uri>
-      <pose>71.65703809585123 -46.85552493962564 0.0 0 0 1.5708</pose>
+      <pose>71.6456136470781 -46.85022794569546 0.0 0 0 1.5708</pose>
       <static>True</static>
     </include>
     <include>
@@ -1342,7 +1342,7 @@
     <include>
       <name>OpenRobotics/VendingMachine_8</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/VendingMachine</uri>
-      <pose>78.73121837938092 -46.79925560156228 0.0 0 0 1.5708</pose>
+      <pose>78.73346286833439 -46.790008307074004 0.0 0 0 1.5708</pose>
       <static>True</static>
     </include>
     <include>
@@ -4298,39 +4298,9 @@
       <static>True</static>
     </include>
     <include>
-      <name>cleaner_robot1</name>
-      <uri>model://CleanerBotA</uri>
-      <pose>79.60946446198209 -47.94946641065474 0.0 0 0 -2.278091372887914</pose>
-    </include>
-    <include>
-      <name>patrol_robot1</name>
+      <name>tinyRobot1</name>
       <uri>model://TinyRobot</uri>
-      <pose>39.16700558464314 -43.067590712421584 0.0 0 0 1.5707963267948966</pose>
-    </include>
-    <include>
-      <name>patrol_robot2</name>
-      <uri>model://TinyRobot</uri>
-      <pose>51.73587438537044 -43.067590712421584 0.0 0 0 -0.13274857809677712</pose>
-    </include>
-    <include>
-      <name>tinyRobot4</name>
-      <uri>model://TinyRobot</uri>
-      <pose>106.30007419078068 -43.224794718722244 0.0 0 0 0.5786424679167436</pose>
-    </include>
-    <include>
-      <name>cleaner_robot2</name>
-      <uri>model://CleanerBotA</uri>
-      <pose>54.883321244813835 -48.68323473932139 0.0 0 0 1.3048530256303652</pose>
-    </include>
-    <include>
-      <name>cleaner_robot3</name>
-      <uri>model://CleanerBotA</uri>
-      <pose>87.98428120426544 -48.356414702807406 0.0 0 0 1.5707963267948966</pose>
-    </include>
-    <include>
-      <name>delivery_robot1</name>
-      <uri>model://DeliveryRobot</uri>
-      <pose>69.71717118315084 -46.85552493962564 0.0 0 0 1.5707963267948966</pose>
+      <pose>37.7007931757924 -43.947767055522725 0.0 0 0 2.6325568458537587</pose>
     </include>
     <model name="TD1013AL2">
       <pose>28.615494677734596 -71.43441845900185 0.0 0 0 -3.1360970245967152</pose>
@@ -16367,16 +16337,6 @@
       <pose>79.69724443200836 -63.71422479694823 9.08 0 0 1.5709790653267943</pose>
       <static>True</static>
     </include>
-    <include>
-      <name>cleaner_robot4</name>
-      <uri>model://CleanerBotA</uri>
-      <pose>52.04867894138787 -48.878919405758666 8.0 0 0 1.4588602776329835</pose>
-    </include>
-    <include>
-      <name>cleaner_robot5</name>
-      <uri>model://CleanerBotA</uri>
-      <pose>88.00039347576194 -48.43729686499918 8.0 0 0 1.5709753921216896</pose>
-    </include>
     <model name="TD1104">
       <pose>29.831071160037812 -12.370400812692349 8.0 0 0 1.555111475044199</pose>
       <link name="right">
@@ -25944,15 +25904,7 @@
     </include>
     <plugin name="register_component" filename="libregister_component.so">
       <component name="Chargers">
-        <rmf_charger name="charger_cleaner_robot1" x="79.60946446198209" y="-47.94946641065474" z="0.0" />
-        <rmf_charger name="charger_patrol1" x="39.16700558464314" y="-43.067590712421584" z="0.0" />
-        <rmf_charger name="charger_patrol_robot2" x="51.73587438537044" y="-43.067590712421584" z="0.0" />
-        <rmf_charger name="charger_robot4" x="106.30007419078068" y="-43.224794718722244" z="0.0" />
-        <rmf_charger name="charger_cleaner_robot2" x="54.883321244813835" y="-48.68323473932139" z="0.0" />
-        <rmf_charger name="charger_cleaner_robot3" x="87.98428120426544" y="-48.356414702807406" z="0.0" />
-        <rmf_charger name="delivery_robot1" x="69.71717118315084" y="-46.85552493962564" z="0.0" />
-        <rmf_charger name="charger_cleaner4" x="52.04867894138787" y="-48.878919405758666" z="8.0" />
-        <rmf_charger name="charger_cleaner_robot5" x="88.00039347576194" y="-48.43729686499918" z="8.0" />
+        <rmf_charger name="charger_tinyRobot1" x="37.7007931757924" y="-43.947767055522725" z="0.0" />
       </component>
     </plugin>
   </world>

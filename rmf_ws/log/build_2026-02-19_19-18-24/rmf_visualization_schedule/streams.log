@@ -1,0 +1,490 @@
+[0.202s] Invoking command in '/home/maria/rmf_ws/build/rmf_visualization_schedule': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule -DCMAKE_INSTALL_PREFIX=/home/maria/rmf_ws/install/rmf_visualization_schedule
+[0.310s] -- The C compiler identification is GNU 13.3.0
+[0.410s] -- The CXX compiler identification is GNU 13.3.0
+[0.445s] -- Detecting C compiler ABI info
+[0.630s] -- Detecting C compiler ABI info - done
+[0.649s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.650s] -- Detecting C compile features
+[0.650s] -- Detecting C compile features - done
+[0.670s] -- Detecting CXX compiler ABI info
+[0.875s] -- Detecting CXX compiler ABI info - done
+[0.895s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.896s] -- Detecting CXX compile features
+[0.896s] -- Detecting CXX compile features - done
+[0.915s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.300s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.643s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.667s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.676s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.861s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.862s] -- Found Threads: TRUE  
+[1.867s] -- Found rmf_traffic_ros2: 2.11.1 (/rmf_demos_ws/install/rmf_traffic_ros2/share/rmf_traffic_ros2/cmake)
+[1.879s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[1.880s] -- Checking for module 'proj'
+[1.920s] --   Found proj, version 9.4.0
+[2.171s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.222s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.568s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.586s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.805s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.846s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.896s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.298s] -- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[3.423s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.485s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[3.633s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.722s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.727s] -- Found rmf_visualization_msgs: 1.6.0 (/rmf_demos_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake)
+[3.776s] -- Found ament_cmake_uncrustify: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[4.022s] -- Configuring done (3.8s)
+[4.419s] -- Generating done (0.3s)
+[4.448s] -- Build files have been written to: /home/maria/rmf_ws/build/rmf_visualization_schedule
+[4.477s] Invoked command in '/home/maria/rmf_ws/build/rmf_visualization_schedule' returned '0': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule -DCMAKE_INSTALL_PREFIX=/home/maria/rmf_ws/install/rmf_visualization_schedule
+[4.478s] Invoking command in '/home/maria/rmf_ws/build/rmf_visualization_schedule': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/maria/rmf_ws/build/rmf_visualization_schedule -- -j8 -l8
+[6.169s] [ 11%] [32mBuilding CXX object CMakeFiles/rmf_visualization_schedule.dir/src/rmf_visualization_schedule/ScheduleDataNode.cpp.o[0m
+[6.169s] [ 22%] [32mBuilding CXX object CMakeFiles/rmf_visualization_schedule.dir/src/rmf_visualization_schedule/TrajectoryServer.cpp.o[0m
+[6.169s] [ 33%] [32mBuilding CXX object test/CMakeFiles/test_submit_trajectory.dir/SubmitTrajectory.cpp.o[0m
+[6.169s] [ 44%] [32mBuilding CXX object CMakeFiles/schedule_visualizer_node.dir/rclcpp_components/node_main_schedule_visualizer_node.cpp.o[0m
+[9.898s] In file included from [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/jwt.hpp:37[m[K,
+[9.898s]                  from [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/src/rmf_visualization_schedule/TrajectoryServer.cpp:18[m[K:
+[9.898s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:[m[K In function ‘[01m[Kvoid jwt::[01;32m[Kec_key_deletor[m[K(EC_KEY*)[m[K’:
+[9.898s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:288:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid[01;32m[K EC_KEY_free[m[K(EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.898s]   288 |   if (ptr) [01;35m[KEC_KEY_free(ptr)[m[K;
+[9.899s]       |            [01;35m[K~~~~~~~~~~~^~~~~[m[K
+[9.899s] In file included from [01m[K/usr/include/openssl/x509.h:33[m[K,
+[9.899s]                  from [01m[K/usr/include/openssl/pem.h:23[m[K,
+[9.899s]                  from [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:39[m[K:
+[9.899s] [01m[K/usr/include/openssl/ec.h:1003:28:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.899s]  1003 | OSSL_DEPRECATEDIN_3_0 void [01;36m[KEC_KEY_free[m[K(EC_KEY *key);
+[9.899s]       |                            [01;36m[K^~~~~~~~~~~[m[K
+[9.945s] In file included from [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:554[m[K:
+[9.945s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:[m[K In static member function ‘[01m[Kstatic jwt::verify_result_t jwt::PEMSign<Hasher>::[01;32m[Kverify[m[K(jwt::string_view, jwt::string_view, jwt::string_view)[m[K’:
+[9.946s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.946s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[9.946s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.946s] In file included from [01m[K/usr/include/openssl/pem.h:22[m[K:
+[9.946s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.946s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[9.947s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.954s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.956s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[9.956s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[9.956s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.956s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[9.956s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[9.965s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:[m[K In static member function ‘[01m[Kstatic std::string jwt::PEMSign<Hasher>::[01;32m[Kpublic_key_ser[m[K(EVP_PKEY*, jwt::string_view, std::error_code&)[m[K’:
+[9.966s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.966s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[9.966s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[9.966s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.966s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[9.966s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.969s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.969s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[9.969s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[9.969s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.969s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[9.969s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[16.173s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/src/rmf_visualization_schedule/TrajectoryServer.cpp:[m[K In member function ‘[01m[Kvoid rmf_visualization_schedule::TrajectoryServer::Implementation::[01;32m[Kon_message[m[K(connection_hdl, websocketpp::endpoint<websocketpp::connection<websocketpp::config::asio>, websocketpp::config::asio>::message_ptr)[m[K’:
+[16.173s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/src/rmf_visualization_schedule/TrajectoryServer.cpp:124:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kis_verified[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[16.173s]   124 |   bool [01;35m[Kis_verified[m[K = true;
+[16.173s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[17.024s] /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp: In instantiation of ‘[01m[Kstatic jwt::verify_result_t jwt::PEMSign<Hasher>::[01;32m[Kverify[m[K(jwt::string_view, jwt::string_view, jwt::string_view) [35m[K[with Hasher = jwt::algo::RS256; jwt::verify_result_t = std::pair<bool, std::error_code>; jwt::string_view = std::basic_string_view<char>][m[K[m[K’:
+[17.025s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/jwt.ipp:267:33:[m[K   required from here
+[17.025s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.025s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[17.025s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.026s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.026s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[17.026s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.026s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.026s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[17.026s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.027s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.027s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[17.027s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.027s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.027s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[17.027s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.031s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.031s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[17.031s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.031s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.031s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[17.032s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.032s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.032s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[17.032s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.041s] /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp: In instantiation of ‘[01m[Kstatic jwt::verify_result_t jwt::PEMSign<Hasher>::[01;32m[Kverify[m[K(jwt::string_view, jwt::string_view, jwt::string_view) [35m[K[with Hasher = jwt::algo::RS384; jwt::verify_result_t = std::pair<bool, std::error_code>; jwt::string_view = std::basic_string_view<char>][m[K[m[K’:
+[17.042s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/jwt.ipp:270:33:[m[K   required from here
+[17.042s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.042s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[17.042s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.042s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.042s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[17.042s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.045s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.045s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[17.045s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.045s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.045s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[17.045s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.045s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.046s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[17.046s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.046s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.046s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[17.046s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.046s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.046s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[17.047s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.048s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.048s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[17.048s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.055s] /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp: In instantiation of ‘[01m[Kstatic jwt::verify_result_t jwt::PEMSign<Hasher>::[01;32m[Kverify[m[K(jwt::string_view, jwt::string_view, jwt::string_view) [35m[K[with Hasher = jwt::algo::RS512; jwt::verify_result_t = std::pair<bool, std::error_code>; jwt::string_view = std::basic_string_view<char>][m[K[m[K’:
+[17.059s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/jwt.ipp:273:33:[m[K   required from here
+[17.059s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.059s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[17.059s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.059s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.059s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[17.060s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.060s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.060s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[17.060s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.060s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.060s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[17.060s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.060s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.060s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[17.061s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.061s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.061s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[17.061s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.061s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.061s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[17.061s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.062s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.062s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[17.062s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.067s] /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp: In instantiation of ‘[01m[Kstatic jwt::verify_result_t jwt::PEMSign<Hasher>::[01;32m[Kverify[m[K(jwt::string_view, jwt::string_view, jwt::string_view) [35m[K[with Hasher = jwt::algo::ES256; jwt::verify_result_t = std::pair<bool, std::error_code>; jwt::string_view = std::basic_string_view<char>][m[K[m[K’:
+[17.067s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/jwt.ipp:276:33:[m[K   required from here
+[17.067s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.067s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[17.071s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.071s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.072s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[17.072s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.072s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.072s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[17.072s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.072s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.073s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[17.073s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.073s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.073s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[17.073s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.073s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.073s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[17.073s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.078s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.078s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[17.078s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.078s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.078s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[17.078s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.080s] /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp: In instantiation of ‘[01m[Kstatic jwt::verify_result_t jwt::PEMSign<Hasher>::[01;32m[Kverify[m[K(jwt::string_view, jwt::string_view, jwt::string_view) [35m[K[with Hasher = jwt::algo::ES384; jwt::verify_result_t = std::pair<bool, std::error_code>; jwt::string_view = std::basic_string_view<char>][m[K[m[K’:
+[17.081s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/jwt.ipp:279:33:[m[K   required from here
+[17.081s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.081s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[17.081s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.081s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.081s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[17.081s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.082s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.082s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[17.082s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.082s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.082s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[17.082s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.082s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.082s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[17.082s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.083s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.083s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[17.083s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.088s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.088s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[17.088s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.088s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.088s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[17.088s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.102s] /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp: In instantiation of ‘[01m[Kstatic jwt::verify_result_t jwt::PEMSign<Hasher>::[01;32m[Kverify[m[K(jwt::string_view, jwt::string_view, jwt::string_view) [35m[K[with Hasher = jwt::algo::ES512; jwt::verify_result_t = std::pair<bool, std::error_code>; jwt::string_view = std::basic_string_view<char>][m[K[m[K’:
+[17.102s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/jwt.ipp:282:33:[m[K   required from here
+[17.102s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.102s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[17.102s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.103s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.103s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[17.103s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.103s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:113:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.103s]   113 |     EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey.get())[m[K, ec_key_deletor};
+[17.103s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.103s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.103s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[17.103s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.104s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.104s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[17.104s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.104s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.104s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[17.104s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.104s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[17.104s]   119 |         [01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[17.104s]       |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[17.104s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[17.105s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[17.105s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.205s] /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp: In instantiation of ‘[01m[Kstatic std::string jwt::PEMSign<Hasher>::[01;32m[Kpublic_key_ser[m[K(EVP_PKEY*, jwt::string_view, std::error_code&) [35m[K[with Hasher = jwt::algo::RS256; std::string = std::__cxx11::basic_string<char>; EVP_PKEY = evp_pkey_st; jwt::string_view = std::basic_string_view<char>][m[K[m[K’:
+[18.205s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:496:28:[m[K   required from ‘[01m[Kstatic jwt::sign_result_t jwt::PEMSign<Hasher>::[01;32m[Ksign[m[K(jwt::string_view, jwt::string_view) [35m[K[with Hasher = jwt::algo::RS256; jwt::sign_result_t = std::pair<std::__cxx11::basic_string<char>, std::error_code>; jwt::string_view = std::basic_string_view<char>][m[K[m[K’
+[18.205s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/jwt.ipp:222:33:[m[K   required from here
+[18.205s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.206s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[18.206s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.206s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.206s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[18.206s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.206s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.206s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[18.206s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.207s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.207s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[18.207s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.207s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.207s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[18.207s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.207s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.207s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[18.208s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.209s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.209s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[18.209s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.209s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.209s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[18.209s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.210s] /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp: In instantiation of ‘[01m[Kstatic std::string jwt::PEMSign<Hasher>::[01;32m[Kpublic_key_ser[m[K(EVP_PKEY*, jwt::string_view, std::error_code&) [35m[K[with Hasher = jwt::algo::RS384; std::string = std::__cxx11::basic_string<char>; EVP_PKEY = evp_pkey_st; jwt::string_view = std::basic_string_view<char>][m[K[m[K’:
+[18.210s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:496:28:[m[K   required from ‘[01m[Kstatic jwt::sign_result_t jwt::PEMSign<Hasher>::[01;32m[Ksign[m[K(jwt::string_view, jwt::string_view) [35m[K[with Hasher = jwt::algo::RS384; jwt::sign_result_t = std::pair<std::__cxx11::basic_string<char>, std::error_code>; jwt::string_view = std::basic_string_view<char>][m[K[m[K’
+[18.210s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/jwt.ipp:225:33:[m[K   required from here
+[18.210s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.210s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[18.210s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.211s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.211s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[18.211s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.211s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.211s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[18.211s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.211s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.211s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[18.212s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.212s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.212s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[18.212s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.212s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.212s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[18.212s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.212s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.212s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[18.213s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.213s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.213s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[18.213s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.220s] /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp: In instantiation of ‘[01m[Kstatic std::string jwt::PEMSign<Hasher>::[01;32m[Kpublic_key_ser[m[K(EVP_PKEY*, jwt::string_view, std::error_code&) [35m[K[with Hasher = jwt::algo::RS512; std::string = std::__cxx11::basic_string<char>; EVP_PKEY = evp_pkey_st; jwt::string_view = std::basic_string_view<char>][m[K[m[K’:
+[18.220s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:496:28:[m[K   required from ‘[01m[Kstatic jwt::sign_result_t jwt::PEMSign<Hasher>::[01;32m[Ksign[m[K(jwt::string_view, jwt::string_view) [35m[K[with Hasher = jwt::algo::RS512; jwt::sign_result_t = std::pair<std::__cxx11::basic_string<char>, std::error_code>; jwt::string_view = std::basic_string_view<char>][m[K[m[K’
+[18.220s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/jwt.ipp:228:33:[m[K   required from here
+[18.220s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.220s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[18.220s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.221s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.221s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[18.221s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.221s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.221s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[18.221s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.221s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.221s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[18.221s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.222s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.222s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[18.222s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.222s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.222s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[18.222s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.222s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.222s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[18.223s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.223s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.223s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[18.223s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.223s] /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp: In instantiation of ‘[01m[Kstatic std::string jwt::PEMSign<Hasher>::[01;32m[Kpublic_key_ser[m[K(EVP_PKEY*, jwt::string_view, std::error_code&) [35m[K[with Hasher = jwt::algo::ES256; std::string = std::__cxx11::basic_string<char>; EVP_PKEY = evp_pkey_st; jwt::string_view = std::basic_string_view<char>][m[K[m[K’:
+[18.223s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:496:28:[m[K   required from ‘[01m[Kstatic jwt::sign_result_t jwt::PEMSign<Hasher>::[01;32m[Ksign[m[K(jwt::string_view, jwt::string_view) [35m[K[with Hasher = jwt::algo::ES256; jwt::sign_result_t = std::pair<std::__cxx11::basic_string<char>, std::error_code>; jwt::string_view = std::basic_string_view<char>][m[K[m[K’
+[18.224s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/jwt.ipp:231:33:[m[K   required from here
+[18.224s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.224s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[18.224s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.224s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.224s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[18.224s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.224s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.224s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[18.225s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.225s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.225s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[18.225s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.225s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.225s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[18.225s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.225s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.226s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[18.226s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.226s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.226s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[18.226s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.226s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.226s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[18.226s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.235s] /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp: In instantiation of ‘[01m[Kstatic std::string jwt::PEMSign<Hasher>::[01;32m[Kpublic_key_ser[m[K(EVP_PKEY*, jwt::string_view, std::error_code&) [35m[K[with Hasher = jwt::algo::ES384; std::string = std::__cxx11::basic_string<char>; EVP_PKEY = evp_pkey_st; jwt::string_view = std::basic_string_view<char>][m[K[m[K’:
+[18.236s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:496:28:[m[K   required from ‘[01m[Kstatic jwt::sign_result_t jwt::PEMSign<Hasher>::[01;32m[Ksign[m[K(jwt::string_view, jwt::string_view) [35m[K[with Hasher = jwt::algo::ES384; jwt::sign_result_t = std::pair<std::__cxx11::basic_string<char>, std::error_code>; jwt::string_view = std::basic_string_view<char>][m[K[m[K’
+[18.236s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/jwt.ipp:234:33:[m[K   required from here
+[18.236s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.236s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[18.236s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.236s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.236s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[18.236s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.237s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.237s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[18.237s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.237s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.237s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[18.237s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.237s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.237s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[18.238s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.238s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.238s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[18.238s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.238s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.238s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[18.238s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.238s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.239s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[18.247s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.248s] /home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp: In instantiation of ‘[01m[Kstatic std::string jwt::PEMSign<Hasher>::[01;32m[Kpublic_key_ser[m[K(EVP_PKEY*, jwt::string_view, std::error_code&) [35m[K[with Hasher = jwt::algo::ES512; std::string = std::__cxx11::basic_string<char>; EVP_PKEY = evp_pkey_st; jwt::string_view = std::basic_string_view<char>][m[K[m[K’:
+[18.248s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/algorithm.hpp:496:28:[m[K   required from ‘[01m[Kstatic jwt::sign_result_t jwt::PEMSign<Hasher>::[01;32m[Ksign[m[K(jwt::string_view, jwt::string_view) [35m[K[with Hasher = jwt::algo::ES512; jwt::sign_result_t = std::pair<std::__cxx11::basic_string<char>, std::error_code>; jwt::string_view = std::basic_string_view<char>][m[K[m[K’
+[18.248s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/jwt.ipp:237:33:[m[K   required from here
+[18.248s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.248s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[18.248s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.248s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.248s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[18.249s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.249s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:264:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kec_key_st*[01;32m[K EVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.249s]   264 |   EC_KEY_uptr ec_key{[01;35m[KEVP_PKEY_get1_EC_KEY(pkey)[m[K, ec_key_deletor};
+[18.249s]       |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[18.249s] [01m[K/usr/include/openssl/evp.h:1376:19:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.249s]  1376 | struct ec_key_st *[01;36m[KEVP_PKEY_get1_EC_KEY[m[K(EVP_PKEY *pkey);
+[18.249s]       |                   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.249s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.249s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[18.250s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.250s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.250s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[18.250s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.250s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp:271:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst EC_GROUP*[01;32m[K EC_KEY_get0_group[m[K(const EC_KEY*)[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.250s]   271 |   uint32_t degree = EC_GROUP_get_degree([01;35m[KEC_KEY_get0_group(ec_key.get())[m[K);
+[18.250s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.250s] [01m[K/usr/include/openssl/ec.h:1034:39:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.254s]  1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *[01;36m[KEC_KEY_get0_group[m[K(const EC_KEY *key);
+[18.254s]       |                                       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[18.411s] [ 55%] [32m[1mLinking CXX executable schedule_visualizer_node[0m
+[18.699s] [ 55%] Built target schedule_visualizer_node
+[20.269s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/src/rmf_visualization_schedule/ScheduleDataNode.cpp:[m[K In static member function ‘[01m[Kstatic std::shared_ptr<rmf_visualization_schedule::ScheduleDataNode> rmf_visualization_schedule::ScheduleDataNode::[01;32m[Kmake[m[K(const std::string&, rmf_traffic::Duration, const rclcpp::NodeOptions&)[m[K’:
+[20.269s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/src/rmf_visualization_schedule/ScheduleDataNode.cpp:77:35:[m[K [01;35m[Kwarning: [m[Kredundant move in initialization [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wredundant-move-Wredundant-move]8;;[m[K]
+[20.269s]    77 |     new ScheduleDataNode([01;35m[Kstd::move(node_name)[m[K, options));
+[20.269s]       |                          [01;35m[K~~~~~~~~~^~~~~~~~~~~[m[K
+[20.269s] [01m[K/home/maria/rmf_ws/src/rmf_visualization/rmf_visualization_schedule/src/rmf_visualization_schedule/ScheduleDataNode.cpp:77:35:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[21.547s] [ 66%] [32m[1mLinking CXX executable test_submit_trajectory[0m
+[26.700s] [ 66%] Built target test_submit_trajectory
+[38.715s] [ 77%] [32m[1mLinking CXX shared library librmf_visualization_schedule.so[0m
+[41.946s] [ 77%] Built target rmf_visualization_schedule
+[42.006s] [ 88%] [32mBuilding CXX object CMakeFiles/schedule_visualizer.dir/src/ScheduleVisualizer.cpp.o[0m
+[61.114s] [100%] [32m[1mLinking CXX shared library libschedule_visualizer.so[0m
+[63.722s] [100%] Built target schedule_visualizer
+[63.761s] Invoked command in '/home/maria/rmf_ws/build/rmf_visualization_schedule' returned '0': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/maria/rmf_ws/build/rmf_visualization_schedule -- -j8 -l8
+[63.761s] Invoking command in '/home/maria/rmf_ws/build/rmf_visualization_schedule': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/maria/rmf_ws/build/rmf_visualization_schedule
+[63.781s] -- Install configuration: ""
+[63.781s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/library_path.sh
+[63.781s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/library_path.dsv
+[63.781s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/lib/rmf_visualization_schedule/schedule_visualizer_node
+[63.782s] -- Set non-toolchain portion of runtime path of "/home/maria/rmf_ws/install/rmf_visualization_schedule/lib/rmf_visualization_schedule/schedule_visualizer_node" to ""
+[63.782s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include
+[63.782s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/rmf_visualization_schedule
+[63.782s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/rmf_visualization_schedule/CommonData.hpp
+[63.783s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/rmf_visualization_schedule/ScheduleDataNode.hpp
+[63.783s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/rmf_visualization_schedule/TrajectoryServer.hpp
+[63.783s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt
+[63.783s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/config.hpp
+[63.783s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/string_view.hpp
+[63.783s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/jwt.hpp
+[63.784s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/exceptions.hpp
+[63.784s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/parameters.hpp
+[63.784s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/short_string.hpp
+[63.784s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/base64.hpp
+[63.784s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/error_codes.hpp
+[63.784s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/json
+[63.784s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/json/json.hpp
+[63.786s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/detail
+[63.786s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/detail/meta.hpp
+[63.786s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/assertions.hpp
+[63.787s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/algorithm.hpp
+[63.787s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/stack_alloc.hpp
+[63.787s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/impl
+[63.787s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/impl/algorithm.ipp
+[63.787s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/impl/string_view.ipp
+[63.788s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/impl/stack_alloc.ipp
+[63.788s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/impl/jwt.ipp
+[63.788s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/jwt/impl/error_codes.ipp
+[63.788s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/include/json.hpp
+[63.789s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/config
+[63.789s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/config/rmf.rviz
+[63.789s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/lib/librmf_visualization_schedule.so
+[63.805s] -- Set non-toolchain portion of runtime path of "/home/maria/rmf_ws/install/rmf_visualization_schedule/lib/librmf_visualization_schedule.so" to ""
+[63.805s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/lib/libschedule_visualizer.so
+[63.811s] -- Set non-toolchain portion of runtime path of "/home/maria/rmf_ws/install/rmf_visualization_schedule/lib/libschedule_visualizer.so" to ""
+[63.814s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/ament_index/resource_index/package_run_dependencies/rmf_visualization_schedule
+[63.814s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/ament_index/resource_index/parent_prefix_path/rmf_visualization_schedule
+[63.814s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/ament_prefix_path.sh
+[63.814s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/ament_prefix_path.dsv
+[63.814s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/path.sh
+[63.814s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/environment/path.dsv
+[63.814s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/local_setup.bash
+[63.814s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/local_setup.sh
+[63.815s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/local_setup.zsh
+[63.815s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/local_setup.dsv
+[63.815s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/package.dsv
+[63.815s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/ament_index/resource_index/packages/rmf_visualization_schedule
+[63.823s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/rmf_visualization_scheduleExport.cmake
+[63.823s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/rmf_visualization_scheduleExport-noconfig.cmake
+[63.823s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/ament_index/resource_index/rclcpp_components/rmf_visualization_schedule
+[63.824s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/ament_cmake_export_dependencies-extras.cmake
+[63.824s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/ament_cmake_export_include_directories-extras.cmake
+[63.824s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/ament_cmake_export_targets-extras.cmake
+[63.824s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/rmf_visualization_scheduleConfig.cmake
+[63.824s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/rmf_visualization_scheduleConfig-version.cmake
+[63.824s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/package.xml
+[63.824s] -- Installing: /home/maria/rmf_ws/install/rmf_visualization_schedule/lib/rmf_visualization_schedule/test_submit_trajectory
+[63.825s] -- Set non-toolchain portion of runtime path of "/home/maria/rmf_ws/install/rmf_visualization_schedule/lib/rmf_visualization_schedule/test_submit_trajectory" to ""
+[63.831s] Invoked command in '/home/maria/rmf_ws/build/rmf_visualization_schedule' returned '0': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/maria/rmf_ws/build/rmf_visualization_schedule

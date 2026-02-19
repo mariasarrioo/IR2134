@@ -262,8 +262,8 @@ CMakeFiles/crowd_simulator.dir/clean:
 # Target rules for target CMakeFiles/toggle_charging.dir
 
 # All Build rule for target.
-CMakeFiles/toggle_charging.dir/all: CMakeFiles/toggle_charging_autogen_timestamp_deps.dir/all
 CMakeFiles/toggle_charging.dir/all: CMakeFiles/toggle_charging_autogen.dir/all
+CMakeFiles/toggle_charging.dir/all: CMakeFiles/toggle_charging_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/toggle_charging.dir/build.make CMakeFiles/toggle_charging.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/toggle_charging.dir/build.make CMakeFiles/toggle_charging.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/maria/rmf_ws/build/rmf_building_sim_gz_plugins/CMakeFiles --progress-num=21,22,23,24,25,26 "Built target toggle_charging"

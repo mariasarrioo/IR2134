@@ -36,17 +36,7 @@ rmf_fleet:
   reassign_task_interval: 120 # seconds, specify how often a task reassignment should be triggered in the fleet
   robots:
     tinyRobot1:
-        charger: "tinyRobot1_charger"
-    tinyRobot2:
-        charger: "tinyRobot2_charger"
-    tinyRobot3:
-        charger: "tinyRobot3_charger"
-    tinyRobot4:
-        charger: "tinyRobot4_charger"
-    tinyRobot5:
-        charger: "tinyRobot5_charger"
-    tinyRobot6:
-        charger: "tinyRobot6_charger"
+        charger: "charger_tinyRobot1"
     
 fleet_manager:
   ip: "127.0.0.1"

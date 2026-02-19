@@ -1,0 +1,1804 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/maria/rmf_ws/src/project/project_maps/maps/classroom/classroom.building.yaml /home/maria/rmf_ws/build/project_maps/maps/classroom/classroom.world /home/maria/rmf_ws/build/project_maps/maps/classroom/models[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/maria/rmf_ws/src/project/project_maps/maps/estce/estce.building.yaml /home/maria/rmf_ws/build/project_maps/maps/estce/estce.world /home/maria/rmf_ws/build/project_maps/maps/estce/models[0m
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/maria/rmf_ws/src/project/project_maps/maps/test1/test1.building.yaml /home/maria/rmf_ws/build/project_maps/maps/test1/test1.world /home/maria/rmf_ws/build/project_maps/maps/test1/models[0m
+-- Configuring done (2.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/maria/rmf_ws/build/project_maps
+[ 16%] [34m[1mGenerating maps/classroom/nav_graphs/phony[0m
+[ 33%] [34m[1mGenerating maps/test1/nav_graphs/phony[0m
+[ 50%] [34m[1mGenerating maps/estce/nav_graphs/phony[0m
+building name: classroom
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.02551020408163266
+calculating level L2 offset and scale...
+  0 common fiducials:
+Transform.set_from_fiducials()
+  0 fiducial pairs:
+Bearings:
+[]
+generating nav data
+hooray, we found an intersection: t=0.459, u=0.62
+  (732.006,-1378.531),(618.612,-1378.531) and (679.96,-1356.421),(679.96,-1392.105)
+found intersection with door door2!
+hooray, we found an intersection: t=0.604, u=0.561
+  (741.803,-1033.459),(741.803,-1380.592) and (672.582,-1243.013),(795.893,-1243.013)
+found intersection with door door6!
+hooray, we found an intersection: t=0.303, u=0.684
+  (741.803,-1380.592),(519.736,-1380.592) and (674.5,-1355.444),(674.5,-1392.191)
+found intersection with door door9!
+hooray, we found an intersection: t=0.183, u=0.481
+  (877.736,-1373.216),(1134.021,-1373.216) and (924.619,-1355.521),(924.619,-1392.329)
+found intersection with door door3!
+hooray, we found an intersection: t=0.359, u=0.456
+  (547.119,-1697.655),(878.052,-1697.655) and (665.966,-1673.474),(665.966,-1726.528)
+found intersection with door door4!
+hooray, we found an intersection: t=0.347, u=0.604
+  (877.59,-1173.327),(877.59,-1374.102) and (808.137,-1243.013),(923.139,-1243.013)
+found intersection with door door7!
+hooray, we found an intersection: t=0.177, u=0.466
+  (877.59,-1374.102),(1140.727,-1374.102) and (924.039,-1357.093),(924.039,-1393.624)
+found intersection with door door8!
+writing /home/maria/rmf_ws/build/project_maps/maps/classroom/nav_graphs/0.yaml
+writing /home/maria/rmf_ws/build/project_maps/maps/classroom/nav_graphs/1.yaml
+Load success!
+
+Cache found! Model count: 3239 
+Updating cache...
+Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+Fetching page: 1
+[ 50%] Built target generate_classroom_nav_graphs
+building name: test1
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.06666666666666667
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (1.5, -1.5) -> (2.0, -2.0)   columna1
+    (148.5, -1.5) -> (148.5, -1.5)   columna2
+    calc dist columna1 <=> columna2
+Bearings:
+[(0.0, 0.003412956031538204)]
+  0.003412956031538204
+  Circular mean: -0.0034129560315382034
+Distances:
+[(147.0, 146.50085323983612)]
+mean relative scale: 0.996604443808409
+translation: (-0.03333, 0.034243)
+parsing lift lift1
+generating nav data
+hooray, we found an intersection: t=0.506, u=0.532
+  (23.555,-48.923),(122.687,-48.923) and (73.7,-38.148),(73.7,-58.389)
+found intersection with door door1!
+writing /home/maria/rmf_ws/build/project_maps/maps/test1/nav_graphs/0.yaml
+[ 50%] Built target generate_test1_nav_graphs
+Cached model found! Halting Fuel traversal...
+Writing to cache: /home/maria/.pit_crew/model_cache.json
+New models cached: 0
+
+[ 50%] Built target update_model_cache
+building name: estce
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.022444889534645907
+calculating level L2 offset and scale...
+  3 common fiducials:
+Transform.set_from_fiducials()
+  3 fiducial pairs:
+    (3963.9, -2197.6) -> (3837.1, -2354.5)   c3
+    (2516.2, -2123.7) -> (2388.7, -2279.7)   c4
+    (2369.6, -2222.5) -> (2242.3, -2378.6)   c1
+    calc dist c3 <=> c4
+    calc dist c3 <=> c1
+    calc dist c4 <=> c1
+Bearings:
+[(3.090626667763035, 3.090030514435309), (-3.1259350542154625, -3.1264943407908756), (-2.5484125455389486, -2.5477943015529716)]
+  -0.0005961533277258901
+  -0.0005592865754131537
+  0.000618243985976985
+  Circular mean: 0.00017906532679433574
+Distances:
+[(1449.6723774715445, 1450.2914846695473), (1594.5624578062157, 1594.9407871394474), (176.77616935831585, 176.63032569182434)]
+mean relative scale: 0.999946436772245
+translation: (2.8426, 3.5003)
+generating nav data
+hooray, we found an intersection: t=0.582, u=0.61
+  (4014.534,-2103.042),(4138.107,-2071.86) and (4086.446,-2062.291),(4086.446,-2099.363)
+found intersection with door TD0010CW!
+writing /home/maria/rmf_ws/build/project_maps/maps/estce/nav_graphs/0.yaml
+writing /home/maria/rmf_ws/build/project_maps/maps/estce/nav_graphs/1.yaml
+writing /home/maria/rmf_ws/build/project_maps/maps/estce/nav_graphs/2.yaml
+[ 50%] Built target generate_estce_nav_graphs
+generating /home/maria/rmf_ws/build/project_maps/maps/estce/estce.world from /home/maria/rmf_ws/src/project/project_maps/maps/estce/estce.building.yaml
+generating /home/maria/rmf_ws/build/project_maps/maps/classroom/classroom.world from /home/maria/rmf_ws/src/project/project_maps/maps/classroom/classroom.building.yaml
+building name: classroom
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.02551020408163266
+calculating level L2 offset and scale...
+  0 common fiducials:
+Transform.set_from_fiducials()
+  0 fiducial pairs:
+Bearings:
+[]
+generating model of level L1 in /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1
+  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/model.config
+generating floor polygon 1 on floor classroom_L1
+hole vertices: []
+lift vertices: {}
+[[0, 5, 2], [0, 2, 1], [4, 3, 2], [4, 2, 5]]
+  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.obj
+  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/blue_linoleum.png
+  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x755fd41c3f80>, 'texture_height': <building_map.param_value.ParamValue object at 0x755fd41c3fe0>, 'texture_name': <building_map.param_value.ParamValue object at 0x755fd41c3fb0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x755fd43d53a0>, 'texture_width': <building_map.param_value.ParamValue object at 0x755fd43d41a0>}]
+generating wall: 1 on floor: classroom_L1
+  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/default.png
+generate_wall_visual_mesh(classroom_L1, /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1)
+  generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.obj
+generating /home/maria/rmf_ws/build/project_maps/maps/test1/test1.world from /home/maria/rmf_ws/src/project/project_maps/maps/test1/test1.building.yaml
+  generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.mtl
+  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/model.sdf
+generating model of level L2 in /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2
+  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/model.config
+generating floor polygon 1 on floor classroom_L2
+hole vertices: []
+lift vertices: {}
+building name: test1
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.06666666666666667
+calculating level L2 offset and scale...
+  2 common fiducials:
+Transform.set_from_fiducials()
+  2 fiducial pairs:
+    (1.5, -1.5) -> (2.0, -2.0)   columna1
+    (148.5, -1.5) -> (148.5, -1.5)   columna2
+    calc dist columna1 <=> columna2
+Bearings:
+[(0.0, 0.003412956031538204)]
+  0.003412956031538204
+  Circular mean: -0.0034129560315382034
+Distances:
+[(147.0, 146.50085323983612)]
+mean relative scale: 0.996604443808409
+translation: (-0.03333, 0.034243)
+[[0, 3, 2], [0, 2, 1]]
+  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.obj
+parsing lift lift1
+generating model of level L1 in /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1
+  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/model.config
+generating floor polygon 1 on floor test1_L1
+hole vertices: []
+lift vertices: {'lift1': [(5.616666666666667, -1.2833333333333337), (5.616666666666667, -5.383333333333333), (9.716666666666667, -5.383333333333333), (9.716666666666667, -1.2833333333333337)]}
+  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/blue_linoleum.png
+  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x755fd4234740>, 'texture_height': <building_map.param_value.ParamValue object at 0x755fd4234770>, 'texture_name': <building_map.param_value.ParamValue object at 0x755fd42347a0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x755fd42347d0>, 'texture_width': <building_map.param_value.ParamValue object at 0x755fd4234800>}]
+generating wall: 1 on floor: classroom_L2
+  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/default.png
+generate_wall_visual_mesh(classroom_L2, /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2)
+  generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.obj
+  generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.mtl
+  wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/model.sdf
+[[0, 3, 4], [0, 4, 5], [0, 5, 1], [1, 5, 6], [1, 6, 7], [1, 7, 2], [2, 7, 4], [2, 4, 3]]
+  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.obj
+  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/blue_linoleum.png
+  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7d196c9db4a0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7d196c9db740>, 'texture_name': <building_map.param_value.ParamValue object at 0x7d196c9d86e0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7d196c9db710>, 'texture_width': <building_map.param_value.ParamValue object at 0x7d196c9db6e0>}]
+generating wall: 1 on floor: test1_L1
+  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/default.png
+generate_wall_visual_mesh(test1_L1, /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1)
+  generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/wall_1.obj
+  generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/wall_1.mtl
+  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/model.sdf
+generating model of level L2 in /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2
+  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/model.config
+generating floor polygon 1 on floor test1_L2
+hole vertices: []
+lift vertices: {'lift1': [(5.616666666666667, -1.2833333333333337), (5.616666666666667, -5.383333333333333), (9.716666666666667, -5.383333333333333), (9.716666666666667, -1.2833333333333337)]}
+[[0, 3, 4], [0, 4, 1], [1, 4, 5], [1, 5, 6], [1, 6, 2], [2, 6, 7], [2, 7, 3], [3, 7, 4]]
+  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/floor_1.obj
+  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/blue_linoleum.png
+  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7d196c798320>, 'texture_height': <building_map.param_value.ParamValue object at 0x7d196c798350>, 'texture_name': <building_map.param_value.ParamValue object at 0x7d196c7983b0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7d196c7983e0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7d196c798440>}]
+generating wall: 1 on floor: test1_L2
+  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/default.png
+generate_wall_visual_mesh(test1_L2, /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2)
+  generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/wall_1.obj
+  generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/wall_1.mtl
+  wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/model.sdf
+spawning robot name tinyRobot2 of type TinyRobot
+spawning robot name tinyRobot1 of type TinyRobot
+generate door name=door1 type=double_hinged
+Door(door1)
+generate door name=door2 type=hinged
+Door(door2)
+generate door name=door3 type=sliding
+Door(door3)
+generate door name=door4 type=double_hinged
+Door(door4)
+generate door name=door5 type=double_hinged
+Door(door5)
+generate door name=door6 type=double_hinged
+Door(door6)
+generate door name=door7 type=double_hinged
+Door(door7)
+generate door name=door8 type=sliding
+Door(door8)
+generate door name=door9 type=hinged
+Door(door9)
+96466 bytes written to /home/maria/rmf_ws/build/project_maps/maps/classroom/classroom.world
+spawning robot name tinyRobot1_charger of type TinyRobot
+generate door name=door1 type=sliding
+Door(door1)
+generate door name=door2 type=sliding
+Door(door2)
+33015 bytes written to /home/maria/rmf_ws/build/project_maps/maps/test1/test1.world
+building name: estce
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.022444889534645907
+calculating level L2 offset and scale...
+  3 common fiducials:
+Transform.set_from_fiducials()
+  3 fiducial pairs:
+    (3963.9, -2197.6) -> (3837.1, -2354.5)   c3
+    (2516.2, -2123.7) -> (2388.7, -2279.7)   c4
+    (2369.6, -2222.5) -> (2242.3, -2378.6)   c1
+    calc dist c3 <=> c4
+    calc dist c3 <=> c1
+    calc dist c4 <=> c1
+Bearings:
+[(3.090626667763035, 3.090030514435309), (-3.1259350542154625, -3.1264943407908756), (-2.5484125455389486, -2.5477943015529716)]
+  -0.0005961533277258901
+  -0.0005592865754131537
+  0.000618243985976985
+  Circular mean: 0.00017906532679433574
+Distances:
+[(1449.6723774715445, 1450.2914846695473), (1594.5624578062157, 1594.9407871394474), (176.77616935831585, 176.63032569182434)]
+mean relative scale: 0.999946436772245
+translation: (2.8426, 3.5003)
+generating model of level L1 in /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1
+  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/model.config
+generating floor polygon 1 on floor estce_L1
+hole vertices: []
+lift vertices: {}
+[ 50%] Built target classroom
+[ 50%] Built target test1
+[ 66%] [34m[1mGenerating classroom_crowdsim[0m
+[ 83%] [34m[1mGenerating test1_crowdsim[0m
+[[95, 96, 94], [93, 94, 92], [50, 51, 49], [49, 51, 48], [47, 48, 46], [45, 46, 44], [42, 43, 40], [42, 40, 41], [100, 101, 35], [100, 35, 36], [101, 34, 35], [4, 5, 3], [1, 2, 0], [0, 2, 99], [98, 99, 96], [98, 96, 97], [96, 99, 6], [96, 6, 89], [96, 89, 91], [96, 91, 94], [94, 91, 92], [91, 102, 90], [52, 103, 51], [51, 103, 53], [51, 53, 48], [48, 53, 46], [46, 53, 33], [46, 33, 43], [46, 43, 44], [33, 104, 43], [104, 105, 43], [105, 106, 43], [43, 106, 40], [106, 107, 40], [40, 107, 39], [38, 39, 37], [37, 39, 36], [108, 100, 36], [108, 36, 39], [107, 108, 39], [21, 22, 23], [21, 23, 20], [109, 20, 23], [13, 14, 12], [5, 6, 3], [3, 6, 99], [3, 99, 2], [6, 7, 8], [6, 8, 89], [89, 8, 88], [91, 89, 102], [87, 88, 85], [87, 85, 86], [79, 80, 78], [76, 77, 75], [75, 77, 70], [75, 70, 72], [75, 72, 73], [75, 73, 74], [72, 70, 71], [67, 68, 66], [59, 60, 58], [53, 54, 33], [33, 54, 55], [55, 110, 33], [25, 26, 24], [111, 112, 24], [24, 112, 23], [112, 113, 23], [113, 114, 23], [114, 115, 23], [115, 109, 23], [14, 15, 27], [14, 27, 11], [14, 11, 12], [8, 9, 85], [8, 85, 88], [85, 9, 84], [80, 81, 11], [80, 11, 66], [80, 66, 78], [78, 66, 68], [78, 68, 70], [78, 70, 77], [70, 68, 69], [66, 11, 28], [66, 28, 65], [60, 61, 58], [58, 61, 30], [58, 30, 31], [58, 31, 57], [57, 31, 56], [56, 31, 55], [55, 31, 116], [55, 116, 110], [31, 32, 116], [117, 24, 26], [19, 24, 117], [19, 117, 118], [19, 111, 24], [119, 18, 19], [119, 19, 120], [121, 17, 18], [121, 18, 119], [27, 17, 121], [17, 27, 16], [16, 27, 15], [27, 28, 11], [28, 29, 30], [28, 30, 63], [28, 63, 64], [28, 64, 65], [63, 30, 62], [62, 30, 61], [120, 19, 118], [11, 81, 82], [11, 82, 83], [11, 83, 9], [11, 9, 10], [9, 83, 84]]
+  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/floor_1.obj
+  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/blue_linoleum.png
+  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7f22cd701160>, 'texture_height': <building_map.param_value.ParamValue object at 0x7f22cd701190>, 'texture_name': <building_map.param_value.ParamValue object at 0x7f22cd7011f0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7f22cd701220>, 'texture_width': <building_map.param_value.ParamValue object at 0x7f22cd701250>}]
+generating wall: 1 on floor: estce_L1
+  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/default.png
+generate_wall_visual_mesh(estce_L1, /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1)
+  generating /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/wall_1.obj
+  generating /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/wall_1.mtl
+  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/model.sdf
+generating model of level L2 in /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2
+  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/model.config
+generating floor polygon 1 on floor estce_L2
+hole vertices: [[(32.038756741414744, -42.76915216128614), (31.11673500280745, -42.874342528720355), (29.881747866515727, -43.35818717420026), (29.14116076436808, -43.85547828335986), (28.446281434405638, -44.52016416331792), (28.18828671567239, -44.89993090262992), (27.902443415164427, -45.318893505603), (27.659816875330964, -45.78271810821972), (27.49702381768832, -46.33130730559018), (27.35746824671091, -46.786830843755695), (27.30272430051249, -47.42516261590286), (27.306182355823804, -48.18484998650477), (27.520795314795677, -49.22045180384088), (27.979793576379052, -50.21277868670446), (28.568030152623294, -51.04466020665891), (29.157538206306413, -51.581442725050174), (29.951253484935357, -52.077336789240654), (30.593241501695815, -52.36899858368847), (31.36939239777892, -52.54975265884881), (32.27394380183291, -52.65463839645499), (33.114261763506796, -52.54944021324229), (33.86116482227765, -52.35090546002476), (34.61973930420733, -52.0239769695925), (35.255761762454966, -51.592022712577965), (35.88589653422498, -50.99668440486839), (36.387631298646134, -50.35465877132251), (36.807655483657385, -49.54928511042502), (37.08176230477987, -48.64470340474208), (37.13997793752946, -47.839372085119734), (37.098954679464335, -46.88234539869987), (36.877069716975065, -46.100408171249505), (36.53846716893895, -45.330163811805384), (36.03646125516407, -44.58329264810546), (35.48198214906801, -43.99400244763602), (34.85166137537696, -43.55060298085515), (34.01124518964044, -43.10726358097049), (33.00747106670977, -42.81564412377851)], [(110.09102272666154, -42.75955269459609), (111.44045567773574, -42.7390871288873), (112.83541074658372, -43.10273338721559), (113.86148077122128, -43.68376876454881), (114.89267627942866, -44.68427579473863), (115.61563246114594, -45.881937155334136), (115.88875829247449, -47.14540122285116), (115.82331198059556, -48.560526823481574), (115.34848752224677, -49.9403731343614), (114.49963822914278, -51.1635902506152), (113.35253107123509, -52.0431886571492), (111.88190966988071, -52.553898576710914), (110.27473277632299, -52.59968459521777), (108.93534156104337, -52.16527830477956), (107.77784496651485, -51.43264310871486), (106.82750824825862, -50.3512707754882), (106.22077593676646, -49.01711636277498), (106.03352686402847, -47.61718712334794), (106.22531950767716, -46.18686534015669), (106.83411373287781, -44.99652984230133), (107.61732055938776, -44.09300172515975), (108.54587957595648, -43.39157464055808)]]
+lift vertices: {}
+Creating output folder path:  /home/maria/rmf_ws/build/project_maps/maps/test1/config_resource/
+crowdsim unable to parse, not attempting to proceed
+Creating output folder path:  /home/maria/rmf_ws/build/project_maps/maps/classroom/config_resource/
+crowdsim unable to parse, not attempting to proceed
+[ 83%] Built target generate_test1_crowdsim
+crowdsim unable to parse, not attempting to proceed
+[[5, 6, 4], [3, 4, 2], [54, 55, 53], [52, 53, 51], [50, 51, 49], [47, 48, 45], [47, 45, 46], [29, 30, 31], [29, 31, 26], [29, 26, 28], [28, 26, 27], [10, 11, 12], [10, 12, 9], [8, 9, 7], [7, 9, 6], [6, 9, 89], [6, 89, 90], [6, 90, 91], [6, 91, 92], [6, 92, 93], [6, 93, 94], [6, 94, 95], [6, 95, 96], [6, 96, 97], [6, 97, 98], [6, 98, 4], [4, 98, 99], [4, 99, 1], [4, 1, 2], [55, 56, 53], [53, 56, 100], [53, 100, 51], [51, 100, 101], [51, 101, 102], [51, 102, 103], [51, 103, 104], [51, 104, 105], [51, 105, 48], [51, 48, 49], [48, 105, 106], [48, 106, 107], [48, 107, 108], [48, 108, 109], [48, 109, 110], [48, 110, 45], [45, 110, 111], [45, 111, 44], [43, 44, 42], [42, 44, 41], [35, 36, 34], [31, 32, 25], [31, 25, 26], [22, 23, 21], [15, 16, 13], [15, 13, 14], [12, 13, 112], [12, 112, 113], [12, 113, 114], [12, 114, 9], [9, 114, 115], [9, 115, 116], [9, 116, 117], [9, 117, 118], [9, 118, 119], [9, 119, 120], [9, 120, 89], [99, 121, 1], [1, 121, 122], [122, 121, 123], [122, 0, 1], [124, 56, 57], [124, 125, 56], [126, 125, 124], [56, 125, 100], [111, 127, 44], [44, 127, 41], [41, 127, 128], [41, 128, 129], [41, 129, 130], [41, 130, 131], [41, 131, 58], [41, 58, 39], [41, 39, 40], [37, 38, 36], [36, 38, 66], [36, 66, 67], [36, 67, 79], [36, 79, 21], [36, 21, 34], [34, 21, 23], [34, 23, 32], [34, 32, 33], [32, 23, 25], [25, 23, 24], [21, 79, 80], [21, 80, 19], [21, 19, 20], [17, 18, 16], [16, 18, 88], [16, 88, 132], [16, 132, 133], [16, 133, 134], [16, 134, 135], [16, 135, 136], [16, 136, 137], [16, 137, 138], [16, 138, 139], [16, 139, 140], [16, 140, 13], [13, 140, 141], [13, 141, 112], [142, 143, 88], [142, 88, 144], [144, 88, 145], [121, 144, 123], [123, 144, 145], [84, 85, 86], [84, 86, 81], [84, 81, 83], [78, 79, 77], [74, 75, 77], [74, 77, 73], [73, 77, 72], [72, 77, 69], [72, 69, 71], [71, 69, 70], [68, 69, 67], [62, 63, 60], [62, 60, 61], [126, 58, 125], [125, 58, 146], [146, 58, 147], [147, 58, 148], [131, 149, 58], [58, 149, 148], [58, 59, 39], [39, 59, 38], [38, 59, 66], [66, 59, 65], [63, 64, 65], [63, 65, 60], [60, 65, 59], [67, 69, 77], [67, 77, 79], [77, 75, 76], [80, 81, 86], [80, 86, 87], [80, 87, 19], [19, 87, 18], [18, 87, 88], [81, 82, 83], [88, 143, 150], [88, 150, 151], [88, 151, 152], [88, 152, 132]]
+  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/floor_1.obj
+  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/blue_linoleum.png
+  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7f22cd6a66c0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7f22cd6a6720>, 'texture_name': <building_map.param_value.ParamValue object at 0x7f22cd6a66f0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7f22cd6a6750>, 'texture_width': <building_map.param_value.ParamValue object at 0x7f22cd6a6780>}]
+generating wall: 1 on floor: estce_L2
+  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/default.png
+generate_wall_visual_mesh(estce_L2, /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2)
+  generating /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/wall_1.obj
+  generating /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/wall_1.mtl
+  wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/model.sdf
+spawning robot name tinyRobot1 of type TinyRobot
+generate door name=TD1013AL2 type=double_hinged
+Door(TD1013AL2)
+generate door name=TD1012AL type=double_hinged
+Door(TD1012AL)
+generate door name=TD1011AL type=double_hinged
+Door(TD1011AL)
+generate door name=TD1010AL2 type=double_hinged
+Door(TD1010AL2)
+generate door name=TN4 type=hinged
+Door(TN4)
+generate door name=TN3 type=hinged
+Door(TN3)
+generate door name=TD1013AL1 type=hinged
+Door(TD1013AL1)
+generate door name=TD1020CA type=hinged
+Door(TD1020CA)
+generate door name=TD1009CA type=hinged
+Door(TD1009CA)
+generate door name=TD1010AL1 type=hinged
+Door(TD1010AL1)
+generate door name=TD1008AL type=double_hinged
+Door(TD1008AL)
+generate door name=TD1014AL type=double_hinged
+Door(TD1014AL)
+generate door name=TN1 type=hinged
+Door(TN1)
+generate door name=TD1002CP type=double_hinged
+Door(TD1002CP)
+generate door name=TN2 type=hinged
+Door(TN2)
+generate door name=TD1005CP1 type=double_hinged
+Door(TD1005CP1)
+generate door name=TD1004CA type=hinged
+Door(TD1004CA)
+generate door name=TD1003CI type=hinged
+Door(TD1003CI)
+generate door name=TD1023CP1 type=double_hinged
+Door(TD1023CP1)
+generate door name=TD1023CP2 type=double_hinged
+Door(TD1023CP2)
+generate door name=TD1018AA type=double_hinged
+Door(TD1018AA)
+generate door name=TD1015AA type=double_hinged
+Door(TD1015AA)
+generate door name=TD1016AA type=double_hinged
+Door(TD1016AA)
+generate door name=TD1017AA type=double_hinged
+Door(TD1017AA)
+generate door name=TD1022AA type=double_hinged
+Door(TD1022AA)
+generate door name=TD1019AA type=double_hinged
+Door(TD1019AA)
+generate door name=TD1007AA type=double_hinged
+Door(TD1007AA)
+generate door name=TD1021AA type=double_hinged
+Door(TD1021AA)
+generate door name=em2 type=hinged
+Door(em2)
+generate door name=em1 type=hinged
+Door(em1)
+generate door name=bano01 type=hinged
+Door(bano01)
+generate door name=bano02 type=hinged
+Door(bano02)
+generate door name=bano03 type=hinged
+Door(bano03)
+generate door name=bano04 type=hinged
+Door(bano04)
+generate door name=bano05 type=hinged
+Door(bano05)
+generate door name=bano06 type=hinged
+Door(bano06)
+generate door name=TD0008CW type=hinged
+Door(TD0008CW)
+generate door name=TD0007CW type=hinged
+Door(TD0007CW)
+generate door name=TD1001CP3 type=double_hinged
+Door(TD1001CP3)
+generate door name=TD1001CP2 type=double_hinged
+Door(TD1001CP2)
+generate door name=TD0013CP1 type=double_hinged
+Door(TD0013CP1)
+generate door name=TD0013CP2 type=double_hinged
+Door(TD0013CP2)
+generate door name=bano07 type=hinged
+Door(bano07)
+generate door name=bano08 type=hinged
+Door(bano08)
+generate door name=bano09 type=hinged
+Door(bano09)
+generate door name=bano010 type=hinged
+Door(bano010)
+generate door name=TD0001EC1 type=double_hinged
+Door(TD0001EC1)
+generate door name=TD0005AO type=hinged
+Door(TD0005AO)
+generate door name=TD0006ET type=hinged
+Door(TD0006ET)
+generate door name=TD0004SD type=hinged
+Door(TD0004SD)
+generate door name=TD0003SC type=hinged
+Door(TD0003SC)
+generate door name=TD0001EC2 type=double_hinged
+Door(TD0001EC2)
+generate door name=cancan6 type=hinged
+Door(cancan6)
+generate door name=cancan5 type=hinged
+Door(cancan5)
+generate door name=bancan4 type=hinged
+Door(bancan4)
+generate door name=cancan3 type=hinged
+Door(cancan3)
+generate door name=bancan1 type=hinged
+Door(bancan1)
+generate door name=cancan2 type=hinged
+Door(cancan2)
+generate door name=can7 type=hinged
+Door(can7)
+generate door name=can8 type=hinged
+Door(can8)
+generate door name=can6 type=hinged
+Door(can6)
+generate door name=can2 type=hinged
+Door(can2)
+generate door name=can1 type=hinged
+Door(can1)
+generate door name=can3 type=hinged
+Door(can3)
+generate door name=can4 type=double_hinged
+Door(can4)
+generate door name=can5 type=hinged
+Door(can5)
+generate door name=bano012 type=hinged
+Door(bano012)
+generate door name=bano013 type=hinged
+Door(bano013)
+generate door name=bano014 type=hinged
+Door(bano014)
+generate door name=bano011 type=hinged
+Door(bano011)
+generate door name=TD0009CW type=hinged
+Door(TD0009CW)
+generate door name=bano015 type=hinged
+Door(bano015)
+generate door name=bano016 type=hinged
+Door(bano016)
+generate door name=TD0010CW type=hinged
+Door(TD0010CW)
+generate door name=bano017 type=hinged
+Door(bano017)
+generate door name=bano018 type=hinged
+Door(bano018)
+generate door name=bano019 type=hinged
+Door(bano019)
+generate door name=bano020 type=hinged
+Door(bano020)
+generate door name=TD2012CI type=hinged
+Door(TD2012CI)
+generate door name=TD2013CA type=hinged
+Door(TD2013CA)
+generate door name=TD0014CP1 type=double_hinged
+Door(TD0014CP1)
+generate door name=TD0014CP2 type=double_hinged
+Door(TD0014CP2)
+generate door name=TD2034EA type=double_hinged
+Door(TD2034EA)
+generate door name=TD2049SD type=hinged
+Door(TD2049SD)
+generate door name=TD2029SD type=hinged
+Door(TD2029SD)
+generate door name=TD2030SD type=hinged
+Door(TD2030SD)
+generate door name=TD2040CP1 type=double_hinged
+Door(TD2040CP1)
+generate door name=TD2037EA type=double_hinged
+Door(TD2037EA)
+generate door name=TD2040CP2 type=double_hinged
+Door(TD2040CP2)
+generate door name=EM5 type=hinged
+Door(EM5)
+generate door name=EM4 type=hinged
+Door(EM4)
+generate door name=TD2043AA type=double_hinged
+Door(TD2043AA)
+generate door name=TD2021CP1 type=double_hinged
+Door(TD2021CP1)
+generate door name=TD2021CP2 type=double_hinged
+Door(TD2021CP2)
+generate door name=TD2046AA type=double_hinged
+Door(TD2046AA)
+generate door name=TD2016CE1 type=double_hinged
+Door(TD2016CE1)
+generate door name=TD2020CE type=hinged
+Door(TD2020CE)
+generate door name=TD2019CE type=hinged
+Door(TD2019CE)
+generate door name=TD2018CE type=hinged
+Door(TD2018CE)
+generate door name=TD2017CE type=hinged
+Door(TD2017CE)
+generate door name=TD2016CE2 type=double_hinged
+Door(TD2016CE2)
+generate door name=TD2022CE1 type=double_hinged
+Door(TD2022CE1)
+generate door name=TD2014CP type=double_hinged
+Door(TD2014CP)
+generate door name=TD2026CE type=hinged
+Door(TD2026CE)
+generate door name=TD2025CE type=hinged
+Door(TD2025CE)
+generate door name=TD2024CE type=hinged
+Door(TD2024CE)
+generate door name=TD2023CE type=hinged
+Door(TD2023CE)
+generate door name=TD2022CE2 type=double_hinged
+Door(TD2022CE2)
+generate door name=TD2011CP2 type=double_hinged
+Door(TD2011CP2)
+generate door name=TD2011CP3 type=double_hinged
+Door(TD2011CP3)
+generate door name=TD2011CP1 type=double_hinged
+Door(TD2011CP1)
+generate door name=TD2003AA type=double_hinged
+Door(TD2003AA)
+generate door name=TD2002AA type=double_hinged
+Door(TD2002AA)
+generate door name=TD2048AA type=double_hinged
+Door(TD2048AA)
+generate door name=TD2047AA type=double_hinged
+Door(TD2047AA)
+generate door name=TD2006CI type=double_hinged
+Door(TD2006CI)
+generate door name=TD2004CI type=hinged
+Door(TD2004CI)
+generate door name=TD2007CI type=hinged
+Door(TD2007CI)
+generate door name=TD2010CP type=double_hinged
+Door(TD2010CP)
+generate door name=TD1005CP2 type=double_hinged
+Door(TD1005CP2)
+generate door name=TD1104 type=double_hinged
+Door(TD1104)
+generate door name=d2 type=hinged
+Door(d2)
+generate door name=d1 type=hinged
+Door(d1)
+generate door name=TD1103 type=double_hinged
+Door(TD1103)
+generate door name=TD1105 type=double_hinged
+Door(TD1105)
+generate door name=TD1102 type=double_hinged
+Door(TD1102)
+generate door name=TD11011 type=double_hinged
+Door(TD11011)
+generate door name=TD11061 type=double_hinged
+Door(TD11061)
+generate door name=TD11062 type=double_hinged
+Door(TD11062)
+generate door name=TD118CP1 type=double_hinged
+Door(TD118CP1)
+generate door name=TD11012 type=double_hinged
+Door(TD11012)
+generate door name=TD1114CP1 type=double_hinged
+Door(TD1114CP1)
+generate door name=TD1114CP2 type=double_hinged
+Door(TD1114CP2)
+generate door name=TC1114CP3 type=double_hinged
+Door(TC1114CP3)
+generate door name=door type=double_hinged
+Door(door)
+generate door name=d4 type=hinged
+Door(d4)
+generate door name=d5 type=hinged
+Door(d5)
+generate door name=TD1111AL2 type=double_hinged
+Door(TD1111AL2)
+generate door name=TD1109AL1 type=double_hinged
+Door(TD1109AL1)
+generate door name=TD1108AL2 type=double_hinged
+Door(TD1108AL2)
+generate door name=TD1107AL2 type=double_hinged
+Door(TD1107AL2)
+generate door name=TD1107AL1 type=double_hinged
+Door(TD1107AL1)
+generate door name=TD1118CP2 type=double_hinged
+Door(TD1118CP2)
+generate door name=TD1116CT type=hinged
+Door(TD1116CT)
+generate door name=TD1118CP4 type=double_hinged
+Door(TD1118CP4)
+generate door name=TD1118CP3 type=double_hinged
+Door(TD1118CP3)
+generate door name=TD0114CW type=hinged
+Door(TD0114CW)
+generate door name=bano1 type=hinged
+Door(bano1)
+generate door name=bano2 type=hinged
+Door(bano2)
+generate door name=bano3 type=hinged
+Door(bano3)
+generate door name=bano4 type=hinged
+Door(bano4)
+generate door name=bano5 type=hinged
+Door(bano5)
+generate door name=bano6 type=hinged
+Door(bano6)
+generate door name=TD0115CW type=hinged
+Door(TD0115CW)
+generate door name=bano7 type=hinged
+Door(bano7)
+generate door name=bano8 type=hinged
+Door(bano8)
+generate door name=bano9 type=hinged
+Door(bano9)
+generate door name=bano10 type=hinged
+Door(bano10)
+generate door name=TD0121CI type=hinged
+Door(TD0121CI)
+generate door name=TD0118CP2 type=double_hinged
+Door(TD0118CP2)
+generate door name=TD0118CP1 type=double_hinged
+Door(TD0118CP1)
+generate door name=TD0112FR type=double_hinged
+Door(TD0112FR)
+generate door name=TD0125DP type=double_hinged
+Door(TD0125DP)
+generate door name=TD0120AI type=double_hinged
+Door(TD0120AI)
+generate door name=TD0108AI type=double_hinged
+Door(TD0108AI)
+generate door name=TD0107AI type=double_hinged
+Door(TD0107AI)
+generate door name=TD0104AI type=double_hinged
+Door(TD0104AI)
+generate door name=TD0106AI type=double_hinged
+Door(TD0106AI)
+generate door name=TD0105AI type=double_hinged
+Door(TD0105AI)
+generate door name=TD0118CP3 type=hinged
+Door(TD0118CP3)
+generate door name=TD0118CP4 type=hinged
+Door(TD0118CP4)
+generate door name=TD0103AI type=double_hinged
+Door(TD0103AI)
+generate door name=TD0102AI type=double_hinged
+Door(TD0102AI)
+generate door name=TD0101AO1 type=double_hinged
+Door(TD0101AO1)
+generate door name=TD0111AO type=double_hinged
+Door(TD0111AO)
+generate door name=TD0101AO2 type=hinged
+Door(TD0101AO2)
+generate door name=bano12 type=hinged
+Door(bano12)
+generate door name=bano13 type=hinged
+Door(bano13)
+generate door name=bano14 type=hinged
+Door(bano14)
+generate door name=bano11 type=hinged
+Door(bano11)
+generate door name=TD0116CW type=hinged
+Door(TD0116CW)
+generate door name=bano15 type=hinged
+Door(bano15)
+generate door name=bano16 type=hinged
+Door(bano16)
+generate door name=bano17 type=hinged
+Door(bano17)
+generate door name=bano18 type=hinged
+Door(bano18)
+generate door name=bano19 type=hinged
+Door(bano19)
+generate door name=bano20 type=hinged
+Door(bano20)
+generate door name=TD0117CW type=hinged
+Door(TD0117CW)
+generate door name=TD0123CP4 type=double_hinged
+Door(TD0123CP4)
+generate door name=TD0123CP3 type=double_hinged
+Door(TD0123CP3)
+generate door name=TD2106AA2 type=double_hinged
+Door(TD2106AA2)
+generate door name=TD2106AA1 type=double_hinged
+Door(TD2106AA1)
+generate door name=TD2105AA type=double_hinged
+Door(TD2105AA)
+generate door name=TD2104AA type=double_hinged
+Door(TD2104AA)
+generate door name=TD2111CP1 type=hinged
+Door(TD2111CP1)
+generate door name=TD2111CP2 type=hinged
+Door(TD2111CP2)
+generate door name=TD2103AA type=double_hinged
+Door(TD2103AA)
+generate door name=TD2102AA type=double_hinged
+Door(TD2102AA)
+generate door name=TD2101AA1 type=double_hinged
+Door(TD2101AA1)
+generate door name=TD2101AA2 type=double_hinged
+Door(TD2101AA2)
+generate door name=TD2116CP type=double_hinged
+Door(TD2116CP)
+generate door name=TD2112CP1 type=double_hinged
+Door(TD2112CP1)
+generate door name=TD2112CP2 type=double_hinged
+Door(TD2112CP2)
+generate door name=TD2107AL1 type=double_hinged
+Door(TD2107AL1)
+generate door name=TD2107AL2 type=double_hinged
+Door(TD2107AL2)
+generate door name=TD2110AL2 type=double_hinged
+Door(TD2110AL2)
+generate door name=TD2109AL type=double_hinged
+Door(TD2109AL)
+generate door name=TD2108AL type=double_hinged
+Door(TD2108AL)
+generate door name=TD2110AL1 type=double_hinged
+Door(TD2110AL1)
+generate door name=d3 type=hinged
+Door(d3)
+generate door name=TD1111AL1 type=hinged
+Door(TD1111AL1)
+generate door name=TD2114CI type=hinged
+Door(TD2114CI)
+generate door name=TD2115CI type=hinged
+Door(TD2115CI)
+generate door name=TD1117CI type=hinged
+Door(TD1117CI)
+generate door name=TD0113ER type=double_hinged
+Door(TD0113ER)
+generate door name=TD2113CP type=double_hinged
+Door(TD2113CP)
+generate door name=TD0119CP2 type=double_hinged
+Door(TD0119CP2)
+generate door name=TD0119CP1 type=double_hinged
+Door(TD0119CP1)
+generate door name=TD0123CP1 type=double_hinged
+Door(TD0123CP1)
+generate door name=TD0123CP2 type=double_hinged
+Door(TD0123CP2)
+881185 bytes written to /home/maria/rmf_ws/build/project_maps/maps/estce/estce.world
+[ 83%] Built target estce
+[100%] [34m[1mGenerating estce_crowdsim[0m
+crowdsim unable to parse, not attempting to proceed
+[100%] Built target generate_classroom_crowdsim
+Creating output folder path:  /home/maria/rmf_ws/build/project_maps/maps/estce/config_resource/
+crowdsim unable to parse, not attempting to proceed
+crowdsim unable to parse, not attempting to proceed
+[100%] Built target generate_estce_crowdsim
+-- Install configuration: ""
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/Nivel 0 - TD_n0-1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/floor_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/floor_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/model.material
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/wall_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/wall_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/default.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/blue_linoleum.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/floor_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/floor_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/model.material
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/wall_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/wall_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/default.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/blue_linoleum.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce.building.yaml
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/meshes/OfficeChairBlue.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/meshes/OfficeChairBlue.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/meshes/OfficeChairBlue_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/meshes/OfficeChairBlue.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/meshes/OfficeChairBlue_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/meta
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/meta/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/meta/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/meta/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/meta/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/meta/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart_Normal.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart_Metal.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart_Rough.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/meshes/SmallCubicle_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/meshes/SmallCubicle.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/meshes/SmallCubicle.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/meshes/SmallCubicle_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/meshes/SmallCubicle_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes/Chair.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes/Chair_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes/Chair_Normal.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes/Chair_SpecGloss.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes/Chair.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes/Chair.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Cart2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Tongs.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Blue.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Broom.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/BigRed.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Cloth.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/MopCart2.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Mop.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/MopCart2.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Duster.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes/FemaleVisitor.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes/FemaleVisitor.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes/Handbag.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes/FemaleVisitor_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes/FemaleVisitor.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes/FemaleVisitor_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/meshes/SofaDiffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/meshes/Sofa.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/meshes/Sofa.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/meshes/MainTable.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/meshes/MainTable.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/meshes/MainTable.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/meshes/MopCart4.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/meshes/red.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/meshes/MopCart4.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/meshes/blue.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/meshes/Cart.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/meshes/CoffeeTable.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/meshes/CoffeeTable_Normal.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/meshes/CoffeeTable.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/meshes/CoffeeTable_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/meshes/CoffeeTable_SpecGloss.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/meshes/oak_tree.dae
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials/scripts
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials/scripts/oak_tree.material
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials/scripts/caster_fp.glsl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials/scripts/caster_vp.glsl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials/textures
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials/textures/branch_diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials/textures/bark_diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes/DigitalKiosk.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes/DigitalKiosk_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes/DigitalKiosk.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes/DigitalKiosk_Rough.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes/DigitalKiosk_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes/DigitalKiosk_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1_Rough.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1_Metal.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1_Normal.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1_Normal.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1_Rough.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/meshes/cart.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/meshes/cart.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/meshes/MiRCart_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/meshes/Drawer.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/meshes/Drawer.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/meshes/Drawer_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/meshes/Drawer.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/model-1_2.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/model-1_4.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/Table_Diffuse.jpg
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/model-1_3.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/meshes/coke.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/meshes/coke.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/materials
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/materials/coke.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes/FoodCourtBenchLong_Rough.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes/FoodCourtBenchLong_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes/FoodCourtBenchLong.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes/FoodCourtBenchLong.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes/FoodCourtBenchLong_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes/FoodCourtBenchLong_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/meshes/Desk_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/meshes/desk.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/meshes/desk.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter_Metal.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter_Rough.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter_Normal.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Glove.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/MopCart3.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Red.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Blue.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Plastic.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Cloth.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Parcel.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Mop.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Spray.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Cart.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Sign.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/MopCart3.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Duster.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/meshes/rectable.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/meshes/RecTable.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/meshes/RecTable_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/meshes/RecTable_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/meshes/RecTable.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/meshes/side1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/meshes/locker.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/meshes/locker.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/meshes/center.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/meshes/side.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/meshes/OfficeChairBlack.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/meshes/OfficeChairBlack.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/meshes/OfficeChairBlack.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/meshes/OfficeChairBlack_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/meta
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/meta/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/meta/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/meta/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/meta/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/meta/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/meshes/toilet.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/meshes/toilet.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/meshes/StorageRackCovered.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/meshes/StorageRackCovered.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/meshes/StorageRackCovered.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/meshes/PotatoChipChair_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/meshes/PotatoChipChair.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/meshes/PotatoChipChair.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/meshes/PotatoChipChairDiffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/meshes/PotatoChipChair_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/meshes/pine_tree.dae
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials/scripts
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials/scripts/caster_fp.glsl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials/scripts/pine_tree.material
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials/scripts/caster_vp.glsl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials/textures
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials/textures/branch_2_diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials/textures/bark_diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/meshes/TVStand.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/meshes/TVStand.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/meshes/TVStand_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/meshes/TVStand_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/meshes/TVStand_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/meshes/WhiteCabinet.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/meshes/WhiteCabinet.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/meshes/WhiteCabinet.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/meshes/VendingMachine_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/meshes/VendingMachine.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/meshes/VendingMachine.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/meshes/kitchenSink.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/meshes/kitchenSink.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/meshes/ElderFemale.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/meshes/ElderFPatient_color.jpg
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/meshes/Carts_Wheels_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/meshes/ElderFemale.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/meshes/CGMVanguard_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Glove.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Red.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Blue.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Bucket.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/CleaningSection.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Mop.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Spray.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Cart.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/CleaningSection.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Duster.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1_Metal.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1_Normal.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1_Rough.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/meshes/KitchenCountertop.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/meshes/KitchenCountertop_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/meshes/KitchenCountertop.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/meshes/keyboard.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/meshes/monitor.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/meshes/keyboard.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/meshes/monitor.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/meshes/ElectronicsRecycling.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/meshes/ElectronicsRecycling_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/meshes/ElectronicsRecycling.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/meshes/gazebo.dae
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/materials
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/materials/textures
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/materials/textures/gazebo_spec.jpg
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/materials/textures/gazebo_diffuse.jpg
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/meshes/NurseTable_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/meshes/NurseTable.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/meshes/NurseTable.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/meshes/NurseTable_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/meshes/NurseTable.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes/WoodenChair.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes/WoodenChair_Rough.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes/WoodenChair_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes/WoodenChair_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes/WoodenChair.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes/WoodenChair_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/meshes/OfficeChairGrey.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/meshes/OfficeChairGrey.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/meshes/OfficeChairGrey.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/meta
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/meta/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/meta/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/meta/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/meta/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/meta/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink_Metal.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink_Rough.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/meshes/MetalCabinetYellow.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/meshes/MetalCabinetYellow.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/meshes/MetalCabinetYellow.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/meshes/Fridge.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/meshes/Fridge_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/meshes/Fridge_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/meshes/Fridge_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/meshes/Fridge.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/meshes/construction_cone.dae
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/model-1_4.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/materials
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/materials/textures
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/materials/textures/Construction_Cone_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/model-1_3.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/meshes/ScrubsTrolley.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/meshes/ScrubsTrolley_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/meshes/ScrubsTrolley.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/meshes/ScrubsTrolley_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/meshes/ScrubsTrolley.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/LICENSE
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/Nivel 1 - TD_n1-1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce.world
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/floor_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/floor_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/model.material
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/wall_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/wall_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/default.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/blue_linoleum.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/floor_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/floor_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/model.material
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/wall_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/wall_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/default.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/blue_linoleum.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom.building.yaml
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable_Diffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/front_wheel.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/caster_wheel.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/front_wheel.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/caster_wheel.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/tinyRobot_body.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/tinyRobot_body.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom.world
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/test1.building.yaml
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/meshes/SofaDiffuse.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/meshes/Sofa.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/meshes/Sofa.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/3.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/2.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/1.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/5.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/4.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/ament_index/resource_index/package_run_dependencies/project_maps
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/ament_index/resource_index/parent_prefix_path/project_maps
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/environment/ament_prefix_path.sh
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/environment/ament_prefix_path.dsv
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/environment/path.sh
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/environment/path.dsv
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/local_setup.bash
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/local_setup.sh
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/local_setup.zsh
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/local_setup.dsv
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/package.dsv
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/ament_index/resource_index/packages/project_maps
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/cmake/project_mapsConfig.cmake
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/cmake/project_mapsConfig-version.cmake
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/package.xml
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/nav_graphs
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/nav_graphs/0.yaml
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/nav_graphs/1.yaml
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/config_resource
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/model.material
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/default.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/blue_linoleum.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/model.material
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/default.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/blue_linoleum.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/classroom.world
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/nav_graphs
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/nav_graphs/2.yaml
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/nav_graphs/0.yaml
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/nav_graphs/1.yaml
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/config_resource
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/floor_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/floor_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/model.material
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/wall_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/wall_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/default.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/blue_linoleum.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/floor_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/floor_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/model.material
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/wall_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/wall_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/default.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/blue_linoleum.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/estce.world
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/nav_graphs
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/nav_graphs/0.yaml
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/config_resource
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/test1.world
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/floor_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/floor_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/model.material
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/wall_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/wall_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/default.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/blue_linoleum.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/model.config
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/floor_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/floor_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/model.material
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/wall_1.obj
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/wall_1.mtl
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/default.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/blue_linoleum.png
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/model.sdf
+-- Installing: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/model.config

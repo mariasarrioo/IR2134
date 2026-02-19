@@ -37,7 +37,7 @@ rmf_fleet:
       charger: "s08"
     deliveryRobot_1:
       charger: "s11"
-    deliveryRobot_2:
+    deliveryRobot_2: #robot_name
       charger: "charger_deliveryRobot_2"
 
 fleet_manager:

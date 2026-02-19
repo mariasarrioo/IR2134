@@ -15,10 +15,10 @@
     <include file="$(find-pkg-share project_fleet_adapter)/launch/fleet_adapter.launch.xml">
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
       <arg name="nav_graph_file" value="$(find-pkg-share project_maps)/maps/estce/nav_graphs/0.yaml"/>
-      <arg name="config_file" value="$(find-pkg-share project_config)/config/estce/cleanerBotA_config.yaml"/>
+      <arg name="config_file" value="$(find-pkg-share project_config)/config/estce/tinyRobot_config.yaml"/>
     </include>
   </group>
-
+  <!--
   <group>
     <include file="$(find-pkg-share project_fleet_adapter)/launch/fleet_adapter.launch.xml">
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
@@ -34,7 +34,7 @@
       <arg name="config_file" value="$(find-pkg-share project_config)/config/estce/deliveryRobot_config.yaml"/>
     </include>
   </group>
-  
+-->
 </launch>
 
 <!-- NOTA IMPORTANTE: solo se usa el graph 0.yaml porque solo hay un robot importado y solo se va a ejecutar un grafo -->

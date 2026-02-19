@@ -1,0 +1,117 @@
+[2.299s] Invoking command in '/home/maria/rmf_ws/src/project/project_tasks': PYTHONPATH=/home/maria/rmf_ws/build/project_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/project_tasks build --build-base /home/maria/rmf_ws/build/project_tasks/build install --record /home/maria/rmf_ws/build/project_tasks/install.log --single-version-externally-managed install_data
+[4.691s] running egg_info
+[4.692s] creating ../../../build/project_tasks/project_tasks.egg-info
+[4.692s] writing ../../../build/project_tasks/project_tasks.egg-info/PKG-INFO
+[4.693s] writing dependency_links to ../../../build/project_tasks/project_tasks.egg-info/dependency_links.txt
+[4.693s] writing entry points to ../../../build/project_tasks/project_tasks.egg-info/entry_points.txt
+[4.693s] writing requirements to ../../../build/project_tasks/project_tasks.egg-info/requires.txt
+[4.693s] writing top-level names to ../../../build/project_tasks/project_tasks.egg-info/top_level.txt
+[4.694s] writing manifest file '../../../build/project_tasks/project_tasks.egg-info/SOURCES.txt'
+[4.694s] reading manifest file '../../../build/project_tasks/project_tasks.egg-info/SOURCES.txt'
+[4.694s] writing manifest file '../../../build/project_tasks/project_tasks.egg-info/SOURCES.txt'
+[4.694s] running build
+[4.694s] running build_py
+[4.694s] creating /home/maria/rmf_ws/build/project_tasks/build
+[4.694s] creating /home/maria/rmf_ws/build/project_tasks/build/lib
+[4.694s] creating /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.695s] copying project_tasks/dispatch_loop.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.695s] copying project_tasks/teleop_robot.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.695s] copying project_tasks/request_lift.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.695s] copying project_tasks/cancel_task.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.695s] copying project_tasks/dispatch_dynamic_event.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.695s] copying project_tasks/dispatch_action.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.695s] copying project_tasks/dispatch_clean.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.695s] copying project_tasks/api_request.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.696s] copying project_tasks/dispatch_teleop.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.696s] copying project_tasks/get_robot_location.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.696s] copying project_tasks/dispatch_go_to_place.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.696s] copying project_tasks/wait_for_task_complete.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.696s] copying project_tasks/mock_docker.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.696s] copying project_tasks/emergency_signal.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.696s] copying project_tasks/dispatch_patrol.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.696s] copying project_tasks/dynamic_event_client.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.697s] copying project_tasks/cancel_robot_task.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.697s] copying project_tasks/dispatch_delivery.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.704s] copying project_tasks/dispatch_json.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.704s] copying project_tasks/dispatch_cart_delivery.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.704s] copying project_tasks/request_loop.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.704s] copying project_tasks/__init__.py -> /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks
+[4.704s] running install
+[4.705s] running install_lib
+[4.705s] creating /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.705s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/dispatch_loop.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.706s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/teleop_robot.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.706s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/request_lift.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.707s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/cancel_task.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.707s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/dispatch_dynamic_event.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.707s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/dispatch_action.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.707s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/dispatch_clean.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.708s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/api_request.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.708s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/dispatch_teleop.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.708s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/get_robot_location.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.708s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/dispatch_go_to_place.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.708s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/wait_for_task_complete.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.708s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/mock_docker.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.708s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/emergency_signal.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.709s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/dispatch_patrol.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.709s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/dynamic_event_client.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.709s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/cancel_robot_task.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.709s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/dispatch_delivery.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.709s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/dispatch_json.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.710s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/dispatch_cart_delivery.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.710s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/request_loop.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.710s] copying /home/maria/rmf_ws/build/project_tasks/build/lib/project_tasks/__init__.py -> /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks
+[4.710s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_loop.py to dispatch_loop.cpython-312.pyc
+[4.710s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/teleop_robot.py to teleop_robot.cpython-312.pyc
+[4.710s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/request_lift.py to request_lift.cpython-312.pyc
+[4.710s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/cancel_task.py to cancel_task.cpython-312.pyc
+[4.710s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_dynamic_event.py to dispatch_dynamic_event.cpython-312.pyc
+[4.711s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_action.py to dispatch_action.cpython-312.pyc
+[4.711s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_clean.py to dispatch_clean.cpython-312.pyc
+[4.711s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/api_request.py to api_request.cpython-312.pyc
+[4.711s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_teleop.py to dispatch_teleop.cpython-312.pyc
+[4.711s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/get_robot_location.py to get_robot_location.cpython-312.pyc
+[4.711s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_go_to_place.py to dispatch_go_to_place.cpython-312.pyc
+[4.711s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/wait_for_task_complete.py to wait_for_task_complete.cpython-312.pyc
+[4.712s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/mock_docker.py to mock_docker.cpython-312.pyc
+[4.712s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/emergency_signal.py to emergency_signal.cpython-312.pyc
+[4.712s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_patrol.py to dispatch_patrol.cpython-312.pyc
+[4.712s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dynamic_event_client.py to dynamic_event_client.cpython-312.pyc
+[4.712s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/cancel_robot_task.py to cancel_robot_task.cpython-312.pyc
+[4.712s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_delivery.py to dispatch_delivery.cpython-312.pyc
+[4.712s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_json.py to dispatch_json.cpython-312.pyc
+[4.713s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/dispatch_cart_delivery.py to dispatch_cart_delivery.cpython-312.pyc
+[4.713s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/request_loop.py to request_loop.cpython-312.pyc
+[4.713s] byte-compiling /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks/__init__.py to __init__.cpython-312.pyc
+[4.713s] running install_data
+[4.713s] creating /home/maria/rmf_ws/install/project_tasks/share/ament_index
+[4.713s] creating /home/maria/rmf_ws/install/project_tasks/share/ament_index/resource_index
+[4.713s] creating /home/maria/rmf_ws/install/project_tasks/share/ament_index/resource_index/packages
+[4.714s] copying resource/project_tasks -> /home/maria/rmf_ws/install/project_tasks/share/ament_index/resource_index/packages
+[4.714s] copying package.xml -> /home/maria/rmf_ws/install/project_tasks/share/project_tasks
+[4.714s] running install_egg_info
+[4.714s] Copying ../../../build/project_tasks/project_tasks.egg-info to /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project_tasks-2.8.1-py3.12.egg-info
+[4.714s] running install_scripts
+[4.714s] Installing api_request script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.714s] Installing cancel_robot_task script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.715s] Installing cancel_task script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.715s] Installing dispatch_action script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.715s] Installing dispatch_cart_delivery script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.715s] Installing dispatch_clean script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.715s] Installing dispatch_delivery script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.716s] Installing dispatch_dynamic_event script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.716s] Installing dispatch_go_to_place script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.716s] Installing dispatch_json script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.716s] Installing dispatch_loop script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.717s] Installing dispatch_patrol script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.717s] Installing dispatch_teleop script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.717s] Installing dynamic_event_client script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.717s] Installing emergency_signal script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.717s] Installing get_robot_location script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.717s] Installing mock_docker script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.717s] Installing request_lift script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.717s] Installing request_loop script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.718s] Installing teleop_robot script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.718s] Installing wait_for_task_complete script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[4.718s] writing list of installed files to '/home/maria/rmf_ws/build/project_tasks/install.log'
+[4.736s] Invoked command in '/home/maria/rmf_ws/src/project/project_tasks' returned '0': PYTHONPATH=/home/maria/rmf_ws/build/project_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/project_tasks build --build-base /home/maria/rmf_ws/build/project_tasks/build install --record /home/maria/rmf_ws/build/project_tasks/install.log --single-version-externally-managed install_data
