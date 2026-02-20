@@ -45,10 +45,11 @@ fleet_manager:
   robot_state_update_frequency: 10.0
   action_paths:
     clean:
-      TD0217CW:
-        map_name: "L2"
-        path: [ [136.12, -82.61, 0.0],
-                [136.32, -87.8, 1.57],
-                [136.12, -82.61, 0.0] ]
-        finish_waypoint: "TD0217CW"
+      TD0010CW:
+        map_name: "L1"
+        path: [ [92.461, -47.0220, -0.82],
+                [96.0417, -50.8377, 3.14],
+                [92.2036, -50.8377, 1.57],
+                [92.461, -47.0220, -0.82] ]
+        finish_waypoint: "TD0010CW"
      

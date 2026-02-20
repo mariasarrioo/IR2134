@@ -86,8 +86,8 @@ There, you cand add tasks
 
 
 
-## LAUNCHING ICC_KYOTO 
-In my project, this world is called "classroom". 
+## LAUNCHING THE WOLRD 'ESTCE'
+
 If you have closed the previous terminals, you must re-do steps from 1 to 6. 
 Once all of that is done, launch the simulation with this command: 
 ```
@@ -129,6 +129,81 @@ There, you cand add tasks
 - For the ICC Kyoto world, in Rviz, only the graph 0 is shown.
 
 The only thing I had left to fully complete the project is to send tasks. 
+
+
+
+
+
+
+## LAUNCHING ICC_KYOTO 
+In my project, this world is called "classroom". 
+First off, navigate to the repository where you've cloned the respository. In my case, the route is this:
+```bash
+maria@maria:~$ cd Documentos/GitHub/IR2134/
+```
+After being inside the desired directoty, we have to start the Docker container. Depending on the Grpahics Card that you have in you pc, you may have to adapt this command. In my case, the command is this one: 
+
+```bash 
+rocker --env __NV_PRIME_RENDER_OFFLOAD=1 --env __GLX_VENDOR_LIBRARY_NAME=nvidia --nvidia --x11 --name rmf_demos   -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST   --network host --user   --volume `pwd`/rmf_ws:/home/maria/rmf_ws --   ghcr.io/open-rmf/rmf/rmf_demos:jazzy-rmf-latest   bash
+```
+
+Once in the Docker, move to the folder where you have your workspace. In my case: 
+```bash 
+  maria@624a8113b68f:~$ cd rmf_ws/
+```
+
+Now, compile the porject. To do so, use this command: 
+ ```
+colcon build 
+```
+
+After this, source the environmnet: 
+```
+source install/setup.bash
+```
+Before launching the simulaton, to make sure that you don't have any problems with Gazebo, I recommend you write this in the terminal were you've put the other instructions:
+```
+export LIBGL_ALWAYS_SOFTWARE=1
+```
+
+Once all of that is done, launch the simulation with this command: 
+```
+ros2 launch project_simulation estce.launch.xml server_uri:="ws://localhost:8000/_internal"
+```
+This is what you should see by launching this: 
+![Foto 20](/rmf_ws/src/project/project_assets/fotos_readme/foto20.png)
+![Foto 21](/rmf_ws/src/project/project_assets/fotos_readme/foto21.png)
+
+In a different terminal, launch te API server: 
+```
+docker run --network host --rm -it   -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST   -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp      ghcr.io/open-rmf/rmf-web/api-server:jazzy-nightly
+```
+In a third one, open the dahsboard: 
+```
+docker run --network host --rm -it   -e RMF_SERVER_URL=http://localhost:8000   -e TRAJECTORY_SERVER_URL=ws://localhost:8006     ghcr.io/open-rmf/rmf-web/demo-dashboard:jazzy-nightly
+```
+Now open the Open RMF-Web typing this url in ypur browser: 
+```
+http://localhost:3000/
+```
+You will have this view: 
+![Foto 24](/rmf_ws/src/project/project_assets/fotos_readme/foto24.png)
+![Foto 28](/rmf_ws/src/project/project_assets/fotos_readme/foto28.png)
+
+And in the "NEW TASK" button you'll be able to send one of the three types of tasks: Delivery, Patrol or Cleaning. 
+![Foto 27](/rmf_ws/src/project/project_assets/fotos_readme/foto27.png)
+When you create one, the Open RMF-Web will show you the state of the trajectory: 
+![Foto 29](/rmf_ws/src/project/project_assets/fotos_readme/foto29.png)
+The Rviz will show you the movement and the trajectory too: 
+![Foto 25](/rmf_ws/src/project/project_assets/fotos_readme/foto25.png)
+
+And of course, in Gazebo you will see how the robot moves and completes the task. 
+![Foto 23](/rmf_ws/src/project/project_assets/fotos_readme/foto23.png)
+
+
+### NOTES
+- The world crahses if lifts are added. I ahve not been able to resolve this problem and don't know why it happens. 
+
 
 
 
