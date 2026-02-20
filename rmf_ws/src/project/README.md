@@ -192,8 +192,10 @@ You will have this view:
 
 And in the "NEW TASK" button you'll be able to send one of the three types of tasks: Delivery, Patrol or Cleaning. 
 ![Foto 27](/rmf_ws/src/project/project_assets/fotos_readme/foto27.png)
+
 When you create one, the Open RMF-Web will show you the state of the trajectory: 
 ![Foto 29](/rmf_ws/src/project/project_assets/fotos_readme/foto29.png)
+
 The Rviz will show you the movement and the trajectory too: 
 ![Foto 25](/rmf_ws/src/project/project_assets/fotos_readme/foto25.png)
 
@@ -202,7 +204,7 @@ And of course, in Gazebo you will see how the robot moves and completes the task
 
 
 ### NOTES
-- The world crahses if lifts are added. I ahve not been able to resolve this problem and don't know why it happens. 
+- The world crahses if lifts are added. I have not been able to solve this problem and don't know why it happens. 
 
 
 
