@@ -3,6 +3,8 @@
 /home/maria/rmf_ws/install/first_project/share/first_project/launch/simulation.launch.xml
 /home/maria/rmf_ws/install/first_project/share/first_project/config/icc_kyoto.rviz
 /home/maria/rmf_ws/install/first_project/share/first_project/config/tinyRobot_config.yaml
+/home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/conference_room_b1.png
+/home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/conference_room_b1_balcony.png
 /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto.building.yaml
 /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto.world
 /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/blue_linoleum.png
@@ -60,6 +62,7 @@
 /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/tinyRobot_body.obj
 /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/model.config
 /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/model.sdf
+/home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/sim_hall.png
 /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto.world
 /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/blue_linoleum.png
 /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/default.png
