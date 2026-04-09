@@ -54,14 +54,59 @@ levels:
     - - 1
       - 0
       - {}
+    - - 1
+      - 2
+      - {}
+    - - 2
+      - 1
+      - {}
+    - - 2
+      - 3
+      - {}
+    - - 3
+      - 2
+      - {}
+    - - 3
+      - 4
+      - {is_bidirectional: false}
+    - - 4
+      - 5
+      - {is_bidirectional: false}
+    - - 5
+      - 6
+      - {is_bidirectional: false}
+    - - 6
+      - 7
+      - {is_bidirectional: false}
+    - - 7
+      - 3
+      - {is_bidirectional: false}
     vertices:
     - - 14.76336734693878
       - -7.130178571428573
-      - {is_charger: true, name: tinyRobot1_charger, spawn_robot_name: tinyRobot,
+      - {is_charger: true, is_parking_spot: true, name: tinyRobot1_charger, spawn_robot_name: tinyRobot1,
         spawn_robot_type: TinyRobot}
-    - - 22.640357142857148
-      - -7.130178571428573
+    - - 20.49428571428572
+      - -8.205918367346943
       - {name: ''}
+    - - 21.88114795918368
+      - -5.8042602040816345
+      - {name: ''}
+    - - 22.19395408163266
+      - -4.057755102040817
+      - {name: patrol_5}
+    - - 19.952168367346946
+      - -4.057755102040817
+      - {name: patrol_1}
+    - - 19.952168367346946
+      - -2.2200000000000006
+      - {name: patrol_2}
+    - - 26.221326530612252
+      - -2.2200000000000006
+      - {name: patrol_3}
+    - - 26.221326530612252
+      - -4.083801020408164
+      - {name: patrol_4}
   L2:
     lanes:
     - - 0

@@ -1540,9 +1540,9 @@
       <static>True</static>
     </include>
     <include>
-      <name>tinyRobot</name>
+      <name>tinyRobot1</name>
       <uri>model://TinyRobot</uri>
-      <pose>14.76336734693878 -7.130178571428573 0.0 0 0 0.0</pose>
+      <pose>14.76336734693878 -7.130178571428573 0.0 0 0 -0.18554897451932328</pose>
     </include>
     <model name="door1">
       <pose>18.859094387755107 -31.709056122448985 0.0 0 0 3.141592653589793</pose>
