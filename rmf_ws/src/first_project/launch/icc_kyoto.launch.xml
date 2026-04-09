@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="sim_update_rate" default="100"/>
+  <arg name="server_uri" default=""/>
+
+  <!-- Common RMF launch -->
+  <include file="$(find-pkg-share first_project)/launch/common.launch.xml">
+    <arg name="use_sim_time" value="$(var use_sim_time)"/>
+    <arg name="viz_config_file" value="$(find-pkg-share first_project)/config/icc_kyoto.rviz"/>
+    <arg name="config_file" value="$(find-pkg-share first_project)/maps/icc_kyoto/icc_kyoto.building.yaml"/>
+    <arg name="server_uri" value="$(var server_uri)"/>
+    <arg name="use_reservation_node" value="true"/>
+  </include>
+
+  <!-- Gazebo simulation -->
+  <include file="$(find-pkg-share first_project)/launch/simulation.launch.xml">
+    <arg name="map_package" value="first_project"/>
+    <arg name="map_name" value="icc_kyoto"/>
+    <arg name="headless" value="$(var headless)"/>
+    <arg name="sim_update_rate" value="$(var sim_update_rate)"/>
+  </include>
+ 
+ <!-- Fleet adapter -->
+  <group>
+    <include file="$(find-pkg-share rmf_demos_fleet_adapter)/launch/fleet_adapter.launch.xml">
+      <arg name="use_sim_time" value="$(var use_sim_time)"/>
+      <arg name="nav_graph_file" value="$(find-pkg-share first_project)/maps/icc_kyoto/nav_graphs/0.yaml"/>
+      <arg name="config_file" value="$(find-pkg-share first_project)/config/tinyRobot_config.yaml"/>
+      <arg name="server_uri" value="$(var server_uri)"/>
+    </include>
+  </group>
+</launch>
+
