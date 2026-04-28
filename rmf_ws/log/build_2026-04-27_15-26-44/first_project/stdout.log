@@ -1,0 +1,228 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/maria/rmf_ws/build/first_project
+[100%] [34m[1mGenerating maps/icc_kyoto/nav_graphs/.generated[0m
+[100%] [34m[1mGenerating maps/icc_kyoto/icc_kyoto.world[0m
+generating /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/icc_kyoto.world from /home/maria/rmf_ws/src/first_project/maps/icc_kyoto/icc_kyoto.building.yaml
+building name: icc_kyoto
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.02551020408163266
+calculating level L2 offset and scale...
+  0 common fiducials:
+Transform.set_from_fiducials()
+  0 fiducial pairs:
+Bearings:
+[]
+building name: icc_kyoto
+coordinate system: reference_image
+parsing level L1
+parsing level L2
+calculating levels relative to L1
+level L1 scale: 0.02551020408163266
+calculating level L2 offset and scale...
+  0 common fiducials:
+Transform.set_from_fiducials()
+  0 fiducial pairs:
+Bearings:
+[]
+generating nav data
+hooray, we found an intersection: t=0.504, u=0.63
+  (764.563,-1046.99),(744.819,-1435.622) and (680.388,-1242.995),(798.165,-1242.995)
+found intersection with door door1!
+hooray, we found an intersection: t=0.728, u=0.576
+  (841.453,-1376.707),(955.766,-1376.707) and (924.619,-1355.521),(924.619,-1392.329)
+found intersection with door door3!
+hooray, we found an intersection: t=0.683, u=0.285
+  (841.453,-1376.707),(841.453,-1181.057) and (808.193,-1242.995),(925.045,-1242.995)
+found intersection with door door5!
+hooray, we found an intersection: t=0.604, u=0.561
+  (741.803,-1033.459),(741.803,-1380.592) and (672.582,-1243.013),(795.893,-1243.013)
+found intersection with door door6!
+hooray, we found an intersection: t=0.303, u=0.684
+  (741.803,-1380.592),(519.736,-1380.592) and (674.5,-1355.444),(674.5,-1392.191)
+found intersection with door door9!
+hooray, we found an intersection: t=0.347, u=0.604
+  (877.59,-1173.327),(877.59,-1374.102) and (808.137,-1243.013),(923.139,-1243.013)
+found intersection with door door7!
+hooray, we found an intersection: t=0.177, u=0.466
+  (877.59,-1374.102),(1140.727,-1374.102) and (924.039,-1357.093),(924.039,-1393.624)
+found intersection with door door8!
+writing /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/nav_graphs/0.yaml
+writing /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/nav_graphs/1.yaml
+generating model of level L1 in /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1
+  wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/model.config
+generating floor polygon 1 on floor icc_kyoto_L1
+hole vertices: []
+lift vertices: {}
+[[0, 5, 2], [0, 2, 1], [4, 3, 2], [4, 2, 5]]
+  wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.obj
+  wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/blue_linoleum.png
+  wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x70e28f5d3e90>, 'texture_height': <building_map.param_value.ParamValue object at 0x70e28f5d3ec0>, 'texture_name': <building_map.param_value.ParamValue object at 0x70e28f5d3ef0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x70e28f5d3f20>, 'texture_width': <building_map.param_value.ParamValue object at 0x70e28f5d3f80>}]
+generating wall: 1 on floor: icc_kyoto_L1
+  wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/default.png
+generate_wall_visual_mesh(icc_kyoto_L1, /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1)
+  generating /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.obj
+  generating /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.mtl
+  wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/model.sdf
+generating model of level L2 in /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2
+  wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/model.config
+generating floor polygon 1 on floor icc_kyoto_L2
+hole vertices: []
+lift vertices: {}
+[[0, 3, 2], [0, 2, 1]]
+  wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.obj
+  wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/blue_linoleum.png
+  wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x70e28f65d880>, 'texture_height': <building_map.param_value.ParamValue object at 0x70e28f65d8b0>, 'texture_name': <building_map.param_value.ParamValue object at 0x70e28f65d8e0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x70e28f65d940>, 'texture_width': <building_map.param_value.ParamValue object at 0x70e28f65d910>}]
+generating wall: 1 on floor: icc_kyoto_L2
+  wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/default.png
+generate_wall_visual_mesh(icc_kyoto_L2, /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2)
+  generating /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.obj
+  generating /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.mtl
+  wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/model.sdf
+spawning robot name tinyRobot1 of type TinyRobot
+spawning robot name tinyRobot2 of type TinyRobot
+generate door name=door1 type=double_hinged
+Door(door1)
+generate door name=door2 type=hinged
+Door(door2)
+generate door name=door3 type=sliding
+Door(door3)
+generate door name=door4 type=double_hinged
+Door(door4)
+generate door name=door5 type=double_hinged
+Door(door5)
+generate door name=door6 type=double_hinged
+Door(door6)
+generate door name=door7 type=double_hinged
+Door(door7)
+generate door name=door8 type=sliding
+Door(door8)
+generate door name=door9 type=hinged
+Door(door9)
+96466 bytes written to /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/icc_kyoto.world
+[100%] Built target generate_icc_kyoto_nav_graphs
+[100%] Built target generate_icc_kyoto_world
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/launch/common.launch.xml
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/launch/icc_kyoto.launch.xml
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/launch/simulation.launch.xml
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/config/icc_kyoto.rviz
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/config/tinyRobot_config.yaml
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/conference_room_b1.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/conference_room_b1_balcony.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto.building.yaml
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto.world
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/blue_linoleum.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/default.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/floor_1.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/floor_1.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/model.material
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/wall_1.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/wall_1.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/model.config
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/blue_linoleum.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/default.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/floor_1.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/floor_1.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/model.material
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/wall_1.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/wall_1.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/model.config
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/meshes/AdjTable.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/meshes/AdjTable.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/meshes/AdjTable_Col.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/meshes/AdjTable_Col.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/meshes/AdjTable_Diffuse.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/model.config
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/thumbnails/1.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/thumbnails/2.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/thumbnails/3.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/thumbnails/4.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/thumbnails/5.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/meshes/OfficeChairGrey.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/meshes/OfficeChairGrey.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/meshes/OfficeChairGrey.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/model.config
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/1.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/2.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/3.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/4.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/5.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/meta/1.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/meta/2.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/meta/3.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/meta/4.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/meta/5.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/caster_wheel.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/caster_wheel.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/front_wheel.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/front_wheel.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/tinyRobot_body.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/tinyRobot_body.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/model.config
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/sim_hall.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto.world
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/blue_linoleum.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/default.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/model.material
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/model.config
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/blue_linoleum.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/default.png
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/model.material
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.mtl
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.obj
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/model.config
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/nav_graphs/.generated
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/nav_graphs/0.yaml
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/nav_graphs/1.yaml
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/ament_index/resource_index/package_run_dependencies/first_project
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/ament_index/resource_index/parent_prefix_path/first_project
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/environment/ament_prefix_path.sh
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/environment/ament_prefix_path.dsv
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/environment/path.sh
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/environment/path.dsv
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/local_setup.bash
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/local_setup.sh
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/local_setup.zsh
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/local_setup.dsv
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/package.dsv
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/ament_index/resource_index/packages/first_project
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/cmake/first_projectConfig.cmake
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/cmake/first_projectConfig-version.cmake
+-- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/package.xml

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing rmf_visualization_building_systems.egg-info/PKG-INFO
+writing dependency_links to rmf_visualization_building_systems.egg-info/dependency_links.txt
+writing entry points to rmf_visualization_building_systems.egg-info/entry_points.txt
+writing requirements to rmf_visualization_building_systems.egg-info/requires.txt
+writing top-level names to rmf_visualization_building_systems.egg-info/top_level.txt
+reading manifest file 'rmf_visualization_building_systems.egg-info/SOURCES.txt'
+writing manifest file 'rmf_visualization_building_systems.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/maria/rmf_ws/install/rmf_visualization_building_systems/lib/python3.12/site-packages/rmf-visualization-building-systems.egg-link (link to .)
+Installing rmf_visualization_building_systems script to /home/maria/rmf_ws/install/rmf_visualization_building_systems/lib/rmf_visualization_building_systems
+
+Installed /home/maria/rmf_ws/build/rmf_visualization_building_systems
+running symlink_data

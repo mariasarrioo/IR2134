@@ -1,0 +1,4 @@
+/home/maria/rmf_ws/install/rmf_visualization_schedule/lib/librmf_visualization_schedule.so
+/home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/rmf_visualization_scheduleExport.cmake
+/home/maria/rmf_ws/install/rmf_visualization_schedule/share/rmf_visualization_schedule/cmake/rmf_visualization_scheduleExport-noconfig.cmake
+/home/maria/rmf_ws/install/rmf_visualization_schedule/lib/rmf_visualization_schedule/test_submit_trajectory

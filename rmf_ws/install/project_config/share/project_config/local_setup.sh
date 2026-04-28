@@ -1,0 +1,1 @@
+/home/maria/rmf_ws/build/project_config/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,110 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (3.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/maria/rmf_ws/build/project_assets
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/environment/project_assets.dsv
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Caddy/materials/scripts/polaris.material
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Caddy/materials/textures/FNR_switch_F.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Caddy/materials/textures/FNR_switch_R.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Caddy/materials/textures/Ranger_Diffuse.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Caddy/materials/textures/Ranger_Spec.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Caddy/meshes/polaris.dae
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Caddy/model-1_3.sdf
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Caddy/model-1_4.sdf
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Caddy/model.config
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Caddy/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA_Diffuse.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA_WheelBack.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA_WheelBack.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA_WheelFront.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotA/meshes/CleanerBotA_WheelFront.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotA/model.config
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotA/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE_Col.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE_Col.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE_Diffuse.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE_Wheel.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotE/meshes/CleanerBotE_Wheel.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotE/model.config
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/CleanerBotE/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/DeliveryRobot_Diffuse.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/WheelMain.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/WheelMain.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/WheelSide.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/WheelSide.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/body.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/DeliveryRobot/meshes/body.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/DeliveryRobot/model.config
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/DeliveryRobot/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/meshes/FatWheel.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/meshes/FatWheel.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/meshes/HospitalRobot.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/meshes/HospitalRobot.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/meshes/HospitalRobot_Diffuse.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/meshes/SmallWheel.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/meshes/SmallWheel.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/model.config
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/thumbnails/1.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/thumbnails/2.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/thumbnails/3.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/thumbnails/4.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/HospitalRobot/thumbnails/5.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/RobotPlaceholder/model.config
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/RobotPlaceholder/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/meshes/Sofa.mtl
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/meshes/Sofa.obj
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/meshes/SofaDiffuse.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/model.config
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/thumbnails/1.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/thumbnails/2.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/thumbnails/3.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/thumbnails/4.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/Sofa/thumbnails/5.png
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TeleportDispenser/model.config
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TeleportDispenser/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TeleportIngestor/model.config
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TeleportIngestor/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TinyRobot/meshes/caster_wheel.dae
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TinyRobot/meshes/front_wheel.dae
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TinyRobot/meshes/sensors/raspi_camera.dae
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TinyRobot/meshes/sensors/sonar_hc-sr04.dae
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TinyRobot/meshes/tinyRobot_body.dae
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TinyRobot/model.config
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/models/TinyRobot/model.sdf
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/ament_index/resource_index/package_run_dependencies/project_assets
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/ament_index/resource_index/parent_prefix_path/project_assets
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/environment/ament_prefix_path.sh
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/environment/ament_prefix_path.dsv
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/environment/path.sh
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/environment/path.dsv
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/local_setup.bash
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/local_setup.sh
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/local_setup.zsh
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/local_setup.dsv
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/package.dsv
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/ament_index/resource_index/packages/project_assets
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/cmake/project_assetsConfig.cmake
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/cmake/project_assetsConfig-version.cmake
+-- Symlinking: /home/maria/rmf_ws/install/project_assets/share/project_assets/package.xml

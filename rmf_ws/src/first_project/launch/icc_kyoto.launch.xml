@@ -21,8 +21,8 @@
     <arg name="headless" value="$(var headless)"/>
     <arg name="sim_update_rate" value="$(var sim_update_rate)"/>
   </include>
- 
- <!-- Fleet adapter -->
+
+  <!-- Fleet adapter -->
   <group>
     <include file="$(find-pkg-share rmf_demos_fleet_adapter)/launch/fleet_adapter.launch.xml">
       <arg name="use_sim_time" value="$(var use_sim_time)"/>
@@ -32,4 +32,3 @@
     </include>
   </group>
 </launch>
-

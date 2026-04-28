@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/maria/rmf_ws/build/rmf_visualization_fleet_states/libfleetstates_visualizer.so" "TARGETS" "fleetstates_visualizer" "RUNTIME_DESTINATION" "lib/rmf_visualization_fleet_states" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib")

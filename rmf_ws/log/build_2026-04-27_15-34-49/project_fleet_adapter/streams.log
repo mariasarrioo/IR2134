@@ -1,0 +1,19 @@
+[1.148s] Invoking command in '/home/maria/rmf_ws/build/project_fleet_adapter': PYTHONPATH=/home/maria/rmf_ws/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maria/rmf_ws/build/project_fleet_adapter/build --no-deps symlink_data
+[1.483s] running develop
+[1.698s] running egg_info
+[1.711s] writing project_fleet_adapter.egg-info/PKG-INFO
+[1.711s] writing dependency_links to project_fleet_adapter.egg-info/dependency_links.txt
+[1.711s] writing entry points to project_fleet_adapter.egg-info/entry_points.txt
+[1.711s] writing requirements to project_fleet_adapter.egg-info/requires.txt
+[1.711s] writing top-level names to project_fleet_adapter.egg-info/top_level.txt
+[1.738s] reading manifest file 'project_fleet_adapter.egg-info/SOURCES.txt'
+[1.739s] writing manifest file 'project_fleet_adapter.egg-info/SOURCES.txt'
+[1.753s] running build_ext
+[1.753s] Creating /home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages/project-fleet-adapter.egg-link (link to .)
+[1.754s] Installing fleet_adapter script to /home/maria/rmf_ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[1.754s] Installing fleet_manager script to /home/maria/rmf_ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[1.754s] Installing manage_lane script to /home/maria/rmf_ws/install/project_fleet_adapter/lib/project_fleet_adapter
+[1.754s] 
+[1.754s] Installed /home/maria/rmf_ws/build/project_fleet_adapter
+[1.754s] running symlink_data
+[1.777s] Invoked command in '/home/maria/rmf_ws/build/project_fleet_adapter' returned '0': PYTHONPATH=/home/maria/rmf_ws/build/project_fleet_adapter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/rmf_ws/install/project_fleet_adapter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maria/rmf_ws/build/project_fleet_adapter/build --no-deps symlink_data

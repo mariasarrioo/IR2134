@@ -1,0 +1,40 @@
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found rmf_building_map_msgs: 1.6.0 (/rmf_demos_ws/install/rmf_building_map_msgs/share/rmf_building_map_msgs/cmake)
+-- Found rmf_visualization_msgs: 1.6.0 (/rmf_demos_ws/install/rmf_visualization_msgs/share/rmf_visualization_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found ament_cmake_uncrustify: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+-- Configuring done (1.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/maria/rmf_ws/build/rmf_visualization_floorplans
+[ 50%] Built target floorplan_visualizer
+[100%] Built target floorplan_visualizer_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/lib/rmf_visualization_floorplans/floorplan_visualizer_node
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/lib/libfloorplan_visualizer.so
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/ament_index/resource_index/package_run_dependencies/rmf_visualization_floorplans
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/ament_index/resource_index/parent_prefix_path/rmf_visualization_floorplans
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/rmf_visualization_floorplans/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/rmf_visualization_floorplans/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/rmf_visualization_floorplans/environment/path.sh
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/rmf_visualization_floorplans/environment/path.dsv
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/rmf_visualization_floorplans/local_setup.bash
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/rmf_visualization_floorplans/local_setup.sh
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/rmf_visualization_floorplans/local_setup.zsh
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/rmf_visualization_floorplans/local_setup.dsv
+-- Symlinking: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/rmf_visualization_floorplans/package.dsv
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/ament_index/resource_index/packages/rmf_visualization_floorplans
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/ament_index/resource_index/rclcpp_components/rmf_visualization_floorplans
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/rmf_visualization_floorplans/cmake/rmf_visualization_floorplansConfig.cmake
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/rmf_visualization_floorplans/cmake/rmf_visualization_floorplansConfig-version.cmake
+-- Up-to-date symlink: /home/maria/rmf_ws/install/rmf_visualization_floorplans/share/rmf_visualization_floorplans/package.xml

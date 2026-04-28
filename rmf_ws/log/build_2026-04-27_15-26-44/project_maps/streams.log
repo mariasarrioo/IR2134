@@ -1,0 +1,1634 @@
+[0.041s] Invoking command in '/home/maria/rmf_ws/build/project_maps': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/maria/rmf_ws/src/project/project_maps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maria/rmf_ws/install/project_maps
+[2.508s] -- The C compiler identification is GNU 13.3.0
+[2.508s] -- The CXX compiler identification is GNU 13.3.0
+[2.509s] -- Detecting C compiler ABI info
+[2.509s] -- Detecting C compiler ABI info - done
+[2.509s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.509s] -- Detecting C compile features
+[2.509s] -- Detecting C compile features - done
+[2.510s] -- Detecting CXX compiler ABI info
+[2.510s] -- Detecting CXX compiler ABI info - done
+[2.510s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.510s] -- Detecting CXX compile features
+[2.510s] -- Detecting CXX compile features - done
+[2.511s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.511s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.511s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.559s] [0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/maria/rmf_ws/src/project/project_maps/maps/classroom/classroom.building.yaml /home/maria/rmf_ws/build/project_maps/maps/classroom/classroom.world /home/maria/rmf_ws/build/project_maps/maps/classroom/models[0m
+[2.559s] [0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/maria/rmf_ws/src/project/project_maps/maps/estce/estce.building.yaml /home/maria/rmf_ws/build/project_maps/maps/estce/estce.world /home/maria/rmf_ws/build/project_maps/maps/estce/models[0m
+[2.564s] [0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/maria/rmf_ws/src/project/project_maps/maps/test1/test1.building.yaml /home/maria/rmf_ws/build/project_maps/maps/test1/test1.world /home/maria/rmf_ws/build/project_maps/maps/test1/models[0m
+[2.565s] -- Configuring done (2.5s)
+[2.610s] -- Generating done (0.0s)
+[2.627s] -- Build files have been written to: /home/maria/rmf_ws/build/project_maps
+[2.657s] Invoked command in '/home/maria/rmf_ws/build/project_maps' returned '0': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/maria/rmf_ws/src/project/project_maps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maria/rmf_ws/install/project_maps
+[2.658s] Invoking command in '/home/maria/rmf_ws/build/project_maps': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/maria/rmf_ws/build/project_maps -- -j8 -l8
+[4.302s] Cache directory does not exist! Creating it: /home/maria/.pit_crew
+[4.306s] Cache not found! Rebuilding cache...
+[4.307s] Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+[4.307s] Fetching page: 1
+[5.535s] Fetching page: 2
+[6.561s] Fetching page: 3
+[7.787s] Fetching page: 4
+[8.833s] Fetching page: 5
+[9.752s] Fetching page: 6
+[10.968s] Fetching page: 7
+[11.987s] Fetching page: 8
+[13.226s] Fetching page: 9
+[14.241s] Fetching page: 10
+[15.157s] Fetching page: 11
+[16.269s] Fetching page: 12
+[17.232s] Fetching page: 13
+[18.331s] Fetching page: 14
+[19.354s] Fetching page: 15
+[20.583s] Fetching page: 16
+[21.608s] Fetching page: 17
+[22.529s] Fetching page: 18
+[23.533s] Fetching page: 19
+[24.781s] Fetching page: 20
+[25.704s] Fetching page: 21
+[26.835s] Fetching page: 22
+[27.956s] Fetching page: 23
+[28.984s] Fetching page: 24
+[30.109s] Fetching page: 25
+[31.030s] Fetching page: 26
+[31.985s] Fetching page: 27
+[33.115s] Fetching page: 28
+[34.227s] Fetching page: 29
+[35.328s] Fetching page: 30
+[36.251s] Fetching page: 31
+[37.234s] Fetching page: 32
+[38.096s] Fetching page: 33
+[39.015s] Fetching page: 34
+[39.731s] Writing to cache: /home/maria/.pit_crew/model_cache.json
+[39.774s] New models cached: 3278
+[39.774s] 
+[39.829s] [  0%] Built target update_model_cache
+[39.859s] [ 16%] [34m[1mGenerating maps/test1/nav_graphs/phony[0m
+[39.860s] [ 33%] [34m[1mGenerating maps/classroom/nav_graphs/phony[0m
+[39.860s] [ 50%] [34m[1mGenerating maps/estce/nav_graphs/phony[0m
+[40.549s] building name: test1
+[40.549s] coordinate system: reference_image
+[40.549s] parsing level L1
+[40.549s] parsing level L2
+[40.549s] calculating levels relative to L1
+[40.549s] level L1 scale: 0.06666666666666667
+[40.549s] calculating level L2 offset and scale...
+[40.550s]   2 common fiducials:
+[40.550s] Transform.set_from_fiducials()
+[40.550s]   2 fiducial pairs:
+[40.550s]     (1.5, -1.5) -> (2.0, -2.0)   columna1
+[40.550s]     (148.5, -1.5) -> (148.5, -1.5)   columna2
+[40.550s]     calc dist columna1 <=> columna2
+[40.550s] Bearings:
+[40.550s] [(0.0, 0.003412956031538204)]
+[40.550s]   0.003412956031538204
+[40.551s]   Circular mean: -0.0034129560315382034
+[40.551s] Distances:
+[40.551s] [(147.0, 146.50085323983612)]
+[40.551s] mean relative scale: 0.996604443808409
+[40.551s] translation: (-0.03333, 0.034243)
+[40.551s] parsing lift lift1
+[40.551s] generating nav data
+[40.551s] hooray, we found an intersection: t=0.506, u=0.532
+[40.551s]   (23.555,-48.923),(122.687,-48.923) and (73.7,-38.148),(73.7,-58.389)
+[40.551s] found intersection with door door1!
+[40.552s] writing /home/maria/rmf_ws/build/project_maps/maps/test1/nav_graphs/0.yaml
+[40.558s] generating /home/maria/rmf_ws/build/project_maps/maps/classroom/classroom.world from /home/maria/rmf_ws/src/project/project_maps/maps/classroom/classroom.building.yaml
+[40.631s] building name: classroom
+[40.631s] coordinate system: reference_image
+[40.631s] parsing level L1
+[40.632s] parsing level L2
+[40.632s] calculating levels relative to L1
+[40.632s] level L1 scale: 0.02551020408163266
+[40.632s] calculating level L2 offset and scale...
+[40.633s]   0 common fiducials:
+[40.633s] Transform.set_from_fiducials()
+[40.633s]   0 fiducial pairs:
+[40.633s] Bearings:
+[40.633s] []
+[40.638s] generating model of level L1 in /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1
+[40.638s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/model.config
+[40.638s] generating floor polygon 1 on floor classroom_L1
+[40.638s] hole vertices: []
+[40.638s] lift vertices: {}
+[40.644s] [[0, 5, 2], [0, 2, 1], [4, 3, 2], [4, 2, 5]]
+[40.644s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.obj
+[40.645s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/blue_linoleum.png
+[40.646s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.mtl
+[40.646s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x701212027f20>, 'texture_height': <building_map.param_value.ParamValue object at 0x701212027f50>, 'texture_name': <building_map.param_value.ParamValue object at 0x701212027f80>, 'texture_scale': <building_map.param_value.ParamValue object at 0x701212027fb0>, 'texture_width': <building_map.param_value.ParamValue object at 0x701212233c20>}]
+[40.646s] generating wall: 1 on floor: classroom_L1
+[40.646s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/default.png
+[40.647s] generate_wall_visual_mesh(classroom_L1, /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1)
+[40.647s]   generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.obj
+[40.656s]   generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.mtl
+[40.656s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L1/model.sdf
+[40.657s] generating model of level L2 in /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2
+[40.657s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/model.config
+[40.657s] generating floor polygon 1 on floor classroom_L2
+[40.657s] hole vertices: []
+[40.657s] lift vertices: {}
+[40.658s] [[0, 3, 2], [0, 2, 1]]
+[40.658s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.obj
+[40.659s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/blue_linoleum.png
+[40.659s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.mtl
+[40.659s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7012120c0a10>, 'texture_height': <building_map.param_value.ParamValue object at 0x7012120c0a40>, 'texture_name': <building_map.param_value.ParamValue object at 0x7012120c0a70>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7012120c0aa0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7012120c0ad0>}]
+[40.659s] generating wall: 1 on floor: classroom_L2
+[40.659s] building name: classroom
+[40.659s] coordinate system: reference_image
+[40.659s] parsing level L1
+[40.660s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/default.png
+[40.660s] generate_wall_visual_mesh(classroom_L2, /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2)
+[40.660s]   generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.obj
+[40.660s] parsing level L2
+[40.661s] calculating levels relative to L1
+[40.661s] level L1 scale: 0.02551020408163266
+[40.661s] calculating level L2 offset and scale...
+[40.661s]   0 common fiducials:
+[40.661s] Transform.set_from_fiducials()
+[40.661s]   0 fiducial pairs:
+[40.661s] Bearings:
+[40.661s] []
+[40.665s]   generating /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.mtl
+[40.665s]   wrote /home/maria/rmf_ws/build/project_maps/maps/classroom/models/classroom_L2/model.sdf
+[40.666s] generating nav data
+[40.667s] hooray, we found an intersection: t=0.459, u=0.62
+[40.667s]   (732.006,-1378.531),(618.612,-1378.531) and (679.96,-1356.421),(679.96,-1392.105)
+[40.667s] found intersection with door door2!
+[40.667s] hooray, we found an intersection: t=0.604, u=0.561
+[40.667s]   (741.803,-1033.459),(741.803,-1380.592) and (672.582,-1243.013),(795.893,-1243.013)
+[40.667s] found intersection with door door6!
+[40.667s] hooray, we found an intersection: t=0.303, u=0.684
+[40.667s]   (741.803,-1380.592),(519.736,-1380.592) and (674.5,-1355.444),(674.5,-1392.191)
+[40.668s] found intersection with door door9!
+[40.668s] hooray, we found an intersection: t=0.183, u=0.481
+[40.668s]   (877.736,-1373.216),(1134.021,-1373.216) and (924.619,-1355.521),(924.619,-1392.329)
+[40.668s] found intersection with door door3!
+[40.668s] hooray, we found an intersection: t=0.359, u=0.456
+[40.668s]   (547.119,-1697.655),(878.052,-1697.655) and (665.966,-1673.474),(665.966,-1726.528)
+[40.668s] found intersection with door door4!
+[40.668s] hooray, we found an intersection: t=0.347, u=0.604
+[40.668s]   (877.59,-1173.327),(877.59,-1374.102) and (808.137,-1243.013),(923.139,-1243.013)
+[40.668s] found intersection with door door7!
+[40.669s] hooray, we found an intersection: t=0.177, u=0.466
+[40.669s]   (877.59,-1374.102),(1140.727,-1374.102) and (924.039,-1357.093),(924.039,-1393.624)
+[40.669s] found intersection with door door8!
+[40.669s] writing /home/maria/rmf_ws/build/project_maps/maps/classroom/nav_graphs/0.yaml
+[40.671s] writing /home/maria/rmf_ws/build/project_maps/maps/classroom/nav_graphs/1.yaml
+[40.673s] [ 50%] Built target generate_test1_nav_graphs
+[40.689s] spawning robot name tinyRobot2 of type TinyRobot
+[40.689s] spawning robot name tinyRobot1 of type TinyRobot
+[40.689s] generate door name=door1 type=double_hinged
+[40.689s] Door(door1)
+[40.689s] generate door name=door2 type=hinged
+[40.689s] Door(door2)
+[40.690s] generate door name=door3 type=sliding
+[40.690s] Door(door3)
+[40.690s] generate door name=door4 type=double_hinged
+[40.690s] Door(door4)
+[40.690s] generate door name=door5 type=double_hinged
+[40.690s] Door(door5)
+[40.690s] generate door name=door6 type=double_hinged
+[40.690s] Door(door6)
+[40.690s] generate door name=door7 type=double_hinged
+[40.690s] Door(door7)
+[40.690s] generate door name=door8 type=sliding
+[40.691s] Door(door8)
+[40.691s] generate door name=door9 type=hinged
+[40.691s] Door(door9)
+[40.696s] 96466 bytes written to /home/maria/rmf_ws/build/project_maps/maps/classroom/classroom.world
+[40.794s] [ 50%] Built target generate_classroom_nav_graphs
+[40.813s] [ 50%] Built target classroom
+[40.851s] [ 66%] [34m[1mGenerating classroom_crowdsim[0m
+[40.920s] building name: estce
+[40.920s] coordinate system: reference_image
+[40.920s] parsing level L1
+[40.923s] parsing level L2
+[40.926s] calculating levels relative to L1
+[40.926s] level L1 scale: 0.022444889534645907
+[40.926s] calculating level L2 offset and scale...
+[40.926s]   3 common fiducials:
+[40.927s] Transform.set_from_fiducials()
+[40.927s]   3 fiducial pairs:
+[40.927s]     (3963.9, -2197.6) -> (3837.1, -2354.5)   c3
+[40.927s]     (2516.2, -2123.7) -> (2388.7, -2279.7)   c4
+[40.927s]     (2369.6, -2222.5) -> (2242.3, -2378.6)   c1
+[40.927s]     calc dist c3 <=> c4
+[40.927s]     calc dist c3 <=> c1
+[40.927s]     calc dist c4 <=> c1
+[40.927s] Bearings:
+[40.927s] [(3.090626667763035, 3.090030514435309), (-3.1259350542154625, -3.1264943407908756), (-2.5484125455389486, -2.5477943015529716)]
+[40.927s]   -0.0005961533277258901
+[40.928s]   -0.0005592865754131537
+[40.928s]   0.000618243985976985
+[40.928s]   Circular mean: 0.00017906532679433574
+[40.928s] Distances:
+[40.928s] [(1449.6723774715445, 1450.2914846695473), (1594.5624578062157, 1594.9407871394474), (176.77616935831585, 176.63032569182434)]
+[40.928s] mean relative scale: 0.999946436772245
+[40.928s] translation: (2.8426, 3.5003)
+[40.963s] generating nav data
+[40.966s] hooray, we found an intersection: t=0.357, u=0.47
+[40.966s]   (4023.816,-2090.053),(4199.113,-2095.966) and (4086.446,-2062.291),(4086.446,-2125.903)
+[40.966s] found intersection with door null!
+[40.970s] writing /home/maria/rmf_ws/build/project_maps/maps/estce/nav_graphs/0.yaml
+[40.989s] writing /home/maria/rmf_ws/build/project_maps/maps/estce/nav_graphs/1.yaml
+[41.008s] writing /home/maria/rmf_ws/build/project_maps/maps/estce/nav_graphs/2.yaml
+[41.140s] [ 66%] Built target generate_estce_nav_graphs
+[41.178s] generating /home/maria/rmf_ws/build/project_maps/maps/test1/test1.world from /home/maria/rmf_ws/src/project/project_maps/maps/test1/test1.building.yaml
+[41.181s] building name: test1
+[41.181s] coordinate system: reference_image
+[41.181s] parsing level L1
+[41.181s] parsing level L2
+[41.181s] calculating levels relative to L1
+[41.182s] level L1 scale: 0.06666666666666667
+[41.182s] calculating level L2 offset and scale...
+[41.182s]   2 common fiducials:
+[41.182s] Transform.set_from_fiducials()
+[41.182s]   2 fiducial pairs:
+[41.182s]     (1.5, -1.5) -> (2.0, -2.0)   columna1
+[41.182s]     (148.5, -1.5) -> (148.5, -1.5)   columna2
+[41.182s]     calc dist columna1 <=> columna2
+[41.182s] Bearings:
+[41.182s] [(0.0, 0.003412956031538204)]
+[41.183s]   0.003412956031538204
+[41.183s]   Circular mean: -0.0034129560315382034
+[41.183s] Distances:
+[41.183s] [(147.0, 146.50085323983612)]
+[41.183s] mean relative scale: 0.996604443808409
+[41.183s] translation: (-0.03333, 0.034243)
+[41.183s] parsing lift lift1
+[41.183s] generating model of level L1 in /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1
+[41.183s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/model.config
+[41.183s] generating floor polygon 1 on floor test1_L1
+[41.183s] hole vertices: []
+[41.184s] lift vertices: {'lift1': [(5.616666666666667, -1.2833333333333337), (5.616666666666667, -5.383333333333333), (9.716666666666667, -5.383333333333333), (9.716666666666667, -1.2833333333333337)]}
+[41.186s] [[0, 3, 4], [0, 4, 5], [0, 5, 1], [1, 5, 6], [1, 6, 7], [1, 7, 2], [2, 7, 4], [2, 4, 3]]
+[41.186s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.obj
+[41.187s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/blue_linoleum.png
+[41.187s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.mtl
+[41.187s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7b652b963aa0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7b652b963a70>, 'texture_name': <building_map.param_value.ParamValue object at 0x7b652b963a40>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7b652b963a10>, 'texture_width': <building_map.param_value.ParamValue object at 0x7b652b963b60>}]
+[41.187s] generating wall: 1 on floor: test1_L1
+[41.188s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/default.png
+[41.188s] generate_wall_visual_mesh(test1_L1, /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1)
+[41.188s]   generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/wall_1.obj
+[41.188s]   generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/meshes/wall_1.mtl
+[41.188s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L1/model.sdf
+[41.188s] generating model of level L2 in /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2
+[41.189s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/model.config
+[41.189s] generating floor polygon 1 on floor test1_L2
+[41.189s] hole vertices: []
+[41.189s] lift vertices: {'lift1': [(5.616666666666667, -1.2833333333333337), (5.616666666666667, -5.383333333333333), (9.716666666666667, -5.383333333333333), (9.716666666666667, -1.2833333333333337)]}
+[41.193s] [[0, 3, 4], [0, 4, 1], [1, 4, 5], [1, 5, 6], [1, 6, 2], [2, 6, 7], [2, 7, 3], [3, 7, 4]]
+[41.193s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/floor_1.obj
+[41.194s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/blue_linoleum.png
+[41.194s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/floor_1.mtl
+[41.194s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7b652b730740>, 'texture_height': <building_map.param_value.ParamValue object at 0x7b652b7307a0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7b652b7307d0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7b652b730830>, 'texture_width': <building_map.param_value.ParamValue object at 0x7b652b730860>}]
+[41.194s] generating wall: 1 on floor: test1_L2
+[41.194s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/default.png
+[41.194s] generate_wall_visual_mesh(test1_L2, /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2)
+[41.194s]   generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/wall_1.obj
+[41.194s]   generating /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/meshes/wall_1.mtl
+[41.195s]   wrote /home/maria/rmf_ws/build/project_maps/maps/test1/models/test1_L2/model.sdf
+[41.213s] spawning robot name tinyRobot1_charger of type TinyRobot
+[41.213s] generate door name=door1 type=sliding
+[41.213s] Door(door1)
+[41.213s] generate door name=door2 type=sliding
+[41.213s] Door(door2)
+[41.216s] 33015 bytes written to /home/maria/rmf_ws/build/project_maps/maps/test1/test1.world
+[41.269s] generating /home/maria/rmf_ws/build/project_maps/maps/estce/estce.world from /home/maria/rmf_ws/src/project/project_maps/maps/estce/estce.building.yaml
+[41.296s] [ 66%] Built target test1
+[41.324s] [ 83%] [34m[1mGenerating test1_crowdsim[0m
+[41.366s] Creating output folder path:  /home/maria/rmf_ws/build/project_maps/maps/classroom/config_resource/
+[41.608s] building name: estce
+[41.608s] coordinate system: reference_image
+[41.608s] parsing level L1
+[41.611s] parsing level L2
+[41.614s] calculating levels relative to L1
+[41.614s] level L1 scale: 0.022444889534645907
+[41.614s] calculating level L2 offset and scale...
+[41.614s]   3 common fiducials:
+[41.614s] Transform.set_from_fiducials()
+[41.615s]   3 fiducial pairs:
+[41.615s]     (3963.9, -2197.6) -> (3837.1, -2354.5)   c3
+[41.615s]     (2516.2, -2123.7) -> (2388.7, -2279.7)   c4
+[41.615s]     (2369.6, -2222.5) -> (2242.3, -2378.6)   c1
+[41.615s]     calc dist c3 <=> c4
+[41.615s]     calc dist c3 <=> c1
+[41.615s]     calc dist c4 <=> c1
+[41.615s] Bearings:
+[41.616s] [(3.090626667763035, 3.090030514435309), (-3.1259350542154625, -3.1264943407908756), (-2.5484125455389486, -2.5477943015529716)]
+[41.616s]   -0.0005961533277258901
+[41.616s]   -0.0005592865754131537
+[41.616s]   0.000618243985976985
+[41.616s]   Circular mean: 0.00017906532679433574
+[41.616s] Distances:
+[41.616s] [(1449.6723774715445, 1450.2914846695473), (1594.5624578062157, 1594.9407871394474), (176.77616935831585, 176.63032569182434)]
+[41.616s] mean relative scale: 0.999946436772245
+[41.616s] translation: (2.8426, 3.5003)
+[41.636s] generating model of level L1 in /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1
+[41.636s]   wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/model.config
+[41.636s] generating floor polygon 1 on floor estce_L1
+[41.637s] hole vertices: []
+[41.637s] lift vertices: {}
+[41.776s] crowdsim unable to parse, not attempting to proceed
+[41.802s] Creating output folder path:  /home/maria/rmf_ws/build/project_maps/maps/test1/config_resource/
+[41.824s] crowdsim unable to parse, not attempting to proceed
+[41.844s] crowdsim unable to parse, not attempting to proceed
+[41.925s] [ 83%] Built target generate_test1_crowdsim
+[42.239s] [[95, 96, 94], [93, 94, 92], [50, 51, 49], [49, 51, 48], [47, 48, 46], [45, 46, 44], [42, 43, 40], [42, 40, 41], [100, 101, 35], [100, 35, 36], [101, 34, 35], [4, 5, 3], [1, 2, 0], [0, 2, 99], [98, 99, 96], [98, 96, 97], [96, 99, 6], [96, 6, 89], [96, 89, 91], [96, 91, 94], [94, 91, 92], [91, 102, 90], [52, 103, 51], [51, 103, 53], [51, 53, 48], [48, 53, 46], [46, 53, 33], [46, 33, 43], [46, 43, 44], [33, 104, 43], [104, 105, 43], [105, 106, 43], [43, 106, 40], [106, 107, 40], [40, 107, 39], [38, 39, 37], [37, 39, 36], [108, 100, 36], [108, 36, 39], [107, 108, 39], [21, 22, 23], [21, 23, 20], [109, 20, 23], [13, 14, 12], [5, 6, 3], [3, 6, 99], [3, 99, 2], [6, 7, 8], [6, 8, 89], [89, 8, 88], [91, 89, 102], [87, 88, 85], [87, 85, 86], [79, 80, 78], [76, 77, 75], [75, 77, 70], [75, 70, 72], [75, 72, 73], [75, 73, 74], [72, 70, 71], [67, 68, 66], [59, 60, 58], [53, 54, 33], [33, 54, 55], [55, 110, 33], [25, 26, 24], [111, 112, 24], [24, 112, 23], [112, 113, 23], [113, 114, 23], [114, 115, 23], [115, 109, 23], [14, 15, 27], [14, 27, 11], [14, 11, 12], [8, 9, 85], [8, 85, 88], [85, 9, 84], [80, 81, 11], [80, 11, 66], [80, 66, 78], [78, 66, 68], [78, 68, 70], [78, 70, 77], [70, 68, 69], [66, 11, 28], [66, 28, 65], [60, 61, 58], [58, 61, 30], [58, 30, 31], [58, 31, 57], [57, 31, 56], [56, 31, 55], [55, 31, 116], [55, 116, 110], [31, 32, 116], [117, 24, 26], [19, 24, 117], [19, 117, 118], [19, 111, 24], [119, 18, 19], [119, 19, 120], [121, 17, 18], [121, 18, 119], [27, 17, 121], [17, 27, 16], [16, 27, 15], [27, 28, 11], [28, 29, 30], [28, 30, 63], [28, 63, 64], [28, 64, 65], [63, 30, 62], [62, 30, 61], [120, 19, 118], [11, 81, 82], [11, 82, 83], [11, 83, 9], [11, 9, 10], [9, 83, 84]]
+[42.245s]   wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/floor_1.obj
+[42.246s]   wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/blue_linoleum.png
+[42.246s]   wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/floor_1.mtl
+[42.247s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x76367b799370>, 'texture_height': <building_map.param_value.ParamValue object at 0x76367b7993a0>, 'texture_name': <building_map.param_value.ParamValue object at 0x76367b799400>, 'texture_scale': <building_map.param_value.ParamValue object at 0x76367b799430>, 'texture_width': <building_map.param_value.ParamValue object at 0x76367b799460>}]
+[42.248s] generating wall: 1 on floor: estce_L1
+[42.249s]   wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/default.png
+[42.249s] generate_wall_visual_mesh(estce_L1, /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1)
+[42.249s]   generating /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/wall_1.obj
+[42.257s] crowdsim unable to parse, not attempting to proceed
+[42.292s]   generating /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/meshes/wall_1.mtl
+[42.293s]   wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L1/model.sdf
+[42.293s] generating model of level L2 in /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2
+[42.293s]   wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/model.config
+[42.293s] generating floor polygon 1 on floor estce_L2
+[42.295s] hole vertices: [[(32.038756741414744, -42.76915216128614), (31.11673500280745, -42.874342528720355), (29.881747866515727, -43.35818717420026), (29.14116076436808, -43.85547828335986), (28.446281434405638, -44.52016416331792), (28.18828671567239, -44.89993090262992), (27.902443415164427, -45.318893505603), (27.659816875330964, -45.78271810821972), (27.49702381768832, -46.33130730559018), (27.35746824671091, -46.786830843755695), (27.30272430051249, -47.42516261590286), (27.306182355823804, -48.18484998650477), (27.520795314795677, -49.22045180384088), (27.979793576379052, -50.21277868670446), (28.568030152623294, -51.04466020665891), (29.157538206306413, -51.581442725050174), (29.951253484935357, -52.077336789240654), (30.593241501695815, -52.36899858368847), (31.36939239777892, -52.54975265884881), (32.27394380183291, -52.65463839645499), (33.114261763506796, -52.54944021324229), (33.86116482227765, -52.35090546002476), (34.61973930420733, -52.0239769695925), (35.255761762454966, -51.592022712577965), (35.88589653422498, -50.99668440486839), (36.387631298646134, -50.35465877132251), (36.807655483657385, -49.54928511042502), (37.08176230477987, -48.64470340474208), (37.13997793752946, -47.839372085119734), (37.098954679464335, -46.88234539869987), (36.877069716975065, -46.100408171249505), (36.53846716893895, -45.330163811805384), (36.03646125516407, -44.58329264810546), (35.48198214906801, -43.99400244763602), (34.85166137537696, -43.55060298085515), (34.01124518964044, -43.10726358097049), (33.00747106670977, -42.81564412377851)], [(110.09102272666154, -42.75955269459609), (111.44045567773574, -42.7390871288873), (112.83541074658372, -43.10273338721559), (113.86148077122128, -43.68376876454881), (114.89267627942866, -44.68427579473863), (115.61563246114594, -45.881937155334136), (115.88875829247449, -47.14540122285116), (115.82331198059556, -48.560526823481574), (115.34848752224677, -49.9403731343614), (114.49963822914278, -51.1635902506152), (113.35253107123509, -52.0431886571492), (111.88190966988071, -52.553898576710914), (110.27473277632299, -52.59968459521777), (108.93534156104337, -52.16527830477956), (107.77784496651485, -51.43264310871486), (106.82750824825862, -50.3512707754882), (106.22077593676646, -49.01711636277498), (106.03352686402847, -47.61718712334794), (106.22531950767716, -46.18686534015669), (106.83411373287781, -44.99652984230133), (107.61732055938776, -44.09300172515975), (108.54587957595648, -43.39157464055808)]]
+[42.295s] lift vertices: {}
+[42.368s] [ 83%] Built target generate_classroom_crowdsim
+[43.210s] [[5, 6, 4], [3, 4, 2], [54, 55, 53], [52, 53, 51], [50, 51, 49], [47, 48, 45], [47, 45, 46], [29, 30, 31], [29, 31, 26], [29, 26, 28], [28, 26, 27], [10, 11, 12], [10, 12, 9], [8, 9, 7], [7, 9, 6], [6, 9, 89], [6, 89, 90], [6, 90, 91], [6, 91, 92], [6, 92, 93], [6, 93, 94], [6, 94, 95], [6, 95, 96], [6, 96, 97], [6, 97, 98], [6, 98, 4], [4, 98, 99], [4, 99, 1], [4, 1, 2], [55, 56, 53], [53, 56, 100], [53, 100, 51], [51, 100, 101], [51, 101, 102], [51, 102, 103], [51, 103, 104], [51, 104, 105], [51, 105, 48], [51, 48, 49], [48, 105, 106], [48, 106, 107], [48, 107, 108], [48, 108, 109], [48, 109, 110], [48, 110, 45], [45, 110, 111], [45, 111, 44], [43, 44, 42], [42, 44, 41], [35, 36, 34], [31, 32, 25], [31, 25, 26], [22, 23, 21], [15, 16, 13], [15, 13, 14], [12, 13, 112], [12, 112, 113], [12, 113, 114], [12, 114, 9], [9, 114, 115], [9, 115, 116], [9, 116, 117], [9, 117, 118], [9, 118, 119], [9, 119, 120], [9, 120, 89], [99, 121, 1], [1, 121, 122], [122, 121, 123], [122, 0, 1], [124, 56, 57], [124, 125, 56], [126, 125, 124], [56, 125, 100], [111, 127, 44], [44, 127, 41], [41, 127, 128], [41, 128, 129], [41, 129, 130], [41, 130, 131], [41, 131, 58], [41, 58, 39], [41, 39, 40], [37, 38, 36], [36, 38, 66], [36, 66, 67], [36, 67, 79], [36, 79, 21], [36, 21, 34], [34, 21, 23], [34, 23, 32], [34, 32, 33], [32, 23, 25], [25, 23, 24], [21, 79, 80], [21, 80, 19], [21, 19, 20], [17, 18, 16], [16, 18, 88], [16, 88, 132], [16, 132, 133], [16, 133, 134], [16, 134, 135], [16, 135, 136], [16, 136, 137], [16, 137, 138], [16, 138, 139], [16, 139, 140], [16, 140, 13], [13, 140, 141], [13, 141, 112], [142, 143, 88], [142, 88, 144], [144, 88, 145], [121, 144, 123], [123, 144, 145], [84, 85, 86], [84, 86, 81], [84, 81, 83], [78, 79, 77], [74, 75, 77], [74, 77, 73], [73, 77, 72], [72, 77, 69], [72, 69, 71], [71, 69, 70], [68, 69, 67], [62, 63, 60], [62, 60, 61], [126, 58, 125], [125, 58, 146], [146, 58, 147], [147, 58, 148], [131, 149, 58], [58, 149, 148], [58, 59, 39], [39, 59, 38], [38, 59, 66], [66, 59, 65], [63, 64, 65], [63, 65, 60], [60, 65, 59], [67, 69, 77], [67, 77, 79], [77, 75, 76], [80, 81, 86], [80, 86, 87], [80, 87, 19], [19, 87, 18], [18, 87, 88], [81, 82, 83], [88, 143, 150], [88, 150, 151], [88, 151, 152], [88, 152, 132]]
+[43.216s]   wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/floor_1.obj
+[43.217s]   wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/blue_linoleum.png
+[43.217s]   wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/floor_1.mtl
+[43.217s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x76367b73eba0>, 'texture_height': <building_map.param_value.ParamValue object at 0x76367b73ebd0>, 'texture_name': <building_map.param_value.ParamValue object at 0x76367b73ec30>, 'texture_scale': <building_map.param_value.ParamValue object at 0x76367b73ec90>, 'texture_width': <building_map.param_value.ParamValue object at 0x76367b73ec60>}]
+[43.218s] generating wall: 1 on floor: estce_L2
+[43.219s]   wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/default.png
+[43.219s] generate_wall_visual_mesh(estce_L2, /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2)
+[43.219s]   generating /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/wall_1.obj
+[43.250s]   generating /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/meshes/wall_1.mtl
+[43.251s]   wrote /home/maria/rmf_ws/build/project_maps/maps/estce/models/estce_L2/model.sdf
+[43.274s] spawning robot name tinyRobot1 of type TinyRobot
+[43.274s] spawning robot name CleanerBotA1 of type CleanerBotA
+[43.274s] spawning robot name deliveryRobot_1 of type DeliveryRobot
+[43.274s] generate door name=TD1013AL2 type=double_hinged
+[43.274s] Door(TD1013AL2)
+[43.275s] generate door name=TD1012AL type=double_hinged
+[43.275s] Door(TD1012AL)
+[43.275s] generate door name=TD1011AL type=double_hinged
+[43.275s] Door(TD1011AL)
+[43.275s] generate door name=TD1010AL2 type=double_hinged
+[43.275s] Door(TD1010AL2)
+[43.275s] generate door name=TN4 type=hinged
+[43.276s] Door(TN4)
+[43.276s] generate door name=TN3 type=hinged
+[43.276s] Door(TN3)
+[43.276s] generate door name=TD1013AL1 type=hinged
+[43.276s] Door(TD1013AL1)
+[43.276s] generate door name=TD1020CA type=hinged
+[43.276s] Door(TD1020CA)
+[43.276s] generate door name=TD1009CA type=hinged
+[43.276s] Door(TD1009CA)
+[43.277s] generate door name=TD1010AL1 type=hinged
+[43.277s] Door(TD1010AL1)
+[43.277s] generate door name=TD1008AL type=double_hinged
+[43.277s] Door(TD1008AL)
+[43.277s] generate door name=TD1014AL type=double_hinged
+[43.277s] Door(TD1014AL)
+[43.277s] generate door name=TN1 type=hinged
+[43.278s] Door(TN1)
+[43.278s] generate door name=TD1002CP type=double_hinged
+[43.278s] Door(TD1002CP)
+[43.278s] generate door name=TN2 type=hinged
+[43.278s] Door(TN2)
+[43.278s] generate door name=TD1005CP1 type=double_hinged
+[43.278s] Door(TD1005CP1)
+[43.278s] generate door name=TD1004CA type=hinged
+[43.278s] Door(TD1004CA)
+[43.279s] generate door name=TD1003CI type=hinged
+[43.279s] Door(TD1003CI)
+[43.279s] generate door name=TD1023CP1 type=double_hinged
+[43.279s] Door(TD1023CP1)
+[43.279s] generate door name=TD1023CP2 type=double_hinged
+[43.279s] Door(TD1023CP2)
+[43.279s] generate door name=TD1018AA type=double_hinged
+[43.279s] Door(TD1018AA)
+[43.280s] generate door name=TD1015AA type=double_hinged
+[43.280s] Door(TD1015AA)
+[43.280s] generate door name=TD1016AA type=double_hinged
+[43.280s] Door(TD1016AA)
+[43.280s] generate door name=TD1017AA type=double_hinged
+[43.280s] Door(TD1017AA)
+[43.280s] generate door name=TD1022AA type=double_hinged
+[43.280s] Door(TD1022AA)
+[43.281s] generate door name=TD1019AA type=double_hinged
+[43.281s] Door(TD1019AA)
+[43.281s] generate door name=TD1007AA type=double_hinged
+[43.281s] Door(TD1007AA)
+[43.281s] generate door name=TD1021AA type=double_hinged
+[43.281s] Door(TD1021AA)
+[43.281s] generate door name=em2 type=hinged
+[43.282s] Door(em2)
+[43.282s] generate door name=em1 type=hinged
+[43.282s] Door(em1)
+[43.282s] generate door name=bano01 type=hinged
+[43.282s] Door(bano01)
+[43.282s] generate door name=bano02 type=hinged
+[43.282s] Door(bano02)
+[43.282s] generate door name=bano03 type=hinged
+[43.283s] Door(bano03)
+[43.283s] generate door name=bano04 type=hinged
+[43.283s] Door(bano04)
+[43.283s] generate door name=bano05 type=hinged
+[43.283s] Door(bano05)
+[43.283s] generate door name=bano06 type=hinged
+[43.283s] Door(bano06)
+[43.283s] generate door name=TD0008CW type=hinged
+[43.283s] Door(TD0008CW)
+[43.284s] generate door name=TD0007CW type=hinged
+[43.284s] Door(TD0007CW)
+[43.284s] generate door name=TD1001CP3 type=double_hinged
+[43.284s] Door(TD1001CP3)
+[43.284s] generate door name=TD1001CP2 type=double_hinged
+[43.284s] Door(TD1001CP2)
+[43.284s] generate door name=TD0013CP1 type=double_hinged
+[43.284s] Door(TD0013CP1)
+[43.285s] generate door name=TD0013CP2 type=double_hinged
+[43.285s] Door(TD0013CP2)
+[43.285s] generate door name=bano07 type=hinged
+[43.285s] Door(bano07)
+[43.285s] generate door name=bano08 type=hinged
+[43.285s] Door(bano08)
+[43.285s] generate door name=bano09 type=hinged
+[43.285s] Door(bano09)
+[43.285s] generate door name=bano010 type=hinged
+[43.285s] Door(bano010)
+[43.286s] generate door name=TD0001EC1 type=double_hinged
+[43.286s] Door(TD0001EC1)
+[43.286s] generate door name=TD0005AO type=hinged
+[43.286s] Door(TD0005AO)
+[43.286s] generate door name=TD0006ET type=hinged
+[43.286s] Door(TD0006ET)
+[43.286s] generate door name=TD0004SD type=hinged
+[43.286s] Door(TD0004SD)
+[43.286s] generate door name=TD0003SC type=hinged
+[43.287s] Door(TD0003SC)
+[43.287s] generate door name=TD0001EC2 type=double_hinged
+[43.287s] Door(TD0001EC2)
+[43.287s] generate door name=cancan6 type=hinged
+[43.287s] Door(cancan6)
+[43.287s] generate door name=cancan5 type=hinged
+[43.287s] Door(cancan5)
+[43.287s] generate door name=bancan4 type=hinged
+[43.287s] Door(bancan4)
+[43.288s] generate door name=cancan3 type=hinged
+[43.288s] Door(cancan3)
+[43.288s] generate door name=bancan1 type=hinged
+[43.288s] Door(bancan1)
+[43.288s] generate door name=cancan2 type=hinged
+[43.288s] Door(cancan2)
+[43.288s] generate door name=can7 type=hinged
+[43.288s] Door(can7)
+[43.288s] generate door name=can8 type=hinged
+[43.289s] Door(can8)
+[43.289s] generate door name=can6 type=hinged
+[43.289s] Door(can6)
+[43.289s] generate door name=can2 type=hinged
+[43.289s] Door(can2)
+[43.289s] generate door name=can1 type=hinged
+[43.289s] Door(can1)
+[43.289s] generate door name=can3 type=hinged
+[43.289s] Door(can3)
+[43.290s] generate door name=can4 type=double_hinged
+[43.290s] Door(can4)
+[43.290s] generate door name=can5 type=hinged
+[43.290s] Door(can5)
+[43.290s] generate door name=bano012 type=hinged
+[43.290s] Door(bano012)
+[43.290s] generate door name=bano013 type=hinged
+[43.291s] Door(bano013)
+[43.291s] generate door name=bano014 type=hinged
+[43.291s] Door(bano014)
+[43.291s] generate door name=bano011 type=hinged
+[43.291s] Door(bano011)
+[43.291s] generate door name=TD0009CW type=hinged
+[43.291s] Door(TD0009CW)
+[43.291s] generate door name=bano015 type=hinged
+[43.291s] Door(bano015)
+[43.292s] generate door name=bano016 type=hinged
+[43.292s] Door(bano016)
+[43.292s] generate door name=bano017 type=hinged
+[43.292s] Door(bano017)
+[43.292s] generate door name=bano018 type=hinged
+[43.292s] Door(bano018)
+[43.292s] generate door name=bano019 type=hinged
+[43.292s] Door(bano019)
+[43.293s] generate door name=bano020 type=hinged
+[43.293s] Door(bano020)
+[43.293s] generate door name=TD2012CI type=hinged
+[43.293s] Door(TD2012CI)
+[43.293s] generate door name=TD2013CA type=hinged
+[43.293s] Door(TD2013CA)
+[43.293s] generate door name=TD0014CP1 type=double_hinged
+[43.293s] Door(TD0014CP1)
+[43.294s] generate door name=TD0014CP2 type=double_hinged
+[43.294s] Door(TD0014CP2)
+[43.294s] generate door name=TD2034EA type=double_hinged
+[43.294s] Door(TD2034EA)
+[43.294s] generate door name=TD2049SD type=hinged
+[43.294s] Door(TD2049SD)
+[43.294s] generate door name=TD2029SD type=hinged
+[43.294s] Door(TD2029SD)
+[43.294s] generate door name=TD2030SD type=hinged
+[43.295s] Door(TD2030SD)
+[43.295s] generate door name=TD2040CP1 type=double_hinged
+[43.295s] Door(TD2040CP1)
+[43.295s] generate door name=TD2037EA type=double_hinged
+[43.295s] Door(TD2037EA)
+[43.295s] generate door name=TD2040CP2 type=double_hinged
+[43.295s] Door(TD2040CP2)
+[43.296s] generate door name=EM5 type=hinged
+[43.296s] Door(EM5)
+[43.296s] generate door name=EM4 type=hinged
+[43.296s] Door(EM4)
+[43.296s] generate door name=TD2043AA type=double_hinged
+[43.296s] Door(TD2043AA)
+[43.296s] generate door name=TD2021CP1 type=double_hinged
+[43.296s] Door(TD2021CP1)
+[43.296s] generate door name=TD2021CP2 type=double_hinged
+[43.297s] Door(TD2021CP2)
+[43.297s] generate door name=TD2046AA type=double_hinged
+[43.297s] Door(TD2046AA)
+[43.297s] generate door name=TD2016CE1 type=double_hinged
+[43.297s] Door(TD2016CE1)
+[43.297s] generate door name=TD2020CE type=hinged
+[43.297s] Door(TD2020CE)
+[43.298s] generate door name=TD2019CE type=hinged
+[43.298s] Door(TD2019CE)
+[43.298s] generate door name=TD2018CE type=hinged
+[43.298s] Door(TD2018CE)
+[43.298s] generate door name=TD2017CE type=hinged
+[43.298s] Door(TD2017CE)
+[43.298s] generate door name=TD2016CE2 type=double_hinged
+[43.298s] Door(TD2016CE2)
+[43.299s] generate door name=TD2022CE1 type=double_hinged
+[43.299s] Door(TD2022CE1)
+[43.299s] generate door name=TD2014CP type=double_hinged
+[43.299s] Door(TD2014CP)
+[43.299s] generate door name=TD2026CE type=hinged
+[43.299s] Door(TD2026CE)
+[43.299s] generate door name=TD2025CE type=hinged
+[43.299s] Door(TD2025CE)
+[43.299s] generate door name=TD2024CE type=hinged
+[43.299s] Door(TD2024CE)
+[43.299s] generate door name=TD2023CE type=hinged
+[43.300s] Door(TD2023CE)
+[43.300s] generate door name=TD2022CE2 type=double_hinged
+[43.300s] Door(TD2022CE2)
+[43.300s] generate door name=TD2011CP2 type=double_hinged
+[43.300s] Door(TD2011CP2)
+[43.300s] generate door name=TD2011CP3 type=double_hinged
+[43.300s] Door(TD2011CP3)
+[43.300s] generate door name=TD2011CP1 type=double_hinged
+[43.300s] Door(TD2011CP1)
+[43.300s] generate door name=TD2003AA type=double_hinged
+[43.300s] Door(TD2003AA)
+[43.301s] generate door name=TD2002AA type=double_hinged
+[43.301s] Door(TD2002AA)
+[43.301s] generate door name=TD2048AA type=double_hinged
+[43.301s] Door(TD2048AA)
+[43.301s] generate door name=TD2047AA type=double_hinged
+[43.301s] Door(TD2047AA)
+[43.301s] generate door name=TD2006CI type=double_hinged
+[43.301s] Door(TD2006CI)
+[43.301s] generate door name=TD2004CI type=hinged
+[43.301s] Door(TD2004CI)
+[43.302s] generate door name=TD2007CI type=hinged
+[43.302s] Door(TD2007CI)
+[43.302s] generate door name=TD2010CP type=double_hinged
+[43.302s] Door(TD2010CP)
+[43.302s] generate door name=TD1005CP2 type=double_hinged
+[43.302s] Door(TD1005CP2)
+[43.302s] generate door name=null type=hinged
+[43.302s] Door(null)
+[43.302s] generate door name=TD1104 type=double_hinged
+[43.302s] Door(TD1104)
+[43.303s] generate door name=d2 type=hinged
+[43.303s] Door(d2)
+[43.303s] generate door name=d1 type=hinged
+[43.303s] Door(d1)
+[43.303s] generate door name=TD1103 type=double_hinged
+[43.303s] Door(TD1103)
+[43.303s] generate door name=TD1105 type=double_hinged
+[43.303s] Door(TD1105)
+[43.303s] generate door name=TD1102 type=double_hinged
+[43.303s] Door(TD1102)
+[43.304s] generate door name=TD11011 type=double_hinged
+[43.304s] Door(TD11011)
+[43.304s] generate door name=TD11061 type=double_hinged
+[43.304s] Door(TD11061)
+[43.304s] generate door name=TD11062 type=double_hinged
+[43.304s] Door(TD11062)
+[43.304s] generate door name=TD118CP1 type=double_hinged
+[43.304s] Door(TD118CP1)
+[43.304s] generate door name=TD11012 type=double_hinged
+[43.304s] Door(TD11012)
+[43.305s] generate door name=TD1114CP1 type=double_hinged
+[43.305s] Door(TD1114CP1)
+[43.305s] generate door name=TD1114CP2 type=double_hinged
+[43.305s] Door(TD1114CP2)
+[43.305s] generate door name=TC1114CP3 type=double_hinged
+[43.305s] Door(TC1114CP3)
+[43.305s] generate door name=door type=double_hinged
+[43.305s] Door(door)
+[43.305s] generate door name=d4 type=hinged
+[43.306s] Door(d4)
+[43.306s] generate door name=d5 type=hinged
+[43.306s] Door(d5)
+[43.306s] generate door name=TD1111AL2 type=double_hinged
+[43.306s] Door(TD1111AL2)
+[43.306s] generate door name=TD1109AL1 type=double_hinged
+[43.306s] Door(TD1109AL1)
+[43.306s] generate door name=TD1108AL2 type=double_hinged
+[43.306s] Door(TD1108AL2)
+[43.306s] generate door name=TD1107AL2 type=double_hinged
+[43.307s] Door(TD1107AL2)
+[43.307s] generate door name=TD1107AL1 type=double_hinged
+[43.307s] Door(TD1107AL1)
+[43.307s] generate door name=TD1118CP2 type=double_hinged
+[43.307s] Door(TD1118CP2)
+[43.307s] generate door name=TD1116CT type=hinged
+[43.307s] Door(TD1116CT)
+[43.307s] generate door name=TD1118CP4 type=double_hinged
+[43.307s] Door(TD1118CP4)
+[43.307s] generate door name=TD1118CP3 type=double_hinged
+[43.308s] Door(TD1118CP3)
+[43.308s] generate door name=TD0114CW type=hinged
+[43.308s] Door(TD0114CW)
+[43.308s] generate door name=bano1 type=hinged
+[43.308s] Door(bano1)
+[43.308s] generate door name=bano2 type=hinged
+[43.308s] Door(bano2)
+[43.308s] generate door name=bano3 type=hinged
+[43.308s] Door(bano3)
+[43.308s] generate door name=bano4 type=hinged
+[43.309s] Door(bano4)
+[43.309s] generate door name=bano5 type=hinged
+[43.309s] Door(bano5)
+[43.309s] generate door name=bano6 type=hinged
+[43.309s] Door(bano6)
+[43.309s] generate door name=TD0115CW type=hinged
+[43.309s] Door(TD0115CW)
+[43.309s] generate door name=bano7 type=hinged
+[43.309s] Door(bano7)
+[43.309s] generate door name=bano8 type=hinged
+[43.310s] Door(bano8)
+[43.310s] generate door name=bano9 type=hinged
+[43.310s] Door(bano9)
+[43.310s] generate door name=bano10 type=hinged
+[43.310s] Door(bano10)
+[43.310s] generate door name=TD0121CI type=hinged
+[43.310s] Door(TD0121CI)
+[43.310s] generate door name=TD0118CP2 type=double_hinged
+[43.311s] Door(TD0118CP2)
+[43.311s] generate door name=TD0118CP1 type=double_hinged
+[43.311s] Door(TD0118CP1)
+[43.311s] generate door name=TD0112FR type=double_hinged
+[43.311s] Door(TD0112FR)
+[43.311s] generate door name=TD0125DP type=double_hinged
+[43.311s] Door(TD0125DP)
+[43.311s] generate door name=TD0120AI type=double_hinged
+[43.311s] Door(TD0120AI)
+[43.311s] generate door name=TD0108AI type=double_hinged
+[43.312s] Door(TD0108AI)
+[43.312s] generate door name=TD0107AI type=double_hinged
+[43.312s] Door(TD0107AI)
+[43.312s] generate door name=TD0104AI type=double_hinged
+[43.312s] Door(TD0104AI)
+[43.312s] generate door name=TD0106AI type=double_hinged
+[43.312s] Door(TD0106AI)
+[43.312s] generate door name=TD0105AI type=double_hinged
+[43.312s] Door(TD0105AI)
+[43.312s] generate door name=TD0118CP3 type=hinged
+[43.313s] Door(TD0118CP3)
+[43.313s] generate door name=TD0118CP4 type=hinged
+[43.313s] Door(TD0118CP4)
+[43.313s] generate door name=TD0103AI type=double_hinged
+[43.313s] Door(TD0103AI)
+[43.313s] generate door name=TD0102AI type=double_hinged
+[43.313s] Door(TD0102AI)
+[43.313s] generate door name=TD0101AO1 type=double_hinged
+[43.313s] Door(TD0101AO1)
+[43.314s] generate door name=TD0111AO type=double_hinged
+[43.314s] Door(TD0111AO)
+[43.314s] generate door name=TD0101AO2 type=hinged
+[43.314s] Door(TD0101AO2)
+[43.314s] generate door name=bano12 type=hinged
+[43.314s] Door(bano12)
+[43.314s] generate door name=bano13 type=hinged
+[43.314s] Door(bano13)
+[43.314s] generate door name=bano14 type=hinged
+[43.314s] Door(bano14)
+[43.315s] generate door name=bano11 type=hinged
+[43.315s] Door(bano11)
+[43.315s] generate door name=TD0116CW type=hinged
+[43.315s] Door(TD0116CW)
+[43.315s] generate door name=bano15 type=hinged
+[43.315s] Door(bano15)
+[43.315s] generate door name=bano16 type=hinged
+[43.315s] Door(bano16)
+[43.315s] generate door name=bano17 type=hinged
+[43.315s] Door(bano17)
+[43.316s] generate door name=bano18 type=hinged
+[43.316s] Door(bano18)
+[43.316s] generate door name=bano19 type=hinged
+[43.316s] Door(bano19)
+[43.316s] generate door name=bano20 type=hinged
+[43.316s] Door(bano20)
+[43.316s] generate door name=TD0117CW type=hinged
+[43.316s] Door(TD0117CW)
+[43.316s] generate door name=TD0123CP4 type=double_hinged
+[43.316s] Door(TD0123CP4)
+[43.317s] generate door name=TD0123CP3 type=double_hinged
+[43.317s] Door(TD0123CP3)
+[43.317s] generate door name=TD2106AA2 type=double_hinged
+[43.317s] Door(TD2106AA2)
+[43.317s] generate door name=TD2106AA1 type=double_hinged
+[43.317s] Door(TD2106AA1)
+[43.317s] generate door name=TD2105AA type=double_hinged
+[43.317s] Door(TD2105AA)
+[43.317s] generate door name=TD2104AA type=double_hinged
+[43.317s] Door(TD2104AA)
+[43.318s] generate door name=TD2111CP1 type=hinged
+[43.318s] Door(TD2111CP1)
+[43.318s] generate door name=TD2111CP2 type=hinged
+[43.318s] Door(TD2111CP2)
+[43.318s] generate door name=TD2103AA type=double_hinged
+[43.318s] Door(TD2103AA)
+[43.318s] generate door name=TD2102AA type=double_hinged
+[43.318s] Door(TD2102AA)
+[43.318s] generate door name=TD2101AA1 type=double_hinged
+[43.318s] Door(TD2101AA1)
+[43.319s] generate door name=TD2101AA2 type=double_hinged
+[43.319s] Door(TD2101AA2)
+[43.319s] generate door name=TD2116CP type=double_hinged
+[43.319s] Door(TD2116CP)
+[43.319s] generate door name=TD2112CP1 type=double_hinged
+[43.319s] Door(TD2112CP1)
+[43.319s] generate door name=TD2112CP2 type=double_hinged
+[43.319s] Door(TD2112CP2)
+[43.319s] generate door name=TD2107AL1 type=double_hinged
+[43.319s] Door(TD2107AL1)
+[43.320s] generate door name=TD2107AL2 type=double_hinged
+[43.320s] Door(TD2107AL2)
+[43.320s] generate door name=TD2110AL2 type=double_hinged
+[43.320s] Door(TD2110AL2)
+[43.320s] generate door name=TD2109AL type=double_hinged
+[43.320s] Door(TD2109AL)
+[43.320s] generate door name=TD2108AL type=double_hinged
+[43.320s] Door(TD2108AL)
+[43.320s] generate door name=TD2110AL1 type=double_hinged
+[43.320s] Door(TD2110AL1)
+[43.321s] generate door name=d3 type=hinged
+[43.321s] Door(d3)
+[43.321s] generate door name=TD1111AL1 type=hinged
+[43.321s] Door(TD1111AL1)
+[43.321s] generate door name=TD2114CI type=hinged
+[43.321s] Door(TD2114CI)
+[43.321s] generate door name=TD2115CI type=hinged
+[43.321s] Door(TD2115CI)
+[43.321s] generate door name=TD1117CI type=hinged
+[43.321s] Door(TD1117CI)
+[43.322s] generate door name=TD0113ER type=double_hinged
+[43.322s] Door(TD0113ER)
+[43.322s] generate door name=TD2113CP type=double_hinged
+[43.322s] Door(TD2113CP)
+[43.322s] generate door name=TD0119CP2 type=double_hinged
+[43.322s] Door(TD0119CP2)
+[43.322s] generate door name=TD0119CP1 type=double_hinged
+[43.322s] Door(TD0119CP1)
+[43.322s] generate door name=TD0123CP1 type=double_hinged
+[43.322s] Door(TD0123CP1)
+[43.322s] generate door name=TD0123CP2 type=double_hinged
+[43.323s] Door(TD0123CP2)
+[43.360s] 881754 bytes written to /home/maria/rmf_ws/build/project_maps/maps/estce/estce.world
+[43.441s] [ 83%] Built target estce
+[43.467s] [100%] [34m[1mGenerating estce_crowdsim[0m
+[43.930s] Creating output folder path:  /home/maria/rmf_ws/build/project_maps/maps/estce/config_resource/
+[45.536s] crowdsim unable to parse, not attempting to proceed
+[47.395s] crowdsim unable to parse, not attempting to proceed
+[47.531s] [100%] Built target generate_estce_crowdsim
+[47.546s] Invoked command in '/home/maria/rmf_ws/build/project_maps' returned '0': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/maria/rmf_ws/build/project_maps -- -j8 -l8
+[47.547s] Invoking command in '/home/maria/rmf_ws/build/project_maps': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/maria/rmf_ws/build/project_maps
+[47.559s] -- Install configuration: ""
+[47.560s] -- Execute custom install script
+[47.570s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom.building.yaml
+[47.583s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom.world
+[47.596s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/blue_linoleum.png
+[47.610s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/default.png
+[47.624s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/floor_1.mtl
+[47.638s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/floor_1.obj
+[47.652s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/model.material
+[47.667s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/wall_1.mtl
+[47.682s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/meshes/wall_1.obj
+[47.695s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/model.config
+[47.709s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L1/model.sdf
+[47.724s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/blue_linoleum.png
+[47.737s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/default.png
+[47.751s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/floor_1.mtl
+[47.765s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/floor_1.obj
+[47.779s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/model.material
+[47.793s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/wall_1.mtl
+[47.806s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/meshes/wall_1.obj
+[47.820s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/model.config
+[47.834s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/classroom_world/classroom_L2/model.sdf
+[47.848s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable.mtl
+[47.862s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable.obj
+[47.876s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable_Col.mtl
+[47.890s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable_Col.obj
+[47.904s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/meshes/AdjTable_Diffuse.png
+[47.917s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/model.config
+[47.932s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/model.sdf
+[47.945s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/1.png
+[47.959s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/2.png
+[47.972s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/3.png
+[47.988s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/4.png
+[48.008s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/AdjTable/thumbnails/5.png
+[48.041s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey.mtl
+[48.061s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey.obj
+[48.085s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey.png
+[48.110s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.mtl
+[48.135s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.obj
+[48.161s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/model.config
+[48.185s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/model.sdf
+[48.210s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/1.png
+[48.229s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/2.png
+[48.246s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/3.png
+[48.264s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/4.png
+[48.281s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/5.png
+[48.297s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/1.png
+[48.313s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/2.png
+[48.335s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/3.png
+[48.356s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/4.png
+[48.377s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/OfficeChairGrey/thumbnails/meta/5.png
+[48.396s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/caster_wheel.mtl
+[48.417s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/caster_wheel.obj
+[48.440s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/front_wheel.mtl
+[48.461s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/front_wheel.obj
+[48.483s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/tinyRobot_body.mtl
+[48.509s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/meshes/tinyRobot_body.obj
+[48.527s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/model.config
+[48.552s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/classroom/models/TinyRobot/model.sdf
+[48.589s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/Nivel 0 - TD_n0-1.png
+[48.622s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/Nivel 1 - TD_n1-1.png
+[48.643s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce.building.yaml
+[48.663s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce.world
+[48.681s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/blue_linoleum.png
+[48.696s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/default.png
+[48.710s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/floor_1.mtl
+[48.724s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/floor_1.obj
+[48.742s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/model.material
+[48.760s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/wall_1.mtl
+[48.778s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/meshes/wall_1.obj
+[48.797s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/model.config
+[48.813s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L1/model.sdf
+[48.831s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/blue_linoleum.png
+[48.853s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/default.png
+[48.870s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/floor_1.mtl
+[48.886s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/floor_1.obj
+[48.902s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/model.material
+[48.919s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/wall_1.mtl
+[48.934s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/meshes/wall_1.obj
+[48.950s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/model.config
+[48.966s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/estce_world/estce_L2/model.sdf
+[48.981s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/LICENSE
+[48.995s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink.mtl
+[49.010s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink.obj
+[49.025s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink_Col.mtl
+[49.040s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink_Col.obj
+[49.054s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink_Diffuse.png
+[49.069s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink_Metal.png
+[49.085s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/meshes/BathroomSink_Rough.png
+[49.099s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/model.config
+[49.113s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/model.sdf
+[49.127s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/thumbnails/1.png
+[49.141s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/thumbnails/2.png
+[49.154s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/thumbnails/3.png
+[49.168s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/thumbnails/4.png
+[49.189s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/BathroomSink/thumbnails/5.png
+[49.202s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/LICENSE
+[49.215s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes/Chair.mtl
+[49.228s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes/Chair.obj
+[49.241s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes/Chair.png
+[49.254s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes/Chair_Diffuse.png
+[49.268s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes/Chair_Normal.png
+[49.281s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/meshes/Chair_SpecGloss.png
+[49.294s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/model.config
+[49.307s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/model.sdf
+[49.320s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/thumbnails/1.png
+[49.333s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/thumbnails/2.png
+[49.346s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/thumbnails/3.png
+[49.359s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/thumbnails/4.png
+[49.373s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Chair/thumbnails/5.png
+[49.386s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/LICENSE
+[49.399s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Blue.png
+[49.412s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Bucket.png
+[49.426s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Cart.png
+[49.439s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/CleaningSection.mtl
+[49.452s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/CleaningSection.obj
+[49.466s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Duster.png
+[49.479s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Glove.png
+[49.492s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Mop.png
+[49.506s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Red.png
+[49.519s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/meshes/Spray.png
+[49.532s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/model.config
+[49.546s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/model.sdf
+[49.560s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/thumbnails/1.png
+[49.573s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/thumbnails/2.png
+[49.586s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/thumbnails/3.png
+[49.600s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/thumbnails/4.png
+[49.613s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CleaningSection/thumbnails/5.png
+[49.627s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/LICENSE
+[49.641s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/meshes/CoffeeTable.mtl
+[49.654s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/meshes/CoffeeTable.obj
+[49.667s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/meshes/CoffeeTable_Diffuse.png
+[49.680s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/meshes/CoffeeTable_Normal.png
+[49.693s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/meshes/CoffeeTable_SpecGloss.png
+[49.706s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/model.config
+[49.719s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/model.sdf
+[49.733s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/thumbnails/1.png
+[49.753s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/thumbnails/2.png
+[49.765s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/thumbnails/3.png
+[49.778s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/thumbnails/4.png
+[49.792s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/CoffeeTable/thumbnails/5.png
+[49.805s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/LICENSE
+[49.822s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/materials/coke.png
+[49.836s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/meshes/coke.mtl
+[49.849s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/meshes/coke.obj
+[49.861s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/model.config
+[49.874s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/model.sdf
+[49.887s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/thumbnails/1.png
+[49.900s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/thumbnails/2.png
+[49.913s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/thumbnails/3.png
+[49.926s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/thumbnails/4.png
+[49.939s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Coke/thumbnails/5.png
+[49.951s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/LICENSE
+[49.964s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/materials/textures/Construction_Cone_Diffuse.png
+[49.977s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/meshes/construction_cone.dae
+[49.989s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/model-1_3.sdf
+[50.002s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/model-1_4.sdf
+[50.015s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/model.config
+[50.027s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/model.sdf
+[50.040s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/thumbnails/1.png
+[50.053s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/thumbnails/2.png
+[50.066s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/thumbnails/3.png
+[50.078s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/thumbnails/4.png
+[50.091s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Construction Cone/thumbnails/5.png
+[50.104s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/LICENSE
+[50.116s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/meshes/Desk_Diffuse.png
+[50.129s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/meshes/desk.mtl
+[50.142s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/meshes/desk.obj
+[50.155s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/model.config
+[50.168s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/model.sdf
+[50.180s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/thumbnails/1.png
+[50.193s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/thumbnails/2.png
+[50.206s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/thumbnails/3.png
+[50.219s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/thumbnails/4.png
+[50.231s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Desk/thumbnails/5.png
+[50.244s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/LICENSE
+[50.257s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes/DigitalKiosk.mtl
+[50.269s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes/DigitalKiosk.obj
+[50.281s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes/DigitalKiosk_Col.mtl
+[50.293s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes/DigitalKiosk_Col.obj
+[50.306s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes/DigitalKiosk_Diffuse.png
+[50.318s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/meshes/DigitalKiosk_Rough.png
+[50.330s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/model.config
+[50.343s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/model.sdf
+[50.355s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/thumbnails/1.png
+[50.367s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/thumbnails/2.png
+[50.380s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/thumbnails/3.png
+[50.393s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/thumbnails/4.png
+[50.405s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/DigitalKiosk/thumbnails/5.png
+[50.418s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/LICENSE
+[50.430s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/meshes/Drawer.mtl
+[50.444s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/meshes/Drawer.obj
+[50.458s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/meshes/Drawer.png
+[50.471s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/meshes/Drawer_Col.obj
+[50.485s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/model.config
+[50.497s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/model.sdf
+[50.510s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/thumbnails/1.png
+[50.522s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/thumbnails/2.png
+[50.535s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/thumbnails/3.png
+[50.547s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/thumbnails/4.png
+[50.560s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Drawer/thumbnails/5.png
+[50.573s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/LICENSE
+[50.585s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/meshes/CGMVanguard_Diffuse.png
+[50.598s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/meshes/Carts_Wheels_Diffuse.png
+[50.611s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/meshes/ElderFPatient_color.jpg
+[50.623s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/meshes/ElderFemale.mtl
+[50.636s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/meshes/ElderFemale.obj
+[50.648s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/model.config
+[50.661s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/model.sdf
+[50.675s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/thumbnails/1.png
+[50.688s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/thumbnails/2.png
+[50.700s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/thumbnails/3.png
+[50.713s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/thumbnails/4.png
+[50.733s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElderLadyPatient/thumbnails/5.png
+[50.746s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/LICENSE
+[50.759s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/meshes/ElectronicsRecycling.mtl
+[50.773s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/meshes/ElectronicsRecycling.obj
+[50.787s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/meshes/ElectronicsRecycling_Diffuse.png
+[50.800s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/model.config
+[50.813s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/model.sdf
+[50.826s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/thumbnails/1.png
+[50.840s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/thumbnails/2.png
+[50.852s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/thumbnails/3.png
+[50.865s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/thumbnails/4.png
+[50.878s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ElectronicsRecycling/thumbnails/5.png
+[50.891s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/LICENSE
+[50.904s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart.mtl
+[50.917s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart.obj
+[50.929s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart_Col.mtl
+[50.942s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart_Col.obj
+[50.956s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart_Diffuse.png
+[50.969s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart_Metal.png
+[50.983s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart_Normal.png
+[50.997s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/meshes/EscalatorStart_Rough.png
+[51.010s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/model.config
+[51.023s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/model.sdf
+[51.036s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/thumbnails/1.png
+[51.049s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/thumbnails/2.png
+[51.062s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/thumbnails/3.png
+[51.075s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/thumbnails/4.png
+[51.088s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/EscalatorStart/thumbnails/5.png
+[51.102s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/LICENSE
+[51.115s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes/FemaleVisitor.mtl
+[51.128s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes/FemaleVisitor.obj
+[51.141s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes/FemaleVisitor.png
+[51.154s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes/FemaleVisitor_Col.mtl
+[51.168s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes/FemaleVisitor_Col.obj
+[51.181s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/meshes/Handbag.png
+[51.194s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/model.config
+[51.207s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/model.sdf
+[51.220s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/thumbnails/1.png
+[51.233s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/thumbnails/2.png
+[51.246s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/thumbnails/3.png
+[51.259s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/thumbnails/4.png
+[51.272s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FemaleVisitor/thumbnails/5.png
+[51.285s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/LICENSE
+[51.298s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes/FoodCourtBenchLong.mtl
+[51.311s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes/FoodCourtBenchLong.obj
+[51.324s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes/FoodCourtBenchLong_Col.mtl
+[51.337s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes/FoodCourtBenchLong_Col.obj
+[51.350s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes/FoodCourtBenchLong_Diffuse.png
+[51.362s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/meshes/FoodCourtBenchLong_Rough.png
+[51.375s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/model.config
+[51.388s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/model.sdf
+[51.401s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/thumbnails/1.png
+[51.413s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/thumbnails/2.png
+[51.426s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/thumbnails/3.png
+[51.440s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/thumbnails/4.png
+[51.453s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtBenchLong/thumbnails/5.png
+[51.466s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/LICENSE
+[51.479s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1.mtl
+[51.491s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1.obj
+[51.504s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1_Col.mtl
+[51.516s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1_Col.obj
+[51.528s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1_Diffuse.png
+[51.541s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1_Metal.png
+[51.554s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1_Normal.png
+[51.567s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/meshes/FoodCourtTable1_Rough.png
+[51.580s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/model.config
+[51.593s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/model.sdf
+[51.606s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/thumbnails/1.png
+[51.619s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/thumbnails/2.png
+[51.632s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/thumbnails/3.png
+[51.645s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/thumbnails/4.png
+[51.658s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/FoodCourtTable1/thumbnails/5.png
+[51.671s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/LICENSE
+[51.684s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/meshes/Fridge.mtl
+[51.698s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/meshes/Fridge.obj
+[51.711s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/meshes/Fridge_Col.mtl
+[51.724s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/meshes/Fridge_Col.obj
+[51.737s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/meshes/Fridge_Diffuse.png
+[51.751s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/model.config
+[51.764s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/model.sdf
+[51.778s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/thumbnails/1.png
+[51.790s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/thumbnails/2.png
+[51.804s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/thumbnails/3.png
+[51.817s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/thumbnails/4.png
+[51.830s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Fridge/thumbnails/5.png
+[51.844s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/LICENSE
+[51.857s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/materials/textures/gazebo_diffuse.jpg
+[51.870s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/materials/textures/gazebo_spec.jpg
+[51.883s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/meshes/gazebo.dae
+[51.896s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/model.config
+[51.913s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/model.sdf
+[51.926s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/thumbnails/1.png
+[51.939s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/thumbnails/2.png
+[51.951s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/thumbnails/3.png
+[51.964s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/thumbnails/4.png
+[51.977s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Gazebo/thumbnails/5.png
+[51.991s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/LICENSE
+[52.010s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1.mtl
+[52.030s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1.obj
+[52.043s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1_Col.mtl
+[52.063s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1_Col.obj
+[52.079s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1_Diffuse.png
+[52.096s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1_Metal.png
+[52.110s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1_Normal.png
+[52.125s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/meshes/HeadphonesRack1_Rough.png
+[52.138s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/model.config
+[52.152s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/model.sdf
+[52.166s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/thumbnails/1.png
+[52.182s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/thumbnails/2.png
+[52.199s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/thumbnails/3.png
+[52.212s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/thumbnails/4.png
+[52.226s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/HeadphonesRack1/thumbnails/5.png
+[52.239s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/LICENSE
+[52.253s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter.mtl
+[52.266s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter.obj
+[52.280s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter_Col.mtl
+[52.293s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter_Col.obj
+[52.306s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter_Diffuse.png
+[52.319s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter_Metal.png
+[52.331s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter_Normal.png
+[52.344s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/meshes/InformationCounter_Rough.png
+[52.357s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/model.config
+[52.370s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/model.sdf
+[52.383s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/thumbnails/1.png
+[52.397s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/thumbnails/2.png
+[52.410s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/thumbnails/3.png
+[52.424s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/thumbnails/4.png
+[52.438s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/InformationCounter/thumbnails/5.png
+[52.452s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/LICENSE
+[52.467s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/meshes/KitchenCountertop.mtl
+[52.480s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/meshes/KitchenCountertop.obj
+[52.494s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/meshes/KitchenCountertop_Diffuse.png
+[52.508s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/model.config
+[52.524s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/model.sdf
+[52.539s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/thumbnails/1.png
+[52.553s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/thumbnails/2.png
+[52.567s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/thumbnails/3.png
+[52.582s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/thumbnails/4.png
+[52.597s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenCountertop/thumbnails/5.png
+[52.612s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/LICENSE
+[52.627s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/meshes/kitchenSink.mtl
+[52.642s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/meshes/kitchenSink.obj
+[52.663s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/model.config
+[52.685s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/model.sdf
+[52.708s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/thumbnails/1.png
+[52.731s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/thumbnails/2.png
+[52.751s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/thumbnails/3.png
+[52.769s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/thumbnails/4.png
+[52.790s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/KitchenSink/thumbnails/5.png
+[52.809s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/LICENSE
+[52.831s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/meshes/center.png
+[52.852s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/meshes/locker.mtl
+[52.873s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/meshes/locker.obj
+[52.894s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/meshes/side.png
+[52.916s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/meshes/side1.png
+[52.938s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/model.config
+[52.958s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/model.sdf
+[52.980s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/thumbnails/1.png
+[53.004s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/thumbnails/2.png
+[53.025s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/thumbnails/3.png
+[53.045s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/thumbnails/4.png
+[53.066s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/LockerBig/thumbnails/5.png
+[53.089s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/LICENSE
+[53.126s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/meshes/MainTable.mtl
+[53.145s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/meshes/MainTable.obj
+[53.167s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/meshes/MainTable.png
+[53.189s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/model.config
+[53.210s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/model.sdf
+[53.233s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/thumbnails/1.png
+[53.256s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/thumbnails/2.png
+[53.277s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/thumbnails/3.png
+[53.297s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/thumbnails/4.png
+[53.315s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MainTable/thumbnails/5.png
+[53.344s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/LICENSE
+[53.371s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/meshes/MetalCabinetYellow.mtl
+[53.393s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/meshes/MetalCabinetYellow.obj
+[53.415s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/meshes/MetalCabinetYellow.png
+[53.436s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/model.config
+[53.458s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/model.sdf
+[53.480s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/thumbnails/1.png
+[53.502s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/thumbnails/2.png
+[53.520s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/thumbnails/3.png
+[53.537s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/thumbnails/4.png
+[53.555s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MetalCabinetYellow/thumbnails/5.png
+[53.571s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/LICENSE
+[53.588s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/meshes/MiRCart_Diffuse.png
+[53.612s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/meshes/cart.mtl
+[53.632s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/meshes/cart.obj
+[53.648s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/model.config
+[53.665s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/model.sdf
+[53.687s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/thumbnails/1.png
+[53.701s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/thumbnails/2.png
+[53.717s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/thumbnails/3.png
+[53.735s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/thumbnails/4.png
+[53.759s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MiRCart/thumbnails/5.png
+[53.776s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/LICENSE
+[53.792s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/meshes/keyboard.mtl
+[53.806s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/meshes/keyboard.obj
+[53.821s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/meshes/monitor.mtl
+[53.835s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/meshes/monitor.obj
+[53.852s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/model.config
+[53.869s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/model.sdf
+[53.891s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/thumbnails/1.png
+[53.915s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/thumbnails/2.png
+[53.931s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/thumbnails/3.png
+[53.949s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/thumbnails/4.png
+[53.970s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MonitorAndKeyboard/thumbnails/5.png
+[53.993s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/LICENSE
+[54.016s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/BigRed.png
+[54.032s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Blue.png
+[54.048s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Broom.png
+[54.065s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Cart2.png
+[54.082s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Cloth.png
+[54.097s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Duster.png
+[54.113s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Mop.png
+[54.136s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/MopCart2.mtl
+[54.151s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/MopCart2.obj
+[54.167s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/meshes/Tongs.png
+[54.182s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/model.config
+[54.205s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/model.sdf
+[54.222s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/thumbnails/1.png
+[54.238s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/thumbnails/2.png
+[54.254s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/thumbnails/3.png
+[54.271s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/thumbnails/4.png
+[54.286s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart2/thumbnails/5.png
+[54.303s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/LICENSE
+[54.319s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Blue.png
+[54.336s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Cart.png
+[54.357s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Cloth.png
+[54.379s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Duster.png
+[54.401s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Glove.png
+[54.423s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Mop.png
+[54.446s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/MopCart3.mtl
+[54.468s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/MopCart3.obj
+[54.488s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Parcel.png
+[54.509s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Plastic.png
+[54.530s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Red.png
+[54.546s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Sign.png
+[54.561s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/meshes/Spray.png
+[54.575s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/model.config
+[54.590s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/model.sdf
+[54.605s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/thumbnails/1.png
+[54.620s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/thumbnails/2.png
+[54.639s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/thumbnails/3.png
+[54.656s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/thumbnails/4.png
+[54.669s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart3/thumbnails/5.png
+[54.685s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/LICENSE
+[54.700s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/meshes/Cart.png
+[54.715s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/meshes/MopCart4.mtl
+[54.730s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/meshes/MopCart4.obj
+[54.745s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/meshes/blue.png
+[54.761s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/meshes/red.png
+[54.777s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/model.config
+[54.796s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/model.sdf
+[54.816s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/thumbnails/1.png
+[54.834s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/thumbnails/2.png
+[54.857s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/thumbnails/3.png
+[54.880s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/thumbnails/4.png
+[54.896s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/MopCart4/thumbnails/5.png
+[54.914s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/LICENSE
+[54.931s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/meshes/NurseTable.mtl
+[54.945s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/meshes/NurseTable.obj
+[54.961s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/meshes/NurseTable.png
+[54.977s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/meshes/NurseTable_Col.mtl
+[54.992s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/meshes/NurseTable_Col.obj
+[55.007s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/model.config
+[55.024s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/model.sdf
+[55.041s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/thumbnails/1.png
+[55.060s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/thumbnails/2.png
+[55.075s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/thumbnails/3.png
+[55.100s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/thumbnails/4.png
+[55.123s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/NurseTable/thumbnails/5.png
+[55.141s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/LICENSE
+[55.164s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials/scripts/caster_fp.glsl
+[55.181s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials/scripts/caster_vp.glsl
+[55.200s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials/scripts/oak_tree.material
+[55.220s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials/textures/bark_diffuse.png
+[55.241s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/materials/textures/branch_diffuse.png
+[55.256s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/meshes/oak_tree.dae
+[55.272s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/model.config
+[55.288s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/model.sdf
+[55.304s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/thumbnails/1.png
+[55.319s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/thumbnails/2.png
+[55.339s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/thumbnails/3.png
+[55.361s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/thumbnails/4.png
+[55.382s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Oak tree/thumbnails/5.png
+[55.402s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/LICENSE
+[55.423s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/meshes/OfficeChairBlack.mtl
+[55.445s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/meshes/OfficeChairBlack.obj
+[55.459s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/meshes/OfficeChairBlack.png
+[55.475s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/meshes/OfficeChairBlack_Col.mtl
+[55.489s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj
+[55.504s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/model.config
+[55.524s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/model.sdf
+[55.538s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/1.png
+[55.552s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/2.png
+[55.566s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/3.png
+[55.579s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/4.png
+[55.593s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/5.png
+[55.607s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/meta/1.png
+[55.622s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/meta/2.png
+[55.636s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/meta/3.png
+[55.651s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/meta/4.png
+[55.666s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlack/thumbnails/meta/5.png
+[55.681s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/LICENSE
+[55.696s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/meshes/OfficeChairBlue.mtl
+[55.712s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/meshes/OfficeChairBlue.obj
+[55.726s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/meshes/OfficeChairBlue.png
+[55.741s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/meshes/OfficeChairBlue_Col.mtl
+[55.755s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/meshes/OfficeChairBlue_Col.obj
+[55.770s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/model.config
+[55.786s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/model.sdf
+[55.801s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/1.png
+[55.815s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/2.png
+[55.829s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/3.png
+[55.842s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/4.png
+[55.863s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/5.png
+[55.877s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/meta/1.png
+[55.891s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/meta/2.png
+[55.904s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/meta/3.png
+[55.919s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/meta/4.png
+[55.936s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairBlue/thumbnails/meta/5.png
+[55.959s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/LICENSE
+[55.980s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/meshes/OfficeChairGrey.mtl
+[55.996s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/meshes/OfficeChairGrey.obj
+[56.030s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/meshes/OfficeChairGrey.png
+[56.068s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.mtl
+[56.096s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.obj
+[56.125s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/model.config
+[56.147s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/model.sdf
+[56.174s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/1.png
+[56.190s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/2.png
+[56.205s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/3.png
+[56.219s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/4.png
+[56.233s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/5.png
+[56.248s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/meta/1.png
+[56.262s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/meta/2.png
+[56.276s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/meta/3.png
+[56.290s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/meta/4.png
+[56.304s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/OfficeChairGrey/thumbnails/meta/5.png
+[56.325s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/LICENSE
+[56.339s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials/scripts/caster_fp.glsl
+[56.352s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials/scripts/caster_vp.glsl
+[56.367s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials/scripts/pine_tree.material
+[56.382s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials/textures/bark_diffuse.png
+[56.396s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/materials/textures/branch_2_diffuse.png
+[56.409s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/meshes/pine_tree.dae
+[56.423s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/model.config
+[56.440s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/model.sdf
+[56.454s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/thumbnails/1.png
+[56.467s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/thumbnails/2.png
+[56.481s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/thumbnails/3.png
+[56.495s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/thumbnails/4.png
+[56.508s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Pine Tree/thumbnails/5.png
+[56.522s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/LICENSE
+[56.535s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/meshes/PotatoChipChair.mtl
+[56.549s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/meshes/PotatoChipChair.obj
+[56.562s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/meshes/PotatoChipChairDiffuse.png
+[56.576s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/meshes/PotatoChipChair_Col.mtl
+[56.589s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/meshes/PotatoChipChair_Col.obj
+[56.604s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/model.config
+[56.624s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/model.sdf
+[56.639s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/thumbnails/1.png
+[56.654s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/thumbnails/2.png
+[56.668s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/thumbnails/3.png
+[56.689s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/thumbnails/4.png
+[56.703s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/PotatoChipChair/thumbnails/5.png
+[56.722s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/LICENSE
+[56.738s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/meshes/RecTable.mtl
+[56.753s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/meshes/RecTable.obj
+[56.768s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/meshes/RecTable_Col.mtl
+[56.783s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/meshes/RecTable_Col.obj
+[56.797s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/meshes/rectable.png
+[56.811s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/model.config
+[56.825s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/model.sdf
+[56.839s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/thumbnails/1.png
+[56.853s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/thumbnails/2.png
+[56.874s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/thumbnails/3.png
+[56.889s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/thumbnails/4.png
+[56.903s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RecTable/thumbnails/5.png
+[56.923s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/LICENSE
+[56.937s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1.mtl
+[56.953s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1.obj
+[56.968s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1_Col.mtl
+[56.983s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1_Col.obj
+[56.999s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1_Diffuse.png
+[57.014s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1_Normal.png
+[57.035s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/meshes/RetailKiosk1_Rough.png
+[57.054s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/model.config
+[57.070s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/model.sdf
+[57.084s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/thumbnails/1.png
+[57.103s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/thumbnails/2.png
+[57.118s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/thumbnails/3.png
+[57.133s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/thumbnails/4.png
+[57.155s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/RetailKiosk1/thumbnails/5.png
+[57.170s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/LICENSE
+[57.185s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/meshes/ScrubsTrolley.mtl
+[57.201s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/meshes/ScrubsTrolley.obj
+[57.217s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/meshes/ScrubsTrolley.png
+[57.232s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/meshes/ScrubsTrolley_Col.mtl
+[57.248s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/meshes/ScrubsTrolley_Col.obj
+[57.263s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/model.config
+[57.277s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/model.sdf
+[57.292s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/thumbnails/1.png
+[57.306s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/thumbnails/2.png
+[57.321s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/thumbnails/3.png
+[57.336s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/thumbnails/4.png
+[57.350s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/ScrubsTrolley/thumbnails/5.png
+[57.365s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/LICENSE
+[57.380s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/meshes/SmallCubicle.mtl
+[57.394s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/meshes/SmallCubicle.obj
+[57.409s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/meshes/SmallCubicle_Col.mtl
+[57.423s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/meshes/SmallCubicle_Col.obj
+[57.442s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/meshes/SmallCubicle_Diffuse.png
+[57.461s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/model.config
+[57.479s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/model.sdf
+[57.493s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/thumbnails/1.png
+[57.508s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/thumbnails/2.png
+[57.524s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/thumbnails/3.png
+[57.539s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/thumbnails/4.png
+[57.555s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/SmallCubicle/thumbnails/5.png
+[57.577s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/LICENSE
+[57.592s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/meshes/Sofa.mtl
+[57.606s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/meshes/Sofa.obj
+[57.621s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/meshes/SofaDiffuse.png
+[57.635s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/model.config
+[57.649s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/model.sdf
+[57.663s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/thumbnails/1.png
+[57.678s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/thumbnails/2.png
+[57.691s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/thumbnails/3.png
+[57.704s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/thumbnails/4.png
+[57.718s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Sofa/thumbnails/5.png
+[57.732s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/LICENSE
+[57.746s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/meshes/StorageRackCovered.mtl
+[57.760s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/meshes/StorageRackCovered.obj
+[57.774s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/meshes/StorageRackCovered.png
+[57.788s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/model.config
+[57.802s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/model.sdf
+[57.816s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/thumbnails/1.png
+[57.828s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/thumbnails/2.png
+[57.841s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/thumbnails/3.png
+[57.854s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/thumbnails/4.png
+[57.867s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/StorageRackCovered/thumbnails/5.png
+[57.880s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/LICENSE
+[57.893s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/meshes/TVStand.mtl
+[57.906s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/meshes/TVStand.obj
+[57.918s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/meshes/TVStand_Col.mtl
+[57.931s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/meshes/TVStand_Col.obj
+[57.943s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/meshes/TVStand_Diffuse.png
+[57.956s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/model.config
+[57.969s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/model.sdf
+[57.982s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/thumbnails/1.png
+[57.995s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/thumbnails/2.png
+[58.008s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/thumbnails/3.png
+[58.021s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/thumbnails/4.png
+[58.033s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/TVStand/thumbnails/5.png
+[58.046s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/LICENSE
+[58.059s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/Table_Diffuse.jpg
+[58.072s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/model-1_2.sdf
+[58.084s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/model-1_3.sdf
+[58.097s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/model-1_4.sdf
+[58.109s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/model.config
+[58.122s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/model.sdf
+[58.134s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/thumbnails/1.png
+[58.146s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/thumbnails/2.png
+[58.158s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/thumbnails/3.png
+[58.170s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/thumbnails/4.png
+[58.183s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Table/thumbnails/5.png
+[58.195s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/LICENSE
+[58.207s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/meshes/toilet.mtl
+[58.226s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/meshes/toilet.obj
+[58.238s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/model.config
+[58.250s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/model.sdf
+[58.262s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/thumbnails/1.png
+[58.275s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/thumbnails/2.png
+[58.287s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/thumbnails/3.png
+[58.299s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/thumbnails/4.png
+[58.311s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/Toilet/thumbnails/5.png
+[58.323s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/LICENSE
+[58.336s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/meshes/VendingMachine.mtl
+[58.350s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/meshes/VendingMachine.obj
+[58.361s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/meshes/VendingMachine_Diffuse.png
+[58.373s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/model.config
+[58.385s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/model.sdf
+[58.397s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/thumbnails/1.png
+[58.410s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/thumbnails/2.png
+[58.424s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/thumbnails/3.png
+[58.436s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/thumbnails/4.png
+[58.449s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/VendingMachine/thumbnails/5.png
+[58.461s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/LICENSE
+[58.474s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/meshes/WhiteCabinet.mtl
+[58.486s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/meshes/WhiteCabinet.obj
+[58.498s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/meshes/WhiteCabinet.png
+[58.510s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/model.config
+[58.522s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/model.sdf
+[58.534s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/thumbnails/1.png
+[58.546s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/thumbnails/2.png
+[58.557s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/thumbnails/3.png
+[58.569s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/thumbnails/4.png
+[58.581s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WhiteCabinet/thumbnails/5.png
+[58.593s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/LICENSE
+[58.606s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes/WoodenChair.mtl
+[58.618s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes/WoodenChair.obj
+[58.631s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes/WoodenChair_Col.mtl
+[58.643s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes/WoodenChair_Col.obj
+[58.655s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes/WoodenChair_Diffuse.png
+[58.667s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/meshes/WoodenChair_Rough.png
+[58.679s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/model.config
+[58.692s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/model.sdf
+[58.704s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/thumbnails/1.png
+[58.716s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/thumbnails/2.png
+[58.729s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/thumbnails/3.png
+[58.742s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/thumbnails/4.png
+[58.754s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/estce/models/WoodenChair/thumbnails/5.png
+[58.765s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/meshes/Sofa.mtl
+[58.777s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/meshes/Sofa.obj
+[58.789s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/meshes/SofaDiffuse.png
+[58.801s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/model.config
+[58.813s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/model.sdf
+[58.825s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/1.png
+[58.837s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/2.png
+[58.849s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/3.png
+[58.863s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/4.png
+[58.876s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/models/Sofa/thumbnails/5.png
+[58.888s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/test1/test1.building.yaml
+[58.900s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/ament_index/resource_index/package_run_dependencies/project_maps
+[58.912s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/ament_index/resource_index/parent_prefix_path/project_maps
+[58.924s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/environment/ament_prefix_path.sh
+[58.936s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/environment/ament_prefix_path.dsv
+[58.948s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/environment/path.sh
+[58.961s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/environment/path.dsv
+[58.973s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/local_setup.bash
+[58.985s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/local_setup.sh
+[58.996s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/local_setup.zsh
+[59.008s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/local_setup.dsv
+[59.020s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/package.dsv
+[59.033s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/ament_index/resource_index/packages/project_maps
+[59.050s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/cmake/project_mapsConfig.cmake
+[59.067s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/cmake/project_mapsConfig-version.cmake
+[59.079s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/package.xml
+[59.092s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/classroom.world
+[59.104s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/blue_linoleum.png
+[59.116s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/default.png
+[59.127s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.mtl
+[59.139s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/floor_1.obj
+[59.151s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/model.material
+[59.163s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.mtl
+[59.176s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/meshes/wall_1.obj
+[59.193s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/model.config
+[59.205s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L1/model.sdf
+[59.217s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/blue_linoleum.png
+[59.230s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/default.png
+[59.242s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.mtl
+[59.253s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/floor_1.obj
+[59.265s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/model.material
+[59.277s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.mtl
+[59.288s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/meshes/wall_1.obj
+[59.300s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/model.config
+[59.312s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/models/classroom_L2/model.sdf
+[59.323s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/nav_graphs/0.yaml
+[59.335s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/classroom/nav_graphs/1.yaml
+[59.347s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/estce.world
+[59.359s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/blue_linoleum.png
+[59.371s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/default.png
+[59.383s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/floor_1.mtl
+[59.394s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/floor_1.obj
+[59.406s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/model.material
+[59.418s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/wall_1.mtl
+[59.429s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/meshes/wall_1.obj
+[59.440s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/model.config
+[59.452s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L1/model.sdf
+[59.464s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/blue_linoleum.png
+[59.476s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/default.png
+[59.488s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/floor_1.mtl
+[59.500s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/floor_1.obj
+[59.512s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/model.material
+[59.524s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/wall_1.mtl
+[59.536s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/meshes/wall_1.obj
+[59.549s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/model.config
+[59.561s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/models/estce_L2/model.sdf
+[59.572s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/nav_graphs/0.yaml
+[59.584s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/nav_graphs/1.yaml
+[59.596s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/estce/nav_graphs/2.yaml
+[59.608s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/blue_linoleum.png
+[59.620s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/default.png
+[59.632s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/floor_1.mtl
+[59.645s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/floor_1.obj
+[59.657s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/model.material
+[59.669s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/wall_1.mtl
+[59.680s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/wall_1.obj
+[59.692s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/model.config
+[59.703s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L1/model.sdf
+[59.715s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/blue_linoleum.png
+[59.726s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/default.png
+[59.737s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/floor_1.mtl
+[59.749s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/floor_1.obj
+[59.760s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/model.material
+[59.776s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/wall_1.mtl
+[59.787s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/meshes/wall_1.obj
+[59.798s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/model.config
+[59.810s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/models/test1_L2/model.sdf
+[59.822s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/nav_graphs/0.yaml
+[59.833s] -- Symlinking: /home/maria/rmf_ws/install/project_maps/share/project_maps/maps/test1/test1.world
+[59.847s] Invoked command in '/home/maria/rmf_ws/build/project_maps' returned '0': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/maria/rmf_ws/build/project_maps

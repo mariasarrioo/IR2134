@@ -1,0 +1,1 @@
+/home/maria/rmf_ws/build/rmf_robot_sim_common/ament_cmake_core/rmf_robot_sim_commonConfig.cmake

@@ -1,0 +1,44 @@
+[1.699s] Invoking command in '/home/maria/rmf_ws/build/project_tasks': PYTHONPATH=/home/maria/rmf_ws/build/project_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maria/rmf_ws/build/project_tasks/build --no-deps symlink_data
+[2.119s] running develop
+[2.306s] running egg_info
+[2.306s] creating project_tasks.egg-info
+[2.324s] writing project_tasks.egg-info/PKG-INFO
+[2.324s] writing dependency_links to project_tasks.egg-info/dependency_links.txt
+[2.324s] writing entry points to project_tasks.egg-info/entry_points.txt
+[2.325s] writing requirements to project_tasks.egg-info/requires.txt
+[2.325s] writing top-level names to project_tasks.egg-info/top_level.txt
+[2.325s] writing manifest file 'project_tasks.egg-info/SOURCES.txt'
+[2.360s] reading manifest file 'project_tasks.egg-info/SOURCES.txt'
+[2.360s] writing manifest file 'project_tasks.egg-info/SOURCES.txt'
+[2.381s] running build_ext
+[2.381s] Creating /home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages/project-tasks.egg-link (link to .)
+[2.382s] Installing api_request script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.382s] Installing cancel_robot_task script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.382s] Installing cancel_task script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.382s] Installing dispatch_action script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.382s] Installing dispatch_cart_delivery script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.382s] Installing dispatch_clean script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.382s] Installing dispatch_delivery script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.382s] Installing dispatch_dynamic_event script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.382s] Installing dispatch_go_to_place script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.382s] Installing dispatch_json script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.382s] Installing dispatch_loop script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.383s] Installing dispatch_patrol script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.383s] Installing dispatch_teleop script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.383s] Installing dynamic_event_client script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.383s] Installing emergency_signal script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.383s] Installing get_robot_location script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.383s] Installing mock_docker script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.383s] Installing request_lift script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.383s] Installing request_loop script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.383s] Installing teleop_robot script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.383s] Installing wait_for_task_complete script to /home/maria/rmf_ws/install/project_tasks/lib/project_tasks
+[2.383s] 
+[2.384s] Installed /home/maria/rmf_ws/build/project_tasks
+[2.384s] running symlink_data
+[2.384s] creating /home/maria/rmf_ws/install/project_tasks/share/ament_index
+[2.384s] creating /home/maria/rmf_ws/install/project_tasks/share/ament_index/resource_index
+[2.384s] creating /home/maria/rmf_ws/install/project_tasks/share/ament_index/resource_index/packages
+[2.384s] symbolically linking /home/maria/rmf_ws/build/project_tasks/resource/project_tasks -> /home/maria/rmf_ws/install/project_tasks/share/ament_index/resource_index/packages
+[2.384s] symbolically linking /home/maria/rmf_ws/build/project_tasks/package.xml -> /home/maria/rmf_ws/install/project_tasks/share/project_tasks
+[2.417s] Invoked command in '/home/maria/rmf_ws/build/project_tasks' returned '0': PYTHONPATH=/home/maria/rmf_ws/build/project_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maria/rmf_ws/install/project_tasks/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maria/rmf_ws/build/project_tasks/build --no-deps symlink_data
