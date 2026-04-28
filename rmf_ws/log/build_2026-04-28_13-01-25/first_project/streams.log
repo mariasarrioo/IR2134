@@ -1,0 +1,234 @@
+[0.013s] Invoking command in '/home/maria/rmf_ws/build/first_project': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/large_project:/home/maria/rmf_ws/install/first_project:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/maria/rmf_ws/src/first_project -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maria/rmf_ws/install/first_project
+[0.075s] -- The C compiler identification is GNU 13.3.0
+[0.130s] -- The CXX compiler identification is GNU 13.3.0
+[0.144s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.351s] -- Detecting CXX compiler ABI info - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.359s] -- Detecting CXX compile features - done
+[0.364s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.518s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.579s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.711s] -- Configuring done (0.7s)
+[0.713s] -- Generating done (0.0s)
+[0.715s] -- Build files have been written to: /home/maria/rmf_ws/build/first_project
+[0.719s] Invoked command in '/home/maria/rmf_ws/build/first_project' returned '0': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/large_project:/home/maria/rmf_ws/install/first_project:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/maria/rmf_ws/src/first_project -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maria/rmf_ws/install/first_project
+[0.720s] Invoking command in '/home/maria/rmf_ws/build/first_project': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/large_project:/home/maria/rmf_ws/install/first_project:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/maria/rmf_ws/build/first_project -- -j8 -l8
+[0.774s] [ 50%] [34m[1mGenerating maps/icc_kyoto/nav_graphs/.generated[0m
+[0.774s] [100%] [34m[1mGenerating maps/icc_kyoto/icc_kyoto.world[0m
+[1.161s] generating /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/icc_kyoto.world from /home/maria/rmf_ws/src/first_project/maps/icc_kyoto/icc_kyoto.building.yaml
+[1.221s] building name: icc_kyoto
+[1.221s] coordinate system: reference_image
+[1.221s] parsing level L1
+[1.221s] building name: icc_kyoto
+[1.221s] coordinate system: reference_image
+[1.221s] parsing level L1
+[1.221s] parsing level L2
+[1.221s] parsing level L2
+[1.222s] calculating levels relative to L1
+[1.222s] level L1 scale: 0.02551020408163266
+[1.222s] calculating level L2 offset and scale...
+[1.222s]   0 common fiducials:
+[1.222s] Transform.set_from_fiducials()
+[1.222s]   0 fiducial pairs:
+[1.222s] Bearings:
+[1.222s] []
+[1.222s] calculating levels relative to L1
+[1.222s] level L1 scale: 0.02551020408163266
+[1.222s] calculating level L2 offset and scale...
+[1.222s]   0 common fiducials:
+[1.222s] Transform.set_from_fiducials()
+[1.222s]   0 fiducial pairs:
+[1.222s] Bearings:
+[1.223s] []
+[1.226s] generating nav data
+[1.226s] hooray, we found an intersection: t=0.504, u=0.63
+[1.226s] generating model of level L1 in /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1
+[1.226s]   (764.563,-1046.99),(744.819,-1435.622) and (680.388,-1242.995),(798.165,-1242.995)
+[1.227s] found intersection with door door1!
+[1.227s] hooray, we found an intersection: t=0.728, u=0.576
+[1.227s]   (841.453,-1376.707),(955.766,-1376.707) and (924.619,-1355.521),(924.619,-1392.329)
+[1.227s] found intersection with door door3!
+[1.227s] hooray, we found an intersection: t=0.683, u=0.285
+[1.227s]   (841.453,-1376.707),(841.453,-1181.057) and (808.193,-1242.995),(925.045,-1242.995)
+[1.227s] found intersection with door door5!
+[1.227s]   wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/model.config
+[1.227s] generating floor polygon 1 on floor icc_kyoto_L1
+[1.227s] hooray, we found an intersection: t=0.604, u=0.561
+[1.227s]   (741.803,-1033.459),(741.803,-1380.592) and (672.582,-1243.013),(795.893,-1243.013)
+[1.227s] found intersection with door door6!
+[1.227s] hooray, we found an intersection: t=0.303, u=0.684
+[1.227s]   (741.803,-1380.592),(519.736,-1380.592) and (674.5,-1355.444),(674.5,-1392.191)
+[1.227s] found intersection with door door9!
+[1.227s] hole vertices: []
+[1.227s] lift vertices: {}
+[1.227s] hooray, we found an intersection: t=0.347, u=0.604
+[1.227s]   (877.59,-1173.327),(877.59,-1374.102) and (808.137,-1243.013),(923.139,-1243.013)
+[1.228s] found intersection with door door7!
+[1.228s] hooray, we found an intersection: t=0.177, u=0.466
+[1.228s]   (877.59,-1374.102),(1140.727,-1374.102) and (924.039,-1357.093),(924.039,-1393.624)
+[1.228s] found intersection with door door8!
+[1.228s] writing /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/nav_graphs/0.yaml
+[1.229s] [[0, 5, 2], [0, 2, 1], [4, 3, 2], [4, 2, 5]]
+[1.229s]   wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.obj
+[1.230s]   wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/blue_linoleum.png
+[1.230s]   wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.mtl
+[1.230s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7855c0d97e00>, 'texture_height': <building_map.param_value.ParamValue object at 0x7855c0d97e30>, 'texture_name': <building_map.param_value.ParamValue object at 0x7855c0d97e60>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7855c0d97ec0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7855c0d97e90>}]
+[1.230s] generating wall: 1 on floor: icc_kyoto_L1
+[1.231s] writing /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/nav_graphs/1.yaml
+[1.231s]   wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/default.png
+[1.231s] generate_wall_visual_mesh(icc_kyoto_L1, /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1)
+[1.231s]   generating /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.obj
+[1.241s]   generating /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.mtl
+[1.241s]   wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L1/model.sdf
+[1.241s] generating model of level L2 in /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2
+[1.241s]   wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/model.config
+[1.241s] generating floor polygon 1 on floor icc_kyoto_L2
+[1.241s] hole vertices: []
+[1.241s] lift vertices: {}
+[1.242s] [[0, 3, 2], [0, 2, 1]]
+[1.242s]   wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.obj
+[1.243s]   wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/blue_linoleum.png
+[1.243s]   wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.mtl
+[1.243s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7855c0e21370>, 'texture_height': <building_map.param_value.ParamValue object at 0x7855c0e213a0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7855c0e213d0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7855c0e21400>, 'texture_width': <building_map.param_value.ParamValue object at 0x7855c0e21460>}]
+[1.243s] generating wall: 1 on floor: icc_kyoto_L2
+[1.244s]   wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/default.png
+[1.244s] generate_wall_visual_mesh(icc_kyoto_L2, /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2)
+[1.244s]   generating /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.obj
+[1.246s]   generating /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.mtl
+[1.246s]   wrote /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/models/icc_kyoto_L2/model.sdf
+[1.262s] spawning robot name tinyRobot1 of type TinyRobot
+[1.262s] spawning robot name tinyRobot2 of type TinyRobot
+[1.262s] generate door name=door1 type=double_hinged
+[1.262s] Door(door1)
+[1.262s] generate door name=door2 type=hinged
+[1.263s] Door(door2)
+[1.263s] generate door name=door3 type=sliding
+[1.263s] Door(door3)
+[1.263s] generate door name=door4 type=double_hinged
+[1.263s] Door(door4)
+[1.263s] generate door name=door5 type=double_hinged
+[1.263s] Door(door5)
+[1.263s] generate door name=door6 type=double_hinged
+[1.263s] Door(door6)
+[1.263s] generate door name=door7 type=double_hinged
+[1.263s] Door(door7)
+[1.263s] generate door name=door8 type=sliding
+[1.263s] Door(door8)
+[1.263s] generate door name=door9 type=hinged
+[1.263s] Door(door9)
+[1.267s] 96467 bytes written to /home/maria/rmf_ws/build/first_project/maps/icc_kyoto/icc_kyoto.world
+[1.307s] [100%] Built target generate_icc_kyoto_nav_graphs
+[1.342s] [100%] Built target generate_icc_kyoto_world
+[1.353s] Invoked command in '/home/maria/rmf_ws/build/first_project' returned '0': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/large_project:/home/maria/rmf_ws/install/first_project:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/maria/rmf_ws/build/first_project -- -j8 -l8
+[1.363s] Invoking command in '/home/maria/rmf_ws/build/first_project': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/large_project:/home/maria/rmf_ws/install/first_project:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/maria/rmf_ws/build/first_project
+[1.371s] -- Install configuration: ""
+[1.371s] -- Execute custom install script
+[1.371s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/launch/common.launch.xml
+[1.380s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/launch/icc_kyoto.launch.xml
+[1.389s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/launch/simulation.launch.xml
+[1.398s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/config/icc_kyoto.rviz
+[1.407s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/config/tinyRobot_config.yaml
+[1.416s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/conference_room_b1.png
+[1.425s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/conference_room_b1_balcony.png
+[1.433s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto.building.yaml
+[1.442s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto.world
+[1.451s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/blue_linoleum.png
+[1.460s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/default.png
+[1.469s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/floor_1.mtl
+[1.478s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/floor_1.obj
+[1.487s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/model.material
+[1.496s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/wall_1.mtl
+[1.506s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/meshes/wall_1.obj
+[1.515s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/model.config
+[1.526s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L1/model.sdf
+[1.534s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/blue_linoleum.png
+[1.543s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/default.png
+[1.552s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/floor_1.mtl
+[1.560s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/floor_1.obj
+[1.569s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/model.material
+[1.578s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/wall_1.mtl
+[1.587s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/meshes/wall_1.obj
+[1.596s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/model.config
+[1.607s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto_world/icc_kyoto_L2/model.sdf
+[1.615s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/meshes/AdjTable.mtl
+[1.624s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/meshes/AdjTable.obj
+[1.633s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/meshes/AdjTable_Col.mtl
+[1.642s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/meshes/AdjTable_Col.obj
+[1.651s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/meshes/AdjTable_Diffuse.png
+[1.660s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/model.config
+[1.670s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/model.sdf
+[1.678s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/thumbnails/1.png
+[1.687s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/thumbnails/2.png
+[1.696s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/thumbnails/3.png
+[1.705s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/thumbnails/4.png
+[1.713s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/AdjTable/thumbnails/5.png
+[1.723s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/meshes/OfficeChairGrey.mtl
+[1.732s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/meshes/OfficeChairGrey.obj
+[1.740s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/meshes/OfficeChairGrey.png
+[1.749s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.mtl
+[1.757s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/meshes/OfficeChairGrey_Col.obj
+[1.766s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/model.config
+[1.775s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/model.sdf
+[1.788s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/1.png
+[1.797s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/2.png
+[1.806s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/3.png
+[1.815s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/4.png
+[1.823s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/5.png
+[1.832s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/meta/1.png
+[1.840s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/meta/2.png
+[1.849s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/meta/3.png
+[1.857s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/meta/4.png
+[1.866s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/OfficeChairGrey/thumbnails/meta/5.png
+[1.874s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/caster_wheel.mtl
+[1.883s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/caster_wheel.obj
+[1.892s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/front_wheel.mtl
+[1.901s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/front_wheel.obj
+[1.910s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/tinyRobot_body.mtl
+[1.920s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/meshes/tinyRobot_body.obj
+[1.929s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/model.config
+[1.939s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/TinyRobot/model.sdf
+[1.948s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/sim_hall.png
+[1.957s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/icc_kyoto.world
+[1.966s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/blue_linoleum.png
+[1.975s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/default.png
+[1.984s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.mtl
+[1.992s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/floor_1.obj
+[2.001s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/model.material
+[2.011s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.mtl
+[2.021s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/meshes/wall_1.obj
+[2.030s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/model.config
+[2.039s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L1/model.sdf
+[2.047s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/blue_linoleum.png
+[2.055s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/default.png
+[2.063s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.mtl
+[2.071s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/floor_1.obj
+[2.081s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/model.material
+[2.090s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.mtl
+[2.100s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/meshes/wall_1.obj
+[2.108s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/model.config
+[2.117s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/model.sdf
+[2.125s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/nav_graphs/.generated
+[2.133s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/nav_graphs/0.yaml
+[2.141s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/nav_graphs/1.yaml
+[2.150s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/ament_index/resource_index/package_run_dependencies/first_project
+[2.158s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/ament_index/resource_index/parent_prefix_path/first_project
+[2.167s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/environment/ament_prefix_path.sh
+[2.177s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/environment/ament_prefix_path.dsv
+[2.186s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/environment/path.sh
+[2.196s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/environment/path.dsv
+[2.205s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/local_setup.bash
+[2.213s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/local_setup.sh
+[2.221s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/local_setup.zsh
+[2.230s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/local_setup.dsv
+[2.238s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/package.dsv
+[2.247s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/ament_index/resource_index/packages/first_project
+[2.256s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/cmake/first_projectConfig.cmake
+[2.265s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/cmake/first_projectConfig-version.cmake
+[2.273s] -- Symlinking: /home/maria/rmf_ws/install/first_project/share/first_project/package.xml
+[2.283s] Invoked command in '/home/maria/rmf_ws/build/first_project' returned '0': CMAKE_PREFIX_PATH=/home/maria/rmf_ws/install/project_config:/home/maria/rmf_ws/install/large_project:/home/maria/rmf_ws/install/first_project:/home/maria/rmf_ws/install/rmf_visualization:/home/maria/rmf_ws/install/rmf_visualization_schedule:/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins:/home/maria/rmf_ws/install/rmf_visualization_obstacles:/home/maria/rmf_ws/install/rmf_visualization_navgraphs:/home/maria/rmf_ws/install/rmf_visualization_floorplans:/home/maria/rmf_ws/install/rmf_visualization_fleet_states:/home/maria/rmf_ws/install/rmf_robot_sim_gz_plugins:/home/maria/rmf_ws/install/rmf_robot_sim_common:/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins:/home/maria/rmf_ws/install/project_simulation:/home/maria/rmf_ws/install/project_maps:/home/maria/rmf_ws/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/maria/rmf_ws/install/rmf_visualization_building_systems:/home/maria/rmf_ws/install/project_tasks:/home/maria/rmf_ws/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/maria/rmf_ws/build/first_project

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-156a8aa5a6c1dc6ad09a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "first_project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "first_project_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_project_uninstall-de91de3c4dcb74f5dd50.json",
+					"name" : "first_project_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_icc_kyoto_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_icc_kyoto_nav_graphs-83a288a2a41bd7874afa.json",
+					"name" : "generate_icc_kyoto_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_icc_kyoto_world::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_icc_kyoto_world-05f2456f7406c0bc1713.json",
+					"name" : "generate_icc_kyoto_world",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-63e49d6624d0f317ad94.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maria/rmf_ws/build/first_project",
+		"source" : "/home/maria/rmf_ws/src/first_project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
