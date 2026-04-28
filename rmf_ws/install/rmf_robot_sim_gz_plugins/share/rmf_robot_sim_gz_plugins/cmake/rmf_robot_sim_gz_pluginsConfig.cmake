@@ -1,1 +1,0 @@
-/home/maria/rmf_ws/build/rmf_robot_sim_gz_plugins/ament_cmake_core/rmf_robot_sim_gz_pluginsConfig.cmake

@@ -1,3 +1,0 @@
-/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins/lib/librmf_visualization_rviz2_plugins.so
-/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/cmake/rmf_visualization_rviz2_pluginsExport.cmake
-/home/maria/rmf_ws/install/rmf_visualization_rviz2_plugins/share/rmf_visualization_rviz2_plugins/cmake/rmf_visualization_rviz2_pluginsExport-noconfig.cmake

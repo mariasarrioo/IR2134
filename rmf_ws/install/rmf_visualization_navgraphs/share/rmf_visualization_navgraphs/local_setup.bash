@@ -1,1 +1,0 @@
-/home/maria/rmf_ws/build/rmf_visualization_navgraphs/ament_cmake_environment_hooks/local_setup.bash
