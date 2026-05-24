@@ -31,6 +31,7 @@ rmf_fleet:
   task_capabilities: # Specify the types of RMF Tasks that robots in this fleet are capable of performing
     loop: False
     delivery: False
+    clean: True
   actions: ["clean"]
   finishing_request: "park" # [park, charge, nothing]
   robots:
@@ -45,11 +46,11 @@ fleet_manager:
   robot_state_update_frequency: 10.0
   action_paths:
     clean:
-      TD0010CW:
+      "1":
         map_name: "L1"
         path: [ [92.461, -47.0220, -0.82],
                 [96.0417, -50.8377, 3.14],
                 [92.2036, -50.8377, 1.57],
                 [92.461, -47.0220, -0.82] ]
-        finish_waypoint: "TD0010CW"
+        finish_waypoint: "1"
      
