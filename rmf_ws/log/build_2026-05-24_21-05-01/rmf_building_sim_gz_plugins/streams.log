@@ -1,0 +1,455 @@
+[0.180s] Invoking command in '/home/maria/rmf_ws/build/rmf_building_sim_gz_plugins': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/maria/rmf_ws/src/rmf_simulation/rmf_building_sim_gz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins
+[2.743s] -- The C compiler identification is GNU 13.3.0
+[2.743s] -- The CXX compiler identification is GNU 13.3.0
+[2.743s] -- Detecting C compiler ABI info
+[2.744s] -- Detecting C compiler ABI info - done
+[2.744s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.744s] -- Detecting C compile features
+[2.744s] -- Detecting C compile features - done
+[2.744s] -- Detecting CXX compiler ABI info
+[2.744s] -- Detecting CXX compiler ABI info - done
+[2.744s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.744s] -- Detecting CXX compile features
+[2.744s] -- Detecting CXX compile features - done
+[2.744s] -- Found rmf_door_msgs: 4.0.0 (/rmf_demos_ws/install/rmf_door_msgs/share/rmf_door_msgs/cmake)
+[2.744s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.745s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.745s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.745s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.745s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.745s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.745s] -- Found rmf_lift_msgs: 4.0.0 (/rmf_demos_ws/install/rmf_lift_msgs/share/rmf_lift_msgs/cmake)
+[2.745s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.745s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.745s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.745s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.745s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.745s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.746s] -- Found gz_sim_vendor: 0.0.9 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)
+[2.746s] -- Looking for gz-sim8 -- found version 8.10.0
+[2.746s] -- Searching for dependencies of gz-sim8
+[2.746s] -- Looking for sdformat14 -- found version 14.8.0
+[2.746s] -- Searching for dependencies of sdformat14
+[2.746s] -- Checking for module 'tinyxml2'
+[2.746s] --   Found tinyxml2, version 10.0.0
+[2.746s] -- Looking for gz-math7 -- found version 7.5.2
+[2.746s] -- Searching for dependencies of gz-math7
+[2.746s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.746s] -- Searching for dependencies of gz-utils2
+[2.747s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.747s] -- Searching for dependencies of gz-utils2
+[2.747s] -- Searching for <gz-utils2> component [cli]
+[2.747s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[2.747s] -- Searching for dependencies of gz-utils2-cli
+[2.747s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.747s] -- Searching for dependencies of gz-plugin2
+[2.747s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.747s] -- Searching for <gz-plugin2> component [loader]
+[2.747s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[2.747s] -- Searching for dependencies of gz-plugin2-loader
+[2.748s] -- Searching for <gz-plugin2> component [register]
+[2.748s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[2.748s] -- Searching for dependencies of gz-plugin2-register
+[2.749s] -- Looking for gz-transport13 -- found version 13.5.0
+[2.750s] -- Searching for dependencies of gz-transport13
+[3.031s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[3.088s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.103s] -- Checking for module 'libzmq >= 4'
+[3.168s] --   Found libzmq, version 4.3.5
+[3.321s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.353s] -- Checking for module 'uuid'
+[3.389s] --   Found uuid, version 2.39.3
+[3.475s] -- Found UUID: TRUE  
+[3.479s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.497s] -- Looking for gz-msgs10 -- found version 10.3.2
+[3.497s] -- Searching for dependencies of gz-msgs10
+[3.540s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.541s] -- Looking for gz-math7 -- found version 7.5.2
+[3.561s] -- Searching for <gz-transport13> component [log]
+[3.573s] -- Looking for gz-transport13-log -- found version 13.5.0
+[3.573s] -- Searching for dependencies of gz-transport13-log
+[3.574s] -- Searching for <gz-transport13> component [parameters]
+[3.587s] -- Looking for gz-transport13-parameters -- found version 13.5.0
+[3.587s] -- Searching for dependencies of gz-transport13-parameters
+[3.588s] -- Looking for gz-msgs10 -- found version 10.3.2
+[3.626s] -- Looking for gz-common5 -- found version 5.7.1
+[3.628s] -- Searching for dependencies of gz-common5
+[3.634s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.639s] -- Looking for dlfcn.h - found
+[3.644s] -- Looking for libdl - found
+[3.648s] -- Found DL: TRUE  
+[3.661s] -- Searching for <gz-common5> component [av]
+[3.687s] -- Looking for gz-common5-av -- found version 5.7.1
+[3.688s] -- Searching for dependencies of gz-common5-av
+[3.703s] -- Checking for module 'libswscale'
+[3.781s] --   Found libswscale, version 7.5.100
+[3.897s] -- Found SWSCALE: TRUE  
+[3.913s] -- Checking for module 'libavdevice >= 56.4.100'
+[3.963s] --   Found libavdevice, version 60.3.100
+[4.110s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[4.130s] -- Checking for module 'libavformat'
+[4.211s] --   Found libavformat, version 60.16.100
+[4.365s] -- Found AVFORMAT: TRUE  
+[4.385s] -- Checking for module 'libavcodec'
+[4.452s] --   Found libavcodec, version 60.31.102
+[4.591s] -- Found AVCODEC: TRUE  
+[4.603s] -- Checking for module 'libavutil'
+[4.668s] --   Found libavutil, version 58.29.100
+[4.790s] -- Found AVUTIL: TRUE  
+[4.795s] -- Searching for <gz-common5> component [events]
+[4.820s] -- Looking for gz-common5-events -- found version 5.7.1
+[4.822s] -- Searching for dependencies of gz-common5-events
+[4.824s] -- Looking for gz-math7 -- found version 7.5.2
+[4.832s] -- Searching for <gz-common5> component [graphics]
+[4.865s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[4.865s] -- Searching for dependencies of gz-common5-graphics
+[4.865s] -- Looking for gz-math7 -- found version 7.5.2
+[4.911s] -- Found GzAssimp: TRUE (found version "5.3.0") 
+[4.916s] -- Searching for <gz-common5> component [io]
+[4.987s] -- Looking for gz-common5-io -- found version 5.7.1
+[4.987s] -- Searching for dependencies of gz-common5-io
+[4.995s] -- Searching for <gz-common5> component [profiler]
+[5.032s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[5.035s] -- Searching for dependencies of gz-common5-profiler
+[5.069s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[5.069s] -- Searching for dependencies of gz-fuel_tools9
+[5.475s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+[5.521s] -- Checking for module 'jsoncpp'
+[5.613s] --   Found jsoncpp, version 1.9.5
+[5.720s] -- Found JSONCPP: TRUE  
+[5.803s] -- Checking for module 'yaml-0.1'
+[5.866s] --   Found yaml-0.1, version 0.2.5
+[5.983s] -- Found YAML: TRUE  
+[6.001s] -- Checking for module 'libzip'
+[6.106s] --   Found libzip, version 1.7.3
+[6.233s] -- Found ZIP: TRUE  
+[6.234s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.236s] -- Looking for gz-common5 -- found version 5.7.1
+[6.237s] -- Searching for dependencies of gz-common5
+[6.240s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.242s] -- Looking for dlfcn.h - found
+[6.242s] -- Looking for libdl - found
+[6.265s] -- Searching for <gz-common5> component [testing]
+[6.298s] -- Looking for gz-common5-testing -- found version 5.7.1
+[6.304s] -- Searching for dependencies of gz-common5-testing
+[6.304s] -- Looking for gz-math7 -- found version 7.5.2
+[6.305s] -- Looking for gz-msgs10 -- found version 10.3.2
+[6.344s] -- Looking for gz-gui8 -- found version 8.4.0
+[6.347s] -- Searching for dependencies of gz-gui8
+[6.500s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.500s] -- Looking for gz-math7 -- found version 7.5.2
+[6.503s] -- Looking for gz-common5 -- found version 5.7.1
+[6.511s] -- Looking for gz-plugin2 -- found version 2.0.4
+[6.513s] -- Looking for gz-transport13 -- found version 13.5.0
+[6.559s] -- Looking for gz-rendering8 -- found version 8.2.3
+[6.561s] -- Searching for dependencies of gz-rendering8
+[6.562s] -- Looking for gz-math7 -- found version 7.5.2
+[6.565s] -- Searching for dependencies of gz-math7
+[6.566s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.566s] -- Searching for <gz-math7> component [eigen3]
+[6.604s] -- Looking for gz-math7-eigen3 -- found version 7.5.2
+[6.604s] -- Searching for dependencies of gz-math7-eigen3
+[6.657s] -- Looking for gz-common5 -- found version 5.7.1
+[6.657s] -- Searching for dependencies of gz-common5
+[6.657s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.657s] -- Looking for dlfcn.h - found
+[6.658s] -- Looking for libdl - found
+[6.682s] -- Searching for <gz-common5> component [graphics]
+[6.682s] -- Searching for <gz-common5> component [events]
+[6.682s] -- Searching for <gz-common5> component [geospatial]
+[6.724s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[6.727s] -- Searching for dependencies of gz-common5-geospatial
+[6.732s] -- Looking for gz-math7 -- found version 7.5.2
+[6.732s] -- Looking for gz-common5 -- found version 5.7.1
+[6.737s] -- Looking for gz-plugin2 -- found version 2.0.4
+[6.738s] -- Searching for dependencies of gz-plugin2
+[6.744s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.745s] -- Searching for <gz-plugin2> component [all]
+[6.785s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[6.785s] -- Looking for gz-plugin2 -- found version 2.0.4
+[6.788s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.900s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[6.906s] -- Looking for gz-msgs10 -- found version 10.3.2
+[7.057s] -- Looking for gz-physics7 -- found version 7.6.0
+[7.060s] -- Searching for dependencies of gz-physics7
+[7.067s] -- Looking for gz-common5 -- found version 5.7.1
+[7.067s] -- Looking for gz-math7 -- found version 7.5.2
+[7.067s] -- Looking for gz-plugin2 -- found version 2.0.4
+[7.070s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.075s] -- Searching for <gz-physics7> component [heightmap]
+[7.114s] -- Looking for gz-physics7-heightmap -- found version 7.6.0
+[7.116s] -- Searching for dependencies of gz-physics7-heightmap
+[7.116s] -- Looking for gz-common5 -- found version 5.7.1
+[7.116s] -- Searching for <gz-physics7> component [mesh]
+[7.162s] -- Looking for gz-physics7-mesh -- found version 7.6.0
+[7.165s] -- Searching for dependencies of gz-physics7-mesh
+[7.165s] -- Looking for gz-common5 -- found version 5.7.1
+[7.165s] -- Searching for <gz-physics7> component [sdf]
+[7.203s] -- Looking for gz-physics7-sdf -- found version 7.6.0
+[7.203s] -- Searching for dependencies of gz-physics7-sdf
+[7.204s] -- Looking for sdformat14 -- found version 14.8.0
+[7.244s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.244s] -- Searching for dependencies of gz-sensors8
+[7.332s] -- Looking for gz-math7 -- found version 7.5.2
+[7.332s] -- Looking for gz-common5 -- found version 5.7.1
+[7.335s] -- Looking for gz-transport13 -- found version 13.5.0
+[7.337s] -- Looking for gz-rendering8 -- found version 8.2.3
+[7.341s] -- Looking for gz-msgs10 -- found version 10.3.2
+[7.342s] -- Looking for sdformat14 -- found version 14.8.0
+[7.348s] -- Searching for <gz-sensors8> component [air_pressure]
+[7.382s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[7.382s] -- Searching for dependencies of gz-sensors8-air_pressure
+[7.389s] -- Searching for <gz-sensors8> component [air_speed]
+[7.420s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[7.420s] -- Searching for dependencies of gz-sensors8-air_speed
+[7.424s] -- Searching for <gz-sensors8> component [altimeter]
+[7.462s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[7.462s] -- Searching for dependencies of gz-sensors8-altimeter
+[7.464s] -- Searching for <gz-sensors8> component [imu]
+[7.500s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[7.500s] -- Searching for dependencies of gz-sensors8-imu
+[7.501s] -- Searching for <gz-sensors8> component [force_torque]
+[7.539s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[7.539s] -- Searching for dependencies of gz-sensors8-force_torque
+[7.545s] -- Searching for <gz-sensors8> component [logical_camera]
+[7.576s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[7.582s] -- Searching for dependencies of gz-sensors8-logical_camera
+[7.582s] -- Searching for <gz-sensors8> component [magnetometer]
+[7.618s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[7.618s] -- Searching for dependencies of gz-sensors8-magnetometer
+[7.619s] -- Searching for <gz-sensors8> component [navsat]
+[7.656s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[7.657s] -- Searching for dependencies of gz-sensors8-navsat
+[7.657s] -- Searching for <gz-sensors8> component [dvl]
+[7.694s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[7.694s] -- Searching for dependencies of gz-sensors8-dvl
+[7.695s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.701s] -- Searching for dependencies of gz-sensors8
+[7.812s] -- Looking for gz-math7 -- found version 7.5.2
+[7.812s] -- Looking for gz-common5 -- found version 5.7.1
+[7.812s] -- Looking for gz-transport13 -- found version 13.5.0
+[7.817s] -- Looking for gz-rendering8 -- found version 8.2.3
+[7.818s] -- Looking for gz-msgs10 -- found version 10.3.2
+[7.818s] -- Looking for sdformat14 -- found version 14.8.0
+[7.819s] -- Searching for <gz-sensors8> component [rendering]
+[7.844s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[7.845s] -- Searching for dependencies of gz-sensors8-rendering
+[7.849s] -- Searching for <gz-sensors8> component [rendering]
+[7.849s] -- Searching for <gz-sensors8> component [lidar]
+[7.875s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[7.875s] -- Searching for dependencies of gz-sensors8-lidar
+[7.876s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.883s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[7.909s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[7.913s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[7.917s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.920s] -- Searching for <gz-sensors8> component [camera]
+[7.942s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[7.942s] -- Searching for dependencies of gz-sensors8-camera
+[7.943s] -- Looking for gz-sensors8 -- found version 8.2.2
+[7.944s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[7.968s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[7.968s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[7.975s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[8.012s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[8.017s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[8.017s] -- Searching for <gz-sensors8> component [depth_camera]
+[8.052s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[8.053s] -- Searching for dependencies of gz-sensors8-depth_camera
+[8.053s] -- Looking for gz-sensors8 -- found version 8.2.2
+[8.058s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[8.090s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[8.091s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[8.091s] -- Looking for gz-sensors8 -- found version 8.2.2
+[8.098s] -- Searching for <gz-sensors8> component [thermal_camera]
+[8.114s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[8.114s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[8.114s] -- Looking for gz-sensors8 -- found version 8.2.2
+[8.120s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[8.127s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[8.127s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[8.129s] -- Looking for gz-rendering8 -- found version 8.2.3
+[8.130s] -- Looking for gz-math7 -- found version 7.5.2
+[8.131s] -- Looking for gz-utils2 -- found version 2.2.1
+[8.189s] -- Looking for gz-plugin2 -- found version 2.0.4
+[8.196s] -- Looking for gz-gui8 -- found version 8.4.0
+[8.203s] -- Looking for gz-msgs10 -- found version 10.3.2
+[8.205s] -- Looking for gz-transport13 -- found version 13.5.0
+[8.216s] -- Looking for gz-rendering8 -- found version 8.2.3
+[8.225s] -- Found rmf_fleet_msgs: 4.0.0 (/rmf_demos_ws/install/rmf_fleet_msgs/share/rmf_fleet_msgs/cmake)
+[8.311s] -- Found menge_vendor: 1.4.0 (/rmf_demos_ws/install/menge_vendor/share/menge_vendor/cmake)
+[8.629s] -- Configuring done (8.4s)
+[9.080s] -- Generating done (0.3s)
+[9.151s] -- Build files have been written to: /home/maria/rmf_ws/build/rmf_building_sim_gz_plugins
+[9.239s] Invoked command in '/home/maria/rmf_ws/build/rmf_building_sim_gz_plugins' returned '0': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/maria/rmf_ws/src/rmf_simulation/rmf_building_sim_gz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maria/rmf_ws/install/rmf_building_sim_gz_plugins
+[9.240s] Invoking command in '/home/maria/rmf_ws/build/rmf_building_sim_gz_plugins': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/maria/rmf_ws/build/rmf_building_sim_gz_plugins -- -j8 -l8
+[42.795s] [  0%] Built target toggle_charging_autogen_timestamp_deps
+[42.796s] [  0%] Built target crowd_simulator_autogen_timestamp_deps
+[42.796s] [  0%] Built target register_component_autogen_timestamp_deps
+[42.796s] [  0%] Built target lift_autogen_timestamp_deps
+[42.796s] [  0%] Built target door_autogen_timestamp_deps
+[42.796s] [  0%] Built target toggle_floors_autogen_timestamp_deps
+[42.796s] [  2%] [34m[1mAutomatic MOC for target toggle_charging[0m
+[42.796s] [  5%] [34m[1mAutomatic MOC for target crowd_simulator[0m
+[42.797s] [  8%] [34m[1mAutomatic MOC for target lift[0m
+[42.797s] [ 11%] [34m[1mAutomatic MOC for target door[0m
+[42.797s] [ 13%] [34m[1mAutomatic MOC for target register_component[0m
+[42.797s] [ 16%] [34m[1mAutomatic MOC for target toggle_floors[0m
+[42.797s] [ 16%] Built target crowd_simulator_autogen
+[42.797s] [ 16%] Built target register_component_autogen
+[42.797s] [ 16%] Built target door_autogen
+[42.797s] [ 16%] Built target lift_autogen
+[42.802s] [ 19%] [32mBuilding CXX object CMakeFiles/crowd_simulator.dir/crowd_simulator_autogen/mocs_compilation.cpp.o[0m
+[42.802s] [ 22%] [32mBuilding CXX object CMakeFiles/register_component.dir/register_component_autogen/mocs_compilation.cpp.o[0m
+[42.803s] [ 25%] [32mBuilding CXX object CMakeFiles/crowd_simulator.dir/src/crowd_simulator.cpp.o[0m
+[42.803s] [ 27%] [32mBuilding CXX object CMakeFiles/lift.dir/lift_autogen/mocs_compilation.cpp.o[0m
+[42.804s] [ 30%] [32mBuilding CXX object CMakeFiles/lift.dir/src/lift.cpp.o[0m
+[42.804s] [ 33%] [32mBuilding CXX object CMakeFiles/register_component.dir/src/register_component.cpp.o[0m
+[42.804s] [ 36%] [32mBuilding CXX object CMakeFiles/door.dir/door_autogen/mocs_compilation.cpp.o[0m
+[42.804s] [ 38%] [32mBuilding CXX object CMakeFiles/door.dir/src/door.cpp.o[0m
+[42.804s] [ 38%] Built target toggle_charging_autogen
+[42.804s] [ 41%] [34m[1mGenerating qrc_toggle_charging.cpp[0m
+[42.804s] [ 44%] [32mBuilding CXX object CMakeFiles/toggle_charging.dir/toggle_charging_autogen/mocs_compilation.cpp.o[0m
+[42.805s] [ 47%] [32mBuilding CXX object CMakeFiles/toggle_charging.dir/src/toggle_charging/toggle_charging.cpp.o[0m
+[42.805s] [ 50%] [32mBuilding CXX object CMakeFiles/toggle_charging.dir/qrc_toggle_charging.cpp.o[0m
+[42.805s] [ 50%] Built target toggle_floors_autogen
+[42.805s] [ 52%] [34m[1mGenerating qrc_toggle_floors.cpp[0m
+[42.805s] [ 55%] [32mBuilding CXX object CMakeFiles/toggle_floors.dir/toggle_floors_autogen/mocs_compilation.cpp.o[0m
+[42.805s] [ 58%] [32mBuilding CXX object CMakeFiles/toggle_floors.dir/src/toggle_floors/toggle_floors.cpp.o[0m
+[42.805s] [ 61%] [32mBuilding CXX object CMakeFiles/toggle_floors.dir/qrc_toggle_charging.cpp.o[0m
+[42.805s] [ 63%] [32mBuilding CXX object CMakeFiles/toggle_floors.dir/qrc_toggle_floors.cpp.o[0m
+[42.806s] [ 66%] [32m[1mLinking CXX shared library libtoggle_charging.so[0m
+[42.806s] [ 69%] Built target toggle_charging
+[42.806s] [ 72%] [32m[1mLinking CXX shared library libregister_component.so[0m
+[42.806s] [ 75%] Built target register_component
+[42.807s] In file included from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Runtime/SimulatorDB.h:31[m[K,
+[42.811s]                  from [01m[K/home/maria/rmf_ws/src/rmf_simulation/rmf_building_sim_gz_plugins/src/crowd_simulator.hpp:30[m[K,
+[42.811s]                  from [01m[K/home/maria/rmf_ws/src/rmf_simulation/rmf_building_sim_gz_plugins/src/crowd_simulator.cpp:32[m[K:
+[42.812s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/MengeException.h:33:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[42.812s]    33 | #pragma warning(disable : 4275)
+[42.812s]       | 
+[42.812s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/MengeException.h:71:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[42.812s]    71 | #pragma warning(default : 4275)
+[42.812s]       | 
+[42.812s] In file included from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Orca/ORCASimulator.h:27[m[K,
+[42.812s]                  from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:28[m[K,
+[42.813s]                  from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Orca/ORCADBEntry.h:27[m[K,
+[42.813s]                  from [01m[K/home/maria/rmf_ws/src/rmf_simulation/rmf_building_sim_gz_plugins/src/crowd_simulator.hpp:31[m[K:
+[42.813s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:190:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma omp parallel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[42.813s]   190 | #pragma omp parallel for
+[42.813s]       | 
+[42.813s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:196:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma omp parallel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[42.813s]   196 | #pragma omp parallel for
+[42.813s]       | 
+[42.814s] In file included from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:29[m[K,
+[42.814s]                  from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Orca/ORCAAgent.h:27[m[K,
+[42.814s]                  from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Orca/ORCA.h:27[m[K:
+[42.814s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:[m[K In member function ‘[01m[Kvoid Menge::Agents::PrefVelocity::[01;32m[KsetSingle[m[K(const Menge::Math::Vector2&)[m[K’:
+[42.814s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:138:83:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Menge::Math::Vector2d<float>& Menge::Math::Vector2d<float>::[01;32m[Koperator=[m[K(const Menge::Math::Vector2d<float>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[42.814s]   138 |   inline void setSingle(const Math::Vector2& dir) { _left = _preferred = _right = [01;35m[Kdir[m[K; }
+[42.814s]       |                                                                                   [01;35m[K^~~[m[K
+[42.814s] In file included from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/vector.h:32[m[K,
+[42.815s]                  from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/RandGenerator.h:39[m[K,
+[42.818s]                  from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/mengeCommon.h:36[m[K,
+[42.818s]                  from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:27[m[K:
+[42.819s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h:76:10:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMenge::Math::Vector2d<float>[m[K’ has user-provided ‘[01m[KMenge::Math::Vector2d<Type>::[01;32m[KVector2d[m[K(const Menge::Math::Vector2d<Type>&) [35m[K[with Type = float][m[K[m[K’
+[42.819s]    76 |   inline [01;36m[KVector2d[m[K(const Vector2d& v) : _x(v._x), _y(v._y) {}
+[42.819s]       |          [01;36m[K^~~~~~~~[m[K
+[42.819s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:138:83:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Menge::Math::Vector2d<float>& Menge::Math::Vector2d<float>::[01;32m[Koperator=[m[K(const Menge::Math::Vector2d<float>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[42.819s]   138 |   inline void setSingle(const Math::Vector2& dir) { _left = _preferred = _right = [01;35m[Kdir[m[K; }
+[42.819s]       |                                                                                   [01;35m[K^~~[m[K
+[42.819s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h:76:10:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMenge::Math::Vector2d<float>[m[K’ has user-provided ‘[01m[KMenge::Math::Vector2d<Type>::[01;32m[KVector2d[m[K(const Menge::Math::Vector2d<Type>&) [35m[K[with Type = float][m[K[m[K’
+[42.819s]    76 |   inline [01;36m[KVector2d[m[K(const Vector2d& v) : _x(v._x), _y(v._y) {}
+[42.820s]       |          [01;36m[K^~~~~~~~[m[K
+[42.820s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:138:83:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Menge::Math::Vector2d<float>& Menge::Math::Vector2d<float>::[01;32m[Koperator=[m[K(const Menge::Math::Vector2d<float>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[42.820s]   138 |   inline void setSingle(const Math::Vector2& dir) { _left = _preferred = _right = [01;35m[Kdir[m[K; }
+[42.820s]       |                                                                                   [01;35m[K^~~[m[K
+[42.820s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h:76:10:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMenge::Math::Vector2d<float>[m[K’ has user-provided ‘[01m[KMenge::Math::Vector2d<Type>::[01;32m[KVector2d[m[K(const Menge::Math::Vector2d<Type>&) [35m[K[with Type = float][m[K[m[K’
+[42.820s]    76 |   inline [01;36m[KVector2d[m[K(const Vector2d& v) : _x(v._x), _y(v._y) {}
+[42.820s]       |          [01;36m[K^~~~~~~~[m[K
+[42.820s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:[m[K In member function ‘[01m[Kvoid Menge::Agents::PrefVelocity::[01;32m[KsetTarget[m[K(const Menge::Math::Vector2&)[m[K’:
+[42.821s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/PrefVelocity.h:152:66:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Menge::Math::Vector2d<float>& Menge::Math::Vector2d<float>::[01;32m[Koperator=[m[K(const Menge::Math::Vector2d<float>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[42.821s]   152 |   inline void setTarget(const Math::Vector2& target) { _target = [01;35m[Ktarget[m[K; }
+[42.821s]       |                                                                  [01;35m[K^~~~~~[m[K
+[42.821s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h:76:10:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMenge::Math::Vector2d<float>[m[K’ has user-provided ‘[01m[KMenge::Math::Vector2d<Type>::[01;32m[KVector2d[m[K(const Menge::Math::Vector2d<Type>&) [35m[K[with Type = float][m[K[m[K’
+[42.821s]    76 |   inline [01;36m[KVector2d[m[K(const Vector2d& v) : _x(v._x), _y(v._y) {}
+[42.821s]       |          [01;36m[K^~~~~~~~[m[K
+[42.821s] In file included from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:33[m[K:
+[42.821s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h:[m[K In member function ‘[01m[Kvirtual void Menge::BFSM::VelModifier::[01;32m[KregisterAgent[m[K(const Menge::Agents::BaseAgent*)[m[K’:
+[42.822s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h:122:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kagent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.825s]   122 |   virtual void registerAgent([01;35m[Kconst Agents::BaseAgent* agent[m[K) {}
+[42.825s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[42.825s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h:[m[K In member function ‘[01m[Kvirtual void Menge::BFSM::VelModifier::[01;32m[KunregisterAgent[m[K(const Menge::Agents::BaseAgent*)[m[K’:
+[42.825s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/BFSM/VelocityModifiers/VelModifier.h:132:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kagent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.825s]   132 |   virtual void unregisterAgent([01;35m[Kconst Agents::BaseAgent* agent[m[K) {}
+[42.825s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[42.826s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:[m[K In member function ‘[01m[Kvirtual void Menge::Agents::BaseAgent::[01;32m[KsetStrideParameters[m[K(float, float)[m[K’:
+[42.826s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:353:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstride[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.826s]   353 |   virtual void setStrideParameters([01;35m[Kfloat stride[m[K, float buffer) {}
+[42.826s]       |                                    [01;35m[K~~~~~~^~~~~~[m[K
+[42.826s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/BaseAgent.h:353:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.826s]   353 |   virtual void setStrideParameters(float stride, [01;35m[Kfloat buffer[m[K) {}
+[42.826s]       |                                                  [01;35m[K~~~~~~^~~~~~[m[K
+[42.826s] In file included from [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:30[m[K:
+[42.827s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/SpatialQuery.h:[m[K In member function ‘[01m[Kvirtual void Menge::Agents::SpatialQuery::[01;32m[KsetNeighborVisibleTest[m[K(bool)[m[K’:
+[42.827s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SpatialQueries/SpatialQuery.h:202:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.827s]   202 |   virtual void setNeighborVisibleTest([01;35m[Kbool state[m[K) {}
+[42.827s]       |                                       [01;35m[K~~~~~^~~~~[m[K
+[42.827s] /rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h: In instantiation of ‘[01m[Kbool Menge::Agents::SimulatorBase<Agent>::[01;32m[KisExpTarget[m[K(const std::string&) [35m[K[with Agent = ORCA::Agent; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[42.827s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:136:16:[m[K   required from here
+[42.827s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:136:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtagName[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[42.832s]   136 |   virtual bool isExpTarget([01;35m[Kconst std::string& tagName[m[K) { return false; }
+[42.833s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[42.833s] /rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h: In instantiation of ‘[01m[Kbool Menge::Agents::SimulatorBase<Agent>::[01;32m[KsetExpParam[m[K(const std::string&, const std::string&) [35m[K[with Agent = ORCA::Agent; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[42.834s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:273:6:[m[K   required from here
+[42.834s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:278:14:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass Menge::UtilException[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[42.834s]   278 |     } catch ([01;35m[KUtilException[m[K) {
+[42.835s]       |              [01;35m[K^~~~~~~~~~~~~[m[K
+[42.835s] /rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h: In instantiation of ‘[01m[KMenge::Agents::BaseAgent* Menge::Agents::SimulatorBase<Agent>::[01;32m[KaddAgent[m[K(const Menge::Math::Vector2&, Menge::Agents::AgentInitializer*) [35m[K[with Agent = ORCA::Agent; Menge::Math::Vector2 = Menge::Math::Vector2d<float>][m[K[m[K’:
+[42.835s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:237:12:[m[K   required from here
+[42.836s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Agents/SimulatorBase.h:240:14:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr Menge::Math::Vector2d<float>& Menge::Math::Vector2d<float>::[01;32m[Koperator=[m[K(const Menge::Math::Vector2d<float>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[42.836s]   240 |   [01;35m[Kagent._pos = pos[m[K;
+[42.836s]       |   [01;35m[K~~~~~~~~~~~^~~~~[m[K
+[42.836s] [01m[K/rmf_demos_ws/install/menge_vendor/include/MengeCore/Math/Vector2.h:76:10:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMenge::Math::Vector2d<float>[m[K’ has user-provided ‘[01m[KMenge::Math::Vector2d<Type>::[01;32m[KVector2d[m[K(const Menge::Math::Vector2d<Type>&) [35m[K[with Type = float][m[K[m[K’
+[42.837s]    76 |   inline [01;36m[KVector2d[m[K(const Vector2d& v) : _x(v._x), _y(v._y) {}
+[42.838s]       |          [01;36m[K^~~~~~~~[m[K
+[54.682s] [ 77%] [32m[1mLinking CXX shared library libtoggle_floors.so[0m
+[54.764s] [ 80%] [32m[1mLinking CXX shared library libcrowd_simulator.so[0m
+[56.718s] [ 83%] Built target crowd_simulator
+[57.047s] [ 88%] Built target toggle_floors
+[58.916s] [ 91%] [32m[1mLinking CXX shared library libdoor.so[0m
+[59.962s] [ 94%] Built target door
+[60.358s] [ 97%] [32m[1mLinking CXX shared library liblift.so[0m
+[61.372s] [100%] Built target lift
+[61.388s] Invoked command in '/home/maria/rmf_ws/build/rmf_building_sim_gz_plugins' returned '0': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/maria/rmf_ws/build/rmf_building_sim_gz_plugins -- -j8 -l8
+[61.389s] Invoking command in '/home/maria/rmf_ws/build/rmf_building_sim_gz_plugins': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/maria/rmf_ws/build/rmf_building_sim_gz_plugins
+[61.401s] -- Install configuration: ""
+[61.401s] -- Execute custom install script
+[61.402s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/environment/rmf_building_sim_gz_plugins.dsv
+[61.414s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/libdoor.so
+[61.425s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/liblift.so
+[61.437s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/libcrowd_simulator.so
+[61.450s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/libtoggle_charging.so
+[61.462s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/libtoggle_floors.so
+[61.473s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/lib/rmf_building_sim_gz_plugins/libregister_component.so
+[61.486s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/include/rmf_building_sim_gz_plugins/components/Charger.hpp
+[61.497s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/include/rmf_building_sim_gz_plugins/components/Door.hpp
+[61.509s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/include/rmf_building_sim_gz_plugins/components/Lift.hpp
+[61.521s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/include/rmf_building_sim_gz_plugins/utils.hpp
+[61.533s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/ament_index/resource_index/package_run_dependencies/rmf_building_sim_gz_plugins
+[61.546s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/ament_index/resource_index/parent_prefix_path/rmf_building_sim_gz_plugins
+[61.558s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/environment/ament_prefix_path.sh
+[61.570s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/environment/ament_prefix_path.dsv
+[61.582s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/environment/path.sh
+[61.594s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/environment/path.dsv
+[61.606s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/local_setup.bash
+[61.618s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/local_setup.sh
+[61.630s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/local_setup.zsh
+[61.643s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/local_setup.dsv
+[61.656s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/package.dsv
+[61.668s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/ament_index/resource_index/packages/rmf_building_sim_gz_plugins
+[61.681s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[61.694s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/cmake/rmf_building_sim_gz_pluginsConfig.cmake
+[61.706s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/cmake/rmf_building_sim_gz_pluginsConfig-version.cmake
+[61.718s] -- Symlinking: /home/maria/rmf_ws/install/rmf_building_sim_gz_plugins/share/rmf_building_sim_gz_plugins/package.xml
+[61.733s] Invoked command in '/home/maria/rmf_ws/build/rmf_building_sim_gz_plugins' returned '0': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/maria/rmf_ws/build/rmf_building_sim_gz_plugins

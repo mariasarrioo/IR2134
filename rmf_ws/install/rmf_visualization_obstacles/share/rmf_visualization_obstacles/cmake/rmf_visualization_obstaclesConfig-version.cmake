@@ -1,0 +1,1 @@
+/home/maria/rmf_ws/build/rmf_visualization_obstacles/ament_cmake_core/rmf_visualization_obstaclesConfig-version.cmake

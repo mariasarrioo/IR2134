@@ -1,0 +1,1 @@
+/home/maria/rmf_ws/src/rmf_simulation/rmf_robot_sim_common/include/rmf_robot_sim_common/slotcar_common.hpp

@@ -1,8 +1,6 @@
-# FLEET CONFIG =================================================================
-# RMF Fleet parameters
-
 rmf_fleet:
   name: "tinyRobot"
+
   limits:
     linear: [0.5, 0.75]
     angular: [0.6, 2.0]
@@ -37,30 +35,37 @@ rmf_fleet:
   task_capabilities:
     loop: true
     delivery: true
+    clean: false
 
   actions: ["teleop"]
+
   finishing_request: "park"
   responsive_wait: false
-  use_parking_reservations: true
+  use_parking_reservations: false
   reassign_task_interval: 120
 
   robots:
     tinyRobot1:
       charger: "tinyRobot1_charger"
-      finishing_request:
-        type: "park"
-        waypoint_name: "tinyRobot1_charger"
-      responsive_wait: false
 
     tinyRobot2:
       charger: "tinyRobot2_charger"
-      finishing_request:
-        type: "park"
-        waypoint_name: "tinyRobot2_charger"
-      responsive_wait: false
 
 fleet_manager:
   ip: "127.0.0.1"
   port: 22011
   user: "some_user"
   password: "some_password"
+  robot_state_update_frequency: 10.0
+
+  reference_coordinates:
+    rmf:
+      - [0.0, 0.0]
+      - [1.0, 1.0]
+      - [2.0, 2.0]
+      - [3.0, 3.0]
+    robot:
+      - [0.0, 0.0]
+      - [1.0, 1.0]
+      - [2.0, 2.0]
+      - [3.0, 3.0]

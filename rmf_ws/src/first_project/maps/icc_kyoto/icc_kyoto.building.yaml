@@ -1,7 +1,7 @@
 coordinate_system: reference_image
 crowd_sim:
   agent_groups:
-    - {agents_name: [tinyRobot1], agents_number: 1, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+    - {agents_name: [tinyRobot1, tinyRobot2], agents_number: 2, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
   agent_profiles:
     - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
   enable: 0
@@ -82,6 +82,9 @@ levels:
       - [274, 275, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [275, 272, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [257, 276, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [248, 277, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [278, 279, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [279, 277, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       sim_scan:
         color: [1, 0, 0, 0.5]
@@ -531,11 +534,11 @@ levels:
       - [578.72400000000005, 279.50299999999999, 0, tinyRobot1_charger, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
       - [803.37599999999998, 321.67200000000003, 0, ""]
       - [857.74099999999999, 227.52699999999999, 0, ""]
-      - [870.00300000000004, 159.06399999999999, 0, patrol_5]
-      - [782.125, 159.06399999999999, 0, patrol_1]
-      - [782.125, 87.024000000000001, 0, patrol_2]
-      - [1027.876, 87.024000000000001, 0, patrol_3]
-      - [1027.876, 160.08500000000001, 0, patrol_4]
+      - [870.00300000000004, 159.06399999999999, 0, patrol1_5]
+      - [782.125, 159.06399999999999, 0, patrol1_1]
+      - [782.125, 87.024000000000001, 0, patrol1_2]
+      - [1027.876, 87.024000000000001, 0, patrol1_3]
+      - [1027.876, 160.08500000000001, 0, patrol1_4]
       - [540.88800000000003, 400.77600000000001, 0, ""]
       - [540.88800000000003, 1046.99, 0, ""]
       - [764.56299999999999, 1046.99, 0, ""]
@@ -543,9 +546,9 @@ levels:
       - [483.61000000000001, 1509.825, 0, patrol2_1]
       - [483.61000000000001, 1754.241, 0, patrol2_2]
       - [614.85299999999995, 1754.241, 0, patrol2_3]
-      - [614.85299999999995, 1650.578, 0, patrol2_3]
-      - [545.42700000000002, 1650.578, 0, patrol2_4]
-      - [545.42700000000002, 1487.951, 0, patrol2_4]
+      - [614.85299999999995, 1650.578, 0, patrol2_4]
+      - [545.42700000000002, 1650.578, 0, patrol2_5]
+      - [545.42700000000002, 1487.951, 0, patrol2_6]
       - [1034.492, 1509.354, 0, ""]
       - [841.45299999999997, 1509.354, 0, ""]
       - [841.45299999999997, 1376.7070000000001, 0, ""]
@@ -562,10 +565,13 @@ levels:
       - [893.73699999999997, 400.37599999999998, 0, clean2_4]
       - [701.37400000000002, 266.53899999999999, 0, ""]
       - [701.37400000000002, 169.41499999999999, 0, clean3_1]
-      - [701.37400000000002, 74.238, 0, clean2_2]
-      - [490.28300000000002, 74.238, 0, clean2_3]
-      - [490.28300000000002, 166.84700000000001, 0, clean2_4]
+      - [701.37400000000002, 74.238, 0, clean3_2]
+      - [490.28300000000002, 74.238, 0, clean3_3]
+      - [490.28300000000002, 166.84700000000001, 0, clean4_4]
       - [1034.492, 1706.1279999999999, 0, tinyRobot2_charger, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, tinyRobot2], spawn_robot_type: [1, TinyRobot]}]
+      - [495, 1150, 0, "", {lift_cabin: [1, lift1]}]
+      - [831.64400000000001, 1078.617, 0, ""]
+      - [493.214, 1078.617, 0, ""]
     walls:
       - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -782,32 +788,27 @@ levels:
       - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
         vertices: [0, 1, 2, 3]
     lanes:
-      - [75, 76, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [76, 77, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [77, 78, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [78, 79, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [79, 80, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [80, 81, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [78, 82, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [80, 82, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [82, 83, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [83, 84, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [84, 85, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [87, 88, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [88, 89, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [89, 90, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [90, 91, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [91, 92, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [92, 93, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [93, 94, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [94, 95, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [95, 96, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [96, 97, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [97, 98, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [98, 99, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [95, 100, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [100, 101, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 1], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [102, 103, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [103, 104, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
-      - [104, 77, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [83, 84, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [84, 85, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [85, 86, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [86, 83, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [81, 87, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [87, 88, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [88, 89, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [89, 90, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [90, 91, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [91, 92, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [92, 93, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [93, 94, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [94, 95, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [95, 92, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
       {}
     vertices:
@@ -886,36 +887,27 @@ levels:
       - [923.13900000000001, 1243.0129999999999, 0, ""]
       - [924.03899999999999, 1393.624, 0, ""]
       - [674.5, 1392.191, 0, ""]
-      - [590.01499999999999, 1150.9300000000001, 0, ""]
-      - [642.81100000000004, 1150.9300000000001, 0, ""]
-      - [741.803, 1033.4590000000001, 0, ""]
-      - [741.803, 1380.5920000000001, 0, ""]
-      - [797.23900000000003, 1380.5920000000001, 0, ""]
-      - [797.23900000000003, 1467.7049999999999, 0, ""]
-      - [459.34500000000003, 1467.7049999999999, 0, snack_ingestor2]
-      - [519.73599999999999, 1380.5920000000001, 0, ""]
-      - [519.73599999999999, 1235.3579999999999, 0, snack_bar2]
-      - [635.84000000000003, 1235.3579999999999, 0, ""]
-      - [635.84000000000003, 1373.759, 0, ""]
       - [867.22299999999996, 1066.384, 0, ""]
-      - [546.76800000000003, 1133.7809999999999, 0, ""]
-      - [650.95799999999997, 1182.454, 0, ""]
-      - [650.95799999999997, 1013.62, 0, ""]
-      - [891.279, 1013.62, 0, ""]
-      - [891.279, 1102.5999999999999, 0, ""]
-      - [1043.3810000000001, 1102.5999999999999, 0, ""]
-      - [1043.3810000000001, 1173.327, 0, ""]
-      - [877.59000000000003, 1173.327, 0, ""]
-      - [877.59000000000003, 1374.1020000000001, 0, ""]
-      - [1140.7270000000001, 1374.1020000000001, 0, ""]
-      - [1140.7270000000001, 1222, 0, ""]
-      - [965.04899999999998, 1222, 0, ""]
-      - [965.04899999999998, 1371.8209999999999, 0, ""]
-      - [877.59000000000003, 1474.0219999999999, 0, ""]
-      - [1111.4159999999999, 1474.0219999999999, 0, ""]
-      - [612.52200000000005, 1138.8199999999999, 0, ""]
-      - [612.52200000000005, 982.05799999999999, 0, ""]
-      - [738.53800000000001, 982.05799999999999, 0, ""]
+      - [495, 1150, 0, "", {lift_cabin: [1, lift1]}]
+      - [495, 1072.913, 0, ""]
+      - [607.15800000000002, 1072.913, 0, ""]
+      - [607.15800000000002, 998.072, 0, ""]
+      - [731.39499999999998, 998.072, 0, ""]
+      - [889.30999999999995, 998.072, 0, ""]
+      - [731.39499999999998, 1376.77, 0, ""]
+      - [645.327, 1376.77, 0, patrol_L2_1]
+      - [645.327, 1233.8219999999999, 0, patrol_L2_2]
+      - [510.61200000000002, 1233.8219999999999, 0, patrol_L2_3]
+      - [510.61200000000002, 1376.77, 0, patrol_L2_4]
+      - [889.30999999999995, 1115.5730000000001, 0, ""]
+      - [1051.7170000000001, 1115.5730000000001, 0, ""]
+      - [1051.7170000000001, 1171.704, 0, ""]
+      - [871.34799999999996, 1171.704, 0, ""]
+      - [871.34799999999996, 1373.028, 0, ""]
+      - [950.67999999999995, 1373.028, 0, clean_L2_1]
+      - [950.67999999999995, 1226.338, 0, clean_L2_2]
+      - [1139.2809999999999, 1226.338, 0, clean_L2_3]
+      - [1139.2809999999999, 1375.2729999999999, 0, clean_L2_4]
     walls:
       - [4, 5, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [5, 6, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
@@ -972,6 +964,27 @@ levels:
       - [68, 69, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [69, 70, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [70, 67, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-      - [86, 57, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
-lifts: {}
+      - [75, 57, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+lifts:
+  lift1:
+    depth: 2
+    doors:
+      name:
+        door_type: 2
+        motion_axis_orientation: 0
+        width: 1
+        x: 0
+        y: 0.5
+    highest_floor: L2
+    initial_floor_name: L1
+    level_doors:
+      L1: [name]
+      L2: [name]
+    lowest_floor: L1
+    plugins: true
+    reference_floor_name: L1
+    width: 2
+    x: 495
+    y: 1150
+    yaw: 0
 name: icc_kyoto

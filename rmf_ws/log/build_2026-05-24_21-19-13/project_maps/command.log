@@ -1,0 +1,1 @@
+Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps -- -j8 -l8

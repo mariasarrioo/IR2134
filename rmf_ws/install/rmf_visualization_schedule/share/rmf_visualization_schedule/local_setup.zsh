@@ -1,0 +1,1 @@
+/home/maria/rmf_ws/build/rmf_visualization_schedule/ament_cmake_environment_hooks/local_setup.zsh

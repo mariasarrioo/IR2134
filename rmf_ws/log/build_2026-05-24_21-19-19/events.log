@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000108] (-) JobUnselected: {'identifier': 'first_project'}
+[0.000124] (-) JobUnselected: {'identifier': 'project_assets'}
+[0.000135] (-) JobUnselected: {'identifier': 'project_config'}
+[0.000144] (-) JobUnselected: {'identifier': 'project_fleet_adapter'}
+[0.000152] (-) JobUnselected: {'identifier': 'project_simulation'}
+[0.000161] (-) JobUnselected: {'identifier': 'project_tasks'}
+[0.000170] (-) JobUnselected: {'identifier': 'rmf_building_sim_gz_plugins'}
+[0.000178] (-) JobUnselected: {'identifier': 'rmf_robot_sim_common'}
+[0.000187] (-) JobUnselected: {'identifier': 'rmf_robot_sim_gz_plugins'}
+[0.000196] (-) JobUnselected: {'identifier': 'rmf_visualization'}
+[0.000204] (-) JobUnselected: {'identifier': 'rmf_visualization_building_systems'}
+[0.000213] (-) JobUnselected: {'identifier': 'rmf_visualization_fleet_states'}
+[0.000221] (-) JobUnselected: {'identifier': 'rmf_visualization_floorplans'}
+[0.000230] (-) JobUnselected: {'identifier': 'rmf_visualization_navgraphs'}
+[0.000238] (-) JobUnselected: {'identifier': 'rmf_visualization_obstacles'}
+[0.000247] (-) JobUnselected: {'identifier': 'rmf_visualization_rviz2_plugins'}
+[0.000255] (-) JobUnselected: {'identifier': 'rmf_visualization_schedule'}
+[0.000265] (project_maps) JobQueued: {'identifier': 'project_maps', 'dependencies': OrderedDict()}
+[0.000277] (large_project) JobQueued: {'identifier': 'large_project', 'dependencies': OrderedDict([('rmf_building_sim_gz_plugins', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_building_sim_gz_plugins'), ('rmf_robot_sim_common', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_robot_sim_common'), ('rmf_visualization_building_systems', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_visualization_building_systems'), ('rmf_visualization_fleet_states', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_visualization_fleet_states'), ('rmf_visualization_floorplans', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_visualization_floorplans'), ('rmf_visualization_navgraphs', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_visualization_navgraphs'), ('rmf_visualization_obstacles', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_visualization_obstacles'), ('rmf_visualization_rviz2_plugins', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_visualization_rviz2_plugins'), ('rmf_visualization_schedule', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_visualization_schedule'), ('rmf_robot_sim_gz_plugins', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_robot_sim_gz_plugins'), ('rmf_visualization', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/rmf_visualization')])}
+[0.000459] (project_maps) JobStarted: {'identifier': 'project_maps'}
+[0.004076] (large_project) JobStarted: {'identifier': 'large_project'}
+[0.007066] (project_maps) JobProgress: {'identifier': 'project_maps', 'progress': 'cmake'}
+[0.007270] (project_maps) Command: {'cmd': ['/usr/bin/cmake', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/src/project/project_maps', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/maria/Documentos/GitHub/IR2134/rmf_ws/install/project_maps'], 'cwd': '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/maria/ardupilot_gazebo/build::/home/maria/Documentos/GitHub/IR2136/ardupilot_gazebo/build'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('GZ_SIM_RESOURCE_PATH', '/home/maria/ardupilot_gazebo/models:/home/maria/ardupilot_gazebo/worlds::/home/maria/Documentos/GitHub/IR2136/ardupilot_gazebo/models:/home/maria/Documentos/GitHub/IR2136/ardupilot_gazebo/worlds:/home/maria/Documentos/GitHub/IR2136/ardupilot_gazebo/models:/home/maria/Documentos/GitHub/IR2136/ardupilot_gazebo/worlds:/home/maria/Documentos/gazebo_models_worlds_collection/models'), ('PYSPARK_DRIVER_PYTHON', 'jupyter'), ('USER', 'maria'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maria'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '6093'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'maria'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maria'), ('TERM', 'dumb'), ('GAZEBO_MODEL_PATH', ':/home/maria/Documentos/GitHub/IR2136/ardupilot_gazebo/models:/home/maria/Documentos/GitHub/IR2136/ardupilot_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/maria/Documentos/GitHub/IR2136/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/maria/.local/bin:/home/maria/.codex/tmp/arg0/codex-arg03unlAY:/usr/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/path:/opt/spark/bin:/opt/spark/bin:/usr/lib/ccache:/home/maria/Documentos/GitHub/IR2136/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/maria/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/maria/.local/bin'), ('SESSION_MANAGER', 'local/maria:@/tmp/.ICE-unix/2255,unix/maria:/tmp/.ICE-unix/2255'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8f66c03d_f657_4e21_98dd_9a968a9f08fe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e5b6b-42f3-7cb2-8551-60c6616d78d5'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PYSPARK_DRIVER_PYTHON_OPTS', 'notebook'), ('PWD', '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', ':/home/maria/Documentos/GitHub/IR2136/ardupilot_gazebo/build:/home/maria/Documentos/GitHub/IR2136/ardupilot_gazebo/build'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/spark/python:/opt/spark/python:'), ('COLCON', '1'), ('CODEX_MANAGED_BY_NPM', '1'), ('VTE_VERSION', '6800'), ('SPARK_HOME', '/opt/spark'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.016484] (large_project) JobEnded: {'identifier': 'large_project', 'rc': 1}
+[0.099855] (-) TimerEvent: {}
+[0.111904] (project_maps) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.195616] (project_maps) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199947] (-) TimerEvent: {}
+[0.205635] (project_maps) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.226463] (project_maps) StdoutLine: {'line': b'-- Detecting C compiler ABI info - failed\n'}
+[0.226589] (project_maps) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc\n'}
+[0.242196] (project_maps) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - broken\n'}
+[0.242331] (project_maps) StderrLine: {'line': b'CMake Error at /usr/share/cmake-3.22/Modules/CMakeTestCCompiler.cmake:69 (message):\n'}
+[0.242406] (project_maps) StderrLine: {'line': b'  The C compiler\n'}
+[0.242455] (project_maps) StderrLine: {'line': b'\n'}
+[0.242496] (project_maps) StderrLine: {'line': b'    "/usr/lib/ccache/cc"\n'}
+[0.242536] (project_maps) StderrLine: {'line': b'\n'}
+[0.242581] (project_maps) StderrLine: {'line': b'  is not able to compile a simple test program.\n'}
+[0.242623] (project_maps) StderrLine: {'line': b'\n'}
+[0.242664] (project_maps) StderrLine: {'line': b'  It fails with the following output:\n'}
+[0.242704] (project_maps) StderrLine: {'line': b'\n'}
+[0.242761] (project_maps) StderrLine: {'line': b'    Change Dir: /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeFiles/CMakeTmp\n'}
+[0.242818] (project_maps) StderrLine: {'line': b'    \n'}
+[0.242873] (project_maps) StderrLine: {'line': b'    Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2b967/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b967.dir/build.make CMakeFiles/cmTC_2b967.dir/build\n'}
+[0.242935] (project_maps) StderrLine: {'line': b"    gmake[1]: Entering directory '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeFiles/CMakeTmp'\n"}
+[0.242990] (project_maps) StderrLine: {'line': b'    Building C object CMakeFiles/cmTC_2b967.dir/testCCompiler.c.o\n'}
+[0.243045] (project_maps) StderrLine: {'line': b'    /usr/lib/ccache/cc    -o CMakeFiles/cmTC_2b967.dir/testCCompiler.c.o -c /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeFiles/CMakeTmp/testCCompiler.c\n'}
+[0.243100] (project_maps) StderrLine: {'line': b'    ccache: error: Failed to create directory /run/user/1000/ccache-tmp: Read-only file system\n'}
+[0.243156] (project_maps) StderrLine: {'line': b'    gmake[1]: *** [CMakeFiles/cmTC_2b967.dir/build.make:78: CMakeFiles/cmTC_2b967.dir/testCCompiler.c.o] Error 1\n'}
+[0.243210] (project_maps) StderrLine: {'line': b"    gmake[1]: Leaving directory '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeFiles/CMakeTmp'\n"}
+[0.243264] (project_maps) StderrLine: {'line': b'    gmake: *** [Makefile:127: cmTC_2b967/fast] Error 2\n'}
+[0.243318] (project_maps) StderrLine: {'line': b'    \n'}
+[0.243460] (project_maps) StderrLine: {'line': b'    \n'}
+[0.243513] (project_maps) StderrLine: {'line': b'\n'}
+[0.243554] (project_maps) StderrLine: {'line': b'  \n'}
+[0.243594] (project_maps) StderrLine: {'line': b'\n'}
+[0.243634] (project_maps) StderrLine: {'line': b'  CMake will not be able to correctly generate this project.\n'}
+[0.243674] (project_maps) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.243712] (project_maps) StderrLine: {'line': b'  CMakeLists.txt:3 (project)\n'}
+[0.243755] (project_maps) StderrLine: {'line': b'\n'}
+[0.243795] (project_maps) StderrLine: {'line': b'\n'}
+[0.243833] (project_maps) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.243875] (project_maps) StdoutLine: {'line': b'See also "/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeFiles/CMakeOutput.log".\n'}
+[0.243915] (project_maps) StdoutLine: {'line': b'See also "/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeFiles/CMakeError.log".\n'}
+[0.245250] (project_maps) JobEnded: {'identifier': 'project_maps', 'rc': 'SIGINT'}
+[0.255838] (-) EventReactorShutdown: {}

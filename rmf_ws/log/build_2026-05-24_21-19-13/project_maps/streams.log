@@ -1,0 +1,5 @@
+[0.011s] Invoking command in '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps -- -j8 -l8
+[0.031s] CMake Error: The current CMakeCache.txt directory /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeCache.txt is different than the directory /home/maria/rmf_ws/build/project_maps where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.044s] CMake Error: The source directory "/home/maria/rmf_ws/src/project/project_maps" does not exist.
+[0.044s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.046s] gmake: *** [Makefile:366: cmake_check_build_system] Error 1

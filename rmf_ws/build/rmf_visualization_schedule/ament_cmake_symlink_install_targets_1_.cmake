@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/maria/rmf_ws/build/rmf_visualization_schedule/libschedule_visualizer.so" "TARGETS" "schedule_visualizer" "RUNTIME_DESTINATION" "lib/rmf_visualization_schedule" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib")

@@ -1,0 +1,29 @@
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "/usr/lib/ccache/cc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2b967/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b967.dir/build.make CMakeFiles/cmTC_2b967.dir/build
+    gmake[1]: Entering directory '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_2b967.dir/testCCompiler.c.o
+    /usr/lib/ccache/cc    -o CMakeFiles/cmTC_2b967.dir/testCCompiler.c.o -c /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeFiles/CMakeTmp/testCCompiler.c
+    ccache: error: Failed to create directory /run/user/1000/ccache-tmp: Read-only file system
+    gmake[1]: *** [CMakeFiles/cmTC_2b967.dir/build.make:78: CMakeFiles/cmTC_2b967.dir/testCCompiler.c.o] Error 1
+    gmake[1]: Leaving directory '/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeFiles/CMakeTmp'
+    gmake: *** [Makefile:127: cmTC_2b967/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:3 (project)
+
+
