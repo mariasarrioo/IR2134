@@ -1,4 +1,0 @@
-CMake Error: The current CMakeCache.txt directory /home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeCache.txt is different than the directory /home/maria/rmf_ws/build/project_maps where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
-CMake Error: The source directory "/home/maria/rmf_ws/src/project/project_maps" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.
-gmake: *** [Makefile:366: cmake_check_build_system] Error 1

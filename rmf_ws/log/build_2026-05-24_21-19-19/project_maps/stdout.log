@@ -1,9 +1,0 @@
--- The C compiler identification is GNU 11.4.0
--- The CXX compiler identification is GNU 11.4.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - failed
--- Check for working C compiler: /usr/lib/ccache/cc
--- Check for working C compiler: /usr/lib/ccache/cc - broken
--- Configuring incomplete, errors occurred!
-See also "/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeFiles/CMakeOutput.log".
-See also "/home/maria/Documentos/GitHub/IR2134/rmf_ws/build/project_maps/CMakeFiles/CMakeError.log".

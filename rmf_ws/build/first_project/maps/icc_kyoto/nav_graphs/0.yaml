@@ -222,23 +222,11 @@ levels:
     - - 37
       - 18
       - {}
-    - - 9
-      - 38
-      - {}
     - - 38
-      - 9
-      - {}
-    - - 39
-      - 40
-      - {}
-    - - 40
       - 39
       - {}
-    - - 40
+    - - 39
       - 38
-      - {}
-    - - 38
-      - 40
       - {}
     vertices:
     - - 14.76336734693878
@@ -357,9 +345,6 @@ levels:
       - -43.52367346938777
       - {is_charger: true, is_parking_spot: true, name: tinyRobot2_charger, spawn_robot_name: tinyRobot2,
         spawn_robot_type: TinyRobot}
-    - - 12.627551020408166
-      - -29.33673469387756
-      - {lift: lift1, lift_cabin: lift1, name: ''}
     - - 21.215408163265312
       - -27.515739795918375
       - {name: ''}
@@ -392,24 +377,21 @@ levels:
     - - 4
       - 3
       - {}
-    - - 4
+    - - 3
       - 5
-      - {}
+      - {door_name: door6}
     - - 5
-      - 4
-      - {}
-    - - 4
+      - 3
+      - {door_name: door6}
+    - - 5
       - 6
-      - {door_name: door6}
+      - {door_name: door9}
     - - 6
-      - 4
-      - {door_name: door6}
+      - 5
+      - {door_name: door9}
     - - 6
       - 7
-      - {door_name: door9}
-    - - 7
-      - 6
-      - {door_name: door9}
+      - {is_bidirectional: false}
     - - 7
       - 8
       - {is_bidirectional: false}
@@ -417,16 +399,19 @@ levels:
       - 9
       - {is_bidirectional: false}
     - - 9
+      - 6
+      - {is_bidirectional: false}
+    - - 4
       - 10
-      - {is_bidirectional: false}
+      - {}
     - - 10
-      - 7
-      - {is_bidirectional: false}
-    - - 5
+      - 4
+      - {}
+    - - 10
       - 11
       - {}
     - - 11
-      - 5
+      - 10
       - {}
     - - 11
       - 12
@@ -442,22 +427,19 @@ levels:
       - {}
     - - 13
       - 14
-      - {}
+      - {door_name: door7}
     - - 14
       - 13
-      - {}
+      - {door_name: door7}
     - - 14
       - 15
-      - {door_name: door7}
+      - {door_name: door8}
     - - 15
       - 14
-      - {door_name: door7}
+      - {door_name: door8}
     - - 15
       - 16
-      - {door_name: door8}
-    - - 16
-      - 15
-      - {door_name: door8}
+      - {is_bidirectional: false}
     - - 16
       - 17
       - {is_bidirectional: false}
@@ -465,15 +447,9 @@ levels:
       - 18
       - {is_bidirectional: false}
     - - 18
-      - 19
-      - {is_bidirectional: false}
-    - - 19
-      - 16
+      - 15
       - {is_bidirectional: false}
     vertices:
-    - - 495.0
-      - -1150.0
-      - {lift_cabin: lift1, name: ''}
     - - 495.0
       - -1072.913
       - {name: ''}
@@ -531,7 +507,4 @@ levels:
     - - 1139.281
       - -1375.273
       - {name: clean_L2_4}
-lifts:
-  lift1:
-    dims: [2.0, 2.0]
-    position: [12.627551020408166, -29.33673469387756, 0.0]
+lifts: {}

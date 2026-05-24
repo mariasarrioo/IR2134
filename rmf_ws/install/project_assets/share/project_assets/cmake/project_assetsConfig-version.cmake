@@ -1,1 +1,0 @@
-/home/maria/rmf_ws/build/project_assets/ament_cmake_core/project_assetsConfig-version.cmake

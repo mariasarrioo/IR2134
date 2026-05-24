@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/maria/rmf_ws/build/rmf_visualization_navgraphs/libnavgraph_visualizer.so" "TARGETS" "navgraph_visualizer" "RUNTIME_DESTINATION" "lib/rmf_visualization_navgraphs" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib")

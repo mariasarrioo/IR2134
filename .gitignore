@@ -1,0 +1,23 @@
+# ROS / colcon build artifacts
+build/
+install/
+log/
+**/build/
+**/install/
+**/log/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+# Local editor / OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store

@@ -224,7 +224,7 @@
       <plugin filename="toggle_charging" name="toggle_charging" />
       <plugin name="toggle_floors" filename="toggle_floors">
         <floor name="L1" model_name="estce_L1">
-          <model name="OpenRobotics/Toilet" />
+          <model name="OpenRobotics/Toilet_1" />
           <model name="OpenRobotics/Toilet_2" />
           <model name="OpenRobotics/Toilet_3" />
           <model name="OpenRobotics/Toilet_4" />
@@ -232,7 +232,7 @@
           <model name="OpenRobotics/Toilet_6" />
           <model name="OpenRobotics/Toilet_7" />
           <model name="OpenRobotics/Toilet_8" />
-          <model name="OpenRobotics/VendingMachine" />
+          <model name="OpenRobotics/VendingMachine_1" />
           <model name="OpenRobotics/VendingMachine_2" />
           <model name="OpenRobotics/VendingMachine_3" />
           <model name="OpenRobotics/VendingMachine_4" />
@@ -242,28 +242,28 @@
           <model name="OpenRobotics/VendingMachine_8" />
           <model name="OpenRobotics/VendingMachine_9" />
           <model name="OpenRobotics/MopCart2" />
-          <model name="OpenRobotics/MiRCart" />
+          <model name="OpenRobotics/MiRCart_1" />
           <model name="OpenRobotics/MiRCart_2" />
           <model name="OpenRobotics/CleaningSection" />
-          <model name="OpenRobotics/KitchenCountertop" />
+          <model name="OpenRobotics/KitchenCountertop_1" />
           <model name="OpenRobotics/KitchenCountertop_2" />
           <model name="OpenRobotics/KitchenCountertop_3" />
           <model name="OpenRobotics/KitchenCountertop_4" />
           <model name="OpenRobotics/Oak tree" />
-          <model name="OpenRobotics/Sofa" />
+          <model name="OpenRobotics/Sofa_1" />
           <model name="OpenRobotics/Sofa_2" />
           <model name="OpenRobotics/Sofa_3" />
           <model name="OpenRobotics/Sofa_4" />
           <model name="OpenRobotics/Sofa_5" />
           <model name="OpenRobotics/InformationCounter" />
           <model name="OpenRobotics/ElectronicsRecycling" />
-          <model name="OpenRobotics/KitchenSink" />
+          <model name="OpenRobotics/KitchenSink_1" />
           <model name="OpenRobotics/KitchenSink_2" />
           <model name="OpenRobotics/KitchenSink_3" />
           <model name="OpenRobotics/KitchenSink_4" />
           <model name="OpenRobotics/KitchenSink_5" />
           <model name="OpenRobotics/KitchenSink_6" />
-          <model name="OpenRobotics/Pine Tree" />
+          <model name="OpenRobotics/Pine Tree_1" />
           <model name="OpenRobotics/Pine Tree_2" />
           <model name="OpenRobotics/Pine Tree_3" />
           <model name="OpenRobotics/Pine Tree_4" />
@@ -277,20 +277,20 @@
           <model name="OpenRobotics/Toilet_14" />
           <model name="OpenRobotics/Toilet_15" />
           <model name="OpenRobotics/Toilet_16" />
-          <model name="OpenRobotics/Chair" />
+          <model name="OpenRobotics/Chair_1" />
           <model name="OpenRobotics/Chair_2" />
           <model name="OpenRobotics/DigitalKiosk" />
           <model name="OpenRobotics/CoffeeTable" />
-          <model name="OpenRobotics/EscalatorStart" />
+          <model name="OpenRobotics/EscalatorStart_1" />
           <model name="OpenRobotics/EscalatorStart_2" />
-          <model name="OpenRobotics/FemaleVisitor" />
+          <model name="OpenRobotics/FemaleVisitor_1" />
           <model name="OpenRobotics/FemaleVisitor_2" />
           <model name="OpenRobotics/FemaleVisitor_3" />
           <model name="OpenRobotics/FemaleVisitor_4" />
           <model name="OpenRobotics/FemaleVisitor_5" />
           <model name="OpenRobotics/FemaleVisitor_6" />
           <model name="OpenRobotics/FemaleVisitor_7" />
-          <model name="OpenRobotics/FoodCourtTable1" />
+          <model name="OpenRobotics/FoodCourtTable1_1" />
           <model name="OpenRobotics/FoodCourtTable1_2" />
           <model name="OpenRobotics/FoodCourtTable1_3" />
           <model name="OpenRobotics/FoodCourtTable1_4" />
@@ -304,13 +304,13 @@
           <model name="OpenRobotics/FoodCourtTable1_12" />
           <model name="OpenRobotics/FoodCourtTable1_13" />
           <model name="OpenRobotics/MonitorAndKeyboard" />
-          <model name="OpenRobotics/Fridge" />
+          <model name="OpenRobotics/Fridge_1" />
           <model name="OpenRobotics/Fridge_2" />
           <model name="OpenRobotics/Fridge_3" />
           <model name="OpenRobotics/Fridge_4" />
           <model name="OpenRobotics/Fridge_5" />
           <model name="OpenRobotics/Fridge_6" />
-          <model name="OpenRobotics/Desk" />
+          <model name="OpenRobotics/Desk_1" />
           <model name="OpenRobotics/Desk_2" />
           <model name="OpenRobotics/Desk_3" />
           <model name="OpenRobotics/Desk_4" />
@@ -327,11 +327,11 @@
           <model name="OpenRobotics/Desk_15" />
           <model name="OpenRobotics/Desk_16" />
           <model name="OpenRobotics/Drawer" />
-          <model name="OpenRobotics/HeadphonesRack1" />
+          <model name="OpenRobotics/HeadphonesRack1_1" />
           <model name="OpenRobotics/HeadphonesRack1_2" />
           <model name="OpenRobotics/HeadphonesRack1_3" />
           <model name="OpenRobotics/MetalCabinetYellow" />
-          <model name="OpenRobotics/Table" />
+          <model name="OpenRobotics/Table_1" />
           <model name="OpenRobotics/Table_2" />
           <model name="OpenRobotics/Table_3" />
           <model name="OpenRobotics/Table_4" />
@@ -355,7 +355,7 @@
           <model name="OpenRobotics/Table_22" />
           <model name="OpenRobotics/Table_23" />
           <model name="OpenRobotics/TVStand" />
-          <model name="OpenRobotics/WhiteCabinet" />
+          <model name="OpenRobotics/WhiteCabinet_1" />
           <model name="OpenRobotics/WhiteCabinet_2" />
           <model name="OpenRobotics/WhiteCabinet_3" />
           <model name="OpenRobotics/WhiteCabinet_4" />
@@ -397,7 +397,7 @@
           <model name="OpenRobotics/Table_59" />
           <model name="OpenRobotics/Table_60" />
           <model name="OpenRobotics/Table_61" />
-          <model name="OpenRobotics/PotatoChipChair" />
+          <model name="OpenRobotics/PotatoChipChair_1" />
           <model name="OpenRobotics/PotatoChipChair_2" />
           <model name="OpenRobotics/PotatoChipChair_3" />
           <model name="OpenRobotics/PotatoChipChair_4" />
@@ -448,7 +448,7 @@
           <model name="OpenRobotics/PotatoChipChair_49" />
           <model name="OpenRobotics/PotatoChipChair_50" />
           <model name="OpenRobotics/PotatoChipChair_51" />
-          <model name="OpenRobotics/OfficeChairBlack" />
+          <model name="OpenRobotics/OfficeChairBlack_1" />
           <model name="OpenRobotics/OfficeChairBlack_2" />
           <model name="OpenRobotics/OfficeChairBlack_3" />
           <model name="OpenRobotics/OfficeChairBlack_4" />
@@ -494,7 +494,7 @@
           <model name="OpenRobotics/OfficeChairBlack_44" />
           <model name="OpenRobotics/OfficeChairBlack_45" />
           <model name="OpenRobotics/OfficeChairBlack_46" />
-          <model name="OpenRobotics/BathroomSink" />
+          <model name="OpenRobotics/BathroomSink_1" />
           <model name="OpenRobotics/BathroomSink_2" />
           <model name="OpenRobotics/BathroomSink_3" />
           <model name="OpenRobotics/BathroomSink_4" />
@@ -502,7 +502,7 @@
           <model name="OpenRobotics/BathroomSink_6" />
           <model name="OpenRobotics/MopCart3" />
           <model name="OpenRobotics/MopCart4" />
-          <model name="OpenRobotics/WoodenChair" />
+          <model name="OpenRobotics/WoodenChair_1" />
           <model name="OpenRobotics/WoodenChair_2" />
           <model name="OpenRobotics/WoodenChair_3" />
           <model name="OpenRobotics/WoodenChair_4" />
@@ -589,7 +589,7 @@
           <model name="OpenRobotics/Table_130" />
           <model name="OpenRobotics/Table_131" />
           <model name="OpenRobotics/Table_132" />
-          <model name="OpenRobotics/OfficeChairGrey" />
+          <model name="OpenRobotics/OfficeChairGrey_1" />
           <model name="OpenRobotics/OfficeChairGrey_2" />
           <model name="OpenRobotics/OfficeChairGrey_3" />
           <model name="OpenRobotics/OfficeChairGrey_4" />
@@ -711,11 +711,11 @@
           <model name="OpenRobotics/OfficeChairGrey_120" />
           <model name="OpenRobotics/OfficeChairGrey_121" />
           <model name="OpenRobotics/OfficeChairGrey_122" />
-          <model name="OpenRobotics/NurseTable" />
+          <model name="OpenRobotics/NurseTable_1" />
           <model name="OpenRobotics/NurseTable_2" />
           <model name="OpenRobotics/NurseTable_3" />
           <model name="OpenRobotics/NurseTable_4" />
-          <model name="OpenRobotics/ScrubsTrolley" />
+          <model name="OpenRobotics/ScrubsTrolley_1" />
           <model name="OpenRobotics/ScrubsTrolley_2" />
           <model name="OpenRobotics/KitchenSink_7" />
           <model name="OpenRobotics/KitchenSink_8" />
@@ -724,7 +724,7 @@
           <model name="OpenRobotics/KitchenSink_11" />
           <model name="OpenRobotics/KitchenSink_12" />
           <model name="OpenRobotics/KitchenSink_13" />
-          <model name="OpenRobotics/Construction Cone" />
+          <model name="OpenRobotics/Construction Cone_1" />
           <model name="OpenRobotics/Construction Cone_2" />
           <model name="OpenRobotics/Construction Cone_3" />
           <model name="OpenRobotics/Construction Cone_4" />
@@ -1079,7 +1079,7 @@
           <model name="OpenRobotics/OfficeChairBlack_146" />
           <model name="OpenRobotics/OfficeChairBlack_147" />
           <model name="OpenRobotics/OfficeChairBlack_148" />
-          <model name="OpenRobotics/OfficeChairBlue" />
+          <model name="OpenRobotics/OfficeChairBlue_1" />
           <model name="OpenRobotics/OfficeChairBlue_2" />
           <model name="OpenRobotics/OfficeChairBlue_3" />
           <model name="OpenRobotics/OfficeChairBlue_4" />
@@ -1250,7 +1250,7 @@
       <direction>-0.5 0.1 -0.9</direction>
     </light>
     <include>
-      <name>OpenRobotics/Toilet</name>
+      <name>OpenRobotics/Toilet_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Toilet</uri>
       <pose>81.34887606624854 -47.482096475874805 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -1298,7 +1298,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/VendingMachine</name>
+      <name>OpenRobotics/VendingMachine_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/VendingMachine</uri>
       <pose>65.59857884332239 -46.93623676239223 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -1358,7 +1358,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/MiRCart</name>
+      <name>OpenRobotics/MiRCart_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/MiRCart</uri>
       <pose>69.80679362706269 -62.352217355699814 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -1376,7 +1376,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/KitchenCountertop</name>
+      <name>OpenRobotics/KitchenCountertop_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/KitchenCountertop</uri>
       <pose>73.8669170296534 -79.74788209574224 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -1406,7 +1406,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/Sofa</name>
+      <name>OpenRobotics/Sofa_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sofa</uri>
       <pose>92.87946672199264 -53.08207396987943 0.0 0 0 -1.5708</pose>
       <static>True</static>
@@ -1448,7 +1448,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/KitchenSink</name>
+      <name>OpenRobotics/KitchenSink_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/KitchenSink</uri>
       <pose>74.48376992873406 -76.52216990649153 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -1484,7 +1484,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/Pine Tree</name>
+      <name>OpenRobotics/Pine Tree_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Pine Tree</uri>
       <pose>29.234356394428616 -47.64904156423351 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -1568,7 +1568,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/Chair</name>
+      <name>OpenRobotics/Chair_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Chair</uri>
       <pose>64.1279223463438 -34.72491505195184 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -1592,7 +1592,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/EscalatorStart</name>
+      <name>OpenRobotics/EscalatorStart_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/EscalatorStart</uri>
       <pose>52.61970924546573 -38.9854488731974 0.0 0 0 -1.5708</pose>
       <static>True</static>
@@ -1604,7 +1604,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/FemaleVisitor</name>
+      <name>OpenRobotics/FemaleVisitor_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FemaleVisitor</uri>
       <pose>66.98407942940655 -30.510909486711604 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -1646,7 +1646,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/FoodCourtTable1</name>
+      <name>OpenRobotics/FoodCourtTable1_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/FoodCourtTable1</uri>
       <pose>67.95742450896601 -70.90690744271382 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -1730,7 +1730,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/Fridge</name>
+      <name>OpenRobotics/Fridge_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Fridge</uri>
       <pose>77.32580917627953 -68.99857559980963 0.0 0 0 -1.569</pose>
       <static>True</static>
@@ -1766,7 +1766,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/Desk</name>
+      <name>OpenRobotics/Desk_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Desk</uri>
       <pose>20.168932846053742 -6.521025980948349 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -1868,7 +1868,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/HeadphonesRack1</name>
+      <name>OpenRobotics/HeadphonesRack1_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/HeadphonesRack1</uri>
       <pose>62.97667907233273 -47.77010929838339 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -1892,7 +1892,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/Table</name>
+      <name>OpenRobotics/Table_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Table</uri>
       <pose>22.033048256574688 -31.80193953274444 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -2036,7 +2036,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/WhiteCabinet</name>
+      <name>OpenRobotics/WhiteCabinet_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/WhiteCabinet</uri>
       <pose>63.9115536112298 -73.86967775106615 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -2288,7 +2288,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/PotatoChipChair</name>
+      <name>OpenRobotics/PotatoChipChair_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/PotatoChipChair</uri>
       <pose>65.3820081042026 -63.428427363996555 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -2594,7 +2594,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/OfficeChairBlack</name>
+      <name>OpenRobotics/OfficeChairBlack_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/OfficeChairBlack</uri>
       <pose>20.898167307034388 -16.20485112578179 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -2870,7 +2870,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/BathroomSink</name>
+      <name>OpenRobotics/BathroomSink_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/BathroomSink</uri>
       <pose>48.662899669403004 -48.19970448407651 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -2918,7 +2918,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/WoodenChair</name>
+      <name>OpenRobotics/WoodenChair_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/WoodenChair</uri>
       <pose>20.09318134387431 -10.850398278396662 0.0 0 0 -1.4334</pose>
       <static>True</static>
@@ -3440,7 +3440,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/OfficeChairGrey</name>
+      <name>OpenRobotics/OfficeChairGrey_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/OfficeChairGrey</uri>
       <pose>98.9254915057193 -58.01687471763528 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -4172,7 +4172,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/NurseTable</name>
+      <name>OpenRobotics/NurseTable_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NurseTable</uri>
       <pose>113.86355306616566 -17.286133679113355 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -4196,7 +4196,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/ScrubsTrolley</name>
+      <name>OpenRobotics/ScrubsTrolley_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/ScrubsTrolley</uri>
       <pose>98.5996365994553 -10.45949808226127 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -4250,7 +4250,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/Construction Cone</name>
+      <name>OpenRobotics/Construction Cone_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Construction Cone</uri>
       <pose>62.480938797181004 -51.94642989409495 0.0 0 0 1.5708</pose>
       <static>True</static>
@@ -16018,7 +16018,7 @@
       <static>True</static>
     </include>
     <include>
-      <name>OpenRobotics/OfficeChairBlue</name>
+      <name>OpenRobotics/OfficeChairBlue_1</name>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/OfficeChairBlue</uri>
       <pose>20.92699333919158 -28.701661961551284 8.0 0 0 1.5709790653267943</pose>
       <static>True</static>

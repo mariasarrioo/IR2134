@@ -1,1 +1,0 @@
-/home/maria/rmf_ws/build/rmf_visualization_obstacles/ament_cmake_environment_hooks/local_setup.sh

@@ -4,6 +4,8 @@
   <arg name="map_package" default="first_project" description="Name of the map package"/>
   <arg name="map_name" description="Name of the map to simulate"/>
   <arg name="headless" default="false"/>
+  <arg name="render_engine" default="ogre"/>
+  <arg name="software_render" default="false"/>
   <arg name="use_crowdsim" default="0"/>
   <arg name="sim_update_rate" default="100"/>
 
@@ -19,8 +21,9 @@
   <group>
     <set_env name="GZ_SIM_RESOURCE_PATH" value="$(env GZ_SIM_RESOURCE_PATH):$(var model_path)"/>
     <set_env name="MENGE_RESOURCE_PATH" value="$(var menge_resource_path)"/>
+    <set_env if="$(var software_render)" name="LIBGL_ALWAYS_SOFTWARE" value="1"/>
     <include file="$(find-pkg-share ros_gz_sim)/launch/gz_sim.launch.py">
-      <arg name="gz_args" value="$(var gz_headless) -r -v 3 $(var world_path) -z $(var sim_update_rate)"/>
+      <arg name="gz_args" value="$(var gz_headless) -r -v 3 --render-engine $(var render_engine) --render-engine-gui $(var render_engine) $(var world_path) -z $(var sim_update_rate)"/>
     </include>
   </group>
 

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/maria/rmf_ws/build/rmf_visualization_floorplans/libfloorplan_visualizer.so" "TARGETS" "floorplan_visualizer" "RUNTIME_DESTINATION" "lib/rmf_visualization_floorplans" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib")

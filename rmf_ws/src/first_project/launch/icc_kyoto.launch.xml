@@ -2,6 +2,8 @@
 <launch>
   <arg name="use_sim_time" default="true"/>
   <arg name="headless" default="false"/>
+  <arg name="render_engine" default="ogre"/>
+  <arg name="software_render" default="false"/>
   <arg name="sim_update_rate" default="100"/>
   <arg name="server_uri" default=""/>
 
@@ -19,6 +21,8 @@
     <arg name="map_package" value="first_project"/>
     <arg name="map_name" value="icc_kyoto"/>
     <arg name="headless" value="$(var headless)"/>
+    <arg name="render_engine" value="$(var render_engine)"/>
+    <arg name="software_render" value="$(var software_render)"/>
     <arg name="sim_update_rate" value="$(var sim_update_rate)"/>
   </include>
 

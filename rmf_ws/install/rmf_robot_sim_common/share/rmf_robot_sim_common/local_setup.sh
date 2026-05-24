@@ -1,1 +1,0 @@
-/home/maria/rmf_ws/build/rmf_robot_sim_common/ament_cmake_environment_hooks/local_setup.sh

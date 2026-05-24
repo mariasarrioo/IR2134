@@ -84,7 +84,6 @@
 /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/models/icc_kyoto_L2/model.sdf
 /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/nav_graphs/.generated
 /home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/nav_graphs/0.yaml
-/home/maria/rmf_ws/install/first_project/share/first_project/maps/icc_kyoto/nav_graphs/1.yaml
 /home/maria/rmf_ws/install/first_project/share/ament_index/resource_index/package_run_dependencies/first_project
 /home/maria/rmf_ws/install/first_project/share/ament_index/resource_index/parent_prefix_path/first_project
 /home/maria/rmf_ws/install/first_project/share/first_project/environment/ament_prefix_path.sh

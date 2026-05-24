@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/maria/rmf_ws/build/rmf_visualization_obstacles/libobstacle_visualizer.so" "TARGETS" "obstacle_visualizer" "RUNTIME_DESTINATION" "lib/rmf_visualization_obstacles" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib")
